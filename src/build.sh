@@ -2,7 +2,7 @@
 
 set -e
 
-source venv/bin/activate
+source work/venv/bin/activate
 
 src/process_pages.py
 
