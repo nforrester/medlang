@@ -1,0 +1,45 @@
+{
+    "site":
+    {
+        "name": "Website of Questions"
+    },
+    "pages":
+    {
+        "index.html":
+        {
+            "template": "index.html",
+            "title": "Home",
+            "data": {}
+        },
+        "q1.html":
+        {
+            "template": "question.html",
+            "title": "Name",
+            "data":
+            {
+                "question": "What... is your name?",
+                "answer": "It is 'Arthur', King of the Britons."
+            }
+        },
+        "q2.html":
+        {
+            "template": "question.html",
+            "title": "Quest",
+            "data":
+            {
+                "question": "What... is your quest?",
+                "answer": "To seek the Holy Grail."
+            }
+        },
+        "q3.html":
+        {
+            "template": "question.html",
+            "title": "Swallow",
+            "data":
+            {
+                "question": "What... is the air-speed velocity of an unladen swallow?",
+                "answer": "What do you mean? An African or European swallow?"
+            }
+        }
+    }
+}

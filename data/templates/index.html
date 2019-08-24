@@ -8,5 +8,10 @@
 </p>
 <p>
     Lots of text, eh?
+    <ul>
+    {% for other_filename, other_page in pages.items() %}
+        <li><a href="{{other_filename}}">{{other_page.title}}</a></li>
+    {% endfor %}
+    </ul>
 </p>
 {% endblock %}
