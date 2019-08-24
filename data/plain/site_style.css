@@ -4,6 +4,7 @@ html {
     padding:0px;
     color:#000;
     background:#fff;
+    font-size:4vw;
 }
 
 #wrap {
@@ -12,8 +13,12 @@ html {
 
 #header {
     background:#aaa;
-    padding:0px 5px;
+    padding:0px 2vw;
     margin:0px 0px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 #main {
