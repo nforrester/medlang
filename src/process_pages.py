@@ -6,12 +6,19 @@ import os
 import random
 import shutil
 import string
+import subprocess
 import sys
 
 
-def load_config(path):
-    with open(path) as f:
-        return json.load(f)
+def load_dhall(path):
+    work_dir = 'work'
+    dhall_to_json = os.path.join(work_dir, '3rdparty/bin/dhall-to-json')
+    assert os.path.isfile(dhall_to_json)
+    return json.loads(subprocess.check_output([dhall_to_json, '--file', path]))
+
+
+def load_config():
+    return load_dhall('data/config/config.dhall')
 
 
 def write_output(path, content):
@@ -32,16 +39,13 @@ def environment():
     return env
 
 
-def process_page(env, config, output_dir, cache_bust, filename):
-    page = config['pages'][filename]
-
+def process_page(env, config, output_dir, cache_bust, page):
     template = env.get_template(os.path.join('data/templates', page['template']))
     output = template.render(
-        filename=filename,
         page=page,
         cache_bust=cache_bust,
         **config)
-    write_output(os.path.join(output_dir, filename), output)
+    write_output(os.path.join(output_dir, page['filename']), output)
 
 
 def cache_buster():
@@ -55,13 +59,13 @@ def main():
 
     shutil.copytree('data/plain', output_dir)
 
-    config = load_config('data/config/config.json')
+    config = load_config()
     env = environment()
 
     cache_bust = cache_buster()
 
-    for filename in config['pages'].keys():
-        process_page(env, config, output_dir, cache_bust, filename)
+    for page in config['pages']:
+        process_page(env, config, output_dir, cache_bust, page)
 
     return True
 

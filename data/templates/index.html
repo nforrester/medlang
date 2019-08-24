@@ -9,9 +9,9 @@
 <p>
     Lots of text, eh?
     <ul>
-    {% for other_filename, other_page in pages.items() %}
-        {% if other_filename != filename %}
-        <li><a href="{{other_filename}}">{{other_page.title}}</a></li>
+    {% for other_page in pages %}
+        {% if other_page.filename != page.filename %}
+        <li><a href="{{other_page.filename}}">{{other_page.title}}</a></li>
         {% endif %}
     {% endfor %}
     </ul>
