@@ -1,0 +1,52 @@
+body,
+html {
+    margin:0px;
+    padding:0px;
+    color:#000;
+    background:#fff;
+}
+
+#wrap {
+    margin:0px 0px;
+}
+
+#header {
+    background:#aaa;
+    padding:0px 5px;
+    margin:0px 0px;
+}
+
+#main {
+    padding:10px;
+    margin:0px 0px;
+}
+
+#footer {
+    background:#aaa;
+    padding:0px 5px;
+    margin:0px 0px;
+}
+
+h1,
+h2,
+p {
+    margin:0px;
+}
+
+p {
+    padding:5px 0px;
+}
+
+/*
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+*/
