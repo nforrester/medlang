@@ -37,6 +37,11 @@ p {
     padding:5px 0px;
 }
 
+#header-home-link {
+    color:#000;
+    text-decoration:none;
+}
+
 /*
 a:link {
 }
