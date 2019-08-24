@@ -2,7 +2,7 @@
 
 First time setup:
 
-    $ ./src/make_venv.sh
+    $ ./src/setup.sh
 
 To create the output files in output/, run the following commands:
 
