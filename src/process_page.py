@@ -31,16 +31,26 @@ def write_output(path, content):
     assert os.path.isfile(path)
 
 
+def environment():
+    loader = jinja2.FileSystemLoader('.')
+    env = jinja2.Environment(loader=loader, autoescape=jinja2.select_autoescape())
+    return env
+
+
+def process_page(env, template_path, config_path, output_path):
+    template = env.get_template(template_path)
+    config = load_config(config_path)
+    output = template.render(config)
+    write_output(output_path, output)
+
+
 def main():
     args = parse_args()
 
-    loader = jinja2.FileSystemLoader('.')
-    env = jinja2.Environment(loader=loader, autoescape=jinja2.select_autoescape())
-    template = env.get_template(args.template)
+    env = environment()
+    process_page(env, args.template, args.config, args.output)
 
-    config = load_config(args.config)
-
-    write_output(args.output, template.render(config))
+    return True
 
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(0 if main() else 1)
