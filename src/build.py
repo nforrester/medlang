@@ -3,7 +3,9 @@
 import jinja2
 import json
 import os
+import random
 import shutil
+import string
 import sys
 
 
@@ -30,15 +32,20 @@ def environment():
     return env
 
 
-def process_page(env, config, output_dir, filename):
+def process_page(env, config, output_dir, cache_bust, filename):
     page = config['pages'][filename]
 
     template = env.get_template(os.path.join('data/templates', page['template']))
     output = template.render(
         filename=filename,
         page=page,
+        cache_bust=cache_bust,
         **config)
     write_output(os.path.join(output_dir, filename), output)
+
+
+def cache_buster():
+    return ''.join(random.choice(string.ascii_lowercase) for i in range(6))
 
 
 def main():
@@ -51,8 +58,10 @@ def main():
     config = load_config('data/config/config.json')
     env = environment()
 
+    cache_bust = cache_buster()
+
     for filename in config['pages'].keys():
-        process_page(env, config, output_dir, filename)
+        process_page(env, config, output_dir, cache_bust, filename)
 
     return True
 
