@@ -42,6 +42,10 @@ p {
     padding:5px 0px;
 }
 
+img {
+    width:100%;
+}
+
 #header-home-link {
     color:#000;
     text-decoration:none;

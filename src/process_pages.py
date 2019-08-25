@@ -4,6 +4,7 @@ import jinja2
 import json
 import os
 import random
+import re
 import shutil
 import string
 import subprocess
@@ -18,7 +19,35 @@ def load_dhall(path):
 
 
 def load_config():
-    return load_dhall('data/config/config.dhall')
+    config = load_dhall('data/config/config.dhall')
+
+    # TODO Factor out config validation from main script
+    page_names = set(page['filename'] for page in config['pages'])
+
+    def validate_link(src, dst):
+        if dst not in page_names:
+            raise Exception('%s links to non-existent file %s' % (src, dst))
+
+    for page in config['pages']:
+        if page['template'] == 'conversation.html':
+            for response in page['data']['responses']:
+                validate_link(page['filename'], response['filename'])
+
+    href_re = re.compile('href\\s*=\\s*"' + config['site']['root'] + '/([^"]*)"')
+    for page in config['pages']:
+        for paragraph in page['data']['paragraphs']:
+            for match in href_re.finditer(paragraph):
+                validate_link(page['filename'], match.group(1))
+
+    def validate_image(src, dst):
+        if not os.path.isfile(os.path.join('data/plain', dst)):
+            raise Exception('%s links to non-existent image %s' % (src, dst))
+
+    for page in config['pages']:
+        if page['data']['image'] is not None:
+            validate_image(page['filename'], page['data']['image'])
+
+    return config
 
 
 def write_output(path, content):
@@ -59,7 +88,11 @@ def main():
 
     shutil.copytree('data/plain', output_dir)
 
-    config = load_config()
+    try:
+        config = load_config()
+    except subprocess.CalledProcessError:
+        return False
+
     env = environment()
 
     cache_bust = cache_buster()

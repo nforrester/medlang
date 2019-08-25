@@ -1,0 +1,14 @@
+{% extends "data/templates/base.html" %}
+{% block content %}
+{% if page.data.image %}
+<img src="{{site.root}}/{{page.data.image}}">
+{% endif %}
+{% for paragraph in page.data.paragraphs %}
+<p>{{paragraph | safe}}</p>
+{% endfor %}
+<ul>
+{% for response in page.data.responses %}
+    <li><a href="{{site.root}}/{{response.filename}}">{{response.response | safe}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
