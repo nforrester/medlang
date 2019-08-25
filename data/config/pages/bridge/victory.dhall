@@ -1,10 +1,7 @@
-let s = ../../schema.dhall
-let link = ../../link.dhall
-
-in {
+../../info.dhall {
     filename = "bridge/victory.html",
     template = "info.html",
-    data = s.PageUnion.Info {
+    data = {
         image = Some "bridge/victory.png",
         paragraphs = [
             "Huh? I- I don't know that. Auuuuuuuugh!",
@@ -13,7 +10,7 @@ in {
             and fallen to his death.
             You and your comrades may now cross the bridge at your leisure.
             '',
-            "Would you like to have ${link "index.html" "another chat"}?"
+            "Would you like to have ${../../link.dhall "index.html" "another chat"}?"
         ]
     }
 }

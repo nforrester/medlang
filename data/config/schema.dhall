@@ -21,11 +21,13 @@ let ConversationData : Type = {
 
 let PageUnion : Type = < Info : InfoData | Conversation : ConversationData >
 
-let PageData : Type = {
+let PageDef : Type -> Type = \(PageTypeDataType : Type) -> {
     filename : Filename,
     template : Text,
-    data : PageUnion
+    data : PageTypeDataType
 }
+
+let PageData : Type = PageDef PageUnion
 
 let ConfigData : Type = {
     site : SiteData,
@@ -38,6 +40,7 @@ in {
     InfoData         = InfoData,
     ConversationData = ConversationData,
     PageUnion        = PageUnion,
+    PageDef          = PageDef,
     PageData         = PageData,
     ConfigData       = ConfigData
 }

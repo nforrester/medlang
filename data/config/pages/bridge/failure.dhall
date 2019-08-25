@@ -1,17 +1,14 @@
-let s = ../../schema.dhall
-let link = ../../link.dhall
-
-in {
+../../info.dhall {
     filename = "bridge/failure.html",
     template = "info.html",
-    data = s.PageUnion.Info {
+    data = {
         image = Some "bridge/failure.png",
         paragraphs = [
             ''
             You have been cast into the Gorge of Eternal Peril,
             and fallen to your death.
             Perhaps one of your comrades will have better luck
-            ${link "index.html" "next time"}.
+            ${../../link.dhall "index.html" "next time"}.
             ''
         ]
     }

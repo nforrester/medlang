@@ -1,9 +1,7 @@
-let s = ../../schema.dhall
-
-in {
+../../conversation.dhall {
     filename = "bridge/color.html",
     template = "conversation.html",
-    data = s.PageUnion.Conversation {
+    data = {
         image = Some "bridge/question.png",
         paragraphs = [
             "What... is your favorite color?"
