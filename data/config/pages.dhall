@@ -1,6 +1,6 @@
 let s = ./schema.dhall
 
-let pages : List s.PageData = [
+let pages : List s.PageUnion = [
     ./pages/index.dhall,
     ./pages/bridge/start.dhall,
     ./pages/bridge/name.dhall,

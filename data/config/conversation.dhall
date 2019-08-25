@@ -1,10 +1,6 @@
 let s = ./schema.dhall
-let ConversationDef = s.PageDef s.ConversationData
 
-let make : ConversationDef -> s.PageData = \(d : ConversationDef) -> {
-    filename = d.filename,
-    template = d.template,
-    data = s.PageUnion.Conversation d.data
-}
+let make : s.ConversationData -> s.PageUnion = \(d : s.ConversationData) ->
+    s.PageUnion.Conversation (d // { template = "conversation.html" })
 
 in make

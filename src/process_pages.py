@@ -32,12 +32,12 @@ def load_config():
 
     for page in config['pages']:
         if page['template'] == 'conversation.html':
-            for response in page['data']['responses']:
+            for response in page['responses']:
                 validate_link(page['filename'], response['filename'])
 
     href_re = re.compile('href\\s*=\\s*"' + config['site']['root'] + '/([^"]*)"')
     for page in config['pages']:
-        for paragraph in page['data']['paragraphs']:
+        for paragraph in page['paragraphs']:
             for match in href_re.finditer(paragraph):
                 validate_link(page['filename'], match.group(1))
 
@@ -46,8 +46,8 @@ def load_config():
             raise Exception('%s links to non-existent image %s' % (src, dst))
 
     for page in config['pages']:
-        if page['data']['image'] is not None:
-            validate_image(page['filename'], page['data']['image'])
+        if page['image'] is not None:
+            validate_image(page['filename'], page['image'])
 
     return config
 

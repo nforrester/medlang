@@ -5,12 +5,21 @@ let SiteData : Type = {
     root : Text
 }
 
-let InfoData : Type = {
+let PageDataBare : Type = {
+    filename : Filename
+}
+
+let PageDataDerived : Type = {
+    template : Filename
+}
+
+let InfoData : Type = PageDataBare //\\ {
     image : Optional Text,
     paragraphs : List Text
 }
+let InfoDataFull : Type = PageDataDerived //\\ InfoData
 
-let ConversationData : Type = {
+let ConversationData : Type = PageDataBare //\\ {
     image : Optional Text,
     paragraphs : List Text,
     responses : List {
@@ -18,20 +27,13 @@ let ConversationData : Type = {
         filename : Filename
     }
 }
+let ConversationDataFull : Type = PageDataDerived //\\ ConversationData
 
-let PageUnion : Type = < Info : InfoData | Conversation : ConversationData >
-
-let PageDef : Type -> Type = \(PageTypeDataType : Type) -> {
-    filename : Filename,
-    template : Text,
-    data : PageTypeDataType
-}
-
-let PageData : Type = PageDef PageUnion
+let PageUnion : Type = < Info : InfoDataFull | Conversation : ConversationDataFull >
 
 let ConfigData : Type = {
     site : SiteData,
-    pages : List PageData
+    pages : List PageUnion
 }
 
 in {
@@ -40,7 +42,5 @@ in {
     InfoData         = InfoData,
     ConversationData = ConversationData,
     PageUnion        = PageUnion,
-    PageDef          = PageDef,
-    PageData         = PageData,
     ConfigData       = ConfigData
 }
