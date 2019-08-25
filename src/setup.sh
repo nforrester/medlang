@@ -1,6 +1,8 @@
 #!/bin/bash
 
-set -ex
+set -e
+
+set -x
 
 workdir=work
 
@@ -13,6 +15,7 @@ tar --extract --bzip2 --file ../../3rdparty/dhall-json-1.4.0-x86_64-linux.tar.bz
 popd
 
 python3 -m venv $workdir/venv
+set +x
 source $workdir/venv/bin/activate
 pip install -r src/requirements.txt
 

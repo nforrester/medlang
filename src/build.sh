@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -d "work" ]; then
+    echo "You must run ./src/setup.sh first."
+    exit 1
+fi
+
 set -e
 
 source work/venv/bin/activate

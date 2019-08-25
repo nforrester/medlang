@@ -24,6 +24,9 @@ def load_config():
     config = load_dhall('data/config/config.dhall')
 
     # TODO Factor out config validation from main script
+
+    assert config['site']['root'] != '/' # A slash will be appended, so if you want to use "/", use "" instead.
+
     page_names = set(page['filename'] for page in config['pages'])
 
     def validate_link(src, dst):
