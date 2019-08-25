@@ -1,9 +1,9 @@
-let Filename : Type = Text
-
 let SiteData : Type = {
     name : Text,
     root : Text
 }
+
+let Filename : Type = Text
 
 let PageDataBare : Type = {
     filename : Filename
