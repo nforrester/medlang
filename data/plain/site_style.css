@@ -46,6 +46,10 @@ img {
     width:100%;
 }
 
+ul {
+    padding-inline-start:4vw;
+}
+
 #header-home-link {
     color:#000;
     text-decoration:none;
