@@ -15,7 +15,9 @@ def load_dhall(path):
     work_dir = 'work'
     dhall_to_json = os.path.join(work_dir, '3rdparty/bin/dhall-to-json')
     assert os.path.isfile(dhall_to_json)
-    return json.loads(subprocess.check_output([dhall_to_json, '--file', path]))
+    return json.loads(subprocess.check_output(
+        [dhall_to_json],
+        input=os.path.join('.', path).encode()))
 
 
 def load_config():
