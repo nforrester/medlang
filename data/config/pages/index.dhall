@@ -1,3 +1,5 @@
+-- The home page.
+
 ../info.dhall {
     filename = "index.html",
     image = None Text,

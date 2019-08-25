@@ -1,7 +1,7 @@
 {% extends "data/templates/base.html" %}
 {% block content %}
 {% if page.image %}
-<img src="{{site.root}}/{{page.image}}">
+<img src="{{site.root}}/images/{{page.image}}">
 {% endif %}
 {% for paragraph in page.paragraphs %}
 <p>{{paragraph | safe}}</p>

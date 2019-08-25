@@ -1,3 +1,5 @@
+-- Given the filename you're linking to and the link text, return the HTML for a hyperlink.
+
 let s = ./schema.dhall
 
 let link : s.Filename -> Text -> Text =

@@ -1,3 +1,5 @@
+-- Main config file for the website
+
 let s = ./schema.dhall
 
 let website : s.ConfigData = {
