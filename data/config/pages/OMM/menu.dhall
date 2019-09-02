@@ -1,23 +1,23 @@
 ../../conversation.dhall {
-    filename = "OMM/menu.html",
+    filename = "OMM/menu",
     image = None Text,
     paragraphs = [""],
     responses = [
         {
             response = "Counterstrain",
-            filename = "OMM/counterstrain/menu.html"
+            filename = "OMM/counterstrain/menu"
         },
         {
             response = "Muscle Energy",
-            filename = "OMM/ME/menu.html"
+            filename = "OMM/ME/menu"
         },
         {
             response = "Myofascial",
-            filename = "OMM/myofascial/menu.html"
+            filename = "OMM/myofascial/menu"
         },
         {
             response = "Lymphatics",
-            filename = "OMM/lymph/menu.html"
+            filename = "OMM/lymph/menu"
         }
     ]
 }

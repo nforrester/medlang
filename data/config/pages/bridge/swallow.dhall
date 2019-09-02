@@ -1,5 +1,5 @@
 ../../conversation.dhall {
-    filename = "bridge/swallow.html",
+    filename = "bridge/swallow",
     image = Some "bridge/question.png",
     paragraphs = [
         "What... is the air-speed velocity of an unladen swallow?"
@@ -7,15 +7,15 @@
     responses = [
         {
             response = "I don't know that!",
-            filename = "bridge/failure.html"
+            filename = "bridge/failure"
         },
         {
             response = "30 knots... ish?",
-            filename = "bridge/success.html"
+            filename = "bridge/success"
         },
         {
             response = "What do you mean? An African or European swallow?",
-            filename = "bridge/victory.html"
+            filename = "bridge/victory"
         }
     ]
 }
