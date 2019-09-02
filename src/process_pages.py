@@ -47,7 +47,7 @@ def load_config():
                 check_link(page['filename'], response['filename'])
 
     # Check links embedded in paragraphs.
-    href_re = re.compile('href\\s*=\\s*"' + config['site']['root'] + '/([^"]*)"')
+    href_re = re.compile('href\\s*=\\s*"' + config['site']['root'] + '/([^"]*).html"')
     for page in config['pages']:
         if 'paragraphs' in page:
             for paragraph in page['paragraphs']:
@@ -106,7 +106,7 @@ def process_page(env, config, output_dir, cache_bust, page):
         page=page,
         cache_bust=cache_bust,
         **config)
-    write_output(os.path.join(output_dir, page['filename']), output)
+    write_output(os.path.join(output_dir, page['filename'] + '.html'), output)
 
 
 def cache_buster():

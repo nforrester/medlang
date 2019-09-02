@@ -1,5 +1,5 @@
 ../../info.dhall {
-    filename = "bridge/victory.html",
+    filename = "bridge/victory",
     image = Some "bridge/victory.png",
     paragraphs = [
         "Huh? I- I don't know that. Auuuuuuuugh!",
@@ -8,6 +8,6 @@
         and fallen to his death.
         You and your comrades may now cross the bridge at your leisure.
         '',
-        "Would you like to have ${../../link.dhall "index.html" "another chat"}?"
+        "Would you like to have ${../../link.dhall "index" "another chat"}?"
     ]
 }

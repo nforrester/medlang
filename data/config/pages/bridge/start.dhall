@@ -1,5 +1,5 @@
 ../../conversation.dhall {
-    filename = "bridge/start.html",
+    filename = "bridge/start",
     image = Some "bridge/start.png",
     paragraphs = [
         "Stop!",
@@ -12,7 +12,7 @@
     responses = [
         {
             response = "Ask me the questions, bridgekeeper. I am not afraid.",
-            filename = "bridge/name.html"
+            filename = "bridge/name"
         }
     ]
 }

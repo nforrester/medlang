@@ -11,7 +11,7 @@ let Filename : Type = Text
 
 -- Data you must be provided for all pages on the website.
 let PageDataBare : Type = {
-    filename : Filename     -- The path to this page relative to the site root.
+    filename : Filename     -- The path to this page relative to the site root, without the .html extension.
 }
 
 -- Data that can be figured out automatically for all pages on the website.
@@ -32,7 +32,7 @@ let ConversationData : Type = PageDataBare //\\ {
     paragraphs : List Text,               -- Paragraphs of text.
     responses : List {                    -- Responses the user may choose.
         response : Text,                  -- Text of the response.
-        filename : Filename               -- Filename of the page that response takes you to.
+        filename : Filename               -- Filename of the page that response takes you to, without the .html extension.
     }
 }
 let ConversationDataFull : Type = PageDataDerived //\\ ConversationData

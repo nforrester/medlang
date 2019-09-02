@@ -1,7 +1,7 @@
 -- The home page.
 
 ../info.dhall {
-    filename = "index.html",
+    filename = "index",
     image = None Text,
     paragraphs = [
         ''
@@ -12,7 +12,7 @@
         "It's a very pretty website, isn't it?",
         ''
         Perhaps you would like to
-        ${../link.dhall "bridge/start.html" "Approach the Bridge of Death."}
+        ${../link.dhall "bridge/start" "Approach the Bridge of Death."}
         ''
     ]
 }
