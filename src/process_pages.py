@@ -56,8 +56,8 @@ def load_config():
 
     # Check for orphan pages.
     for page, link_count in page_link_counts.items():
-        if link_count == 0:
-            raise Exception('%s is not linked to from any page.')
+        if link_count == 0 and page != 'index.html':
+            raise Exception('%s is not linked to from any page.' % page)
 
     # Check that all the demanded images exist.
     for page in config['pages']:

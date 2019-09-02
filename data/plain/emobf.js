@@ -5,9 +5,9 @@ function emobf(id) {
 	var e = 'com';
 	var b = '@';
 	var g = 'mai';
-	var c = 'example';
-	var a = 'fak';
-	var i = 'e';
+	var c = 'gmail';
+	var a = 'win';
+	var i = 'niethepiggie';
 	var h = 'lto:';
 	var f = a + i + b + c + d + e;
 
