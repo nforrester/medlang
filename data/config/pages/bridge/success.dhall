@@ -1,4 +1,6 @@
-../../conversation.dhall {
+let s = ../../schema.dhall
+
+in ../../conversation.dhall {
     filename = "bridge/success",
     image = Some "bridge/success.png",
     paragraphs = [
@@ -7,7 +9,8 @@
     responses = [
         {
             response = "Oh, thank you. Thank you very much.",
-            filename = "index"
+            filename = "index",
+            image_map = None s.ImageMapData
         }
     ]
 }

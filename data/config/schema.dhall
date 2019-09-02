@@ -9,6 +9,11 @@ let SiteData : Type = {
 -- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
 let Filename : Type = Text
 
+let TemplateData : Type = {
+    template : Filename,   -- The path to the template.
+    output : Filename      -- The path to the generated file.
+}
+
 -- Data you must be provided for all pages on the website.
 let PageDataBare : Type = {
     filename : Filename     -- The path to this page relative to the site root, without the .html extension.
@@ -16,7 +21,16 @@ let PageDataBare : Type = {
 
 -- Data that can be figured out automatically for all pages on the website.
 let PageDataDerived : Type = {
-    template : Filename        -- Which template to use for this page.
+    templates : List TemplateData        -- Which templates to generate for this page.
+}
+
+let LenPixels : Type = Natural
+
+let ImageMapData : Type = {
+    left   : LenPixels,    -- Position of the left edge of the click box.
+    top    : LenPixels,    -- Position of the top edge of the click box.
+    width  : LenPixels,    -- Width of the click box.
+    height : LenPixels     -- Height of the click box.
 }
 
 -- Data for an info page (just text and maybe a picture).
@@ -32,7 +46,8 @@ let ConversationData : Type = PageDataBare //\\ {
     paragraphs : List Text,               -- Paragraphs of text.
     responses : List {                    -- Responses the user may choose.
         response : Text,                  -- Text of the response.
-        filename : Filename               -- Filename of the page that response takes you to, without the .html extension.
+        filename : Filename,              -- Filename of the page that response takes you to, without the .html extension.
+        image_map : Optional ImageMapData -- Where to put this link in the image.
     }
 }
 let ConversationDataFull : Type = PageDataDerived //\\ ConversationData
@@ -52,5 +67,6 @@ in {
     InfoData         = InfoData,
     ConversationData = ConversationData,
     PageUnion        = PageUnion,
-    ConfigData       = ConfigData
+    ConfigData       = ConfigData,
+    ImageMapData     = ImageMapData
 }

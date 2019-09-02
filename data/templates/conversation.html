@@ -1,7 +1,19 @@
 {% extends "data/templates/base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{site.root}}/{{page.filename}}.css?v={{cache_bust}}">
+{% endblock %}
+
 {% block content %}
 {% if page.image %}
-<img src="{{site.root}}/images/{{page.image}}">
+<div id="the_image_div">
+    {% for response in page.responses %}
+        {% if response.image_map %}
+    <a id="image_mapped_response_{{loop.index}}" href="{{site.root}}/{{response.filename}}.html"></a>
+        {% endif %}
+    {% endfor %}
+    <img id="the_image" src="{{site.root}}/images/{{page.image}}">
+</div>
 {% endif %}
 {% for paragraph in page.paragraphs %}
 <p>{{paragraph | safe}}</p>

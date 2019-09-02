@@ -1,4 +1,6 @@
-../../conversation.dhall {
+let s = ../../schema.dhall
+
+in ../../conversation.dhall {
     filename = "bridge/color",
     image = Some "bridge/question.png",
     paragraphs = [
@@ -7,31 +9,38 @@
     responses = [
         {
             response = "Red.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Orange.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Yellow.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Green.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Blue.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Purple.",
-            filename = "bridge/success"
+            filename = "bridge/success",
+            image_map = None s.ImageMapData
         },
         {
             response = "Blue. No, Yellow!",
-            filename = "bridge/failure"
+            filename = "bridge/failure",
+            image_map = None s.ImageMapData
         }
     ]
 }
