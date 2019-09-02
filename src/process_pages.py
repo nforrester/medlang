@@ -55,10 +55,15 @@ def load_config():
                 for match in href_re.finditer(paragraph):
                     check_link(page['filename'], match.group(1))
 
-    # Check for orphan pages.
+    # Check that each page is or is not an orphan, as expected.
     for page, link_count in page_link_counts.items():
-        if link_count == 0 and page != 'index':
-            raise Exception('%s is not linked to from any page.' % page)
+        if page in config['site']['orphans']:
+            if link_count != 0:
+                raise Exception('%s is on the orphan list, but has links to it.' % page)
+        else:
+            if link_count == 0:
+                raise Exception(
+                    '%s is not linked to from any page and is not on the orphan list.' % page)
 
     # Check that all the demanded images exist.
     for page in config['pages']:

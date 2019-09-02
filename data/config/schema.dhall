@@ -1,13 +1,14 @@
 -- This file determines the format of all the others.
 
+-- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
+let Filename : Type = Text
+
 -- Record type for data about the website as a whole.
 let SiteData : Type = {
     name : Text,        -- The human-readable name of the website
-    root : Text         -- Where the website is rooted relative to the domain name (empty string if not in a subdirectory).
+    root : Text,        -- Where the website is rooted relative to the domain name (empty string if not in a subdirectory).
+    orphans : List Filename -- These pages are expected to be orphans. The .html suffix is omitted.
 }
-
--- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
-let Filename : Type = Text
 
 let TemplateData : Type = {
     template : Filename,   -- The path to the template.

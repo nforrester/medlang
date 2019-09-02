@@ -5,7 +5,7 @@ let s = ./schema.dhall
 let pages : List s.PageUnion = [
     ./pages/index.dhall,
 
-{-  ./pages/bridge/start.dhall,
+    ./pages/bridge/start.dhall,
     ./pages/bridge/name.dhall,
     ./pages/bridge/grail.dhall "color",
     ./pages/bridge/grail.dhall "assyria",
@@ -15,7 +15,7 @@ let pages : List s.PageUnion = [
     ./pages/bridge/swallow.dhall,
     ./pages/bridge/failure.dhall,
     ./pages/bridge/success.dhall,
-    ./pages/bridge/victory.dhall, -}
+    ./pages/bridge/victory.dhall,
 
     ./pages/OMM/menu.dhall,
     ./pages/OMM/counterstrain/menu.dhall,
