@@ -1,4 +1,6 @@
-../../conversation.dhall {
+let s = ../../schema.dhall
+
+in ../../conversation.dhall {
     filename = "bridge/start",
     image = Some "bridge/start.png",
     paragraphs = [
@@ -12,7 +14,13 @@
     responses = [
         {
             response = "Ask me the questions, bridgekeeper. I am not afraid.",
-            filename = "bridge/name"
+            filename = "bridge/name",
+            image_map = Some {
+                left = 358,
+                top = 117,
+                width = 270,
+                height = 309
+            }
         }
     ]
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import cv2
 import jinja2
 import json
 import os
@@ -54,10 +55,15 @@ def load_config():
                 for match in href_re.finditer(paragraph):
                     check_link(page['filename'], match.group(1))
 
-    # Check for orphan pages.
+    # Check that each page is or is not an orphan, as expected.
     for page, link_count in page_link_counts.items():
-        if link_count == 0 and page != 'index':
-            raise Exception('%s is not linked to from any page.' % page)
+        if page in config['site']['orphans']:
+            if link_count != 0:
+                raise Exception('%s is on the orphan list, but has links to it.' % page)
+        else:
+            if link_count == 0:
+                raise Exception(
+                    '%s is not linked to from any page and is not on the orphan list.' % page)
 
     # Check that all the demanded images exist.
     for page in config['pages']:
@@ -68,6 +74,25 @@ def load_config():
                                     (page['filename'], page['image']))
 
     return config
+
+
+def process_config(config):
+    """Insert derived fields into the config structure."""
+    # Add *_percent versions of the image_map fields, so that the CSS for the
+    # image map can be written in percentage terms. The config specifies pixels
+    # because that's easier to compute for the image author.
+    for page in config['pages']:
+        if 'responses' in page:
+            for response in page['responses']:
+                image_map = response['image_map']
+                if image_map:
+                    assert 'image' in page
+                    assert page['image']
+                    h, w = cv2.imread(os.path.join('data/plain/images', page['image']), 0).shape[:2]
+                    image_map['left_percent'] = "%.1f" % (image_map['left'] / w * 100)
+                    image_map['top_percent'] = "%.1f" % (image_map['top'] / h * 100)
+                    image_map['width_percent'] = "%.1f" % (image_map['width'] / w * 100)
+                    image_map['height_percent'] = "%.1f" % (image_map['height'] / h * 100)
 
 
 def write_output(path, content):
@@ -101,12 +126,13 @@ def process_page(env, config, output_dir, cache_bust, page):
         cache_bust: A random string used to invalidate browser cache entries after a website update.
         page: The subset of the website configuration that describes the page to render.
     """
-    template = env.get_template(os.path.join('data/templates', page['template']))
-    output = template.render(
-        page=page,
-        cache_bust=cache_bust,
-        **config)
-    write_output(os.path.join(output_dir, page['filename'] + '.html'), output)
+    for template_data in page['templates']:
+        template = env.get_template(os.path.join('data/templates', template_data['template']))
+        output = template.render(
+            page=page,
+            cache_bust=cache_bust,
+            **config)
+        write_output(os.path.join(output_dir, template_data['output']), output)
 
 
 def cache_buster():
@@ -129,6 +155,8 @@ def main():
         config = load_config()
     except subprocess.CalledProcessError:
         return False
+
+    process_config(config)
 
     # Render the pages.
     env = environment()

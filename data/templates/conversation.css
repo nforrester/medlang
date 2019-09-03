@@ -1,0 +1,23 @@
+{% if page.image %}
+
+#the_image_div {
+    position: relative;
+}
+
+#the_image {
+    display: block;
+}
+
+{% for response in page.responses %}
+    {% if response.image_map %}
+#image_mapped_response_{{loop.index}} {
+    position:absolute;
+    left: {{response.image_map.left_percent}}%;
+    top: {{response.image_map.top_percent}}%;
+    width: {{response.image_map.width_percent}}%;
+    height: {{response.image_map.height_percent}}%;
+}
+    {% endif %}
+{% endfor %}
+
+{% endif %}
