@@ -1,0 +1,9 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.dhall text eol=lf
+*.html text eol=lf
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.txt text eol=lf
