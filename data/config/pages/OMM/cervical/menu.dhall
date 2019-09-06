@@ -6,28 +6,23 @@ in ../../../conversation.dhall {
     paragraphs = [""],
     responses = [
         {
-            response = "Cervical",
+            response = "Diagnosis",
             filename = "OMM/cervical/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Thoracic",
-            filename = "OMM/thoracic/menu",
+            response = "Soft Tissue",
+            filename = "OMM/cervical/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Lumbar",
-            filename = "OMM/lumbar/menu",
+            response = "Counterstrain",
+            filename = "OMM/cervical/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Pelvis",
-            filename = "OMM/pelvis/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Upper Extremities",
-            filename = "OMM/UE/menu",
+            response = "Muscle Energy",
+            filename = "OMM/cervical/menu",
             image_map = None s.ImageMapData
         }
     ]

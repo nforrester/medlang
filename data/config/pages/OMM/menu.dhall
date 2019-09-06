@@ -26,8 +26,8 @@ in ../../conversation.dhall {
             image_map = None s.ImageMapData
         },
         {
-            response = "Upper Extremities",
-            filename = "OMM/UE/menu",
+            response = "Upper Extremity",
+            filename = "OMM/upper/menu",
             image_map = None s.ImageMapData
         }
     ]

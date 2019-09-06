@@ -24,11 +24,6 @@ in ../../../conversation.dhall {
             response = "Pelvis",
             filename = "OMM/pelvis/menu",
             image_map = None s.ImageMapData
-        },
-        {
-            response = "Upper Extremities",
-            filename = "OMM/UE/menu",
-            image_map = None s.ImageMapData
         }
     ]
 }

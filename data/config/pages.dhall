@@ -21,7 +21,8 @@ let pages : List s.PageUnion = [
     ./pages/OMM/cervical/menu.dhall,
     ./pages/OMM/thoracic/menu.dhall,
     ./pages/OMM/lumbar/menu.dhall,
-    ./pages/OMM/pelvis/menu.dhall
+    ./pages/OMM/pelvis/menu.dhall,
+    ./pages/OMM/upper/menu.dhall
 ]
 
 in pages
