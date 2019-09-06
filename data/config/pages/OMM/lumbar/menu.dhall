@@ -1,9 +1,9 @@
-let s = ../../schema.dhall
+let s = ../../../schema.dhall
 
-in ../../conversation.dhall {
-    filename = "OMM/menu",
+in ../../../conversation.dhall {
+    filename = "OMM/lumbar/menu",
     image = None Text,
-    paragraphs = ["By body region:"],
+    paragraphs = [""],
     responses = [
         {
             response = "Cervical",

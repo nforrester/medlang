@@ -18,10 +18,10 @@ let pages : List s.PageUnion = [
     ./pages/bridge/victory.dhall,
 
     ./pages/OMM/menu.dhall,
-    ./pages/OMM/counterstrain/menu.dhall,
-    ./pages/OMM/lymph/menu.dhall,
-    ./pages/OMM/ME/menu.dhall,
-    ./pages/OMM/myofascial/menu.dhall
+    ./pages/OMM/cervical/menu.dhall,
+    ./pages/OMM/thoracic/menu.dhall,
+    ./pages/OMM/lumbar/menu.dhall,
+    ./pages/OMM/pelvis/menu.dhall
 ]
 
 in pages
