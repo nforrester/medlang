@@ -1,4 +1,4 @@
-let s = ../../schema.dhall
+let s = ./schema.dhall
 
 let grail = \(next_question : Text) -> ../../conversation.dhall {
     filename = "bridge/grail-${next_question}",

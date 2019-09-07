@@ -1,4 +1,4 @@
-let s = ../../../schema.dhall
+let s = ./schema.dhall
 
 in ../../../conversation.dhall {
     filename = "OMM/myofascial/menu",
