@@ -1,19 +1,14 @@
-let s = ../../schema.dhall
+let s = ../../../schema.dhall
 
-in ../../conversation.dhall {
-    filename = "OMM/menu",
-    image = Some "OMM/body.png",
-    paragraphs = ["By body region:"],
+in ../../../conversation.dhall {
+    filename = "OMM/ue/menu",
+    image = None Text,
+    paragraphs = [""],
     responses = [
         {
             response = "Cervical",
             filename = "OMM/cervical/menu",
-            image_map = Some {
-                left = 0,
-                top = 0,
-                width = 100,
-                height = 100
-            }
+            image_map = None s.ImageMapData
         },
         {
             response = "Thoracic",
@@ -28,11 +23,6 @@ in ../../conversation.dhall {
         {
             response = "Pelvis",
             filename = "OMM/pelvis/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Upper Extremities",
-            filename = "OMM/ue/menu",
             image_map = None s.ImageMapData
         }
     ]

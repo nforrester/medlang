@@ -1,29 +1,15 @@
-let s = ../../../schema.dhall
+-- lumbar menu
 
-in ../../../conversation.dhall {
+../../../info.dhall {
     filename = "OMM/lumbar/menu",
     image = None Text,
-    paragraphs = [""],
-    responses = [
-        {
-            response = "Cervical",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Thoracic",
-            filename = "OMM/thoracic/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Lumbar",
-            filename = "OMM/lumbar/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Pelvis",
-            filename = "OMM/pelvis/menu",
-            image_map = None s.ImageMapData
-        }
-    ]
+    paragraphs = [
+        "Lumbar Spine",
+        "${../../../link.dhall "OMM/lumbar/dx" "Diagnosis"}",
+        "${../../../link.dhall "OMM/common/st" "Soft Tissue"}",
+        "${../../../link.dhall "OMM/common/cs" "Counterstrain"}",
+        "${../../../link.dhall "OMM/lumbar/ME" "Muscle Energy"}",
+        "",
+        "${../../../link.dhall "OMM/pelvis/menu" "return to LUMBAR"}"
+        ]
 }

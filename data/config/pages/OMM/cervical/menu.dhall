@@ -1,29 +1,18 @@
-let s = ../../../schema.dhall
+-- cervical menu
 
-in ../../../conversation.dhall {
+../../../info.dhall {
     filename = "OMM/cervical/menu",
     image = None Text,
-    paragraphs = [""],
-    responses = [
-        {
-            response = "Diagnosis",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Soft Tissue",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Counterstrain",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Muscle Energy",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        }
-    ]
+    paragraphs = [
+        "OA:",
+        "${../../../link.dhall "OMM/cervical/OA" "Diagnosis: Nod Test"}",
+        "",
+        "C2-7:",
+        "${../../../link.dhall "OMM/common/dx" "Diagnosis"}",
+        "${../../../link.dhall "OMM/common/st" "Soft Tissue"}",
+        "${../../../link.dhall "OMM/common/cs" "Counterstrain"}",
+        "${../../../link.dhall "OMM/cervical/ME" "Muscle Energy"}",
+        "",
+        "${../../../link.dhall "OMM/menu" "return to OMM"}"
+        ]
 }
