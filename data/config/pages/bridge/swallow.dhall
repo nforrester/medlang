@@ -1,7 +1,6 @@
 let s = ../../schema.dhall
 
 in ../../conversation.dhall {
-    filename = "bridge/swallow",
     image = Some "bridge/question.png",
     paragraphs = [
         "What... is the air-speed velocity of an unladen swallow?"

@@ -1,7 +1,6 @@
 -- General Diagnosis
 
 ../../../info.dhall {
-    filename = "OMM/common/dx",
     image = None Text,
     paragraphs = [
         "Does this hurt?",

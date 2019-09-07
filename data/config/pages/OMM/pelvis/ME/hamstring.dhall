@@ -1,7 +1,6 @@
 -- Hamstrings ME tx
 
 ../../../../info.dhall {
-    filename = "OMM/pelvis/ME/hamstring",
     image = None Text,
     paragraphs = [
         "I'm going to lift your leg and place it on my shoulder.",

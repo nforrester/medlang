@@ -2,13 +2,15 @@
 
 let s = ./schema.dhall
 
-let make : s.InfoData -> s.PageUnion =
+let make : s.InfoData -> s.Filename -> s.PageUnion =
     \(d : s.InfoData) ->
+    \(f : s.Filename) ->
         s.PageUnion.Info (d // {
+            filename = f,
             templates = [
                 {
                     template = "info.html",
-                    output = d.filename ++ ".html"
+                    output = f ++ ".html"
                 }
             ]
         })

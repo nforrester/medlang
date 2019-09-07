@@ -1,7 +1,6 @@
 -- lumbar menu
 
 ../../../info.dhall {
-    filename = "OMM/lumbar/menu",
     image = None Text,
     paragraphs = [
         "Lumbar Spine",

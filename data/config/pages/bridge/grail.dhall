@@ -1,7 +1,6 @@
 let s = ../../schema.dhall
 
 let grail = \(next_question : Text) -> ../../conversation.dhall {
-    filename = "bridge/grail-${next_question}",
     image = Some "bridge/question.png",
     paragraphs = [
         "What... is your quest?"

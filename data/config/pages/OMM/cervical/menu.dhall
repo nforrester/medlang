@@ -1,7 +1,6 @@
 -- cervical menu
 
 ../../../info.dhall {
-    filename = "OMM/cervical/menu",
     image = None Text,
     paragraphs = [
         "OA:",

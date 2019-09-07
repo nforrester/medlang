@@ -1,7 +1,6 @@
 -- pelvis ME menu
 
 ../../../../info.dhall {
-    filename = "OMM/pelvis/ME/menu",
     image = None Text,
     paragraphs = [
         "Mitchell Model Treatment Sequence: Muscle Energy",

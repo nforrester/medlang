@@ -5,23 +5,23 @@ in ../../../conversation.dhall {
     paragraphs = [""],
     responses = [
         {
-            response = "Cervical",
-            filename = "OMM/cervical/menu",
+            response = "Counterstrain",
+            filename = "OMM/counterstrain/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Thoracic",
-            filename = "OMM/thoracic/menu",
+            response = "Muscle Energy",
+            filename = "OMM/ME/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Lumbar",
-            filename = "OMM/lumbar/menu",
+            response = "Myofascial",
+            filename = "OMM/myofascial/menu",
             image_map = None s.ImageMapData
         },
         {
-            response = "Pelvis",
-            filename = "OMM/pelvis/menu",
+            response = "Lymphatics",
+            filename = "OMM/lymph/menu",
             image_map = None s.ImageMapData
         }
     ]

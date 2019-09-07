@@ -1,7 +1,6 @@
 -- OA page
 
 ../../../info.dhall {
-    filename = "OMM/cervical/OA",
     image = None Text,
     paragraphs = [
     	"Nod test:  Please tilt your head down to look at your feet.  Please tilt your head up to look at me.",

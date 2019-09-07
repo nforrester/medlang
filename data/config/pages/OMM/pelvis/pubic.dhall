@@ -1,7 +1,6 @@
 -- Pubic tubercles
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/pubic",
     image = None Text,
     paragraphs = [
         "I'm going to feel for your pubic bone, which is the front of your pelvic bone.",

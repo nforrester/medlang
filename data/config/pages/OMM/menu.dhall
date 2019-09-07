@@ -1,7 +1,5 @@
 let s = ../../schema.dhall
-
 in ../../conversation.dhall {
-    filename = "OMM/menu",
     image = Some "OMM/body.png",
     paragraphs = ["By body region:"],
     responses = [

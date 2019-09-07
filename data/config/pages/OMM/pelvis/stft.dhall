@@ -1,7 +1,6 @@
 -- Standing flexion test
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/stft",
     image = None Text,
     paragraphs = [
         "Is it ok if I put my hands on your hips?",

@@ -1,7 +1,6 @@
 -- Innominates
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/innom",
     image = None Text,
     paragraphs = [
         "Can you lift up your shirt so I can see your belly button?",

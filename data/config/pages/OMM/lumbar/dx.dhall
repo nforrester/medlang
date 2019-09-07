@@ -1,7 +1,6 @@
 -- Lumbar diagnosis
 
 ../../../info.dhall {
-    filename = "OMM/lumbar/dx",
     image = None Text,
     paragraphs = [
         "Please lie face-down on the table.",

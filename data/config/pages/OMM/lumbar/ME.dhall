@@ -1,7 +1,6 @@
 -- Lumbar ME
 
 ../../../info.dhall {
-    filename = "OMM/lumbar/ME",
     image = None Text,
     paragraphs = [
         "Lie down on your [right/left] side, with your [left/right] shoulder pointing up at the ceiling.",

@@ -1,7 +1,6 @@
 let s = ../../../schema.dhall
 
 in ../../../conversation.dhall {
-    filename = "OMM/ue/menu",
     image = None Text,
     paragraphs = [""],
     responses = [

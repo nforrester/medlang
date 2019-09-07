@@ -1,7 +1,6 @@
 -- Counterstrain
 
 ../../../info.dhall {
-    filename = "OMM/common/cs",
     image = None Text,
     paragraphs = [
         "Let us call this current pain, with my finger pressing on it, 10/10.",

@@ -1,7 +1,6 @@
 let s = ../../schema.dhall
 
 in ../../conversation.dhall {
-    filename = "bridge/success",
     image = Some "bridge/success.png",
     paragraphs = [
         "Right. Off you go."

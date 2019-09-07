@@ -1,7 +1,6 @@
 -- Pelvic reseat
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/reseat",
     image = None Text,
     paragraphs = [
         "Bend your knees.",

@@ -1,7 +1,6 @@
 -- Sacral torsion ME tx
 
 ../../../../info.dhall {
-    filename = "OMM/pelvis/ME/sacral_torsion",
     image = None Text,
     paragraphs = [
         "I'm going to lift your leg and place it on my shoulder.",

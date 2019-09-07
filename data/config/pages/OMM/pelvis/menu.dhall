@@ -1,7 +1,6 @@
 -- Pelvis menu
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/menu",
     image = None Text,
     paragraphs = [
         "PELVIS & SACRUM",

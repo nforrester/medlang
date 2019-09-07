@@ -1,7 +1,6 @@
 -- Seated flexion test
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/sft",
     image = None Text,
     paragraphs = [
         "Please sit down on the table.  Rest your feet on this ledge.",

@@ -1,7 +1,6 @@
 -- mitchell model dx page.
 
 ../../../info.dhall {
-    filename = "OMM/pelvis/mitchell",
     image = None Text,
     paragraphs = [
         "IS (supine)",
