@@ -3,25 +3,25 @@
 let s = ./schema.dhall
 
 let pages : List s.PageUnion = [
-    ./pages/index.dhall,
+    ./pages/index.dhall "index",
 
-    ./pages/bridge/start.dhall,
-    ./pages/bridge/name.dhall,
-    ./pages/bridge/grail.dhall "color",
-    ./pages/bridge/grail.dhall "assyria",
-    ./pages/bridge/grail.dhall "swallow",
-    ./pages/bridge/color.dhall,
-    ./pages/bridge/assyria.dhall,
-    ./pages/bridge/swallow.dhall,
-    ./pages/bridge/failure.dhall,
-    ./pages/bridge/success.dhall,
-    ./pages/bridge/victory.dhall,
+    ./pages/bridge/start.dhall "bridge/start",
+    ./pages/bridge/name.dhall "bridge/name",
+    ./pages/bridge/grail.dhall "color" "bridge/grail-color",
+    ./pages/bridge/grail.dhall "assyria" "bridge/grail-assyria",
+    ./pages/bridge/grail.dhall "swallow" "bridge/grail-swallow",
+    ./pages/bridge/color.dhall "bridge/color",
+    ./pages/bridge/assyria.dhall "bridge/assyria",
+    ./pages/bridge/swallow.dhall "bridge/swallow",
+    ./pages/bridge/failure.dhall "bridge/failure",
+    ./pages/bridge/success.dhall "bridge/success",
+    ./pages/bridge/victory.dhall "bridge/victory",
 
-    ./pages/OMM/menu.dhall,
-    ./pages/OMM/counterstrain/menu.dhall,
-    ./pages/OMM/lymph/menu.dhall,
-    ./pages/OMM/ME/menu.dhall,
-    ./pages/OMM/myofascial/menu.dhall
+    ./pages/OMM/menu.dhall "OMM/menu",
+    ./pages/OMM/counterstrain/menu.dhall "OMM/counterstrain/menu",
+    ./pages/OMM/lymph/menu.dhall "OMM/lymph/menu",
+    ./pages/OMM/ME/menu.dhall "OMM/ME/menu",
+    ./pages/OMM/myofascial/menu.dhall "OMM/myofascial/menu"
 ]
 
 in pages

@@ -1,5 +1,4 @@
 ../../info.dhall {
-    filename = "bridge/victory",
     image = Some "bridge/victory.png",
     paragraphs = [
         "Huh? I- I don't know that. Auuuuuuuugh!",

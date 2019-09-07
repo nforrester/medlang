@@ -15,13 +15,14 @@ let TemplateData : Type = {
     output : Filename      -- The path to the generated file.
 }
 
--- Data you must be provided for all pages on the website.
+-- Data you must provide for all pages on the website.
 let PageDataBare : Type = {
-    filename : Filename     -- The path to this page relative to the site root, without the .html extension.
+    -- Currently, there is no such data.
 }
 
 -- Data that can be figured out automatically for all pages on the website.
 let PageDataDerived : Type = {
+    filename : Filename,                 -- The path to this page relative to the site root, without the .html extension.
     templates : List TemplateData        -- Which templates to generate for this page.
 }
 

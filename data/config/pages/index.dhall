@@ -1,7 +1,6 @@
 -- The home page.
 
 ../info.dhall {
-    filename = "index",
     image = None Text,
     paragraphs = [
         ''
