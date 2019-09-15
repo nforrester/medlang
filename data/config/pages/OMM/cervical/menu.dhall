@@ -3,15 +3,12 @@
 ../../../info.dhall {
     image = None Text,
     paragraphs = [
-        "OA:",
-        "${../../../link.dhall "OMM/cervical/OA" "Diagnosis: Nod Test"}",
-        "",
-        "C2-7:",
-        "${../../../link.dhall "OMM/common/dx" "Diagnosis"}",
-        "${../../../link.dhall "OMM/common/st" "Soft Tissue"}",
-        "${../../../link.dhall "OMM/common/cs" "Counterstrain"}",
+        "<h2> Cervical Spine </h2>",
+        "${../../../link.dhall "OMM/cervical/dx" "Diagnosis"}",
+        "${../../../link.dhall "OMM/cervical/ST" "Soft Tissue"}",
+        "${../../../link.dhall "OMM/cervical/CS" "Counterstrain"}",
         "${../../../link.dhall "OMM/cervical/ME" "Muscle Energy"}",
         "",
-        "${../../../link.dhall "OMM/menu" "return to OMM"}"
+        "${../../../link.dhall "OMM/menu" "<i>return to OMM</i>"}"
         ]
 }
