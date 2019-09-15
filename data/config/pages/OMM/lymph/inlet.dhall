@@ -1,6 +1,7 @@
 -- Thoracic inlet
+let s = ./schema.dhall
 
-../../../info.dhall {
+in ./info.dhall {
     image = None Text,
     paragraphs =
         ../common/supine.dhall
@@ -16,6 +17,5 @@
         ,
     backlink1 = Some {title="OMM", filename="OMM/menu"},
     backlink2 = Some {title="Lymphatics", filename="OMM/lymph/menu"},
-    backlink3 = None
-        ]
+    backlink3 = None s.LinkData
 }

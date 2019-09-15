@@ -1,6 +1,6 @@
 -- Cervical Diagnosis
-
-../../../info.dhall {
+let s = ./schema.dhall
+in ./info.dhall {
     image = None Text,
     paragraphs =
         [
@@ -19,6 +19,6 @@
         ../common/dx.dhall
         ,
         backlink1 = Some {title="OMM", filename="OMM/menu"},
-        backlink2 = Some {title="Cervical", filename="OMM/cervical/menu"}
-        backlink3 = None
+        backlink2 = Some {title="Cervical", filename="OMM/cervical/menu"},
+        backlink3 = None s.LinkData
 }
