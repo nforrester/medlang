@@ -8,7 +8,7 @@
         "${../link.dhall "OMM/menu" "Osteopathic Treatments"}",
         "${../link.dhall "PE/menu" "Physical Exams"}"
     ],
-    backlink1 = None LinkData,
-    backlink2 = None LinkData,
-    backlink3 = None LinkData
+    backlink1 = None (./schema.dhall).LinkData,
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
 }

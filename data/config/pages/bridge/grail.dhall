@@ -18,8 +18,8 @@ let grail = \(next_question : Text) -> ./conversation.dhall {
         }
     ],
     backlink1 = Some { title = "Bridge of Death", filename = "bridge/start" },
-    backlink2 = None,
-    backlink3 = None
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
 }
 
 in grail

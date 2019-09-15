@@ -89,6 +89,7 @@ let ConfigData : Type = {
 
 in {
     Filename         = Filename,
+    LinkData         = LinkData,
     SiteMetaData     = SiteMetaData,
     SiteData         = SiteData,
     InfoData         = InfoData,

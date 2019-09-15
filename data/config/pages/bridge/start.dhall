@@ -22,7 +22,7 @@ in ./conversation.dhall {
             }
         }
     ],
-    backlink1 = None,
-    backlink2 = None,
-    backlink3 = None
+    backlink1 = None (./schema.dhall).LinkData,
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
 }

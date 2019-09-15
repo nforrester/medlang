@@ -35,6 +35,6 @@ in ../../../conversation.dhall {
         }
     ],
     backlink1 = Some { title = "PE", filename = "PE/menu" },
-    backlink2 = None,
-    backlink3 = None
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
 }

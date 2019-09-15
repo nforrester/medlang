@@ -11,6 +11,6 @@
         "${../../../link.dhall "OMM/menu" "return to OMM main menu"}"
     ],
     backlink1 = Some { title = "OMM", filename = "OMM/menu" },
-    backlink2 = None,
-    backlink3 = None
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
 }
