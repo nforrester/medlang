@@ -5,9 +5,10 @@
     paragraphs = [
         "I'm going to lift your leg and place it on my shoulder.",
         "Relax your leg.",
-        "Push your leg down against my shoulder.",
-
-        "${../../../../link.dhall "OMM/pelvis/ME/menu" "return to Pelvis ME"}",
-        "${../../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}"
+        "Push your leg down against my shoulder."
     ]
+    ,
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = Some {title="Pelvis", filename="OMM/pelvis/menu"},
+    backlink3 = None
 }

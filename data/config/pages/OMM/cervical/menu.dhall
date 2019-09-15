@@ -8,7 +8,8 @@
         "${../../../link.dhall "OMM/cervical/ST" "Soft Tissue"}",
         "${../../../link.dhall "OMM/cervical/CS" "Counterstrain"}",
         "${../../../link.dhall "OMM/cervical/ME" "Muscle Energy"}",
-        "",
-        "${../../../link.dhall "OMM/menu" "<i>return to OMM</i>"}"
         ]
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = None
+    backlink3 = None
 }

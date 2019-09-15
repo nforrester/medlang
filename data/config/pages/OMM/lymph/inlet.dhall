@@ -13,9 +13,9 @@
         "Let me know if this is too much pressure."]
         #
         ../common/resp.dhall
-        #
-        [
-        "${../../../link.dhall "OMM/lymph/menu" "return to LYMPHATICS"}",
-        "${../../../link.dhall "OMM/menu" "return to OMM"}"
+        ,
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = Some {title="Lymphatics", filename="OMM/lymph/menu"},
+    backlink3 = None
         ]
 }

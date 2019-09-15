@@ -8,9 +8,8 @@
         ]
         #
         ../../common/ME.dhall "hands"
-        #
-        [
-        "${../../../../link.dhall "OMM/pelvis/ME/menu" "return to Pelvis ME"}",
-        "${../../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}"
-        ]
+        ,
+        backlink1 = Some {title="OMM", filename="OMM/menu"},
+        backlink2 = Some {title="Pelvis", filename="OMM/pelvis/menu"},
+        backlink3 = None
 }

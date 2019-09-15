@@ -15,9 +15,8 @@
         ]
         #
         ../common/cs.dhall
-        #
-        [
-        "${../../../link.dhall "OMM/thoracic/menu" "return to THORACIC"}",
-        "${../../../link.dhall "OMM/menu" "return to OMM"}"
-        ]
+        ,
+        backlink1 = Some {title="OMM", filename="OMM/menu"},
+        backlink2 = Some {title="Thoracic", filename="OMM/thoracic/menu"},
+        backlink3 = None
 }

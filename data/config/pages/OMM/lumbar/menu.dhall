@@ -9,9 +9,9 @@
         "Counterstrain:",
         "${../../../link.dhall "OMM/lumbar/CS" "-AL 1-5"}",
         "${../../../link.dhall "OMM/common/CS_PTL" "-PL 1-5"}",
-        "${../../../link.dhall "OMM/lumbar/ME" "Muscle Energy"}",
-        "",
-        "<i> ${../../../link.dhall "OMM/lumbar/menu" "return to LUMBAR"}",
-        "${../../../link.dhall "OMM/menu" "return to OMM </i>"}"
-        ]
+        "${../../../link.dhall "OMM/lumbar/ME" "Muscle Energy"}"]
+        ,
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
+    backlink3 = None
 }

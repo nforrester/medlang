@@ -24,10 +24,8 @@
         ]
         #
         ../../common/prone.dhall
-        #
-        [
-        "${../../../../link.dhall "OMM/pelvis/dx/sacral" "Sacral Sulcus & ILA"}",
-        "${../../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}",
-        "${../../../../link.dhall "OMM/menu" "return to OMM"}"
-        ]
+        ,
+        backlink1 = Some {title="OMM", filename="OMM/menu"},
+        backlink2 = Some {title="Pelvis", filename="OMM/pelvis/menu"},
+        backlink3 = None
 }

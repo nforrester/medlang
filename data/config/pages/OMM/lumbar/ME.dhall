@@ -15,9 +15,8 @@
         ]
         #
         ../common/ME.dhall "forearm"
-        #
-        [
-        "${../../../link.dhall "OMM/lumbar/menu" "return to LUMBAR"}",
-        "${../../../link.dhall "OMM/pelvis/ME/menu" "return to Pelvis ME"}"
-        ]
+        ,
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
+    backlink3 = None
 }

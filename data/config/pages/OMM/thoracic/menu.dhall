@@ -12,7 +12,9 @@
         "${../../../link.dhall "OMM/common/CS_ATL" "-AT 10-12"}",
         "${../../../link.dhall "OMM/common/CS_PTL" "-PT 1-12"}",
         "${../../../link.dhall "OMM/thoracic/ME" "Muscle Energy"}",
-        "",
-        "${../../../link.dhall "OMM/menu" "return to OMM main menu"}"
         ]
+        ,
+        backlink1 = Some {title="OMM", filename="OMM/menu"},
+        backlink2 = Some {title="Thoracic", filename="OMM/thoracic/menu"},
+        backlink3 = None
 }

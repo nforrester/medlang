@@ -10,8 +10,11 @@
         "${../../../../link.dhall "OMM/lumbar/ME" "4) L5"}",
         "${../../../../link.dhall "OMM/pelvis/ME/sacral_torsion" "5) Sacral torsion"}",
         "${../../../../link.dhall "OMM/pelvis/ME/sacral_fe" "6) Sacral flexion/extension"}",
-        "${../../../../link.dhall "OMM/pelvis/ME/innom_rot" "7) Innominate rotation"}",
-        "",
-        "${../../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}"
+        "${../../../../link.dhall "OMM/pelvis/ME/innom_rot" "7) Innominate rotation"}"
     ]
+    ,
+    ,
+    backlink1 = Some {title="OMM", filename="OMM/menu"},
+    backlink2 = None,
+    backlink3 = None
 }

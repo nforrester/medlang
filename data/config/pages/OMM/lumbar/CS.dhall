@@ -15,9 +15,9 @@
         ]
         #
         ../common/cs.dhall "feet/legs"
-        #
-        [
-        "${../../../link.dhall "OMM/lumbar/menu" "return to LUMBAR"}",
-        "${../../../link.dhall "OMM/menu" "return to OMM"}"
+        ,
+        backlink1 = Some {title="OMM", filename="OMM/menu"},
+        backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
+        backlink3 = None
         ]
 }
