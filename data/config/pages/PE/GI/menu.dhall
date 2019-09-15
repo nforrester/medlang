@@ -13,6 +13,6 @@
         "${../../../link.dhall "PE/menu" "return to PE"}"
     ],
     backlink1 = Some { title = "PE", filename = "PE/menu" },
-    backlink2 = None (./schema.dhall).LinkData
+    backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData
 }

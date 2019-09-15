@@ -19,5 +19,4 @@
         backlink1 = Some {title="OMM", filename="OMM/menu"},
         backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
         backlink3 = None (./schema.dhall).LinkData
-        ]
 }
