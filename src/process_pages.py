@@ -23,7 +23,34 @@ def load_dhall(path):
 
 def load_config():
     """Load the config file and check it for mistakes."""
-    config = load_dhall('data/config/config.dhall')
+    config_dir = 'data/config'
+    work_dir = 'work/config'
+    if os.path.isdir(work_dir):
+        shutil.rmtree(work_dir)
+    shutil.copytree(config_dir, work_dir)
+
+    meta = load_dhall(os.path.join(config_dir, 'meta.dhall'))
+
+    for file_to_replicate in meta['files_to_replicate']:
+        filename = os.path.basename(file_to_replicate)
+        current_dir = os.path.normpath(os.path.dirname(os.path.normpath(file_to_replicate)))
+        dirs_visited = set()
+        dirs_visited.add(current_dir)
+        while current_dir != '.':
+            deeper_dir = os.path.basename(current_dir)
+            current_dir = os.path.normpath(os.path.dirname(current_dir))
+            dirs_visited.add(current_dir)
+            with open(os.path.join(work_dir, current_dir, filename), 'w') as f:
+                f.write('./' + deeper_dir + '/' + filename + '\n')
+
+        for dirpath, _, _ in os.walk(work_dir):
+            current_dir = os.path.normpath(os.path.relpath(dirpath, work_dir))
+            if current_dir not in dirs_visited:
+                dirs_visited.add(current_dir)
+                with open(os.path.join(work_dir, current_dir, filename), 'w') as f:
+                    f.write('../' + filename + '\n')
+
+    config = load_dhall(os.path.join(work_dir, 'config.dhall'))
 
     # A slash will be appended, so if you want to use "/" as the root, use "" instead.
     assert config['site']['root'] != '/'

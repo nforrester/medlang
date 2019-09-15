@@ -1,6 +1,6 @@
-let s = ../../schema.dhall
+let s = ./schema.dhall
 
-in ../../conversation.dhall {
+in ./conversation.dhall {
     image = Some "bridge/success.png",
     paragraphs = [
         "Right. Off you go."

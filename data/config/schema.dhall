@@ -3,6 +3,10 @@
 -- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
 let Filename : Type = Text
 
+let SiteMetaData = {
+    files_to_replicate : List Filename -- Files to copy into every directory of the config tree.
+}
+
 -- Record type for data about the website as a whole.
 let SiteData : Type = {
     name : Text,        -- The human-readable name of the website
@@ -65,6 +69,7 @@ let ConfigData : Type = {
 
 in {
     Filename         = Filename,
+    SiteMetaData     = SiteMetaData,
     SiteData         = SiteData,
     InfoData         = InfoData,
     ConversationData = ConversationData,

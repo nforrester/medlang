@@ -1,4 +1,4 @@
-../../info.dhall {
+./info.dhall {
     image = Some "bridge/victory.png",
     paragraphs = [
         "Huh? I- I don't know that. Auuuuuuuugh!",
@@ -7,6 +7,6 @@
         and fallen to his death.
         You and your comrades may now cross the bridge at your leisure.
         '',
-        "Would you like to have ${../../link.dhall "index" "another chat"}?"
+        "Would you like to have ${./link.dhall "index" "another chat"}?"
     ]
 }
