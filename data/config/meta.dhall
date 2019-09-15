@@ -7,7 +7,8 @@ let meta : s.SiteMetaData = {
         "schema.dhall",
         "link.dhall",
         "conversation.dhall",
-        "info.dhall"
+        "info.dhall",
+        "technique.dhall"
     ]
 }
 

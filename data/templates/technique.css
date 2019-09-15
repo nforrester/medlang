@@ -1,0 +1,19 @@
+#menu_image_div {
+  display: flex;
+}
+
+#technique_menu {
+  flex: 0 0 40%;
+}
+
+#the_image_div {
+  flex: 1;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr {
+  border: solid;
+  border-width: 1px 0;
+}

@@ -58,8 +58,23 @@ let ConversationData : Type = PageDataBare //\\ {
 }
 let ConversationDataFull : Type = PageDataDerived //\\ ConversationData
 
+-- Data for a technique page (like an info page, but with a list of responses at the bottom).
+let TechniqueData : Type = PageDataBare //\\ {
+    image : Optional Text,                -- An image to put on the page (optional).
+    title: Text,                            -- Name of technique
+    translations : List {                   -- English phrase with foreign translation
+        english : Text,                     -- English phrase
+        foreign : Text                      -- foreign phrase
+    },
+    menu_items : List {                     -- Menu of techniques
+        title : Text,                       -- technique name
+        filename : Filename                 -- file it links to
+    }
+}
+let TechniqueDataFull : Type = PageDataDerived //\\ TechniqueData
+
 -- Can hold data for any kind of page.
-let PageUnion : Type = < Info : InfoDataFull | Conversation : ConversationDataFull >
+let PageUnion : Type = < Info : InfoDataFull | Conversation : ConversationDataFull | Technique : TechniqueDataFull >
 
 -- All the configuration data for an entire website.
 let ConfigData : Type = {
@@ -73,6 +88,7 @@ in {
     SiteData         = SiteData,
     InfoData         = InfoData,
     ConversationData = ConversationData,
+    TechniqueData    = TechniqueData,
     PageUnion        = PageUnion,
     ConfigData       = ConfigData,
     ImageMapData     = ImageMapData

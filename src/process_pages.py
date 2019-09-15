@@ -74,6 +74,12 @@ def load_config():
             for response in page['responses']:
                 check_link(page['filename'], response['filename'])
 
+    # Check links from technique pages' responses.
+    for page in config['pages']:
+        if 'menu_items' in page:
+            for response in page['menu_items']:
+                check_link(page['filename'], response['filename'])
+
     # Check links embedded in paragraphs.
     href_re = re.compile('href\\s*=\\s*"' + config['site']['root'] + '/([^"]*).html"')
     for page in config['pages']:

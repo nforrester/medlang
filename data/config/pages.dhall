@@ -75,7 +75,8 @@ let pages : List s.PageUnion = [
     ./pages/PE/HEENT/neck.dhall "PE/HEENT/neck",
     ./pages/PE/HEENT/cn.dhall "PE/HEENT/cn",
 
-    ./pages/PE/GI/menu.dhall "PE/GI/menu"
+    ./pages/PE/GI/menu.dhall "PE/GI/menu",
+    ./pages/PE/GI/draping.dhall "PE/GI/draping"
 ]
 
 in pages

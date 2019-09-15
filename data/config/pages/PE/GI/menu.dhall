@@ -4,7 +4,7 @@
     image = None Text,
     paragraphs = [
         "<h3> GASTROINTESTINAL </h3>",
-        "${../../../link.dhall "OMM/thoracic/dx" "Draping"}",
+        "${../../../link.dhall "PE/GI/draping" "Draping"}",
         "${../../../link.dhall "OMM/thoracic/ST" "Auscultate"}",
         "${../../../link.dhall "OMM/thoracic/CS1" "Palpation"}",
         "${../../../link.dhall "OMM/thoracic/CS1" "Murphy Sign"}",

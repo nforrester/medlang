@@ -1,0 +1,39 @@
+{% extends "data/templates/base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{site.root}}/{{page.filename}}.css?v={{cache_bust}}">
+{% endblock %}
+
+{% block content %}
+<div id = "technique_title">
+    <h2>{{page.title}}</h2>
+</div>
+
+<div id = "menu_image_div">
+<div id = "technique_menu">
+    <ul>
+        {% for menu_item in page.menu_items %}
+        <li><a href="{{site.root}}/{{menu_item.filename}}.html">{{menu_item.title}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% if page.image %}
+<div id="the_image_div">
+    <img id="the_image" src="{{site.root}}/images/{{page.image}}">
+</div>
+{% endif %}
+</div>
+
+<div id = "translations_div">
+    <table>
+        {% for translation in page.translations %}
+        <tr>
+            <td>{{translation.english | safe}}</td>
+            <td><b>{{translation.foreign | safe}}</b></td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
