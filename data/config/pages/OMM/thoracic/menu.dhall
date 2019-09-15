@@ -1,28 +1,18 @@
-let s = ../../../schema.dhall
+-- Thoracic menu
 
-in ../../../conversation.dhall {
+../../../info.dhall {
     image = None Text,
-    paragraphs = [""],
-    responses = [
-        {
-            response = "Cervical",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Thoracic",
-            filename = "OMM/thoracic/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Lumbar",
-            filename = "OMM/lumbar/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Pelvis",
-            filename = "OMM/pelvis/menu",
-            image_map = None s.ImageMapData
-        }
-    ]
+    paragraphs = [
+        "THORACIC SPINE",
+        "${../../../link.dhall "OMM/thoracic/dx" "Diagnosis"}",
+        "${../../../link.dhall "OMM/thoracic/ST" "Soft Tissue"}",
+        "Counterstrain",
+        "${../../../link.dhall "OMM/thoracic/CS1" "-AT 1-6"}",
+        "${../../../link.dhall "OMM/thoracic/CS2" "-AT 7-9"}",
+        "${../../../link.dhall "OMM/common/CS_ATL" "-AT 10-12"}",
+        "${../../../link.dhall "OMM/common/CS_PTL" "-PT 1-12"}",
+        "${../../../link.dhall "OMM/thoracic/ME" "Muscle Energy"}",
+        "",
+        "${../../../link.dhall "OMM/menu" "return to OMM main menu"}"
+        ]
 }

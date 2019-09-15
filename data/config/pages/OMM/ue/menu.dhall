@@ -1,28 +1,13 @@
-let s = ../../../schema.dhall
+-- ue menu
 
-in ../../../conversation.dhall {
+../../../info.dhall {
     image = None Text,
-    paragraphs = [""],
-    responses = [
-        {
-            response = "Cervical",
-            filename = "OMM/cervical/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Thoracic",
-            filename = "OMM/thoracic/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Lumbar",
-            filename = "OMM/lumbar/menu",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Pelvis",
-            filename = "OMM/pelvis/menu",
-            image_map = None s.ImageMapData
-        }
-    ]
+    paragraphs = [
+        "UPPER EXTREMITIES",
+        "${../../../link.dhall "OMM/ue/CS1" "Counterstrain: Shoulder"}",
+        "${../../../link.dhall "OMM/ue/CS2" "Counterstrain: Elbow/Wrist"}",
+        "${../../../link.dhall "OMM/ue/MFR" "Scapulothoracic Stretch"}",
+        "${../../../link.dhall "OMM/ue/ME" "Combined Radiohumeral, Radioulnar Stretch, & Interosseous Stretch"}",
+        "${../../../link.dhall "OMM/menu" "return to OMM main menu"}"
+        ]
 }

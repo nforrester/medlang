@@ -3,9 +3,9 @@
 ../../../info.dhall {
     image = None Text,
     paragraphs = [
-        "PELVIS & SACRUM",
-        "${../../../link.dhall "OMM/pelvis/mitchell" "Diagnosis: Mitchell Model"}",
-        "${../../../link.dhall "OMM/common/cs" "Counterstrain"}",
+        "<h2> PELVIS & SACRUM </h2>",
+        "${../../../link.dhall "OMM/pelvis/dx/mitchell" "Diagnosis: Mitchell Model"}",
+        "${../../../link.dhall "OMM/pelvis/menu" "Counterstrain (-)"}",
         "${../../../link.dhall "OMM/pelvis/ME/menu" "Muscle Energy"}",
         "",
         "${../../../link.dhall "OMM/menu" "return to OMM main menu"}"

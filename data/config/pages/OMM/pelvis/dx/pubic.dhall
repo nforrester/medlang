@@ -1,6 +1,6 @@
 -- Pubic tubercles
 
-../../../info.dhall {
+../../../../info.dhall {
     image = None Text,
     paragraphs = [
         "I'm going to feel for your pubic bone, which is the front of your pelvic bone.",
@@ -8,7 +8,7 @@
         "I will start at your belly button then move down until I feel the bone.",
         "Would you like to adjust yourself?",
 
-        "${../../../link.dhall "OMM/pelvis/mitchell" "return to Mitchell Model"}",
-        "${../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}"
+        "${../../../../link.dhall "OMM/pelvis/dx/mitchell" "return to Mitchell Model"}",
+        "${../../../../link.dhall "OMM/pelvis/menu" "return to PELVIS"}"
     ]
 }
