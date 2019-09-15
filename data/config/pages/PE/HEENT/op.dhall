@@ -10,8 +10,9 @@
         "Lift your tongue.",
         "Bite down",
         "I'm checking your teeth.",
-        "Lift your tongue",
-        "${../../../link.dhall "PE/HEENT/menu" "return to HEENT"}",
-        "${../../../link.dhall "PE/menu" "return to PE main menu"}"
-        ]
+        "Lift your tongue"
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = Some { title = "HEENT", filename = "PE/HEENT/menu" },
+    backlink3 = None
 }

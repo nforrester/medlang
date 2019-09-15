@@ -11,5 +11,8 @@ in ./conversation.dhall {
             filename = "index",
             image_map = None s.ImageMapData
         }
-    ]
+    ],
+    backlink1 = Some { title = "Bridge of Death", filename = "bridge/start" },
+    backlink2 = None,
+    backlink3 = None
 }

@@ -8,8 +8,9 @@
         "<u>CN 2, 3, 4, 6</u>:",
         "<u>CN 5</u>: Can you feel your face?  Left or right?",
         "<u>CN 4</u>:",
-        "<u>CN 1</u>:",
-        "${../../../link.dhall "PE/HEENT/menu" "return to HEENT"}",
-        "${../../../link.dhall "PE/menu" "return to PE main menu"}"
-        ]
+        "<u>CN 1</u>:"
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = Some { title = "HEENT", filename = "PE/HEENT/menu" },
+    backlink3 = None
 }

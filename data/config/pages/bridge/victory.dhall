@@ -8,5 +8,8 @@
         You and your comrades may now cross the bridge at your leisure.
         '',
         "Would you like to have ${./link.dhall "index" "another chat"}?"
-    ]
+    ],
+    backlink1 = Some { title = "Bridge of Death", filename = "bridge/start" },
+    backlink2 = None,
+    backlink3 = None
 }

@@ -10,5 +10,8 @@
         [
         "${../../../link.dhall "OMM/ue/menu" "return to UPPER EXTREMITY"}",
         "${../../../link.dhall "OMM/menu" "return to OMM"}"
-        ]
+    ],
+    backlink1 = Some { title = "OMM", filename = "OMM/menu" },
+    backlink2 = Some { title = "UE", filename = "OMM/ue/menu" },
+    backlink3 = None
 }

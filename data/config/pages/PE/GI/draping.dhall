@@ -22,5 +22,8 @@
             title = "Auscultate (fix this)",
             filename = "PE/GI/draping"
         }
-    ]
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = Some { title = "GI", filename = "PE/GI/menu" },
+    backlink3 = None
 }
