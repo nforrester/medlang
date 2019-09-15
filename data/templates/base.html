@@ -19,13 +19,19 @@
         <div id="footer">
             <div id = "back_navigator">
                 <div id = "back1">
+                    {% if page.backlink1 %}
                     <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink1.filename}}.html">{{page.backlink1.title}}</a>
+                    {% endif %}
                 </div>
                 <div id = "back2">
+                    {% if page.backlink2 %}
                     <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink2.filename}}.html">{{page.backlink2.title}}</a>
+                    {% endif %}
                 </div>
                 <div id = "back3">
+                    {% if page.backlink3 %}
                     <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink3.filename}}.html">{{page.backlink3.title}}</a>
+                    {% endif %}
                 </div>
             </div>
             <div>

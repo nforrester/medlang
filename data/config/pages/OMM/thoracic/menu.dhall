@@ -15,6 +15,6 @@
         ]
         ,
         backlink1 = Some {title="OMM", filename="OMM/menu"},
-        backlink2 = Some {title="Thoracic", filename="OMM/thoracic/menu"},
+        backlink2 = None (./schema.dhall).LinkData,
         backlink3 = None (./schema.dhall).LinkData
 }

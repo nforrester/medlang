@@ -12,6 +12,6 @@
         "${../../../link.dhall "OMM/lumbar/ME" "Muscle Energy"}"]
         ,
     backlink1 = Some {title="OMM", filename="OMM/menu"},
-    backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
+    backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData
 }
