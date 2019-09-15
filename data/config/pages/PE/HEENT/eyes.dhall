@@ -12,8 +12,9 @@
         "I'm going to shine this light in your eye.",
         "I'm going to touch your eyelid.  Look up at me.",
         "<u>Visual field</u>: <br> Can you see both my hands? <br> Can you see my finger moving?  Is it on your left or right?",
-        "<u>Ophthalmoscope</u>: I'm going to look into your eyes with this ophthalmoscope. This helps me see the blood vessels in your eyes. Look straight ahead at the wall behind me.  I will get very close, and the light will be very bright.",
-        "${../../../link.dhall "PE/HEENT/menu" "return to HEENT"}",
-        "${../../../link.dhall "PE/menu" "return to PE main menu"}"
-        ]
+        "<u>Ophthalmoscope</u>: I'm going to look into your eyes with this ophthalmoscope. This helps me see the blood vessels in your eyes. Look straight ahead at the wall behind me.  I will get very close, and the light will be very bright."
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = Some { title = "HEENT", filename = "PE/HEENT/menu" },
+    backlink3 = None
 }

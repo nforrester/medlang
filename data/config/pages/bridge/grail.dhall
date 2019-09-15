@@ -16,7 +16,10 @@ let grail = \(next_question : Text) -> ./conversation.dhall {
             filename = "bridge/${next_question}",
             image_map = None s.ImageMapData
         }
-    ]
+    ],
+    backlink1 = Some { title = "Bridge of Death", filename = "bridge/start" },
+    backlink2 = None,
+    backlink3 = None
 }
 
 in grail

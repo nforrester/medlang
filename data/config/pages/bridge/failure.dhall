@@ -7,5 +7,8 @@
         Perhaps one of your comrades will have better luck
         ${./link.dhall "index" "next time"}.
         ''
-    ]
+    ],
+    backlink1 = Some { title = "Bridge of Death", filename = "bridge/start" },
+    backlink2 = None,
+    backlink3 = None
 }

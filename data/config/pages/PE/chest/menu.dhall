@@ -33,5 +33,8 @@ in ../../../conversation.dhall {
             filename = "PE/HEENT/cn",
             image_map = None s.ImageMapData
         }
-    ]
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = None,
+    backlink3 = None
 }

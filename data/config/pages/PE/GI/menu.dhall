@@ -11,5 +11,8 @@
         "${../../../link.dhall "OMM/thoracic/CS1" "Fluid Wave"}",
         "${../../../link.dhall "OMM/common/CS_PTL" "Peritoneal Signs"}",
         "${../../../link.dhall "PE/menu" "return to PE"}"
-        ]
+    ],
+    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink2 = None
+    backlink3 = None
 }
