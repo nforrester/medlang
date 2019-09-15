@@ -15,7 +15,7 @@ in ../../conversation.dhall {
         },
         {
             response = "GI",
-            filename = "PE/GI/menu",
+            filename = "PE/GI/draping",
             image_map = None s.ImageMapData
         },
         {

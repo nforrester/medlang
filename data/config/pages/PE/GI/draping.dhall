@@ -5,24 +5,19 @@
     image = Some "PE/draping.png",
     translations = [
         {
-            english = "Please tuck this cloth into your waistband.",
-            foreign = "Por favor, ponga este en su pretina."
+            english = "Please tuck this sheet into your waistband.",
+            foreign = "Por favor, meta esta sAbana en su cintura."
         },
         {
-            english = "lower your pants so that I can see your belly button",
-            foreign = "Suba sus pantalones para que yo pueda ver su ombligo"
-        }
-    ],
-    menu_items = [
-        {
-            title = "Draping",
-            filename = "PE/GI/draping"
+            english = "Lift your shirt up above your belly button.",
+            foreign = "Levante su camisa encima de su ombligo."
         },
         {
-            title = "Auscultate (fix this)",
-            filename = "PE/GI/draping"
+            english = "Lower your pants so that I can see your belly button",
+            foreign = "Baje sus pantalones para que yo pueda ver su ombligo."
         }
     ],
+    menu_items = ./menu_items.dhall,
     backlink1 = Some { title = "PE", filename = "PE/menu" },
     backlink2 = Some { title = "GI", filename = "PE/GI/menu" },
     backlink3 = None (./schema.dhall).LinkData
