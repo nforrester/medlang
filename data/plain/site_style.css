@@ -7,6 +7,29 @@ html {
     font-size:4vw;
 }
 
+#back_navigator {
+    display:flex;
+    text-align:center;
+}
+
+.back_navigator_link {
+    display:block;
+    height:100%;
+}
+
+#back1 {
+    background:#f44;
+    flex: 0 0 33%;
+}
+#back2 {
+    background:#4f4;
+    flex: 0 0 34%;
+}
+#back3 {
+    background:#77f;
+    flex: 1;
+}
+
 #wrap {
     margin:0px 0px;
 }

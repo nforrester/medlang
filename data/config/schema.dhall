@@ -3,6 +3,12 @@
 -- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
 let Filename : Type = Text
 
+let LinkData = {            -- data that describes the link
+    title : Text,           -- text to the link
+    filename : Filename     -- link to the file
+}
+
+
 let SiteMetaData = {
     files_to_replicate : List Filename -- Files to copy into every directory of the config tree.
 }
@@ -21,7 +27,9 @@ let TemplateData : Type = {
 
 -- Data you must provide for all pages on the website.
 let PageDataBare : Type = {
-    -- Currently, there is no such data.
+    backlink1 = Optional LinkData,
+    backlink2 = Optional LinkData,
+    backlink3 = Optional LinkData
 }
 
 -- Data that can be figured out automatically for all pages on the website.
@@ -66,10 +74,7 @@ let TechniqueData : Type = PageDataBare //\\ {
         english : Text,                     -- English phrase
         foreign : Text                      -- foreign phrase
     },
-    menu_items : List {                     -- Menu of techniques
-        title : Text,                       -- technique name
-        filename : Filename                 -- file it links to
-    }
+    menu_items : List LinkData              -- Menu of techniques
 }
 let TechniqueDataFull : Type = PageDataDerived //\\ TechniqueData
 

@@ -17,13 +17,26 @@
             {% block content %}{% endblock %}
         </div>
         <div id="footer">
-            <p>
-                Do you have any questions or feedback?
-                <span id="footer_emobf">Enable javascript to see my email.</span>
-            </p>
-            <script type="text/javascript">
-                emobf('footer_emobf');
-            </script>
+            <div id = "back_navigator">
+                <div id = "back1">
+                    <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink1.filename}}.html">{{page.backlink1.title}}</a>
+                </div>
+                <div id = "back2">
+                    <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink2.filename}}.html">{{page.backlink2.title}}</a>
+                </div>
+                <div id = "back3">
+                    <a class = "back_navigator_link" href = "{{site.root}}/{{page.backlink3.filename}}.html">{{page.backlink3.title}}</a>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Do you have any questions or feedback?
+                    <span id="footer_emobf">Enable javascript to see my email.</span>
+                </p>
+                <script type="text/javascript">
+                    emobf('footer_emobf');
+                </script>
+            </div>
         </div>
     </div>
 </body>
