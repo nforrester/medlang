@@ -4,12 +4,8 @@
     image = None Text,
     paragraphs =
         [
-        "<h3><u>AT 1-6 Counterstrain</h3></u>"
-        ]
-        #
-        ../common/supine.dhall
-        #
-        [
+        "<h3><u>AT 1-6 Counterstrain</h3></u>",
+        "COMMON SUPINE",
         "I'm going to lift your head and put my knee underneath.",
         "Let your head relax on my lap."
         ]

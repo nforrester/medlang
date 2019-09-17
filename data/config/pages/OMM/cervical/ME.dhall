@@ -1,23 +1,27 @@
--- Cervical ME page
-
-../../../info.dhall {
+-- Cervical ME
+let s = ./schema.dhall
+in ./technique.dhall {
+    title = "Cervical Muscle Energy",
     image = None Text,
-    paragraphs =
-        [
-        "<h3><u>Cervical Muscle Energy</h3></u>"
-        ]
-        #
-        ../common/supine.dhall
-        #
-        [
-    	"Do you feel my fingers tapping on your head/temple? <br><b>Puede sentir mis dedos tocando su cabeza/sien?</b>",
-        "<u>OA</u>: Please look at my finger.  Now return your gaze to the center.",
-        "<u>C2-7</u>: Please push your head against my hand."
-        ]
-        #
-        ../common/ME.dhall "hand"
-        ,
-        backlink1 = Some {title="OMM", filename="OMM/menu"},
-        backlink2 = Some {title="Cervical", filename="OMM/cervical/menu"},
-        backlink3 = None (./schema.dhall).LinkData
+    translations = [
+        {
+            english = "Do you feel my fingers tapping on your head/temple?",
+            foreign = "Puede sentir mis dedos tocando su cabeza/sien?"
+        },
+        {
+            english = "<u>OA</u>: Please look at my finger.  Now return your gaze to the center.",
+            foreign = "Mire mi dedo."
+        },
+        {
+            english = "<u>C2-7</u>: Please push your head against my hand. Now relax.",
+            foreign = ""
+        }
+    ]
+    #
+    ../common/ME.dhall "hand" "mano"
+    ,
+    menu_items = ./menu_items.dhall,
+    backlink1 = Some {title = "OMM", filename = "OMM/menu" },
+    backlink2 = None s.LinkData,
+    backlink3 = None s.LinkData
 }

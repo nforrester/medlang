@@ -24,7 +24,6 @@ let pages : List s.PageUnion = [
     ./pages/OMM/lymph/menu.dhall "OMM/lymph/menu",
     ./pages/OMM/lymph/inlet.dhall "OMM/lymph/inlet",
 
-    ./pages/OMM/cervical/menu.dhall "OMM/cervical/menu",
     ./pages/OMM/cervical/dx.dhall "OMM/cervical/dx",
     ./pages/OMM/cervical/ST.dhall "OMM/cervical/ST",
     ./pages/OMM/cervical/CS.dhall "OMM/cervical/CS",
@@ -65,18 +64,50 @@ let pages : List s.PageUnion = [
     ./pages/OMM/pelvis/ME/sacral_fe.dhall "OMM/pelvis/ME/sacral_fe",
     ./pages/OMM/pelvis/ME/sacral_torsion.dhall "OMM/pelvis/ME/sacral_torsion",
 
-    ./pages/PE/menu.dhall "PE/menu",
+
+./pages/PE/menu.dhall "PE/menu",
 
     ./pages/PE/HEENT/menu.dhall "PE/HEENT/menu",
-    ./pages/PE/HEENT/eyes.dhall "PE/HEENT/eyes",
-    ./pages/PE/HEENT/ears.dhall "PE/HEENT/ears",
-    ./pages/PE/HEENT/nose.dhall "PE/HEENT/nose",
-    ./pages/PE/HEENT/op.dhall "PE/HEENT/op",
-    ./pages/PE/HEENT/neck.dhall "PE/HEENT/neck",
-    ./pages/PE/HEENT/cn.dhall "PE/HEENT/cn",
+
+        ./pages/PE/HEENT/eyes/pupils.dhall "PE/HEENT/eyes/pupils",
+        ./pages/PE/HEENT/eyes/eom.dhall "PE/HEENT/eyes/eom",
+        ./pages/PE/HEENT/eyes/vision.dhall "PE/HEENT/eyes/vision",
+        ./pages/PE/HEENT/eyes/field.dhall "PE/HEENT/eyes/field",
+        ./pages/PE/HEENT/eyes/fundus.dhall "PE/HEENT/eyes/fundus",
+
+        ./pages/PE/HEENT/ears/hearing.dhall "PE/HEENT/ears/hearing",
+        ./pages/PE/HEENT/ears/otoscope.dhall "PE/HEENT/ears/otoscope",
+        ./pages/PE/HEENT/ears/Weber_Rinne.dhall "PE/HEENT/ears/Weber_Rinne",
+
+        ./pages/PE/HEENT/nose.dhall "PE/HEENT/nose",
+        ./pages/PE/HEENT/op.dhall "PE/HEENT/op",
+
+        ./pages/PE/HEENT/neck/carotids.dhall "PE/HEENT/neck/carotids",
+        ./pages/PE/HEENT/neck/lymph.dhall "PE/HEENT/neck/lymph",
+        ./pages/PE/HEENT/neck/thyroid.dhall "PE/HEENT/neck/thyroid",
+        ./pages/PE/HEENT/neck/trachea.dhall "PE/HEENT/neck/trachea",
+
+    ./pages/PE/chest/gown.dhall "PE/chest/gown",
+    ./pages/PE/chest/JVD.dhall "PE/chest/JVD",
+    ./pages/PE/chest/heart.dhall "PE/chest/heart",
+    ./pages/PE/chest/lungs.dhall "PE/chest/lungs",
+    ./pages/PE/chest/lungs.dhall "PE/chest/breast",
 
     ./pages/PE/GI/draping.dhall "PE/GI/draping",
-    ./pages/PE/GI/auscultate.dhall "PE/GI/auscultate"
+    ./pages/PE/GI/auscultate.dhall "PE/GI/auscultate",
+    ./pages/PE/GI/cirrhosis.dhall "PE/GI/cirrhosis",
+    ./pages/PE/GI/murphy.dhall "PE/GI/murphy",
+    ./pages/PE/GI/peritonitis.dhall "PE/GI/peritonitis",
+    ./pages/PE/GI/hernia.dhall "PE/GI/hernia",
+
+    ./pages/PE/neuro/cn.dhall "PE/neuro/cn",
+    ./pages/PE/neuro/cn7.dhall "PE/neuro/cn7",
+    ./pages/PE/neuro/cn11.dhall "PE/neuro/cn11",
+    ./pages/PE/neuro/cerebellum.dhall "PE/neuro/cerebellum",
+    ./pages/PE/neuro/motor.dhall "PE/neuro/motor",
+    ./pages/PE/neuro/sensation.dhall "PE/neuro/sensation",
+
+    ./pages/PE/ortho/menu.dhall "PE/ortho/menu"
 ]
 
 in pages

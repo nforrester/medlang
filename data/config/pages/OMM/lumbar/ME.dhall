@@ -11,10 +11,9 @@
         "Bring your knees up toward your chest.",
         "Bring your knees down.",
         "Can you feel my arm pushing against your hip?",
-        "Please push your hip against my hand, like you're trying to straighten out your body."
+        "Please push your hip against my hand, like you're trying to straighten out your body.",
+        "COMMON ME FOREARM"
         ]
-        #
-        ../common/ME.dhall "forearm"
         ,
     backlink1 = Some {title="OMM", filename="OMM/menu"},
     backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},

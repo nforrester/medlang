@@ -1,17 +1,12 @@
 let s = ../../schema.dhall
 in ../../conversation.dhall {
-    image = Some "OMM/body.png",
+    image = None Text,
     paragraphs = ["By body region:"],
     responses = [
         {
             response = "Cervical",
-            filename = "OMM/cervical/menu",
-            image_map = Some {
-                left = 0,
-                top = 0,
-                width = 100,
-                height = 100
-            }
+            filename = "OMM/cervical/dx",
+            image_map = None s.ImageMapData
         },
         {
             response = "Thoracic",

@@ -9,22 +9,22 @@ in ../../conversation.dhall {
             image_map = None s.ImageMapData
         },
         {
-            response = "Chest/Cardio/Resp",
-            filename = "PE/menu",
+            response = "Chest",
+            filename = "PE/chest/gown",
             image_map = None s.ImageMapData
         },
         {
-            response = "GI",
+            response = "Abdomen",
             filename = "PE/GI/draping",
             image_map = None s.ImageMapData
         },
         {
             response = "Neurological",
-            filename = "PE/menu",
+            filename = "PE/neuro/cn",
             image_map = None s.ImageMapData
         },
         {
-            response = "Orthopedic",
+            response = "Orthopedic (empty)",
             filename = "PE/menu",
             image_map = None s.ImageMapData
         }

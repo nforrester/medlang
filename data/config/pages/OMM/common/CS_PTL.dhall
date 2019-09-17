@@ -5,9 +5,8 @@
     paragraphs =
         ../common/prone.dhall
         #
-        ../common/cs.dhall "shoulder / hip"
-        #
         [
+        "COMMON CS SHOULDER HIP",
         "I'm going to lift your shoulder/hip, and put my knee underneath."
         ],
     backlink1 = Some {title="OMM", filename="OMM/menu"},

@@ -1,24 +1,25 @@
 -- Cervical Diagnosis
+
 let s = ./schema.dhall
-in ./info.dhall {
+in ./technique.dhall {
+    title = "Cervical Diagnosis",
     image = None Text,
-    paragraphs =
-        [
-        "<h3><u>Cervical Diagnosis</h3></u>"
-        ]
-        #
-        ../common/supine.dhall
-        #
-        [
-    	"Please tilt your chin down to look at your feet.",
-        "Please tilt your chin up to look at me."
-        ]
-        #
-        ../common/cervical.dhall
-        #
-        ../common/dx.dhall
-        ,
-        backlink1 = Some {title="OMM", filename="OMM/menu"},
-        backlink2 = Some {title="Cervical", filename="OMM/cervical/menu"},
-        backlink3 = None s.LinkData
+    translations =
+    ../common/supine.dhall
+    #
+    ../common/cervical.dhall
+    #
+    [
+        {
+            english = "Tilt your chin...<br>...down to look at your feet. <br>...up to look at me.",
+            foreign = "Incline su cabeza...<br>...hac&iaccent;a abajo para mirar sus pies. <br>...hac&iaccent;a arriba para mirar a m&iaccent;."
+        }
+    ]
+    #
+    ../common/dx.dhall
+    ,
+    menu_items = ./menu_items.dhall,
+    backlink1 = Some {title = "OMM", filename = "OMM/menu" },
+    backlink2 = None s.LinkData,
+    backlink3 = None s.LinkData
 }

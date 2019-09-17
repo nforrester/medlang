@@ -4,23 +4,23 @@
         filename = "PE/GI/draping"
     },
     {
-        title = "Auscultate & Percuss",
+        title = "Auscultate, Percuss, Palpate",
         filename = "PE/GI/auscultate"
     },
     {
-        title = "Palpate (fix this)",
-        filename = "PE/GI/draping"
+        title = "Murphy Sign",
+        filename = "PE/GI/murphy"
     },
     {
-        title = "Murphy Sign (fix this)",
-        filename = "PE/GI/draping"
+        title = "Ascites Signs",
+        filename = "PE/GI/cirrhosis"
     },
     {
-        title = "Fluid Wave (fix this)",
-        filename = "PE/GI/draping"
+        title = "Peritonitis Signs",
+        filename = "PE/GI/peritonitis"
     },
     {
-        title = "Appendiceal Signs (fix this)",
-        filename = "PE/GI/draping"
+        title = "Hernia",
+        filename = "PE/GI/hernia"
     }
 ]

@@ -3,14 +3,12 @@
 ../../../info.dhall {
     image = None Text,
     paragraphs =
-        ../common/supine.dhall
-        #
         [
+        "COMMON SUPINE",
         "Cross your ankles.  Keep your legs together. Raise your legs and let them rest on my lap.",
-        "I'm going to bring your ankles toward / away from me."
+        "I'm going to bring your ankles toward / away from me.",
+        "COMMON CS"
         ]
-        #
-        ../common/cs.dhall "legs"
         ,
         backlink1 = Some {title="OMM", filename="OMM/menu"},
         backlink2 = Some {title="Thoracic", filename="OMM/thoracic/menu"},

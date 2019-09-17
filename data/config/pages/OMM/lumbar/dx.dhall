@@ -7,7 +7,7 @@
         #
         ["I'm going to feel down along your spine."]
         #
-        ../common/dx.dhall
+        ["COMMON DX"]
         #
         [
         "Please take a deep breath in and hold it…now exhale.",

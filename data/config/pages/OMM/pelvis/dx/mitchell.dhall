@@ -8,8 +8,6 @@
         [
         "${../../../../link.dhall "OMM/pelvis/dx/stft" "Standing flexion test"}"]
         #
-        ../../common/supine.dhall
-        #
         [
         "${../../../../link.dhall "OMM/pelvis/dx/hamstring" "Hamstring test"}",
         "${../../../../link.dhall "OMM/pelvis/dx/reseat" "Pelvic reseat"}",
@@ -22,8 +20,6 @@
         [
         "${../../../../link.dhall "OMM/pelvis/dx/sft" "Seated flexion test"}"
         ]
-        #
-        ../../common/prone.dhall
         #
         [
         "${../../../../link.dhall "OMM/pelvis/dx/sacral" "Sacral Sulcus & ILA"}"

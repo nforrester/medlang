@@ -1,20 +1,13 @@
--- Cervical ST page
-
+-- Cervical ST
 let s = ./schema.dhall
-in ./info.dhall {
+in ./technique.dhall {
+    title = "Cervical Soft Tissue",
     image = None Text,
-    paragraphs =
-        [
-        "<h3><u>Cervical Soft Tissue</h3></u>"
-        ]
-        #
-        ../common/supine.dhall
-        #
-        ../common/cervical.dhall
-        #
-        ../common/st.dhall
-        ,
-    backlink1 = Some {title="OMM", filename="OMM/menu"},
-    backlink2 = Some {title="Cervical", filename="OMM/cervical/menu"},
+    translations =
+        ../common/ST.dhall
+    ,
+    menu_items = ./menu_items.dhall,
+    backlink1 = Some {title = "OMM", filename = "OMM/menu" },
+    backlink2 = None s.LinkData,
     backlink3 = None s.LinkData
 }

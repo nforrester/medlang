@@ -4,7 +4,8 @@
     image = None Text,
     paragraphs =
         [
-        "<h3><u>AT 7-9 Counterstrain</h3></u>"
+        "<h3><u>AT 7-9 Counterstrain</h3></u>",
+        "COMMON SUPINE"
         ]
         #
         ../common/CS_RT.dhall

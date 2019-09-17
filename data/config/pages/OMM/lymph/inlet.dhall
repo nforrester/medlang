@@ -4,9 +4,8 @@ let s = ./schema.dhall
 in ./info.dhall {
     image = None Text,
     paragraphs =
-        ../common/supine.dhall
-        #
         [
+        "COMMON SUPINE",
         "(anterior approach): I'm going to stand over you so I don't disturb the machines in the room.",
         "I'm going to put my hands around your collarbone.",
         "I'm going to put my hands around your waist, right under your ribcage.",

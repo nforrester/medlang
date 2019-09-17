@@ -1,15 +1,23 @@
--- nose
-
-../../../info.dhall {
+--nose
+./technique.dhall {
+    title = "Nose & Sinuses",
     image = None Text,
-    paragraphs = [
-        "<h3> NOSE </h3>",
-        "Tilt your head back.",
-        "I'm going to put this light in your nose to get a closer look.",
-        "<h3> SINUSES </h3>",
-        "I'm going to tap on your face.  Does this hurt?"
+    translations = [
+        {
+            english = "Tilt your head back.",
+            foreign = "."
+        },
+        {
+            english = "I'm going to put this light in your nose to get a closer look.",
+            foreign = "."
+        },
+        {
+            english = "<u>Sinuses</u>: I'm going to tap on your face.  Does this hurt?",
+            foreign = ""
+        }
     ],
-    backlink1 = Some { title = "PE", filename = "PE/menu" },
-    backlink2 = Some { title = "HEENT", filename = "PE/HEENT/menu" },
+    menu_items = [{title = "", filename = "PE/HEENT/nose"}],
+    backlink1 = Some {title = "PE", filename = "PE/menu"},
+    backlink2 = Some {title = "HEENT", filename = "PE/HEENT/menu"},
     backlink3 = None (./schema.dhall).LinkData
 }
