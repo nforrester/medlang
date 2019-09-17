@@ -5,7 +5,7 @@
     },
     {
         english = "More force. <br> Less force.",
-        foreign = "M&aacute;s fuerza.  <br> Menos fuerza.}"
+        foreign = "M&aacute;s fuerza.  <br> Menos fuerza."
     },
     {
         english = "Hold for 3 seconds...1, 2, 3.",

@@ -6,15 +6,15 @@ in ./technique.dhall {
     translations = [
         {
             english = "Do you feel my fingers tapping on your head/temple?",
-            foreign = "Puede sentir mis dedos tocando su cabeza/sien?"
+            foreign = "Puede sentir mis dedos tocando su cabeza/si&eacute;n?"
         },
         {
-            english = "<u>OA</u>: Please look at my finger.  Now return your gaze to the center.",
-            foreign = "Mire mi dedo."
+            english = "<u>OA</u>: Look at my finger.  Now return your gaze to the center.",
+            foreign = "Mire mi dedo. Ahora, vuelva su mirada al centro. "
         },
         {
-            english = "<u>C2-7</u>: Please push your head against my hand. Now relax.",
-            foreign = ""
+            english = "<u>C2-7</u>: Try to turn your head against my hand. Now relax.",
+            foreign = "Trate de girar su cabeza contra mi mano. Ahora, rel&aacute;jese."
         }
     ]
     #

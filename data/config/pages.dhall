@@ -18,8 +18,6 @@ let pages : List s.PageUnion = [
     ./pages/bridge/victory.dhall "bridge/victory",
 
     ./pages/OMM/menu.dhall "OMM/menu",
-    ./pages/OMM/common/CS_PTL.dhall "OMM/common/CS_PTL",
-    ./pages/OMM/common/CS_ATL.dhall "OMM/common/CS_ATL",
 
     ./pages/OMM/lymph/menu.dhall "OMM/lymph/menu",
     ./pages/OMM/lymph/inlet.dhall "OMM/lymph/inlet",
@@ -30,10 +28,11 @@ let pages : List s.PageUnion = [
     ./pages/OMM/cervical/ME.dhall "OMM/cervical/ME",
 
     ./pages/OMM/thoracic/dx.dhall "OMM/thoracic/dx",
-    ./pages/OMM/thoracic/dx.dhall "OMM/thoracic/ST",
-    ./pages/OMM/thoracic/dx.dhall "OMM/thoracic/CS1",
-    ./pages/OMM/thoracic/dx.dhall "OMM/thoracic/CS2",
-    ./pages/OMM/thoracic/menu.dhall "OMM/thoracic/menu",
+    ./pages/OMM/thoracic/ST.dhall "OMM/thoracic/ST",
+    ./pages/OMM/thoracic/CS_AT1.dhall "OMM/thoracic/CS_AT1",
+    ./pages/OMM/thoracic/CS_AT2.dhall "OMM/thoracic/CS_AT2",
+    ./pages/OMM/thoracic/CS_AT3.dhall "OMM/thoracic/CS_AT3",
+    ./pages/OMM/thoracic/CS_PT.dhall "OMM/thoracic/CS_PT",
     ./pages/OMM/thoracic/ME.dhall "OMM/thoracic/ME",
 
     ./pages/OMM/ue/CS1.dhall "OMM/ue/CS1",
@@ -42,10 +41,11 @@ let pages : List s.PageUnion = [
     ./pages/OMM/ue/menu.dhall "OMM/ue/menu",
     ./pages/OMM/ue/MFR.dhall "OMM/ue/MFR",
 
-    ./pages/OMM/lumbar/menu.dhall "OMM/lumbar/menu",
     ./pages/OMM/lumbar/dx.dhall "OMM/lumbar/dx",
+    ./pages/OMM/lumbar/ST.dhall "OMM/lumbar/ST",
     ./pages/OMM/lumbar/ME.dhall "OMM/lumbar/ME",
-    ./pages/OMM/lumbar/CS.dhall "OMM/lumbar/CS",
+    ./pages/OMM/lumbar/CS_AL.dhall "OMM/lumbar/CS_AL",
+    ./pages/OMM/lumbar/CS_PL.dhall "OMM/lumbar/CS_PL",
 
     ./pages/OMM/pelvis/menu.dhall "OMM/pelvis/menu",
     ./pages/OMM/pelvis/dx/mitchell.dhall "OMM/pelvis/dx/mitchell",

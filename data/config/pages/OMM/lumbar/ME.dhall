@@ -1,21 +1,30 @@
 -- Lumbar ME
-
-../../../info.dhall {
+let s = ./schema.dhall
+in ./technique.dhall {
+    title = "Lumbar Spine Muscle Energy",
     image = None Text,
-    paragraphs =
-        ../common/lat_recumb.dhall
-        #
-        [
-        "Raise/lower your hand.",
-        "Bend your knees.",
-        "Bring your knees up toward your chest.",
-        "Bring your knees down.",
-        "Can you feel my arm pushing against your hip?",
-        "Please push your hip against my hand, like you're trying to straighten out your body.",
-        "COMMON ME FOREARM"
-        ]
-        ,
-    backlink1 = Some {title="OMM", filename="OMM/menu"},
-    backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
-    backlink3 = None (./schema.dhall).LinkData
+    translations =
+    ../common/lat_recumb.dhall
+    #
+    [
+        {
+            english = "Raise/lower your hand.",
+            foreign = ""
+        },
+        {
+            english = "Bring your knees up (toward your chest) / down.",
+            foreign = ""
+        },
+        {
+            english = "Can you feel my arm pushing against your hip?",
+            foreign = ""
+        }
+    ]
+    #
+    ../common/ME.dhall "forearm, like you're trying to straighten out your body" "antebrazo, como si ____"
+    ,
+    menu_items = ./menu_items.dhall,
+    backlink1 = Some {title = "OMM", filename = "OMM/menu" },
+    backlink2 = None s.LinkData,
+    backlink3 = None s.LinkData
 }

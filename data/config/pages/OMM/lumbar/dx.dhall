@@ -1,22 +1,33 @@
--- Lumbar diagnosis
-
-../../../info.dhall {
+-- Lumbar Diagnosis
+let s = ./schema.dhall
+in ./technique.dhall {
+    title = "Lumbar Spine Diagnosis/Setup",
     image = None Text,
-    paragraphs =
+    translations =
         ../common/prone.dhall
         #
-        ["I'm going to feel down along your spine."]
+        [
+            {
+                english = "I'm going to feel down along your spine.",
+                foreign = "."
+            }
+        ]
         #
-        ["COMMON DX"]
+        ../common/dx.dhall
         #
         [
-        "Please take a deep breath in and hold it…now exhale.",
-        "Sphinx: Please come up to rest onto your elbows.",
-        "${../../../link.dhall "OMM/lumbar/menu" "return to LUMBAR"}",
-        "${../../../link.dhall "OMM/menu" "return to OMM"}"
+            {
+                english = "Breathe in and hold your inhalation.",
+                foreign = ""
+            },
+            {
+                english = "<u>Sphinx</u>: Come up to rest onto your elbows.",
+                foreign = ""
+            }
         ]
         ,
-    backlink1 = Some {title="OMM", filename="OMM/menu"},
-    backlink2 = Some {title="Lumbar", filename="OMM/lumbar/menu"},
-    backlink3 = None (./schema.dhall).LinkData
+        menu_items = ./menu_items.dhall,
+        backlink1 = Some {title = "OMM", filename = "OMM/menu"},
+        backlink2 = None s.LinkData,
+        backlink3 = None s.LinkData
 }

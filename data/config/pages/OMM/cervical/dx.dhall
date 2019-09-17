@@ -12,7 +12,7 @@ in ./technique.dhall {
     [
         {
             english = "Tilt your chin...<br>...down to look at your feet. <br>...up to look at me.",
-            foreign = "Incline su cabeza...<br>...hac&iaccent;a abajo para mirar sus pies. <br>...hac&iaccent;a arriba para mirar a m&iaccent;."
+            foreign = "Incline su cabeza...<br>...hac&iacute;a abajo para mirar sus pies. <br>...hac&iacute;a arriba para mirar a m&iacute;."
         }
     ]
     #

@@ -9,11 +9,11 @@
     },
     {
         english = "On a scale of 0-10, how would you rate the pain now?",
-        foreign = "En  una escala de zero a diez, cu&aacute; es el dolor ahora?"
+        foreign = "En una escala de zero a diez, cu&aacute; es el dolor ahora?"
     },
     {
         english = "I am going to hold this position for 90 seconds, please continue to stay relaxed.",
-        foreign = "Voy a mantener esta posición por noventa segundos, por favor siga relajado/a."
+        foreign = "Voy a mantener esta posici&oacute;n por noventa segundos, por favor siga relajado/a."
     },
     {
         english = "I am going to put your ${eng} back down. It is very important that you do not try to help me, otherwise it could undo the treatment.",

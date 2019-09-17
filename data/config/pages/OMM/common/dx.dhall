@@ -6,7 +6,7 @@
     ,
     {
         english = "Does this hurt?",
-        foreign = "Te duele esto?"
+        foreign = "Le duele esto?"
     },
     {
         english = "Is the pain mild, moderate, or severe?",
