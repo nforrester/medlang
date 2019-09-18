@@ -1,7 +1,7 @@
 ../../../info.dhall {
     image = None Text,
     paragraphs = [
-        "<h3> Shoulder/Arm Counterstrain </h3>",
+        "<h3> UE: Shoulder/Arm Counterstrain </h3>",
         "Lift your arm.",
         "I'm going to slide my hands under your back.",
         "I'm going to feel along your shoulderblades.",

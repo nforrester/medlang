@@ -19,7 +19,6 @@ let pages : List s.PageUnion = [
 
     ./pages/OMM/menu.dhall "OMM/menu",
 
-    ./pages/OMM/lymph/menu.dhall "OMM/lymph/menu",
     ./pages/OMM/lymph/inlet.dhall "OMM/lymph/inlet",
 
     ./pages/OMM/cervical/dx.dhall "OMM/cervical/dx",
@@ -48,9 +47,7 @@ let pages : List s.PageUnion = [
     ./pages/OMM/lumbar/CS_PL.dhall "OMM/lumbar/CS_PL",
 
     ./pages/OMM/pelvis/menu.dhall "OMM/pelvis/menu",
-    ./pages/OMM/pelvis/dx/mitchell.dhall "OMM/pelvis/dx/mitchell",
     ./pages/OMM/pelvis/dx/stft.dhall "OMM/pelvis/dx/stft",
-    ./pages/OMM/pelvis/dx/sft.dhall "OMM/pelvis/dx/sft",
     ./pages/OMM/pelvis/dx/reseat.dhall "OMM/pelvis/dx/reseat",
     ./pages/OMM/pelvis/dx/pubic.dhall "OMM/pelvis/dx/pubic",
     ./pages/OMM/pelvis/dx/innom.dhall "OMM/pelvis/dx/innom",
@@ -59,11 +56,10 @@ let pages : List s.PageUnion = [
     ./pages/OMM/pelvis/ME/hamstring.dhall "OMM/pelvis/ME/hamstring",
     ./pages/OMM/pelvis/ME/innom_rot.dhall "OMM/pelvis/ME/innom_rot",
     ./pages/OMM/pelvis/ME/innom_shear.dhall "OMM/pelvis/ME/innom_shear",
-    ./pages/OMM/pelvis/ME/menu.dhall "OMM/pelvis/ME/menu",
     ./pages/OMM/pelvis/ME/pubic_shear.dhall "OMM/pelvis/ME/pubic_shear",
     ./pages/OMM/pelvis/ME/sacral_fe.dhall "OMM/pelvis/ME/sacral_fe",
-    ./pages/OMM/pelvis/ME/sacral_torsion.dhall "OMM/pelvis/ME/sacral_torsion",
-
+    ./pages/OMM/pelvis/ME/sacral_tors.dhall "OMM/pelvis/ME/sacral_tors",
+    ./pages/OMM/pelvis/ME/sacral_tors.dhall "OMM/pelvis/ME/innom_flare",
 
 ./pages/PE/menu.dhall "PE/menu",
 

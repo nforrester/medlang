@@ -3,7 +3,7 @@
 [
     {
         english = "I'm going to lift your shoulder / hip, and put my knee underneath.",
-        foreign = ""
+        foreign = "Voy a levantar su hombro / cadera, y poner mi rodilla debajo."
     }
 ]
 #

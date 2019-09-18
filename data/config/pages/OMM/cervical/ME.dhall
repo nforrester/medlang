@@ -1,7 +1,7 @@
 -- Cervical ME
 let s = ./schema.dhall
 in ./technique.dhall {
-    title = "Cervical Muscle Energy",
+    title = "Cervical: Muscle Energy",
     image = None Text,
     translations = [
         {

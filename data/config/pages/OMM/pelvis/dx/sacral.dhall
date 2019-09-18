@@ -1,14 +1,23 @@
 -- Sacral sulcus & ILA
-
-../../../../info.dhall {
+let s = ./schema.dhall
+in ./technique.dhall {
+    title = "Standing & Seated Flexion Tests",
     image = None Text,
-    paragraphs = [
-        "I'm going to put my palm on your buttocks; is that ok?",
-        "Breathe in deeply and hold it.",
-        "Come up onto your elbows.  Go back down."
+    translations = [
+        {
+            english = "I'm going to apply pressure to your lower back / hip.",
+            foreign = "Voy a presionar su espalda baja / cadera."
+        },
+        {
+            english = "I'm going to put my palm on your hip.",
+            foreign = "Voy a poner mi palma sobre su cadera."
+        }
     ]
+    #
+    ../../common/sphinx.dhall
     ,
-    backlink1 = Some {title="OMM", filename="OMM/menu"},
-    backlink2 = Some {title="Pelvis", filename="OMM/pelvis/menu"},
-    backlink3 = None (./schema.dhall).LinkData
+    menu_items = ./menu_items.dhall,
+    backlink1 = Some {title = "OMM", filename = "OMM/menu" },
+    backlink2 = None s.LinkData,
+    backlink3 = None s.LinkData
 }

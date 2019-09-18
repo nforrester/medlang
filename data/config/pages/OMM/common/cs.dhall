@@ -16,7 +16,7 @@
         foreign = "Voy a mantener esta posici&oacute;n por noventa segundos, por favor siga relajado/a."
     },
     {
-        english = "I am going to put your ${eng} back down. It is very important that you do not try to help me, otherwise it could undo the treatment.",
-        foreign = "Voy a poner su ${for} de vuelta.  Es muy importante que no trate de ayudarme, porque puede heshacer el tratamiento."
+        english = "I am going to put your ${eng} back down.<br>It is very important that you do not try to help me, otherwise it could undo the treatment.",
+        foreign = "Voy a poner su ${for} de vuelta.<br>Es muy importante que no trate de ayudarme, porque puede heshacer el tratamiento."
     }
 ]

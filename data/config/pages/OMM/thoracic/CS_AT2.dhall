@@ -1,11 +1,9 @@
 -- AT7-9 CS page
 let s = ./schema.dhall
 in ./technique.dhall {
-    title = "AT 1-6 Counterstrain",
+    title = "AT 7-9 Counterstrain",
     image = None Text,
     translations =
-    ../common/supine.dhall
-    #
     ../common/CS_RT.dhall
     #
     ../common/CS.dhall "body" "cuerpo"

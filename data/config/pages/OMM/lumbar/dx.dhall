@@ -8,23 +8,14 @@ in ./technique.dhall {
         #
         [
             {
-                english = "I'm going to feel down along your spine.",
-                foreign = "."
+                english = "I'm going to feel down your spine.",
+                foreign = "Voy a sentir su columna vertebral(?)."
             }
         ]
         #
         ../common/dx.dhall
         #
-        [
-            {
-                english = "Breathe in and hold your inhalation.",
-                foreign = ""
-            },
-            {
-                english = "<u>Sphinx</u>: Come up to rest onto your elbows.",
-                foreign = ""
-            }
-        ]
+        ../common/sphinx.dhall
         ,
         menu_items = ./menu_items.dhall,
         backlink1 = Some {title = "OMM", filename = "OMM/menu"},

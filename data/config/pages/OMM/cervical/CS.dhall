@@ -2,13 +2,13 @@
 
 let s = ./schema.dhall
 in ./technique.dhall {
-    title = "Cervical Counterstrain",
+    title = "Cervical: Counterstrain",
     image = None Text,
     translations =
     [
         {
-            english = "<u>PC1-8</u>:Please scoot back toward me, until your head is hanging off of the table -- I will hold your head.",
-            foreign = "."
+            english = "<u>PC1-8</u>: Scoot back toward me, until your head is hanging off of the table. <br> I will hold your head.",
+            foreign = "Correse(?) hacia m&iacute;, hasta que su cabeza cuelgue de la mesa. <br> Voy a sostener su cabeza."
         }
     ]
     #

@@ -3,18 +3,10 @@ let s = ./schema.dhall
 in ./technique.dhall {
     title = "Thoracic Spine Muscle Energy",
     image = None Text,
-    translations = [
-        {
-            english = "I'm going to put my arms around your shoulders.",
-            foreign = ""
-        },
-        {
-            english = "Please hold onto my forearm and relax.",
-            foreign = ""
-        }
-    ]
+    translations =
+    ../common/hug.dhall
     #
-    ../common/ME.dhall "my arms, like you're trying to sit up straight" "mis brazos, como si ____"
+    ../common/ME.dhall "<br>... hand <u>(T1-4)</u>.<br>...arms, like you're trying to sit up straight <u>(T5-12)" "<br>... mano <u>(T1-4)</u>.<br>...brazo, como si estuviera tratando de sentarse derecho <u>(T5-12)</u>"
     ,
     menu_items = ./menu_items.dhall,
     backlink1 = Some {title = "OMM", filename = "OMM/menu" },
