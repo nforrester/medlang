@@ -17,9 +17,34 @@ let pages : List s.PageUnion = [
     ./pages/bridge/success.dhall "bridge/success",
     ./pages/bridge/victory.dhall "bridge/victory",
 
+    ./pages/hx/menu.dhall "hx/menu",
+        ./pages/hx/medical/allergies.dhall "hx/medical/allergies",
+        ./pages/hx/medical/medical.dhall "hx/medical/medical",
+        ./pages/hx/medical/meds.dhall "hx/medical/meds",
+        ./pages/hx/medical/sick.dhall "hx/medical/sick",
+        ./pages/hx/medical/surg.dhall "hx/medical/surg",
+        ./pages/hx/medical/ob.dhall "hx/medical/ob",
+        ./pages/hx/social/drugs.dhall "hx/social/life",
+        ./pages/hx/social/drugs.dhall "hx/social/drugs",
+        ./pages/hx/social/sex.dhall "hx/social/sex",
+        ./pages/hx/ros/gen.dhall "hx/ros/gen",
+        ./pages/hx/ros/heent.dhall "hx/ros/heent",
+        ./pages/hx/ros/cv.dhall "hx/ros/cv",
+        ./pages/hx/ros/resp.dhall "hx/ros/resp",
+        ./pages/hx/ros/gi.dhall "hx/ros/gi",
+        ./pages/hx/ros/gu.dhall "hx/ros/gu",
+        ./pages/hx/ros/neuro.dhall "hx/ros/neuro",
+        ./pages/hx/ros/psych.dhall "hx/ros/psych",
+        ./pages/hx/ros/skin.dhall "hx/ros/skin",
+        ./pages/hx/ros/endo.dhall "hx/ros/endo",
+
+
     ./pages/OMM/menu.dhall "OMM/menu",
 
+    ./pages/OMM/lymph/head.dhall "OMM/lymph/head",
     ./pages/OMM/lymph/inlet.dhall "OMM/lymph/inlet",
+    ./pages/OMM/lymph/duct.dhall "OMM/lymph/duct",
+    ./pages/OMM/lymph/pump.dhall "OMM/lymph/pump",
 
     ./pages/OMM/cervical/dx.dhall "OMM/cervical/dx",
     ./pages/OMM/cervical/ST.dhall "OMM/cervical/ST",
@@ -34,10 +59,14 @@ let pages : List s.PageUnion = [
     ./pages/OMM/thoracic/CS_PT.dhall "OMM/thoracic/CS_PT",
     ./pages/OMM/thoracic/ME.dhall "OMM/thoracic/ME",
 
-    ./pages/OMM/ue/CS1.dhall "OMM/ue/CS1",
-    ./pages/OMM/ue/CS2.dhall "OMM/ue/CS2",
-    ./pages/OMM/ue/ME.dhall "OMM/ue/ME",
     ./pages/OMM/ue/menu.dhall "OMM/ue/menu",
+    ./pages/OMM/ue/CS/ac.dhall "OMM/ue/CS/ac",
+    ./pages/OMM/ue/CS/lev.dhall "OMM/ue/CS/lev",
+    ./pages/OMM/ue/CS/rhb.dhall "OMM/ue/CS/rhb",
+    ./pages/OMM/ue/CS/pmi.dhall "OMM/ue/CS/pmi",
+    ./pages/OMM/ue/CS/shoulder1.dhall "OMM/ue/CS/shoulder1",
+    ./pages/OMM/ue/CS/shoulder2.dhall "OMM/ue/CS/shoulder2",
+    ./pages/OMM/ue/ME.dhall "OMM/ue/ME",
     ./pages/OMM/ue/MFR.dhall "OMM/ue/MFR",
 
     ./pages/OMM/lumbar/dx.dhall "OMM/lumbar/dx",
@@ -100,10 +129,16 @@ let pages : List s.PageUnion = [
     ./pages/PE/neuro/cn7.dhall "PE/neuro/cn7",
     ./pages/PE/neuro/cn11.dhall "PE/neuro/cn11",
     ./pages/PE/neuro/cerebellum.dhall "PE/neuro/cerebellum",
+    ./pages/PE/neuro/gait.dhall "PE/neuro/gait",
     ./pages/PE/neuro/motor.dhall "PE/neuro/motor",
     ./pages/PE/neuro/sensation.dhall "PE/neuro/sensation",
 
-    ./pages/PE/ortho/menu.dhall "PE/ortho/menu"
+    ./pages/PE/ortho/menu.dhall "PE/ortho/menu",
+
+        ./pages/PE/ortho/shoulder/ac.dhall "PE/ortho/shoulder/ac",
+        ./pages/PE/ortho/shoulder/biceps.dhall "PE/ortho/shoulder/biceps",
+        ./pages/PE/ortho/shoulder/impingement.dhall "PE/ortho/shoulder/impingement",
+        ./pages/PE/ortho/shoulder/rtc.dhall "PE/ortho/shoulder/rtc"
 ]
 
 in pages

@@ -9,24 +9,24 @@ in ./technique.dhall {
             foreign = ""
         },
         {
-            english = "Please stand facing away from me.",
-            foreign = ""
+            english = "Stand facing away from me.",
+            foreign = "___ de espaldas a m&iacute;."
         },
         {
-            english = "I'm going to put my foot between your feet. Put your feet next to my foot.",
-            foreign = ""
+            english = "I'm going to put my foot between your feet. Place your feet around my foot.",
+            foreign = "Voy a poner mi pie entre sus pies. Ponga sus pies alrededor de los m&iacute;os."
         },
         {
             english = "<u>Seated Flexion Test</u>.",
             foreign = ""
         },
         {
-            english = "Please sit down on the table.  Rest your feet on this ledge.",
-            foreign = ""
+            english = "Sit down on the table.  Rest your feet on this ledge.",
+            foreign = "Si&eacute;ntese en la mesa. Ponga sus pies sobre este peldaño"
         },
         {
             english = "Place your hands between your knees.",
-            foreign = ""
+            foreign = "Ponga sus manos entre de sus rodillas."
         },
         {
             english = "///",
@@ -34,15 +34,15 @@ in ./technique.dhall {
         },
         {
             english = "Is it ok if I put my hands on your hips?",
-            foreign = ""
+            foreign = "Puedo poner mis manos sobre sus caderas?"
         },
         {
             english = "Can you bend forward a little bit?",
-            foreign = ""
+            foreign = "Puede inclinarse un poco hacia adelante?"
         },
         {
-            english = "Please SLOWLY bend forward and try to touch your toes. Now, come back up...",
-            foreign = ""
+            english = "SLOWLY bend forward (try to touch your toes). Now, come back up.",
+            foreign = "Muy lenamente, incl&iacute;nase hacia adelante (trate de tocar sus dedos del pie).  Ahora, vuelva a subir."
         }
     ]
     ,

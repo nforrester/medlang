@@ -1,4 +1,4 @@
---OP
+--CN11
 
 let s = ./schema.dhall
 in ./technique.dhall {
@@ -7,19 +7,19 @@ in ./technique.dhall {
     translations = [
         {
             english = "Shrug your shoulders up.",
-            foreign = "."
+            foreign = "Encoja los hombros."
         },
         {
             english = "Don't let me push your shoulders down.",
-            foreign = "."
+            foreign = "No me permita empujar sus hombros."
         },
         {
-            english = "Turn your head to the [left/right].",
-            foreign = "."
+            english = "Turn your head to the left [right].",
+            foreign = "Gire su cabeza a la izquierda [derecha]."
         },
         {
             english = "Push against my hand with your face (try to turn your head).",
-            foreign = "."
+            foreign = "Empuje contra mi mano con su cara."
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn11"}],

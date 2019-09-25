@@ -12,7 +12,7 @@
         filename = "PE/GI/murphy"
     },
     {
-        title = "Ascites Signs",
+        title = "Cirrhosis Signs",
         filename = "PE/GI/cirrhosis"
     },
     {

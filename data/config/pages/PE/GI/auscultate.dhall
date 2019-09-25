@@ -6,19 +6,19 @@
     translations = [
         {
             english = "I'm going to listen to your stomach / aorta / renal arteries.",
-            foreign = "Voy a escuchar su estOmago / aorta / arterios renales."
+            foreign = "Voy a escuchar su est&oacute;mago / aorta / arterios renales."
         },
         {
             english = "I'm going to tap on your stomach.",
-            foreign = "Voy a tocar su estOmago."
+            foreign = "Voy a tocar su est&oacute;mago."
         },
         {
             english = "I'm going to push on your stomach, lightly.",
-            foreign = "Voy a empujar su estOmago, ligeramente."
+            foreign = "Voy a empujar su est&oacute;mago, ligeramente."
         },
         {
             english = "I'm going to push with more pressure.",
-            foreign = "Voy a empujar con mAs presiOn."
+            foreign = "Voy a empujar con m&aacute;s presiOn."
         },
         {
             english = "Let me know if it hurts.",

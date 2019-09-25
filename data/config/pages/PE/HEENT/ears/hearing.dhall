@@ -16,7 +16,7 @@
             foreign = "Voy a susurrar en una oreja."
         },
         {
-            english = "Raise your hand on the side you hear my fingers / voice.",
+            english = "Raise your hand on the side you hear me.",
             foreign = "Levante la mano del lado que me eschucha."
         }
     ],

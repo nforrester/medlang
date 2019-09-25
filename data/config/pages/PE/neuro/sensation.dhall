@@ -6,31 +6,43 @@ in ./technique.dhall {
     translations = [
         {
             english = "Place your hands on your lap.",
+            foreign = "Ponga sus manos __."
+        },
+        {
+            english = "Can you roll up your sleeves?",
             foreign = ""
         },
         {
-            english = "Could you roll up your sleeves?",
-            foreign = ""
-        },
-        {
-            english = "Could you take off your shoes & socks?",
+            english = "Can you remove your shoes & socks?",
             foreign = ""
         },
         {
             english = "Close your eyes.",
+            foreign = "Cierre los ojos."
+        },
+        {
+            english = "I'm going to touch you with my finger / this stick / this piece of cotton.",
             foreign = ""
         },
         {
-            english = "I'm going to touch you lightly with my finger / a cold object.",
-            foreign = ""
+            english = "Did I touch your left hand, right hand, or both?",
+            foreign = "__?"
         },
         {
-            english = "If you feel my touch, say YES.",
-            foreign = ""
+            english = "Can you feel this?",
+            foreign = "Puede sentirlo?"
         },
         {
-            english = "If you feel something cold, say YES.",
-            foreign = ""
+            english = "Does it feel cold?",
+            foreign = "Se siente fr&iacute;o?"
+        },
+        {
+            english = "Does it feel sharp?",
+            foreign = "Se siene afilado?"
+        },
+        {
+            english = "Do they feel about the same?",
+            foreign = "Lo siente casi igual?"
         }
     ],
     menu_items = ./menu_items.dhall,

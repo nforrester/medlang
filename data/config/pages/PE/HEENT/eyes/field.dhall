@@ -5,8 +5,16 @@
     image = None Text,
     translations = [
         {
-            english = "Please stand facing me, and cover one eye with your hand.",
+            english = "Cover one eye with your hand.",
+            foreign = "Cubra una ojo con su mano."
+        },
+        {
+            english = "Look straight ahead at me / at your nose.",
             foreign = ""
+        },
+        {
+            english = "Tell me when my hand becomes visible.",
+            foreign = "Me diga cuando mi mano se vuelve visible."
         },
         {
             english = "Can you see both my hands?",

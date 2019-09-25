@@ -10,11 +10,11 @@ in ./conversation.dhall {
         },
         {
             response = "Shoulders",
-            filename = "PE/ortho/menu",
+            filename = "PE/ortho/shoulder/rtc",
             image_map = None s.ImageMapData
         },
         {
-            response = "Elbow/Wrist",
+            response = "Elbow/Wrist/Hand",
             filename = "PE/ortho/menu",
             image_map = None s.ImageMapData
         },
@@ -25,6 +25,11 @@ in ./conversation.dhall {
         },
         {
             response = "Knee",
+            filename = "PE/ortho/menu",
+            image_map = None s.ImageMapData
+        },
+        {
+            response = "Ankle/Foot",
             filename = "PE/ortho/menu",
             image_map = None s.ImageMapData
         }

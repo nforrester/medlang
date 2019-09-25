@@ -10,7 +10,7 @@
         },
         {
             english = "Please place your hand at midline.",
-            foreign = "Ponga su mano en lInea media."
+            foreign = "Ponga su mano en l&iacute;nea media."
         },
         {
             english = "I will grab your [left/right] flank, and tap on your other flank with my other hand.",
@@ -22,11 +22,11 @@
         },
         {
             english = "I am going to tap across your stomach.",
-            foreign = "Voy a tocar a travEs de su estOmago."
+            foreign = "Voy a tocar a trav&eacute;s de su est&oacute;mago."
         },
         {
             english = "Lie on your left/right side.",
-            foreign = "AcuEstese en su lado izquierdo/derecho."
+            foreign = "Acu&eacute;stese en su lado izquierdo/derecho."
         },
         {
             english = "<u>Asterixis </u>",

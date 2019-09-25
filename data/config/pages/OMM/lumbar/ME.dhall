@@ -8,16 +8,16 @@ in ./technique.dhall {
     #
     [
         {
-            english = "Raise/lower your hand.",
-            foreign = ""
+            english = "Raise your arm. Put it straight up behind your ear.",
+            foreign = "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja."
         },
         {
             english = "Bring your knees up (toward your chest) / down.",
-            foreign = ""
+            foreign = "Levante / baje sus rodillas."
         },
         {
-            english = "Can you feel my arm pushing against your hip?",
-            foreign = ""
+            english = "Can you feel my forearm against your hip?",
+            foreign = "Puede sentir mi antebrazo contra su cadera?"
         }
     ]
     #

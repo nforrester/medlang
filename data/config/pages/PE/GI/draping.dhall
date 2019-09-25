@@ -6,7 +6,7 @@
     translations = [
         {
             english = "Please tuck this sheet into your waistband.",
-            foreign = "Por favor, meta esta sAbana en su cintura."
+            foreign = "Por favor, meta esta s&aacute;bana en su cintura."
         },
         {
             english = "Lift your shirt up above your belly button.",

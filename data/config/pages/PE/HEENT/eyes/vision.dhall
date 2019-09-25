@@ -2,35 +2,27 @@
 
 ./technique.dhall {
     title = "Eyes: Visual Acuity",
-    image = None Text,
+    image = Some "PE/visual_acuity.png",
     translations = [
         {
-            english = "Cover your left/right eye with your hand.",
-            foreign = "Cubra su ojo izquierdo/derecho con su mano."
+            english = "Put on your glasses.",
+            foreign = "P&oacute;ngase sus gafas."
         },
         {
-            english = "Look at the letters.",
-            foreign = "Mira las letras."
+            english = "Look at the letters on the chart.",
+            foreign = "Mira las letras en la cartilla."
         },
         {
-            english = "Read the lowest line that you are able.",
-            foreign = "Lea la lInea mAs baja que pueda."
+            english = "Cover one eye.",
+            foreign = "Cubra una ojo."
         },
         {
-            english = "Read the top line.",
-            foreign = "Lea la lInea de arriba."
-        },
-        {
-            english = "...next line.",
-            foreign = "...prOxima."
-        },
-        {
-            english = "...last line.",
-            foreign = "...de arriba."
+            english = "Read the top line<br>...next line<br>...the lowest line that you are able",
+            foreign = "Lea la l&iacute;nea de arriba<br>......pr&oacute;xima<br>...la l&iacute;nea m&aacute;s baja que pueda."
         }
     ],
     menu_items = ./menu_items.dhall,
-    backlink1 = Some { title = "PE", filename = "PE/menu" },
+    backlink1 = Some {title = "PE", filename = "PE/menu" },
     backlink2 = Some {title = "HEENT", filename = "PE/HEENT/menu"},
     backlink3 = Some {title = "Cranial Nerves", filename = "PE/neuro/cn"}
 }

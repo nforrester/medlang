@@ -6,7 +6,7 @@
     translations = [
         {
             english = "<u>Light</u>: I'm going to shine this light in your eye. Now in your other eye.",
-            foreign = "."
+            foreign = "Voy a alumbrar sus ojos con mi linterna."
         },
         {
             english = "<u>Accommodation</u>: Look straight ahead at the wall behind me.  Now look at my finger.",

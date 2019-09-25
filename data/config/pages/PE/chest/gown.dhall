@@ -5,11 +5,15 @@
     translations = [
         {
             english = "Could you untie your gown and lower it down to above your belly button?",
-            foreign = "."
+            foreign = "Puede desatar su bata y bajarlo hasta su ombligo?"
+        },
+        {
+            english = "You can tie your gown back up.",
+            foreign = "Puede atar su bata."
         },
         {
             english = "Would you like help untying / tying your gown?",
-            foreign = "."
+            foreign = "Quiere mi ayuda para atar / desatar su bata?"
         }
     ],
     menu_items = ./menu_items.dhall,

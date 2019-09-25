@@ -1,4 +1,4 @@
---OP
+--CN7
 
 let s = ./schema.dhall
 in ./technique.dhall {

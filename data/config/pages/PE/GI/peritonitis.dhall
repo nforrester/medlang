@@ -9,8 +9,8 @@
             foreign = "Tose, por avor.  Le duele?"
         },
         {
-            english = "<u>Rebound</u>: I'm going to push down deeply on your stomach, then let go quickly. I apologize that it may be uncomfortable. Please let me know whether it hurts more when I push down, or let go.",
-            foreign = "."
+            english = "<u>Rebound</u>: I'm going to push down deeply on your stomach, then let go quickly. I apologize that it may be uncomfortable.<br>Tell me whether it hurts more when I push down, or let go.",
+            foreign = "Voy a presionar profundamente su estómago, luego lo voy a dejar ir rápidamente. Lo siento que puede ser incómodo. <br> D&iacute;game si duele m&aacute;s cuando presiono o cuando lo dejo ir."
         },
         {
             english = "<u>Rovsing</u>: I'm going to push on your left lower quadrant.  Does it hurt? Where?",

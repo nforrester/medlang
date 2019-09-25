@@ -21,6 +21,10 @@ in ./technique.dhall {
             foreign = "${./link.dhall "PE/neuro/cn7" "Facial Muscles"}"
         },
         {
+            english = "<u>CN VIII</u>: ",
+            foreign = "${./link.dhall "PE/HEENT/ear" "Hearing"} <br> ${./link.dhall "PE/HEENT/ear" "Balance(-)"}"
+        },
+        {
             english = "<u>CN IX,X, XII</u>: ",
             foreign = "${./link.dhall "PE/HEENT/op" "Uvula Deviation <br> Tongue Movements"}"
         },

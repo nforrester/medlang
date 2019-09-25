@@ -6,10 +6,10 @@
     translations = [
         {
             english = "Breathe in.  Breathe out (deeply).",
-            foreign = "."
+            foreign = "Inhale. Exhale (profundamente)."
         },
         {   english = "Could you lift your right arm?",
-            foreign = ""
+            foreign = "Puede levantar su brazo derecho?"
         },
         {
             english = "I'm going to tap on your back.",
@@ -17,11 +17,11 @@
         },
         {
             english = "Say eee.",
-            foreign = "."
+            foreign = "Diga eee."
         },
         {
             english = "<u>Excursion</u>: I'm going to put my fingers around your waist, below your ribcage.",
-            foreign = "."
+            foreign = "Voy a poner mis dedos alrededor de su cintura, debajo de su caja tor&aacute;cica."
         }
     ],
     menu_items = ./menu_items.dhall,

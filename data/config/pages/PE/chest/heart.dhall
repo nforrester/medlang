@@ -5,19 +5,19 @@
     translations = [
         {
             english = "I'm going to listen to your heart with my stethoscope.",
+            foreign = "Voy a escuchar su coraz&oacute;n con mi estetoscopio."
+        },
+        {
+            english = "Can you put your hands on your breasts and part them please?",
             foreign = "."
         },
         {
-            english = "Could you put your hands on your breasts and part them please?",
+            english = "Can you lift your left breast up please?",
             foreign = "."
         },
         {
-            english = "Could you lift your left breast up please?",
-            foreign = "."
-        },
-        {
-            english = "<u>PMI</u>: Please lean forward.  I'm going to place my hand under your left chest/breast to feel your heartbeat.",
-            foreign = "."
+            english = "<u>PMI</u>:Lean forward.  I'm going to place my hand under your left chest/breast.",
+            foreign = "Incl&iacute;nese hacia adelante. Voy a poner mi mano debajo de su pecho."
         }
     ],
     menu_items = ./menu_items.dhall,

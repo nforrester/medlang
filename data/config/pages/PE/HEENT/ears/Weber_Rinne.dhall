@@ -5,31 +5,35 @@
     translations = [
         {
             english = "Tuning fork.",
-            foreign = "DiapasOn."
+            foreign = "Diapas&oacute;n."
         },
         {
             english = "<u>Weber Test</u>",
             foreign = ""
         },
         {
-            english = "I'm going to place it on your head.",
-            foreign = "."
+            english = "I'm going to place it on your forehead.",
+            foreign = "Voy a ponerlo en su frene."
         },
         {
             english = "Which side does it sound louder on?",
-            foreign = "."
+            foreign = "Escucha mejor en qu&eacute; lado?"
         },
         {
             english = "<u>Rinne Test</u>",
             foreign = ""
         },
         {
-            english = "I'm going to place it on the bone behind your ear.",
-            foreign = "."
+            english = "I'm going to place it on your mastoid bone, behind your ear.",
+            foreign = "Voy a colocarlo sobre el hueso detr&aacute; de la oreja."
         },
         {
-            english = "Raise your hand when the noise stops.",
-            foreign = ""
+            english = "I'm going to move it to beside your ear.",
+            foreign = "Voy a moverlo, al lado de la oreja."
+        },
+        {
+            english = "Tell me when the noise stops.",
+            foreign = "D&iacute;game cuando el sonido se detiene."
         },
         {
             english = "Can you hear the noise?",

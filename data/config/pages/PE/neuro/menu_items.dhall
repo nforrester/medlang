@@ -4,12 +4,16 @@
         filename = "PE/neuro/cn"
     },
     {
-        title = "Sensation",
-        filename = "PE/neuro/sensation"
+        title = "Gait",
+        filename = "PE/neuro/gait"
     },
     {
         title = "Motor",
         filename = "PE/neuro/motor"
+    },
+    {
+        title = "Sensation",
+        filename = "PE/neuro/sensation"
     },
     {
         title = "Cerebellar Signs",

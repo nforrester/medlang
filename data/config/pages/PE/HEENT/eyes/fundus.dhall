@@ -6,11 +6,11 @@
     translations = [
         {
             english = "I am going to put drops in your eye.",
-            foreign = ""
+            foreign = "Voy a poner gotas en sus ojos."
         },
         {
-            english = "Look straight ahead at the wall behind me.",
-            foreign =""
+            english = "Look straight ahead at a fixed point over my shoulder.",
+            foreign ="Mire hacia adelante a un punto fijo sobre mi hombro."
         },
         {
             english = "I'm going to look into your eyes with this light. I will get very close, and the light will be very bright which may be uncomfortable.",
@@ -18,7 +18,7 @@
         },
         {
             english = "This helps me see the blood vessels in your eyes.",
-            foreign = ""
+            foreign = "Esto me ayuda en ver los vasos sangu&iacute;neos en sus ojos."
         }
     ],
     menu_items = ./menu_items.dhall,

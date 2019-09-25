@@ -5,12 +5,12 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to feel for your thyroid gland, which is in your neck.",
-            foreign = "."
+            english = "I'm going to feel for your thyroid, which is in your neck.",
+            foreign = "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello."
         },
         {
             english = "Please swallow.",
-            foreign = ""
+            foreign = "Trague, por favor"
         }
     ],
     menu_items = ./menu_items.dhall,

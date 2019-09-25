@@ -7,7 +7,7 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to feel your lymph nodes.  Does this hurt?",
-            foreign = "."
+            foreign = "Voy a sentir sus ganglios linf&aacute;ticos.  Le duele esto?"
         }
     ],
     menu_items = ./menu_items.dhall,

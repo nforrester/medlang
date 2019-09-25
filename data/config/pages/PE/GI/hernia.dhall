@@ -6,19 +6,19 @@
     translations = [
         {
             english = "Stand up.",
-            foreign = "."
+            foreign = "Lev&aacutentese."
         },
         {
-            english = "Cough.",
-            foreign = "."
+            english = "Cough, please.",
+            foreign = "Tose, por favor."
         },
         {
             english = "Lie down",
-            foreign = "."
+            foreign = "Acu&eacute;stese."
         },
         {
             english = "Try to do a sit-up.",
-            foreign = "."
+            foreign = "Trate de hacer una sentada."
         }
     ],
     menu_items = ./menu_items.dhall,

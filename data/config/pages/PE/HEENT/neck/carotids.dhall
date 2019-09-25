@@ -7,15 +7,15 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to put my finger on your neck to feel your carotid arteries.",
-            foreign = ""
+            foreign = "Voy a poner mi dedo en su cuello para sentir sus arterias car&oacute;tidas."
         },
         {
             english = "Hold your breath while I listen.",
-            foreign = ""
+            foreign = "Aguante la respiraci&oacute;n mientras escucho."
         },
         {
             english = "You can breathe again.",
-            foreign = ""
+            foreign = "Puede respirar de neuevo."
         }
     ],
     menu_items = ./menu_items.dhall,

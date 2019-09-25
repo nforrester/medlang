@@ -5,16 +5,20 @@
     image = Some "PE/draping.png",
     translations = [
         {
-            english = "This test will help me look for gallbladder problems.",
-            foreign = "Este examen me ayudarA en diagnosticar problemas con su vesIcula biliar."
+            english = "This test will help me diagnose your gallbladder.",
+            foreign = "Este examen me ayudar&aacute; en diagnosticar su ves&iacute;cula biliar."
         },
         {
-            english = "I'm going to advance my hand (further into your ribcage).",
-            foreign = "Voy a avanzar mi mano (mAs en su caja torAcica)."
+            english = "I'm going to advance my hand more.",
+            foreign = "Voy a avanzar mi mano m&aacute;s."
+        },
+        {
+            english = "",
+            foreign = "Voy a palpar por debajo del reborde de costal derecho."
         },
         {
             english = "Inhale deeply...Exhale.",
-            foreign = "Baje sus pantalones para que yo pueda ver su ombligo."
+            foreign = "Inspire profunda...exhale."
         }
     ],
     menu_items = ./menu_items.dhall,

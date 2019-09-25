@@ -2,7 +2,7 @@
 [
     {
         title = "Head/Face",
-        filename = "OMM/lymph/inlet"
+        filename = "OMM/lymph/head"
     },
     {
         title = "Thoracic Inlet/Outlet",
@@ -10,10 +10,10 @@
         },
         {
             title = "Thoracic Duct Release",
-            filename = "OMM/lymph/inlet"
+            filename = "OMM/lymph/duct"
         },
         {
             title = "Thoracic Pump",
-            filename = "OMM/lymph/inlet"
+            filename = "OMM/lymph/pump"
         }
 ]

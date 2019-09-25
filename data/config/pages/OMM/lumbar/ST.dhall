@@ -3,10 +3,19 @@ let s = ./schema.dhall
 in ./technique.dhall {
     title = "Lumbar Soft Tissue",
     image = None Text,
-    translations = [
+    translations =
+    ../common/lat_recumb.dhall
+    #
+    ../common/prone.dhall
+    #
+    [
         {
-            english = "<u></u>: I'm going to lift your hip.",
-            foreign = ""
+            english = "I'm going to lift your hip.",
+            foreign = "Voy a levantar su cadera."
+        },
+        {
+            english = "I'm going to push on your back muscles.",
+            foreign = "Voy a presionar los m&uacutesculos de su espalda."
         }
     ]
     #
