@@ -8,7 +8,7 @@
         filename = "hx/medical/allergies"
     },
     {
-        title = "Meds",
+        title = "Medications",
         filename = "hx/medical/meds"
     },
     {

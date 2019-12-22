@@ -19,7 +19,7 @@ translations =
     },
     {
         english = "- moles / growths / bumps",
-        foreign = "- lunares / / "
+        foreign = "- lunares / crecimientos / "
     },
     {
         english = "Itching?",

@@ -8,12 +8,12 @@
             foreign = "Voy a escuchar su coraz&oacute;n con mi estetoscopio."
         },
         {
-            english = "Can you put your hands on your breasts and part them please?",
-            foreign = "."
+            english = "Can I put the stethescope under your gown / shirt?",
+            foreign = "Puede poner mi estetoscopio debajo de su bata / camisa?"
         },
         {
-            english = "Can you lift your left breast up please?",
-            foreign = "."
+            english = "Can you lift your breast?",
+            foreign = "Puede levantar la mama?"
         },
         {
             english = "<u>PMI</u>:Lean forward.  I'm going to place my hand under your left chest/breast.",

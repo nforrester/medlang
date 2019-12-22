@@ -26,6 +26,6 @@
     ],
     menu_items = ./menu_items.dhall,
     backlink1 = Some { title = "PE", filename = "PE/menu" },
-    backlink2 = None (./schema.dhall).LinkData,
+    backlink2 = Some { title = "Chest", filename = "PE/chest/gown" },
     backlink3 = None (./schema.dhall).LinkData
 }

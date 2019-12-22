@@ -22,16 +22,24 @@ translations =
         foreign = "Ha sido hospitalizado/a?"
     },
     {
-        english = "Does anything run in your family? <br> Is there a history of __ in your family?",
-        foreign = "Hay problemas m&eacute;dicas en so familia?"
+        english = "Does anyone in your family have medical problems?",
+        foreign = "Alguien en su familia tiene problemas m&eacute;dicas?"
+    },
+    {
+        english = "Are both of your parents currently living?",
+        foreign = "Est&aacute;n vivos sus padres?."
+    },
+    {
+        english = "How old was s/he when...?",
+        foreign = "Cu&aacute;ntos a&ntilde;os tiene cuando...?"
+    },
+    {
+        english = "<u> Medical conditions </u>",
+        foreign = "${./link.dhall "hx/medical/conditions" "See full list here"}"
     },
     {
         english = "- high blood pressure / hypertensi&oacute;n",
         foreign = "- alta presi&oacute;n / hipertension"
-    },
-    {
-        english = "- high cholesterol",
-        foreign = "- colesterol alto"
     },
     {
         english = "- diabetes",
@@ -46,16 +54,12 @@ translations =
         foreign = "- ataque al coraz&oacute;n"
     },
     {
-        english = "- [breast/colon/lung/prostate] cancer",
-        foreign = "- c&aacute;ncer [de mama/colon/pulm&oacute;n/prostata]"
+        english = "- asthma",
+        foreign = "- asma"
     },
     {
-        english = "Are both of your parents currently living?",
-        foreign = "Est&aacute;n vivos sus padres?."
-    },
-    {
-        english = "How old was he/she when...?",
-        foreign = "Cu&aacute;ntos a&ntilde;os tiene cuando...?"
+        english = "- [breast/colon/prostate] cancer",
+        foreign = "- c&aacute;ncer [de mama/colon/prostata]"
     }
 ],
 menu_items = ./menu_items.dhall,

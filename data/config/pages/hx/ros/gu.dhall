@@ -34,8 +34,8 @@ translations =
         foreign = "Chorro d&eacute;bil?"
     },
     {
-        english = "Penile / vaginal / rectal discharge?",
-        foreign = "Descarga pene / vaginal / rectal"
+        english = "Secrectiones abnormales de los genitales?",
+        foreign = "Abnormal genital secretions?"
     }
 ],
 menu_items = ./menu_items.dhall,

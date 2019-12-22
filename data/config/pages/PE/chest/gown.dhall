@@ -4,7 +4,7 @@
     image = None Text,
     translations = [
         {
-            english = "Could you untie your gown and lower it down to above your belly button?",
+            english = "Could you untie your gown and lower it down to your belly button?",
             foreign = "Puede desatar su bata y bajarlo hasta su ombligo?"
         },
         {

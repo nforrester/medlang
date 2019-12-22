@@ -6,18 +6,18 @@ image = None Text,
 translations =
 [
     {
-        english = "I'm going to hold your hand like in a handshake",
-        foreign = "."
+        english = "I'm going to hold your hand.",
+        foreign = "Voy a tomar su mano."
     },
     {
-        english = "Try to turn your palm up toward the ceiling / down toward the floor",
-        foreign = "."
+        english = "Try to turn your palm up (toward the ceiling) / down (toward the floor)",
+        foreign = "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso)."
     }
 ]
 #
-../common/me.dhall "grip" "_",
+../common/me.dhall "grip" "agarre (?)",
 menu_items = [{title = "", filename = "OMM/ue/ME"}],
-backlink1 = Some { title = "PE", filename = "PE/menu" },
-backlink2 = Some { title = "UE", filename = "PE/ue/menu" },
+backlink1 = Some { title = "UE", filename = "OMM/ue/menu" },
+backlink2 = Some { title = "OMM", filename = "OMM/menu" },
 backlink3 = None (./schema.dhall).LinkData
 }

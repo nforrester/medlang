@@ -7,8 +7,8 @@
     #
     [
         {
-            english = "Turn your head.",
-            foreign = "Gire la cabeza."
+            english = "Turn your head away.",
+            foreign = "Gire(?) la cabeza."
         },
         {
             english = "Hold your breath.",

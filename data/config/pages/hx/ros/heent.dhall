@@ -11,7 +11,7 @@ translations =
     },
     {
         english = "- What color? What consistency? Is there blood? Does it smell bad?",
-        foreign = "- Qu&eacute; color? Qu&eacute; consistencia? Tiene sangre?"
+        foreign = "- Qu&eacute; color? Qu&eacute; consistencia? Tiene sangre? Heuele mal?"
     },
     {
         english = "Thick / Thin / Watery",

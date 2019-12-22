@@ -22,15 +22,15 @@ translations =
         foreign = "Qu&eacute; tipo de alcohol?<br>- vino<br>- cerveza<br>- whisky"
     },
     {
-        english = "Have you ever smoked or chewed cigarettes?",
-        foreign = "Ha fumado or mascado tabaco?"
+        english = "Have you ever smoked?",
+        foreign = "Ha fumado?"
     },
     {
         english = "How many cigarettes / packs per day?",
         foreign = "Cu&aacute;ntos cigarillos / paquetes cada dia?"
     },
     {
-        english = "Pipe / Cigar / Chewing tobacco / Vaping",
+        english = "Pipe / Cigar / tobacco / Vaping",
         foreign = "Pipa / Cigarro / Tabaco / Vapeo"
     },
     {

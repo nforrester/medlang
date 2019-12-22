@@ -34,8 +34,8 @@ translations =
         foreign = "Diarrea?"
     },
     {
-        english = "Black / bloody stools?",
-        foreign = "Heces negras / con sangre?"
+        english = "Black / bloody / clay-color stools?",
+        foreign = "Heces negras / con sangre / con color de arcilla?"
     }
 ],
 menu_items = ./menu_items.dhall,

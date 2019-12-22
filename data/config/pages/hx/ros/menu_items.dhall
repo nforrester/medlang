@@ -32,7 +32,7 @@
         filename = "hx/ros/psych"
     },
     {
-        title = "Integumentary",
+        title = "Skin",
         filename = "hx/ros/skin"
     },
     {

@@ -14,9 +14,6 @@
             <a id="header-home-link" href="{{site.root}}/index.html"><h1>{{site.name}}</h1></a>
         </div>
         <div id="main">
-            {% block content %}{% endblock %}
-        </div>
-        <div id="footer">
             <div id = "back_navigator">
                 <div id = "back1">
                     {% if page.backlink1 %}
@@ -34,6 +31,9 @@
                     {% endif %}
                 </div>
             </div>
+            {% block content %}{% endblock %}
+        </div>
+        <div id="footer">
             <div>
                 <p>
                     Do you have any questions or feedback?

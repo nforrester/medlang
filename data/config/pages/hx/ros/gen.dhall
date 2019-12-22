@@ -32,10 +32,6 @@ translations =
     {
         english = "Night sweats?",
         foreign = "Sudoraciones nocturnas?"
-    },
-    {
-        english = "Not feeling well (malaise)?",
-        foreign = "Malestar general?"
     }
 ],
 menu_items = ./menu_items.dhall,

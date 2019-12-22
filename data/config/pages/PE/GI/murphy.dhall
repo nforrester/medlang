@@ -9,12 +9,12 @@
             foreign = "Este examen me ayudar&aacute; en diagnosticar su ves&iacute;cula biliar."
         },
         {
-            english = "I'm going to advance my hand more.",
-            foreign = "Voy a avanzar mi mano m&aacute;s."
+            english = "I'm going to push underneath your ribcage.",
+            foreign = "Voy a palpar por debajo del reborde de costal derecho."
         },
         {
-            english = "",
-            foreign = "Voy a palpar por debajo del reborde de costal derecho."
+            english = "I'm going to push my hand in more.",
+            foreign = "Voy a avanzar mi mano m&aacute;s."
         },
         {
             english = "Inhale deeply...Exhale.",

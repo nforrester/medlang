@@ -18,11 +18,11 @@
         },
         {
             english = "I'm going to push with more pressure.",
-            foreign = "Voy a empujar con m&aacute;s presiOn."
+            foreign = "Voy a empujar con m&aacute;s presi&oacute;n."
         },
         {
             english = "Let me know if it hurts.",
-            foreign = "Me diga si te duele."
+            foreign = "Me diga si le duele."
         }
     ],
     menu_items = ./menu_items.dhall,

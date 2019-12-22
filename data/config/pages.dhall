@@ -18,6 +18,10 @@ let pages : List s.PageUnion = [
     ./pages/bridge/victory.dhall "bridge/victory",
 
     ./pages/hx/menu.dhall "hx/menu",
+        ./pages/hx/hpi/hpi.dhall "hx/hpi/hpi",
+        ./pages/hx/hpi/hf.dhall "hx/hpi/hf",
+        ./pages/hx/inpatient.dhall "hx/inpatient",
+        ./pages/hx/psych.dhall "hx/psych",
         ./pages/hx/medical/allergies.dhall "hx/medical/allergies",
         ./pages/hx/medical/medical.dhall "hx/medical/medical",
         ./pages/hx/medical/meds.dhall "hx/medical/meds",

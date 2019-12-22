@@ -6,8 +6,8 @@ image = None Text,
 translations =
 [
     {
-        english = "Muscle pain (to [body part])?",
-        foreign = "Dolor muscular (de [    ])?"
+        english = "Muscle pain (at ___)?",
+        foreign = "Dolor muscular (de ____)?"
     },
     {
         english = "Swelling of your joints/muscles?",

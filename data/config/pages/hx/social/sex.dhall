@@ -14,7 +14,7 @@ translations =
         foreign = "- Con hombres, mujeres, o ambos?"
     },
     {
-        english = "- Is it with one or multiple partners?",
+        english = "- With one or multiple partners?",
         foreign ="- Con uno compa&ntilde;ero o m&aacute;?"
     },
     {

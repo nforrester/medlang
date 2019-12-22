@@ -23,7 +23,7 @@ translations =
     },
     {
         english = "Have you been around sick people recently?",
-        foreign = " "
+        foreign = "Est&aacute; cerca de personas que est&eacute;n enfermas?"
     }
 ],
 menu_items = ./menu_items.dhall,
