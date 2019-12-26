@@ -10,7 +10,7 @@ in ./technique.dhall {
         },
         {
             english = "<u>CN III, IV, VI</u>: ",
-            foreign = "${./link.dhall "PE/HEENT/eyes/eom" "Extraocular Movements"} <br> ${./link.dhall "PE/HEENT/eyes/pupils" "Accommodation"}"
+            foreign = "${./link.dhall "PE/HEENT/eyes/pupils" "Accommodation & Extraocular Movements"}"
         },
         {
             english = "<u>CN V</u>: ",

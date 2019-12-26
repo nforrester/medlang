@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
     title = "Lumbar Soft Tissue",
-    image = None Text,
+    image = Some "OMM/ST_lumbar.png",
     translations =
     ../common/lat_recumb.dhall
     #

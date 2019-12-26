@@ -15,7 +15,7 @@ in ./technique.dhall {
         },
         {
             english = "Raise your eyebrows.",
-            foreign = "Levante sus cejas."
+            foreign = "Levante las cejas."
         },
         {
             english = "Puff out your cheeks.",
@@ -23,7 +23,7 @@ in ./technique.dhall {
         },
         {
             english = "Smile showing your teeth.",
-            foreign = "SonrIa mostrando sus dientes."
+            foreign = "Sonr&iacute;a mostrando sus dientes."
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn7"}],

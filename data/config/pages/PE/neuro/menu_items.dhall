@@ -18,5 +18,9 @@
     {
         title = "Cerebellar Signs",
         filename = "PE/neuro/cerebellum"
+    },
+    {
+        title = "Mental status",
+        filename = "PE/neuro/mmse"
     }
 ]

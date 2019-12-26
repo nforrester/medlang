@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
     title = "Hamstring Muscle Energy",
-    image = None Text,
+    image = Some "OMM/pelvis_ME_hamstring.png",
     translations =
     ../../common/supine.dhall
     #

@@ -6,8 +6,8 @@ image = None Text,
 translations =
 [
     {
-        english = "What's your occupation?",
-        foreign = "Cu&aacute;l es su ocupaci&oacute;n?"
+        english = "What's your job?",
+        foreign = "Qu&eacute; trabajo tiene?"
     },
     {
         english = "Does your job involve strenuous physical activity?",
@@ -40,6 +40,10 @@ translations =
     {
         english = "Are you under much stress?",
         foreign = "Tiene mucho estr&eacute;s?"
+    },
+    {
+        english = "Have you ever been/worked in a prison?",
+        foreign = "Alguna vez estuvo/trabaj&oacute; en pris&oacute;n? (?)"
     }
 ],
 menu_items = ./menu_items.dhall,

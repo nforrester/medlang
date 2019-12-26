@@ -5,8 +5,8 @@
     image = Some "PE/draping.png",
     translations = [
         {
-            english = "Please tuck this sheet into your waistband.",
-            foreign = "Por favor, meta esta s&aacute;bana en su cintura."
+            english = "Tuck this sheet into your waistband.",
+            foreign = "Meta esta s&aacute;bana en su cintura."
         },
         {
             english = "Lift your shirt up above your belly button.",

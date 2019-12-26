@@ -56,6 +56,10 @@ translations =
     {
         english = "Changes in taste?",
         foreign = "Cambios en el sentido del gusto?"
+    },
+    {
+        english = "Seizure?",
+        foreign = "Convulsi&oacute;n?"
     }
 ],
 menu_items = ./menu_items.dhall,

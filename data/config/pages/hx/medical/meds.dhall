@@ -10,6 +10,10 @@ translations =
         foreign = "Toma medicamentos?"
     },
     {
+        english = "OTC meds",
+        foreign = "medicamentos sin receta"
+    },
+    {
         english = "- For what?",
         foreign = "- Para qu&eacute;?"
     },

@@ -6,7 +6,7 @@ in ./technique.dhall {
     translations =
     ../common/hug.dhall
     #
-    ../common/ME.dhall "<br>... hand <u>(T1-4)</u>.<br>...arms, like you're trying to sit up straight <u>(T5-12)" "<br>... mano <u>(T1-4)</u>.<br>...brazo, como si estuviera tratando de sentarse derecho <u>(T5-12)</u>"
+    ../common/ME.dhall "<br>... hand.<br>...arms, like you're trying to sit up straight." "<br>... mano.<br>...brazo, como si estuviera tratando de sentarse derecho."
     ,
     menu_items = ./menu_items.dhall,
     backlink1 = Some {title = "OMM", filename = "OMM/menu" },

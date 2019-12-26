@@ -27,7 +27,7 @@ translations =
 #
 ../../common/cs.dhall "shoulder" "hombro",
 menu_items = ./menu_items.dhall,
-backlink1 = Some { title = "PE", filename = "PE/menu" },
-backlink2 = None (./schema.dhall).LinkData,
-backlink3 = None (./schema.dhall).LinkData
+backlink1 = Some { title = "OMM", filename = "OMM/menu" },
+backlink2 = Some { title = "UE", filename = "OMM/ue/menu" },
+backlink3 = None s.LinkData
 }

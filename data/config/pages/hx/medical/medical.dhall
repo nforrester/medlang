@@ -54,8 +54,8 @@ translations =
         foreign = "- ataque al coraz&oacute;n"
     },
     {
-        english = "- asthma",
-        foreign = "- asma"
+        english = "- stroke / CVA",
+        foreign = "- apoplej&iacute;a / accidente cerebrovascular"
     },
     {
         english = "- [breast/colon/prostate] cancer",

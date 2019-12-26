@@ -1,16 +1,24 @@
 --PERRLA
 
 ./technique.dhall {
-    title = "Eyes: Pupils",
+    title = "Eyes: PERRLA & EOMI",
     image = None Text,
     translations = [
         {
-            english = "<u>Light</u>: I'm going to shine this light in your eye. Now in your other eye.",
-            foreign = "Voy a alumbrar sus ojos con mi linterna."
+            english = "<u>Light</u>: I'm going to shine this light in your eyes.",
+            foreign = "Voy a alumbrar su ojos con mi linterna."
         },
         {
-            english = "<u>Accommodation</u>: Look straight ahead at the wall behind me.  Now look at my finger.",
-            foreign = "."
+            english = "<u>Accommodation</u>: Look straight ahead at the wall.  Now look at my fingertip.",
+            foreign = "Mire hac&iacute;a adelante a la pared.  Ahora mire al punto de mi dedo."
+        },
+        {
+            english = "<u>Extraocular mvts</u>: Without moving your head or neck, follow my finger",
+            foreign = "Sin mover su cabeza o cuello, siga mi dedo a medida que se mueve."
+        },
+        {
+            english = "<u>Lid lag</u>: I'm going to touch your eyelid.  Look up.",
+            foreign = "Voy a tocar su p&aacute;rpado.  Mire hacia abajo."
         }
     ],
     menu_items = ./menu_items.dhall,

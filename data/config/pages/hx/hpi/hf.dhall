@@ -7,7 +7,11 @@ translations =
 [
     {
         english = "Do you sleep with pillows? How many?",
-        foreign = "Duerme con almohadas?"
+        foreign = "Duerme con almohadas? Cu&aacute;ntos?"
+    },
+    {
+        english = "Do you sleep sitting up / in a recliner?",
+        foreign = "Duerme sentado / en una silla reclinable?"
     },
     {
         english = "Have you been eating more sodium than usual?",

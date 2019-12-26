@@ -6,27 +6,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "Place your hands on your lap.",
-            foreign = "Ponga sus manos __."
+            foreign = "Ponga sus manos en su regazo."
         },
         {
-            english = "Can you roll up your sleeves?",
-            foreign = ""
+            english = "Roll up your sleeves.",
+            foreign = "Enrollese las mangas."
         },
         {
-            english = "Can you remove your shoes & socks?",
-            foreign = ""
+            english = "Remove your shoes & socks.",
+            foreign = "Qu&iacute;tese los zapatos y calcinetes."
         },
         {
             english = "Close your eyes.",
             foreign = "Cierre los ojos."
         },
         {
-            english = "I'm going to touch you with my finger / this stick / this piece of cotton.",
-            foreign = ""
-        },
-        {
-            english = "Did I touch your left hand, right hand, or both?",
-            foreign = "__?"
+            english = "Which hand did I touch?",
+            foreign = "Qu&eacute; mano toc&oacute;?"
         },
         {
             english = "Can you feel this?",
@@ -34,15 +30,23 @@ in ./technique.dhall {
         },
         {
             english = "Does it feel cold?",
-            foreign = "Se siente fr&iacute;o?"
+            foreign = "Es fr&iacute;o?"
         },
         {
             english = "Does it feel sharp?",
-            foreign = "Se siene afilado?"
+            foreign = "Es agudo?"
         },
         {
             english = "Do they feel about the same?",
             foreign = "Lo siente casi igual?"
+        },
+        {
+            english = "Do you feel it more here or there?",
+            foreign = "Siente mas aqu&iacute; o ac&aacute;?"
+        },
+        {
+            english = "I'm going to move your toe. Is it up or down?",
+            foreign = "Voy a mover su dedo del pie. Est&aacute; para arriba o abajo?"
         }
     ],
     menu_items = ./menu_items.dhall,

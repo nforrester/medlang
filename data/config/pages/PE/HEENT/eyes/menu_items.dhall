@@ -12,10 +12,6 @@
         filename = "PE/HEENT/eyes/field"
     },
     {
-        title = "Extraocular Muscles",
-        filename = "PE/HEENT/eyes/eom"
-    },
-    {
         title = "Fundoscopic Exam",
         filename = "PE/HEENT/eyes/fundus"
     }

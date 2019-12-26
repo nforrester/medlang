@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
     title = "Standing & Seated Flexion Tests",
-    image = None Text,
+    image = Some "OMM/pelvis_dx_sft.png",
     translations = [
         {
             english = "<u>Standing Flexion Test</u>.",
@@ -10,7 +10,7 @@ in ./technique.dhall {
         },
         {
             english = "Stand facing away from me.",
-            foreign = "___ de espaldas a m&iacute;."
+            foreign = "P&oacute;ngase de pie de espaldas a m&iacute;."
         },
         {
             english = "I'm going to put my foot between your feet. Place your feet around my foot.",

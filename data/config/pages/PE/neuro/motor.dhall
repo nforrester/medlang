@@ -9,37 +9,52 @@ in ./technique.dhall {
             foreign = "Bazos arriba como esto."
         },
         {
+            english = "Bend your elbow.",
+            foreign = "Doble el codo."
+        },
+        {
             english = "Push me away.",
             foreign = "Emp&uacute;jeme"
         },
         {
-            english = "Don't let me pull your arm down.",
-            foreign = ""
+            english = "Push against my hand.",
+            foreign = "Empuje contra mi mano"
         },
         {
-            english = "Squeeze my fingers tightly.",
-            foreign = ""
+            english = "Pull.",
+            foreign = "Jale."
         },
         {
-            english = "<u>Hip</u>: Lift your knee. Don't let me push down.",
-            foreign = "Levante su rodilla.  No me permita empujarla."
+            english = "Resist my force.",
+            foreign = "Resista mi fuerza."
         },
         {
-            english = "<u>Knee</u>: Kick out against my hand.",
-            foreign = ""
+            english = "Squeeze my fingers (tightly).",
+            foreign = "Me apriete los dedos (muy fuerte)."
         },
         {
-            english = "Lift your foot.",
-            foreign = "Levante su pie."
+            english = "<u>Hip</u>: Lift your leg. Don't let me push down.",
+            foreign = "Levante su pierna.  No me permita empujarla."
+        },
+        {
+            english = "<u>Knee</u>: Kick against my hand.",
+            foreign = "Patee contra mi mano. (?)"
+        },
+        {
+            english = "Point your toe up (at the ceiling).",
+            foreign = "Apunte sus dedos hacia arriba (al techo)."
+        },
+        {
+            english = "Push down, like you're stepping on a gas pedal.",
+            foreign = "Empuje hacia abajo, como si estuviera acelerando un automobil."
         },
         {
             english = "<u>Babinski</u>: I'm going to scratch the bottom of your foot.  This may be uncomfortable.",
             foreign = "Voy a rasguNar la planta de su pie."
-        }
-        ,
+        },
         {
-            english = "<u>Reflexes</u>: I'm going to check your reflexes. Relax.",
-            foreign = "."
+            english = "<u>Reflexes</u>: I'm going to test your reflexes. Relax.",
+            foreign = "Voy a probar sus reflejos.  Rel&aacute;jese.."
         }
     ],
     menu_items = ./menu_items.dhall,

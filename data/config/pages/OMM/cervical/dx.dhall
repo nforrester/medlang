@@ -11,6 +11,10 @@ in ./technique.dhall {
     #
     [
         {
+            english = "<u>Range of motion</u>",
+            foreign = ""
+        },
+        {
             english = "Tilt your chin...<br>...down to look at your feet. <br>...up to look at the ceiling..",
             foreign = "Incline su cabeza...<br>...hac&iacute;a abajo para mirar sus pies. <br>...hac&iacute;a arriba para mirar al techo."
         },

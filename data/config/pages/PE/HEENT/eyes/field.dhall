@@ -5,24 +5,20 @@
     image = None Text,
     translations = [
         {
-            english = "Cover one eye with your hand.",
-            foreign = "Cubra una ojo con su mano."
+            english = "Cover your left / right eye.",
+            foreign = "Cubra su ojo izquierdo / derecho."
         },
         {
-            english = "Look straight ahead at me / at your nose.",
-            foreign = ""
+            english = "Look at my nose.",
+            foreign = "Mire mi nariz"
         },
         {
-            english = "Tell me when my hand becomes visible.",
-            foreign = "Me diga cuando mi mano se vuelve visible."
+            english = "Tell me when you first see my hand.",
+            foreign = "Digame cuando primero vea mi mano."
         },
         {
-            english = "Can you see both my hands?",
-            foreign =""
-        },
-        {
-            english = "Is my finger moving on your left or right?",
-            foreign = ""
+            english = "Can you see both hands?",
+            foreign ="Puede ver ambos manos?"
         }
     ],
     menu_items = ./menu_items.dhall,

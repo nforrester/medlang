@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
     title = "Hamstrings",
-    image = None Text,
+    image = Some "OMM/pelvis_dx_hamstring.png",
     translations = [
         {
             english = "I'm going to put my hand on your hip and lift your leg with my other hand.",

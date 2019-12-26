@@ -6,8 +6,8 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Shrug your shoulders up.",
-            foreign = "Encoja los hombros."
+            english = "Shrug your shoulders.",
+            foreign = "Enc&oacute;jase los hombros."
         },
         {
             english = "Don't let me push your shoulders down.",

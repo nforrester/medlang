@@ -39,15 +39,23 @@ translations =
     },
     {
         english = "Did ____ come by?  What did s/he say?",
-        foreign = "Vino ___?  Qu&eacute; dijo?"
-    },
-    {
-        english = "Physical therapist",
-        foreign = "Fisioterapeuta"
+        foreign = "Vino ____?  Qu&eacute; dijo?"
     },
     {
         english = "Are you able to sit up / stand / walk around? ",
         foreign = "Puede sentarse / poner de pie / caminar? "
+    },
+    {
+        english = "I will let the doctor / nurse know.",
+        foreign = "Lo informar&eacute; al(a) doctor(a) / enfermero(a). (?)"
+    },
+    {
+        english = "Has the medication been helping?",
+        foreign = "La medicaci&oacute;n lo(a) ayuda?"
+    },
+    {
+        english = "Physical therapist",
+        foreign = "Fisioterapeuta"
     },
     {
         english = "Breathing treatment",
@@ -56,6 +64,10 @@ translations =
     {
         english = "Catheter",
         foreign = "Cat&eacute;ter"
+    },
+    {
+        english = "Feeding tube",
+        foreign = "Sonda de alimentaci&oacute;n"
     }
 ],
 menu_items = [{title = " ", filename = "hx/menu"}],

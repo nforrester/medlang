@@ -18,12 +18,12 @@ in ./technique.dhall {
             foreign = "Voy a tirar de su mandibula(?)."
         },
         {
-            english = "This technique promotes sinus drainage, which helps with congestion and infection.",
-            foreign = "Esta t&eacute;cnica ayuda a drenar __. ayuda con la congesti&oacute;n y infecci&oacute;n."
+            english = "This technique promotes sinus drainage -- which helps with congestion and infection.",
+            foreign = "Esta t&eacute;cnica ayuda a drenar los senos -- ayuda con la congesti&oacute;n y infecci&oacute;n."
         },
         {
             english = "You can also do this yourself at home.",
-            foreign = "Puede hacerlo usted mismo(?) en casa."
+            foreign = "Puede hacerlo usted mismo en casa."
         }
     ]
     ,

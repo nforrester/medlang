@@ -1,38 +1,20 @@
 let s = ./schema.dhall
-in ../../conversation.dhall {
+in ./info.dhall {
     image = None Text,
-    paragraphs = ["History"],
-    responses = [
-        {
-            response = "HPI",
-            filename = "hx/hpi/hpi",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Past Medical History",
-            filename = "hx/medical/medical",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Social History",
-            filename = "hx/social/drugs",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Review of Systems",
-            filename = "hx/ros/gen",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Medicine Daily Progress Interview",
-            filename = "hx/inpatient",
-            image_map = None s.ImageMapData
-        },
-        {
-            response = "Psychiatric Interview",
-            filename = "hx/psych",
-            image_map = None s.ImageMapData
-        }
+    paragraphs = [
+        ''
+        History<br>
+        - ${./link.dhall "hx/hpi/hpi" "HPI"}<br>
+        - ${./link.dhall "hx/medical/medical" "Past Medical History"}<br>
+        - ${./link.dhall "hx/social/drugs" "Past Social History"}<br>
+        - ${./link.dhall "hx/ros/gen" "Review of Systems"}<br><br>
+        Specialty-specific<br>
+        - ${./link.dhall "hx/inpatient" "Medicine Daily Progress"}<br>
+        - ${./link.dhall "hx/surg/pre" "Pre & Post-Op"}<br>
+        - ${./link.dhall "hx/psych" "Psychiatric"}<br>
+        - Obstetric<br>
+        - Pediatric
+        ''
     ],
     backlink1 = None s.LinkData,
     backlink2 = None s.LinkData,

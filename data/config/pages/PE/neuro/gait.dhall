@@ -15,11 +15,11 @@ in ./technique.dhall {
         },
         {
             english = "Walk on your heels.",
-            foreign = "Levante sus cejas."
+            foreign = "camine en los talones."
         },
         {
             english = "Walk on your tiptoes.",
-            foreign = "Hinche sus mejillas."
+            foreign = "Camine con las puntas de los pies."
         },
         {
             english = "...away from me.<br>...stop.<br>...come back.",

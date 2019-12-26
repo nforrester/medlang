@@ -7,6 +7,6 @@
     },
     {
         english = "Would you like more or less pressure?",
-        foreign = "Quiere m&aacute;s o menos presi&oacute;n?"
+        foreign = "Qui&eacute;re m&aacute;s o menos presi&oacute;n?"
     }
 ]

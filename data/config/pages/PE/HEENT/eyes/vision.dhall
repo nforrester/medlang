@@ -5,8 +5,16 @@
     image = Some "PE/visual_acuity.png",
     translations = [
         {
+            english = "How many fingers am I holding up?",
+            foreign = "Cu&aacute;ntos dedos tengo?"
+        },
+        {
             english = "Put on your glasses.",
             foreign = "P&oacute;ngase sus gafas."
+        },
+        {
+            english = "Do you wear contact lens?",
+            foreign = "Tiene lentes de contacto?"
         },
         {
             english = "Look at the letters on the chart.",
@@ -18,7 +26,7 @@
         },
         {
             english = "Read the top line<br>...next line<br>...the lowest line that you are able",
-            foreign = "Lea la l&iacute;nea de arriba<br>......pr&oacute;xima<br>...la l&iacute;nea m&aacute;s baja que pueda."
+            foreign = "Lea la l&iacute;nea superior<br>......la l&iacute;nea pr&oacute;xima<br>...la l&iacute;nea m&aacute;s baja que pueda."
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -13,12 +13,8 @@
             foreign = "Voy a tocar su est&oacute;mago."
         },
         {
-            english = "I'm going to push on your stomach, lightly.",
-            foreign = "Voy a empujar su est&oacute;mago, ligeramente."
-        },
-        {
-            english = "I'm going to push with more pressure.",
-            foreign = "Voy a empujar con m&aacute;s presi&oacute;n."
+            english = "I'm going to push on your stomach, lightly / with more pressure.",
+            foreign = "Voy a empujar su est&oacute;mago, ligeramente / con m&aacute;s presi&oacute;n."
         },
         {
             english = "Let me know if it hurts.",

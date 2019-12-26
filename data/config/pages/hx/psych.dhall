@@ -34,12 +34,8 @@ translations =
         foreign = "C&oacute;mo duerme?"
     },
     {
-        english = "Do you hear voices?",
-        foreign = "Oye voces?"
-    },
-    {
-        english = "What do the voices say?",
-        foreign = "Qu&eacute; dicen los voces?"
+        english = "Do you hear voices? <br>What do the voices say?",
+        foreign = "Oye voces? <br>Qu&eacute; dicen los voces?"
     },
     {
         english = "Do you get nightmares?",
@@ -64,6 +60,10 @@ translations =
     {
         english = "Do you have specific plans?",
         foreign = "Tiene planos especificos?"
+    },
+    {
+        english = "Overdose",
+        foreign = "Sobredosis"
     },
     {
         english = "Are you close with your family?",
