@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Murphy's Sign",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "This test will help me diagnose your gallbladder.",

@@ -34,7 +34,7 @@ in ./technique.dhall {
         },
         {
             english = "Does it feel sharp?",
-            foreign = "Es agudo?"
+            foreign = "Es agudo/punzante?"
         },
         {
             english = "Do they feel about the same?",

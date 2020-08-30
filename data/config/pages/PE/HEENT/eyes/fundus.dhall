@@ -14,7 +14,7 @@
         },
         {
             english = "I'm going to look into your eyes with this light. I will get very close.  The bright light may be uncomfortable but is not painful.",
-            foreign = "Voy a ver sus ojos con esta linterna.  Me acercar&eacute; mucho. La luz brillante ser&aacute; molesta pero no doloroso."
+            foreign = "Voy a ver en sus ojos con esta linterna.  Me acercar&eacute; mucho. La luz brillante ser&aacute; molesta pero no doloroso."
         },
         {
             english = "Keep your eyes open.",

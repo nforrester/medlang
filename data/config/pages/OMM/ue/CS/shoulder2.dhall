@@ -9,15 +9,15 @@ translations =
 [
     {
         english = "Let your arm drop off the table.",
-        foreign = "."
+        foreign = "Deje caer su brazo sobre el borde de la mesa."
     },
     {
-        english = "<I'm going to press into your armpit area, this may be slightly sensitive/uncomfortable.",
-        foreign = "."
+        english = "I'm going to press into your armpit area, this may tickle.",
+        foreign = "Voy a presionar en su axila.  Esto puede hacer cosquillas."
     },
     {
-        english = "I'm going to press on your inner arm.",
-        foreign = "."
+        english = "I'm going to press on your (inner) arm.",
+        foreign = "Voy a presionar en su brazo (interno)."
     }
 ]
 #

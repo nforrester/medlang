@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Draping",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "Tuck this sheet into your waistband.",

@@ -7,7 +7,7 @@ translations =
 [
     {
         english = "<u>AAC</u>",
-        foreign = "."
+        foreign = ""
     }
 ]
 #
@@ -16,11 +16,11 @@ translations =
 [
     {
         english = "I'm going to pull your arm across your chest.",
-        foreign = "."
+        foreign = "Voy a ____(?) su brazo sobre su pecho."
     },
     {
         english = "<u>PAC</u>",
-        foreign = "."
+        foreign = ""
     }
 ]
 #
@@ -29,7 +29,7 @@ translations =
 [
     {
         english = "I'm going to pull your arm across your back.",
-        foreign = "."
+        foreign = "Voy a ___(?) su brazo sobre su espalda."
     }
 ]
 #

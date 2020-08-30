@@ -1,7 +1,7 @@
 -- meds
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Medical & Family History",
+title = "Social Hx: Drugs",
 image = None Text,
 translations =
 [

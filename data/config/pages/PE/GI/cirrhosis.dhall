@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Cirrhosis Signs",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "<u>Fluid Wave </u>",

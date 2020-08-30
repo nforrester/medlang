@@ -15,7 +15,7 @@ translations =
     },
     {
         english = "- when lying flat? (orthopnea)",
-        foreign = ""
+        foreign = "- cuando est&aacute;a acostado/a?"
     },
     {
         english = "Rapid / irregular heartbeats?",

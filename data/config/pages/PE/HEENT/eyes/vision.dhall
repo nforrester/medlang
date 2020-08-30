@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Eyes: Visual Acuity",
-    image = Some "PE/visual_acuity.png",
+    image = None Text,
     translations = [
         {
             english = "How many fingers am I holding up?",

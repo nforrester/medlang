@@ -6,16 +6,16 @@ image = None Text,
 translations =
 [
     {
-        english = "Numbness in ___?",
-        foreign = "Entumecimiento en ___?"
-    },
-    {
-        english = "Tingling?",
-        foreign = "Hormigueo?"
+        english = "Numbness or tingling in ___?",
+        foreign = "Entumecimiento o sensaci&oacute;n de hormigueos en ___?"
     },
     {
         english = "Muscle weakness?",
         foreign = "Debilidad muscular?"
+    },
+    {
+        english = "Decreased movement in __?",
+        foreign = "__?"
     },
     {
         english = "Paralysis?",
@@ -40,6 +40,18 @@ translations =
     {
         english = "Headache?",
         foreign = "Dolor de cabeza?"
+    },
+    {
+        english = "Change in behavior?",
+        foreign = "Cambios en el comportamiento?"
+    },
+    {
+        english = "Drowsiness / fatigue?",
+        foreign = "Somnolencia / fatiga?"
+    },
+    {
+        english = "Changes in balance/coordination?",
+        foreign = "Cambio en el equilibrio/coordinacion?"
     },
     {
         english = "Fainting?",

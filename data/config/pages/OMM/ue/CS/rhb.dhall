@@ -8,20 +8,20 @@ translations =
 #
 [
     {
-        english = "I'm going to slide my hands under your back.",
-        foreign = "."
+        english = "I'm going to put my hands under your back.",
+        foreign = "Voy a poner mis manos debajo de su espalda."
     },
     {
-        english = "I'm going to feel along your shoulderblades.",
-        foreign = "."
+        english = "I'm going to feel along your shoulders.",
+        foreign = "Voy a palpar sus hombros."
     },
     {
         english = "Put your arm behind your back.",
-        foreign = "."
+        foreign = "Ponga su brazo detr&aacute;s de su espalda."
     },
     {
         english = "I'm going to pull on your arm.",
-        foreign = "."
+        foreign = "Voy a tirarle del brazo."
     }
 ]
 #

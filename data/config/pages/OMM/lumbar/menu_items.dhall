@@ -11,13 +11,13 @@
     {
         title = "Counterstrain: - AL1-5",
         filename = "OMM/lumbar/CS_AL"
-        },
-        {
-            title = "- PL1-5",
-            filename = "OMM/lumbar/CS_PL"
-        },
-        {
-            title = "Muscle Energy",
-            filename = "OMM/lumbar/ME"
-        }
+    },
+    {
+        title = "- PL1-5",
+        filename = "OMM/lumbar/CS_PL"
+    },
+    {
+        title = "Muscle Energy",
+        filename = "OMM/lumbar/ME"
+    }
 ]

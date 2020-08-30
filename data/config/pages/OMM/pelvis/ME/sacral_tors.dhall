@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
    title = "Sacral Torsion Muscle Energy",
-   image = None Text,
+   image = Some "OMM/pelvis_ME_sacralforwardtorsion.PNG",
    translations =
    ../../common/lat_recumb.dhall
    #

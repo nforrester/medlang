@@ -19,7 +19,6 @@ let pages : List s.PageUnion = [
 
     ./pages/hx/menu.dhall "hx/menu",
         ./pages/hx/hpi/hpi.dhall "hx/hpi/hpi",
-        ./pages/hx/hpi/hf.dhall "hx/hpi/hf",
         ./pages/hx/inpatient.dhall "hx/inpatient",
         ./pages/hx/psych.dhall "hx/psych",
         ./pages/hx/surg/pre.dhall "hx/surg/pre",
@@ -43,7 +42,6 @@ let pages : List s.PageUnion = [
         ./pages/hx/ros/psych.dhall "hx/ros/psych",
         ./pages/hx/ros/skin.dhall "hx/ros/skin",
         ./pages/hx/ros/endo.dhall "hx/ros/endo",
-
 
     ./pages/OMM/menu.dhall "OMM/menu",
 
@@ -82,6 +80,8 @@ let pages : List s.PageUnion = [
     ./pages/OMM/lumbar/CS_PL.dhall "OMM/lumbar/CS_PL",
 
     ./pages/OMM/pelvis/menu.dhall "OMM/pelvis/menu",
+    ./pages/OMM/pelvis/CS/CS_AP.dhall "OMM/pelvis/CS/CS_AP",
+    ./pages/OMM/pelvis/CS/CS_PP.dhall "OMM/pelvis/CS/CS_PP",
     ./pages/OMM/pelvis/dx/stft.dhall "OMM/pelvis/dx/stft",
     ./pages/OMM/pelvis/dx/reseat.dhall "OMM/pelvis/dx/reseat",
     ./pages/OMM/pelvis/dx/pubic.dhall "OMM/pelvis/dx/pubic",
@@ -144,7 +144,39 @@ let pages : List s.PageUnion = [
         ./pages/PE/ortho/shoulder/ac.dhall "PE/ortho/shoulder/ac",
         ./pages/PE/ortho/shoulder/biceps.dhall "PE/ortho/shoulder/biceps",
         ./pages/PE/ortho/shoulder/impingement.dhall "PE/ortho/shoulder/impingement",
-        ./pages/PE/ortho/shoulder/rtc.dhall "PE/ortho/shoulder/rtc"
-]
+        ./pages/PE/ortho/shoulder/rtc.dhall "PE/ortho/shoulder/rtc",
+
+
+    ./pages/tests/menu.dhall "tests/menu",
+        ./pages/tests/BMP.dhall "tests/BMP",
+        ./pages/tests/CBC.dhall "tests/CBC",
+        ./pages/tests/echo.dhall "tests/echo",
+        ./pages/tests/LFT.dhall "tests/LFT",
+        ./pages/tests/pap.dhall "tests/pap",
+        ./pages/tests/paracentesis.dhall "tests/paracentesis",
+
+
+    ./pages/cases/menu.dhall "cases/menu",
+    ./pages/cases/COPD/hp.dhall "cases/COPD/hp",
+    ./pages/cases/COPD/ap.dhall "cases/COPD/ap",
+    ./pages/cases/CP/hp.dhall "cases/CP/hp",
+    ./pages/cases/CP/ap.dhall "cases/CP/ap",
+    ./pages/cases/GB/hp.dhall "cases/GB/hp",
+    ./pages/cases/GB/ap.dhall "cases/GB/ap",
+    ./pages/cases/HA/hp.dhall "cases/HA/hp",
+    ./pages/cases/HA/ap.dhall "cases/HA/ap",
+    ./pages/cases/HF/hp.dhall "cases/HF/hp",
+    ./pages/cases/HF/ap.dhall "cases/HF/ap",
+    ./pages/cases/OB/hp.dhall "cases/OB/hp",
+    ./pages/cases/VB/hp.dhall "cases/PNA/hp",
+    ./pages/cases/VB/ap.dhall "cases/PNA/ap",
+    ./pages/cases/stroke/hp.dhall "cases/stroke/hp",
+    ./pages/cases/stroke/ap.dhall "cases/stroke/ap",
+    ./pages/cases/UTI/hp.dhall "cases/UTI/hp",
+    ./pages/cases/UTI/ap.dhall "cases/UTI/ap",
+    ./pages/cases/VB/hp.dhall "cases/VB/hp",
+    ./pages/cases/VB/ap.dhall "cases/VB/ap",
+    ./pages/cases/MVA.dhall "cases/MVA",
+    ]
 
 in pages

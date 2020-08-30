@@ -6,8 +6,16 @@ image = None Text,
 translations =
 [
     {
+        english = "Unexplained weight loss / gain?",
+        foreign = "P&eacute;rdida / Aumento de peso inexplicable?"
+    },
+    {
         english = "Cold / heat intolerance?",
         foreign = "Intolerencia al fr&iacute;o / calor?"
+    },
+    {
+        english = "Loss / gain in appetite?",
+        foreign = "Falta / gana de apetito?"
     },
     {
         english = "Mucho sed / hambre?",

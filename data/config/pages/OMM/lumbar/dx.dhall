@@ -2,7 +2,7 @@
 let s = ./schema.dhall
 in ./technique.dhall {
     title = "Lumbar Spine Diagnosis/Setup",
-    image = None Text,
+    image = Some "OMM/lumbar_dx.png",
     translations =
         ../common/prone.dhall
         #

@@ -5,16 +5,16 @@
     image = None Text,
     translations = [
         {
-            english = "<u>Light</u>: I'm going to shine this light in your eyes.",
-            foreign = "Voy a alumbrar su ojos con mi linterna."
+            english = "<u>Light</u>: I'm going to look in your eyes with my light.",
+            foreign = "Voy a mirar en su ojos con mi linterna."
         },
         {
-            english = "<u>Accommodation</u>: Look straight ahead at the wall.  Now look at my fingertip.",
-            foreign = "Mire hac&iacute;a adelante a la pared.  Ahora mire al punto de mi dedo."
+            english = "<u>Accommodation</u>: Look straight ahead at the wall.  Now look at my finger.",
+            foreign = "Mire hac&iacute;a adelante a la pared.  Ahora mire a mi dedo."
         },
         {
             english = "<u>Extraocular mvts</u>: Without moving your head or neck, follow my finger",
-            foreign = "Sin mover su cabeza o cuello, siga mi dedo a medida que se mueve."
+            foreign = "Sin mover su cabeza o cuello, siga mi dedo."
         },
         {
             english = "<u>Lid lag</u>: I'm going to touch your eyelid.  Look up.",

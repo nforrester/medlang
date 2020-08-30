@@ -1,13 +1,13 @@
 -- progress
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "",
+title = "Inpatient - Daily progress interview",
 image = None Text,
 translations =
 [
     {
-        english = "How are you feeling today?  Better, worse, or the same as yesterday?",
-        foreign = "C&oacute;mo se siente hoy? Mejor, peor, o igual que ayer?"
+        english = "How are you feeling today?  <br>Better, worse, or the same as yesterday?",
+        foreign = "C&oacute;mo se siente hoy? <br>Mejor, peor, o igual que ayer?"
     },
     {
         english = "Any pain?",
@@ -30,7 +30,7 @@ translations =
         foreign = "Puede pasar gases?"
     },
     {
-        english = "Do you have an appetite? Did you eat today / yesteray?",
+        english = "Do you have an appetite? Did you eat today / yesterday?",
         foreign = "Tiene apetito? Comi&oacute; hoy / ayer?"
     },
     {
@@ -64,10 +64,6 @@ translations =
     {
         english = "Catheter",
         foreign = "Cat&eacute;ter"
-    },
-    {
-        english = "Feeding tube",
-        foreign = "Sonda de alimentaci&oacute;n"
     }
 ],
 menu_items = [{title = " ", filename = "hx/menu"}],

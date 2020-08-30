@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Hernia",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "Stand up.",

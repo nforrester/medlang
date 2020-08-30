@@ -8,12 +8,12 @@ translations =
 #
 [
     {
-        english = "I'm going to press on your shoulderblade.",
-        foreign = "."
+        english = "I'm going to press on your shoulders.",
+        foreign = "Voy a presionar sus hombros."
     },
     {
         english = "I'm going to pull on your arm.",
-        foreign = "."
+        foreign = "Voy a tirarle del brazo."
     }
 ]
 #

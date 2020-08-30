@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Auscultate & Percuss",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "I'm going to listen to your stomach / aorta / renal arteries.",

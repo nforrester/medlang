@@ -2,7 +2,7 @@
 
 ./technique.dhall {
     title = "Peritonitis Signs",
-    image = Some "PE/draping.png",
+    image = None Text,
     translations = [
         {
             english = "Please cough. Does it hurt?",

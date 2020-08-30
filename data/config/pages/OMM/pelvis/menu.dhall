@@ -5,7 +5,7 @@
     paragraphs = [
         "<h2> PELVIS & SACRUM </h2>",
         "${../../../link.dhall "OMM/pelvis/dx/stft" "Diagnosis"}",
-        "${../../../link.dhall "OMM/pelvis/dx/stft" "Counterstrain (INCOMPLETE)"}",
+        "${../../../link.dhall "OMM/pelvis/dx/stft" "Counterstrain"}",
         "${../../../link.dhall "OMM/pelvis/ME/hamstring" "Muscle Energy"}"
         ]
         ,

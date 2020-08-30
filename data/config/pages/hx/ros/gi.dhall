@@ -14,8 +14,8 @@ translations =
         foreign = "Abdomen hinchado?"
     },
     {
-        english = "Regurgitation?",
-        foreign = "Regurgitaci&oacute;n?"
+        english = "Regurgitation / reflux?",
+        foreign = "Regurgitaci&oacute;n / reflujo?"
     },
     {
         english = "Heartburn? / Burning sensation in your chest?",
@@ -34,8 +34,16 @@ translations =
         foreign = "Diarrea?"
     },
     {
-        english = "Black / bloody / clay-color stools?",
-        foreign = "Heces negras / con sangre / con color de arcilla?"
+        english = "Black / bloody / pale-color stools?",
+        foreign = "Heces negras / con sangre / p&aacute;lidas?"
+    },
+    {
+        english = "Constipation?",
+        foreign = "Constipaci&oacute;n?"
+    },
+    {
+        english = "Are you passing gas?",
+        foreign = "Pasa gases?"
     }
 ],
 menu_items = ./menu_items.dhall,

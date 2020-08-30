@@ -1,7 +1,7 @@
 -- home/job life
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Home & Job",
+title = "Social Hx: Home & Job",
 image = None Text,
 translations =
 [
@@ -28,6 +28,18 @@ translations =
     {
         english = "Whom do you live with?",
         foreign = "Con qui&eacute;n vive?"
+    },
+    {
+        english = "Nursing home",
+        foreign = "residencia de ancianos"
+    },
+    {
+        english = "SNF",
+        foreign = "centro especializado de enfermer&iacute;a"
+    },
+    {
+        english = "prison",
+        foreign = "la c&aacute;rcel"
     },
     {
         english = "Do you have children? Pets? How old are they?",

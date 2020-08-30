@@ -1,7 +1,7 @@
 -- sex
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Sexual History",
+title = "Social Hx: Sex",
 image = None Text,
 translations =
 [

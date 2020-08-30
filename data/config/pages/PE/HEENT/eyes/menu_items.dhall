@@ -1,6 +1,6 @@
 [
     {
-        title = "PERRLA",
+        title = "PERRLA & EOMI",
         filename = "PE/HEENT/eyes/pupils"
     },
     {
