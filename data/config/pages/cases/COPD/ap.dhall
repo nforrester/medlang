@@ -6,7 +6,7 @@ image = None Text,
 translations =
 [
     {
-        english = "We will perform a chest x-ray to look at your lungs."
+        english = "We will perform a chest x-ray to look at your lungs.",
         foreign = "Vamos a hacer una radiograf&iacute;a de pecho para ver sus pulmones."
     },
     {

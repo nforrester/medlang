@@ -20,6 +20,7 @@ popd
 python3 -m venv $workdir/venv
 set +x
 source $workdir/venv/bin/activate
+pip install --upgrade pip
 pip install -r src/requirements.txt
 
 echo "Setup successful. Build with ./src/build.sh"

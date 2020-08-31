@@ -17,7 +17,7 @@
         "- Stress test",
         "- PFTs",
         "- Bronchoscopy",
-        "${../link.dhall "tests/paracentesis" "- Paracentesis"}"
+        "${../link.dhall "tests/paracentesis" "- Paracentesis"}",
         "- LP",
         "- Oxygen",
         "${../link.dhall "tests/pap" "- Pap smear"}"

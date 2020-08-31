@@ -4,7 +4,7 @@ in ./technique.dhall {
     title = "Posterior Pelvis Counterstrain",
     image = None Text,
     translations =
-    ../common/prone.dhall
+    ../../common/prone.dhall
     #
     [
         {
@@ -33,8 +33,7 @@ in ./technique.dhall {
         }
     ]
     #
-    ../common/CS.dhall "leg" "pierna"
-    #
+    ../../common/CS.dhall "leg" "pierna"
     ,
     menu_items = ./menu_items.dhall,
     backlink1 = Some {title = "OMM Pelvis", filename = "OMM/pelvis/menu" },

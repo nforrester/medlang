@@ -42,7 +42,7 @@ in ./technique.dhall {
             foreign = "La ecocardiograf&iacute;a no muestra ningunas problemas en el coraz&oacute;n."
         }
     ],
-    menu_items = ./menu_items.dhall,
+    menu_items = [{title = " ", filename = "tests/echo"}],
     backlink1 = Some {title = "Tests", filename = "tests/menu"},
     backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData

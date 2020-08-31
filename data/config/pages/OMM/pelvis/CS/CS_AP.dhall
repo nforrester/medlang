@@ -4,9 +4,9 @@ in ./technique.dhall {
     title = "Anterior Pelvis Counterstrain",
     image = None Text,
     translations =
-    ../common/supine.dhall
+    ../../common/supine.dhall
     #
-    ../common/CS_ATL.dhall
+    ../../common/CS_ATL.dhall
     #
     [
         {
@@ -23,8 +23,7 @@ in ./technique.dhall {
         }
     ]
     #
-    ../common/CS.dhall "leg" "pierna"
-    #
+    ../../common/CS.dhall "leg" "pierna"
     ,
     menu_items = ./menu_items.dhall,
     backlink1 = Some {title = "OMM Pelvis", filename = "OMM/pelvis/menu" },

@@ -22,7 +22,7 @@ in ./technique.dhall {
             foreign = "el sodio"
         }
     ],
-    menu_items = ./menu_items.dhall,
+    menu_items = [{title = " ", filename = "tests/BMP"}],
     backlink1 = Some {title = "Tests", filename = "tests/menu"},
     backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData

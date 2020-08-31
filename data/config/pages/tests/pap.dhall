@@ -38,7 +38,7 @@ in ./technique.dhall {
             foreign = "Puede experimentar sangrado leve despu&eacute;s de la prueba. "
         }
     ],
-    menu_items = ./menu_items.dhall,
+    menu_items = [{title = " ", filename = "tests/pap"}],
     backlink1 = Some {title = "Tests", filename = "tests/menu"},
     backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData

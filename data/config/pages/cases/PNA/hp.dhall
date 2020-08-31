@@ -13,7 +13,7 @@ translations =
     },
     {
         english = "difficulty breathing / rapid breathing",
-        foreign = "dificultad para respirar / raspiraci&oacute; r&aacute;pida",
+        foreign = "dificultad para respirar / raspiraci&oacute; r&aacute;pida"
     },
     {
         english = "bluish lips / fingernails",

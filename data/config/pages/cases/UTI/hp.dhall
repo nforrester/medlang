@@ -42,7 +42,7 @@ translations =
         foreign = "Estos medicamentos alevia las s&iacute;ntomas de UTI.<br>Puede darle a la orina color rojo."
     }
 ],
-menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/VB/ap"}],
+menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/UTI/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
 backlink2 = None (./schema.dhall).LinkData,
 backlink3 = None (./schema.dhall).LinkData

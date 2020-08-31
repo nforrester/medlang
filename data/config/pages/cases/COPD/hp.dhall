@@ -31,7 +31,7 @@ translations =
     },
     {
         english = "How many steps can you climb before feeling short of breath?",
-        foreign = "Cu&aacute;ntos escalones puede subir antes de sentir falta de respiraci&oacute;n?""
+        foreign = "Cu&aacute;ntos escalones puede subir antes de sentir falta de respiraci&oacute;n?"
     },
     {
         english = "Do you use an inhaler (with spacer)? Nebulizer?",

@@ -168,15 +168,15 @@ let pages : List s.PageUnion = [
     ./pages/cases/HF/hp.dhall "cases/HF/hp",
     ./pages/cases/HF/ap.dhall "cases/HF/ap",
     ./pages/cases/OB/hp.dhall "cases/OB/hp",
-    ./pages/cases/VB/hp.dhall "cases/PNA/hp",
-    ./pages/cases/VB/ap.dhall "cases/PNA/ap",
+    ./pages/cases/PNA/hp.dhall "cases/PNA/hp",
+    ./pages/cases/PNA/ap.dhall "cases/PNA/ap",
     ./pages/cases/stroke/hp.dhall "cases/stroke/hp",
     ./pages/cases/stroke/ap.dhall "cases/stroke/ap",
     ./pages/cases/UTI/hp.dhall "cases/UTI/hp",
     ./pages/cases/UTI/ap.dhall "cases/UTI/ap",
     ./pages/cases/VB/hp.dhall "cases/VB/hp",
     ./pages/cases/VB/ap.dhall "cases/VB/ap",
-    ./pages/cases/MVA.dhall "cases/MVA",
+    ./pages/cases/MVA.dhall "cases/MVA"
     ]
 
 in pages

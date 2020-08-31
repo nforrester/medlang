@@ -22,7 +22,7 @@ in ./technique.dhall {
             foreign = "Sus niveeles de enzimas son altos, lo que puede indicar el da&ntilde;o al  h&iacute;gado o conducto biliares."
         }
     ],
-    menu_items = ./menu_items.dhall,
+    menu_items = [{title = " ", filename = "tests/LFT"}],
     backlink1 = Some {title = "Tests", filename = "tests/menu"},
     backlink2 = None (./schema.dhall).LinkData,
     backlink3 = None (./schema.dhall).LinkData

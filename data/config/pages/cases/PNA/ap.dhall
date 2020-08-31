@@ -9,7 +9,7 @@ translations =
     },
     {
         english = "Your CXR shows infiltrates in the lungs, which may indicate a lung infection.",
-        foreign = "Su radiograf&iacute;a de t&oacute;rax muestra infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar.
+        foreign = "Su radiograf&iacute;a de t&oacute;rax muestra infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar."
     },
     {
         english = "Sputum culture: We will take cultures of your sputum to look for bacteria.",

@@ -9,7 +9,7 @@
         "${../link.dhall "PE/menu" "Physical Exams"}",
         "${../link.dhall "OMM/menu" "Osteopathic Treatments"}",
         "${../link.dhall "cases/menu" "Common Cases (incomplete)"}",
-        "${../link.dhall "procedures/menu" "Procedures & Tests (incomplete)"}"
+        "${../link.dhall "tests/menu" "Procedures & Tests (incomplete)"}"
         ],
     backlink1 = None (./schema.dhall).LinkData,
     backlink2 = None (./schema.dhall).LinkData,

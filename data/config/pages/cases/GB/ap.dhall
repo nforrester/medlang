@@ -22,11 +22,11 @@ translations =
     {
         english = "Laparoscopy: You will need to have your gallbladder removed.  A tube with a camera is inserted through a small incision in your stomach.",
         foreign = "Laparoscop&iacute;a: Se insertan un tubo con c&aacute;mara a trav&eacute;s de una incisi&oacute;n peque&ntilde;a en el est&oacute;mago. "
-    }
+    },
     {
         english = "This is a very common operation. Takes around 2 hours.  You will be under anesthesia (unconscious and not feeling pain).  You can go home the same day.",
         foreign = "Es una operaci&oacute;n muy com&uacute;n.  Toma ~dos horas.  Va a estar bajo anestesia general (inconsciente y no sentir dolor). Puede regresar a casa el mismo d&iacute;a."
-    }
+    },
     {
         english = "EDUCATION:",
         foreign = " "
@@ -46,7 +46,7 @@ translations =
     {
         english = "You have choledocholithiasis, or gallstones in your bile duct.",
         foreign = "Tiene coledocolitiasis, o c&aacute;lculos biliares en su ducto biliar."
-    }
+    },
     {
         english = "You have cholecystitis, or inflammation of the gallbladder.  This usually happens when a gallstone gets stuck in your gallbladder neck, which causes your gallbladder to get inflamed.",
         foreign = "Tiene colelitiasis, o inflamaci&oacute;n de la ves&iacute;cula biliar.  Usualment ocurre cuando el c&aacute;lculo se queda atrapado en el cuello de la ves&iacute;cula biliar, y causa inflamaci&oacute;n de la ves&iacute;cula biliar."
