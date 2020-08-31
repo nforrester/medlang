@@ -24,7 +24,7 @@ in ../../conversation.dhall {
             image_map = None s.ImageMapData
         },
         {
-            response = "Upper Extremities (INCOMPLETE)",
+            response = "Upper Extremities",
             filename = "OMM/ue/menu",
             image_map = None s.ImageMapData
         },
