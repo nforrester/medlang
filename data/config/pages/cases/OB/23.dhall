@@ -8,12 +8,12 @@ translations =
     {
         english = "You will drink a glucose solution, and 1 hour later we will check your blood sugar.",
         spanish = Some "Va a beber una soluci&oacute;n de glucosa, y una hora despu&eacute;s vamos a revisar sus niveles the az&uacute;car en la sangre.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "We will lightly swab the vagina and rectum.",
         spanish = Some "Vamos a frotar ligeramente la vagina y el recto con un hisopo.",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

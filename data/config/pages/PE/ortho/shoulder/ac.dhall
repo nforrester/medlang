@@ -8,12 +8,12 @@ in ./technique.dhall {
         {
             english = "<u>Scarf</u>: Hold onto your opposite shoulder.",
             spanish = Some "Agarre su otro hombro.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>O'Brien's</u>: Stretch your arms out straight in front of you, thumbs down.",
             spanish = None Text,
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

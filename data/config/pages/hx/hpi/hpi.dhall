@@ -1,5 +1,6 @@
 -- medical hx
-./technique.dhall {
+let s = ./schema.dhall
+in ./technique.dhall {
 title = "HPI (OLDCARTS)",
 image = None Text,
 translations =
@@ -7,92 +8,92 @@ translations =
     {
         english = "How can I help you?",
         spanish = Some "En qu&eacute; puedo ayudarlo/a?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Why did you come to the hospital today (instead of any onother day)?",
         spanish = Some "Porqu&eacute; vino al hospital hoy (en vez de algun otro dia)?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "For how long (have you had this problem)?",
         spanish = Some "Por cu&aacute;nto tiempo (ha tenido este problema)?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "On a scale of 0-10, how much is your pain?",
         spanish = Some "En una escala de cero a diez, cu&aacute;nto es su dolor?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "A little",
         spanish = Some "Un poco",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "A lot",
         spanish = Some "Mucho",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Is it getting better, worse, or the same?",
         spanish = Some "Est&aacute; mejorando, empeorando, o es constante?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Where is the pain?",
         spanish = Some "D&oacute;nde est&aacute; el dolor?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Does the pain move anywhere else?",
         spanish = Some "El dolor se mueve a otro sitio?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "What improves it? <br>What worsens it?",
         spanish = Some "Qu&eacute; lo mejora? <br>Qu&eacute; lo empeora?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- food / exercise / stress",
         spanish = Some "- comida / ejercicio / estr&eacute;s ",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Can you describe the pain?",
         spanish = Some "Puede describir el dolor?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Sharp / Dull / Cramping / Pressure / Burning",
         spanish = Some "Agudo / Sordo / C&oacute;lico / Presi&oacute;n / Quemando",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Constant / Comes & goes",
         spanish = Some "Constante / Se va y viene",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "How long does it last?",
         spanish = Some "Cu&aacute;nto tiempo le dura?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Have you had this pain (problem) before in your life?",
         spanish = Some "Ha tenido este dolor (problema) en su vida?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Any other symptoms?",
         spanish = Some "Tiene otros s&iacute;ntomas?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "What is the name of your ___ doctor?",
         spanish = Some "C&oacute;mo se llama su doctor(a) ____?",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

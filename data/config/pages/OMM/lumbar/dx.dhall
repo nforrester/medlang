@@ -10,7 +10,7 @@ in ./technique.dhall {
             {
                 english = "I'm going to feel down your spine.",
                 spanish = Some "Voy a sentir su columna vertebral(?).",
-                chinese = None Text
+                chinese = None s.Zh
             }
         ]
         #

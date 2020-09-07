@@ -8,12 +8,12 @@ in ./technique.dhall {
         {
             english = "supraspinatus",
             spanish = Some "m&uacute;sculo supraespniso ",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "proceso inlamatorio / degenerativo",
             spanish = Some "inflammatory / degenerative process",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

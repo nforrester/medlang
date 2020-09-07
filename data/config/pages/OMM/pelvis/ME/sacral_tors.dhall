@@ -10,22 +10,22 @@ in ./technique.dhall {
        {
            english = "Bend your knees up / down.",
            spanish = Some "Doble sus rodillas hacia arriba / abajo.",
-           chinese = None Text
+           chinese = None s.Zh
        },
         {
            english = "Lift your leg(s) / top leg.  I will sit under.",
            spanish = Some "Levante sus piernas / pierna superior.  Me voy a sentar debajo.",
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "Turn your face toward the ceiling / into the table.",
            spanish = Some "Gire su cara hacia el techo / hacia la mesa.",
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "Hold onto the table edge.",
            spanish = Some "Sostenga(?) el borde de la mesa.",
-           chinese = None Text
+           chinese = None s.Zh
        }
    ]
    #

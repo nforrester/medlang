@@ -7,17 +7,17 @@ in ./technique.dhall {
         {
             english = "Bend your knees.",
             spanish = Some "Doble sus rodillas.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Lift your hips up.",
             spanish = Some "Levante sus caderas.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Straighten out your legs.",
             spanish = Some "Estire sus piernas.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ]
     ,

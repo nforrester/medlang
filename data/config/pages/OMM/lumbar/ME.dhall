@@ -10,17 +10,17 @@ in ./technique.dhall {
         {
             english = "Raise your arm. Put it straight up behind your ear.",
             spanish = Some "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Bring your knees up (toward your chest) / down.",
             spanish = Some "Levante / baje sus rodillas.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Can you feel my forearm against your hip?",
             spanish = Some "Puede sentir mi antebrazo contra su cadera?",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ]
     #

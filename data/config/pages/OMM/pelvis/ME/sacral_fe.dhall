@@ -12,27 +12,27 @@ in ./technique.dhall {
        {
            english = "Widen your knees a little.",
            spanish = None Text,
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "Bend your knee.",
            spanish = Some "Doble su rodilla.",
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "Bring your ankle outward / inward.",
            spanish = Some "Traiga sus tobillo hacia afuera / adentro (?).",
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "Cross your ankles.",
            spanish = Some "Cruce sus tobillos.",
-           chinese = None Text
+           chinese = None s.Zh
        },
        {
            english = "I am going to put my palm on the back of your hip.",
            spanish = Some "Voy a poner mi palma sobre la parte posterior de su cadera (?).",
-           chinese = None Text
+           chinese = None s.Zh
        }
    ]
    #

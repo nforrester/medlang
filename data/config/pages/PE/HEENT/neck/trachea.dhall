@@ -8,7 +8,7 @@ in ./technique.dhall {
         {
             english = "I'm going to feel your windpipe to make sure it's in the midline.",
             spanish = Some "Voy a sentir tu tr&aacute;quea para asegurarme de que est&eacute; en l&iacute;nea media.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

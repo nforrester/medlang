@@ -8,32 +8,32 @@ translations =
     {
         english = "Chest pain/pressure",
         spanish = Some "Dolor de pecho?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Short of breath? (dyspnea)",
         spanish = Some "Dificultad de respirar?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- when lying flat? (orthopnea)",
         spanish = Some "- cuando est&aacute;a acostado/a?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Rapid / irregular heartbeats?",
         spanish = Some "Latidos r&aacute;pidos / irregulares del coraz&oacute;n?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Swollen legs?",
         spanish = Some "Piernas hinchadas?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Calf pain / cramping?",
         spanish = Some "Dolor / Calambres de la pantorrilla?",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

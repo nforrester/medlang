@@ -7,12 +7,12 @@ in ./technique.dhall {
         {
             english = "I'm going to put my hand on your hip and lift your leg with my other hand.",
             spanish = Some "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Let me know if it hurts.",
             spanish = Some "Me diga si le duele.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ]
     ,

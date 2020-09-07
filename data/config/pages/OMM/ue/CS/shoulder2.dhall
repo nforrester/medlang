@@ -10,17 +10,17 @@ translations =
     {
         english = "Let your arm drop off the table.",
         spanish = Some "Deje caer su brazo sobre el borde de la mesa.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "I'm going to press into your armpit area, this may tickle.",
         spanish = Some "Voy a presionar en su axila.  Esto puede hacer cosquillas.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "I'm going to press on your (inner) arm.",
         spanish = Some "Voy a presionar en su brazo (interno).",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ]
 #

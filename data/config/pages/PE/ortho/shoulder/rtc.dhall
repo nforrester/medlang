@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             english = "<u>Liftoff</u>.",
             spanish = None Text,
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>Empty Can</u>: Stretch your arms out straight in front of you, thumbs down.",
             spanish = Some "Estire los codos, pulgares abajo.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u></u>.",
             spanish = Some "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>External Rotation</u>.",
             spanish = None Text,
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

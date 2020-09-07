@@ -1,22 +1,23 @@
 -- Gown
-./technique.dhall {
+let s = ./schema.dhall
+in ./technique.dhall {
     title = "Gown",
     image = None Text,
     translations = [
         {
             english = "Could you untie your gown and lower it down to your belly button?",
             spanish = Some "Puede desatar su bata y bajarlo hasta su ombligo?",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "You can tie your gown back up.",
             spanish = Some "Puede atar su bata.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Would you like help untying / tying your gown?",
             spanish = Some "Quiere mi ayuda para atar / desatar su bata?",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

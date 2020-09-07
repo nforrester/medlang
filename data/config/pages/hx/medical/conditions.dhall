@@ -8,7 +8,7 @@ translations =
     {
         english = "High cholesterol.",
         spanish = Some "Colestero alto.",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

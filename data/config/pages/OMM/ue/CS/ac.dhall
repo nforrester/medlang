@@ -8,7 +8,7 @@ translations =
     {
         english = "<u>AAC</u>",
         spanish = None Text,
-        chinese = None Text
+        chinese = None s.Zh
     }
 ]
 #
@@ -18,12 +18,12 @@ translations =
     {
         english = "I'm going to pull your arm across your chest.",
         spanish = Some "Voy a ____(?) su brazo sobre su pecho.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "<u>PAC</u>",
         spanish = None Text,
-        chinese = None Text
+        chinese = None s.Zh
     }
 ]
 #
@@ -33,7 +33,7 @@ translations =
     {
         english = "I'm going to pull your arm across your back.",
         spanish = Some "Voy a ___(?) su brazo sobre su espalda.",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ]
 #

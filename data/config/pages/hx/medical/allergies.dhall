@@ -8,37 +8,37 @@ translations =
     {
         english = "Do you have allergies?",
         spanish = Some "Tiene alergia?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Are you allergic to any medications / foods / latex?",
         spanish = Some "Es al&eacutergico/a a alguna medicina / comida / l&aacutetex?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Do you take medicine to alleviate your allergy?",
         spanish = Some "Toma medicina para aleviar su alergia?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "What happens?",
         spanish = Some "Qu&eacute; reacci&oacute;n tiene?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- rash",
         spanish = Some "- erupci&oacute;n",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- I itch",
         spanish = Some "- me pica",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- swelling",
         spanish = Some "- hinchaz&oacuten",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

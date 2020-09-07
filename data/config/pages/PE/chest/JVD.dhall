@@ -1,5 +1,6 @@
 -- JVD
-./technique.dhall {
+let s = ./schema.dhall
+in ./technique.dhall {
     title = "JVD",
     image = None Text,
     translations =
@@ -9,17 +10,17 @@
         {
             english = "Turn your head away.",
             spanish = Some "Gire(?) la cabeza.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Hold your breath.",
             spanish = Some "Aguante la respiraci&oacute;n.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "I'm going to push on your stomach.",
             spanish = Some "Voy a empujar sobre su est&oacute;mago.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -7,37 +7,37 @@ in ./technique.dhall {
         {
             english = "<u>CN II</u>: ",
             spanish = Some "${./link.dhall "PE/HEENT/eyes/vision" "Visual Acuity"} <br> ${./link.dhall "PE/HEENT/eyes/field" "Visual Field"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN III, IV, VI</u>: ",
             spanish = Some "${./link.dhall "PE/HEENT/eyes/pupils" "Accommodation & Extraocular Movements"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN V</u>: ",
             spanish = Some "${./link.dhall "PE/neuro/sensation" "Facial Sensations"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN VII</u>: ",
             spanish = Some "${./link.dhall "PE/neuro/cn7" "Facial Muscles"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN VIII</u>: ",
             spanish = Some "${./link.dhall "PE/HEENT/ears/hearing" "Hearing"} <br> ${./link.dhall "PE/neuro/cerebellum" "Balance(-)"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN IX,X, XII</u>: ",
             spanish = Some "${./link.dhall "PE/HEENT/op" "Uvula Deviation <br> Tongue Movements"}",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "<u>CN XI</u>: ",
             spanish = Some "${./link.dhall "PE/neuro/cn11" "Trapezius & SCM"}",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

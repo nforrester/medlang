@@ -8,37 +8,37 @@ translations =
     {
         english = "Unexplained weight loss / gain?",
         spanish = Some "P&eacute;rdida / Aumento de peso inexplicable?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "- How many pounds?",
         spanish = Some "- Cu&aacute;ntos pesos?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Fatigue?",
         spanish = Some "F&aacute;tiga?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Loss / gain in appetite?",
         spanish = Some "Falta / gana de apetito?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Fever?",
         spanish = Some "Fiebre?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Chills?",
         spanish = Some "Escalofrios?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Night sweats?",
         spanish = Some "Sudoraciones nocturnas?",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

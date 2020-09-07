@@ -8,57 +8,57 @@ translations =
     {
         english = "Depression?",
         spanish = Some "Depresi&oacute;n",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Energy loss?",
         spanish = Some "Falta de energ&iacute;a?.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Sleeping problems?",
         spanish = Some "Problemas al dormir?.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Memory loss?",
         spanish = Some "P&eacute;rdida de la memoria?.",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Forgetfulness?",
         spanish = Some "Olvidos?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Anxiety? Stress?",
         spanish = Some "Ansiedad? Estr&eacute;s?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Irritability?",
         spanish = Some "Irritabilidad?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "[auditory/visual] hallucinations?",
         spanish = Some "Alucinaciones [visuales / auditivas]?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Thoughts of hurting yourself / others?",
         spanish = Some "Pensamientos sobre lastimarse a s&iacute; mismo / otros?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Change in mood?",
         spanish = Some "Cambio de humor?",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Confusion?",
         spanish = Some "Confusi&oacute;n?",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

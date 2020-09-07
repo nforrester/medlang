@@ -7,12 +7,12 @@ in ./technique.dhall {
         {
             english = "I'm going to feel for your thyroid, which is in your neck.",
             spanish = Some "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "Please swallow.",
             spanish = Some "Trague, por favor",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -12,12 +12,12 @@ in ./technique.dhall {
         {
             english = "I'm going to lift your hip.",
             spanish = Some "Voy a levantar su cadera.",
-            chinese = None Text
+            chinese = None s.Zh
         },
         {
             english = "I'm going to push on your back muscles.",
             spanish = Some "Voy a presionar los m&uacutesculos de su espalda.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ]
     #

@@ -9,7 +9,7 @@ in ./technique.dhall {
         {
             english = "<u>PC1-8</u>: Scoot back toward me, until your head is hanging off of the table. <br> I will hold your head.",
             spanish = Some "Correse(?) hacia m&iacute;, hasta que su cabeza cuelgue de la mesa. <br> Voy a sostener su cabeza.",
-            chinese = None Text
+            chinese = None s.Zh
         }
     ]
     #

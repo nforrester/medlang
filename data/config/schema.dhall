@@ -3,11 +3,15 @@
 -- Just syntactic sugar to make it clear when a Text variable is supposed to be a filename.
 let Filename : Type = Text
 
-let LinkData : Type = {            -- data that describes the link
+let LinkData : Type = {     -- data that describes the link
     title : Text,           -- text to the link
     filename : Filename     -- link to the file
 }
 
+let Zh : Type = {  -- Represents the same text in both Mandarin pinyin and Chinese characters
+    pin : Text,    -- Pinyin
+    chr : Text     -- Characters
+}
 
 let SiteMetaData : Type = {
     files_to_replicate : List Filename -- Files to copy into every directory of the config tree.
@@ -72,7 +76,7 @@ let TechniqueData : Type = PageDataBare //\\ {
     translations : List {                   -- English phrase with foreign translation
         english : Text,                     -- English phrase
         spanish : Optional Text,            -- Spanish phrase
-        chinese : Optional Text             -- Chinese phrase
+        chinese : Optional Zh               -- Mandarin phrase
     },
     menu_items : List LinkData              -- Menu of techniques
 }
@@ -89,6 +93,7 @@ let ConfigData : Type = {
 
 in {
     Filename         = Filename,
+    Zh               = Zh,
     LinkData         = LinkData,
     SiteMetaData     = SiteMetaData,
     SiteData         = SiteData,

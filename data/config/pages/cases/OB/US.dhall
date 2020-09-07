@@ -8,27 +8,27 @@ translations =
     {
         english = "heartbeat",
         spanish = Some "latido del coraz&oacute;n",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "head / face",
         spanish = Some "cabeza / cara",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "belly",
         spanish = Some "la panza",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "femur",
         spanish = Some "el f&eacute;mur",
-        chinese = None Text
+        chinese = None s.Zh
     },
     {
         english = "Do you want to know the baby's gender?",
         spanish = Some "Desea saber el sexo del beb&eacute;?",
-        chinese = None Text
+        chinese = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

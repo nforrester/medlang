@@ -10,32 +10,32 @@ in ./technique.dhall {
    {
        english = "<u>Anterior Rotation</u>.",
        spanish = None Text,
-       chinese = None Text
+       chinese = None s.Zh
    },
    {
        english = "Drop your leg over the edge of the table.",
        spanish = Some "Deje caer su pierna sobre el borde de la mesa.",
-       chinese = None Text
+       chinese = None s.Zh
    },
    {
        english = "Scoot your head over so you're lying diagonally over the table.",
        spanish = Some "Deslice su cabeza para que se acueste diagonalmente sobre la mesa.",
-       chinese = None Text
+       chinese = None s.Zh
    },
    {
        english = "<u>Posterior Rotation</u>.",
        spanish = None Text,
-       chinese = None Text
+       chinese = None s.Zh
    },
    {
        english = "Bend your knee up against your chest.",
        spanish = Some "Doble su rodilla contra su pecho.",
-       chinese = None Text
+       chinese = None s.Zh
    },
    {
        english = "I'm going to slide my palm under your hip.<br>I will pull slightly at your hip.",
        spanish = Some "Voy a deslizar mi palma debajo de su cadera.<br>Voy a tirar de su cadera ligeramente.",
-       chinese = None Text
+       chinese = None s.Zh
    }
    ]
    #
