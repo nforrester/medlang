@@ -9,8 +9,8 @@ translations =
         en = "How can I help you?",
         es = Some "En qu&eacute; puedo ayudarlo/a?",
         zh = Some {
-            pin = "wo3 neng2 ru2 he2 wei4 nin2 bang zhu4?",
-            chr = "我 能 如 何 為 您 帮 助?"
+            pin = "wo3 neng2 ru2 he2 <br>wei4 nin2 bang zhu4?",
+            chr = "我 能 如 何 <br>為 您 帮 助?"
             }
     },
     {
@@ -22,8 +22,8 @@ translations =
         en = "For how long (have you had this problem)?",
         es = Some "Por cu&aacute;nto tiempo (ha tenido este problema)?",
         zh = Some {
-            pin = "duo1 chang2 shi2 jian1 (you3 zhe4 ge zhen4 zhuang4)",
-            chr = "多 長 時 間 (有 這 個 症 狀)?"
+            pin = "duo1 chang2 shi2 jian1 <br>(you3 zhe4 ge zhen4 zhuang4)",
+            chr = "多 長 時 間 <br>(有 這 個 症 狀)?"
         }
     },
     {
