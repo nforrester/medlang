@@ -11,15 +11,18 @@ in ./technique.dhall {
     [
         {
             english = "I am going to lift your leg...",
-            foreign = "Voy a levantar su pierna..."
+            spanish = Some "Voy a levantar su pierna...",
+            chinese = None Text
         },
         {
             english = "...and pull it towards me.",
-            foreign = "...y tirarla a m&iacute;."
+            spanish = Some "...y tirarla a m&iacute;.",
+            chinese = None Text
         },
         {
             english = "I am going to move your foot/leg in/outward.",
-            foreign = "Voy a mover su pie/pierna."
+            spanish = Some "Voy a mover su pie/pierna.",
+            chinese = None Text
         }
     ]
     #

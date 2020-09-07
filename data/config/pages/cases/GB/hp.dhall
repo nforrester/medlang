@@ -5,39 +5,48 @@ translations =
 [
     {
         english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Does the pain get worse with food?",
-        foreign = "(El dolor) empeora con comida?"
+        spanish = Some "(El dolor) empeora con comida?",
+        chinese = None Text
     },
     {
         english = "-fatty food",
-        foreign = "-comida grasura"
+        spanish = Some "-comida grasura",
+        chinese = None Text
     },
     {
         english = "-spicy food",
-        foreign = "-comida picante"
+        spanish = Some "-comida picante",
+        chinese = None Text
     },
     {
         english = "El dolor abdominal aparece y desaparece?",
-        foreign = "Does the abdominal pain appear and disappear?"
+        spanish = Some "Does the abdominal pain appear and disappear?",
+        chinese = None Text
     },
     {
         english = "fever / chills",
-        foreign = "fiebre / escalofr&iacute;os"
+        spanish = Some "fiebre / escalofr&iacute;os",
+        chinese = None Text
     },
     {
         english = "Ictericia: piel / ojos amarillos",
-        foreign = "Icterus: yellow skin / eyes"
+        spanish = Some "Icterus: yellow skin / eyes",
+        chinese = None Text
     },
     {
         english = "nausea / vomiting",
-        foreign = "n&aacute;useas / v&oacute;mitos"
+        spanish = Some "n&aacute;useas / v&oacute;mitos",
+        chinese = None Text
     },
     {
         english = "indigestion / burping / gas",
-        foreign = "indigesti&oacute;n / eructos / gases"
+        spanish = Some "indigesti&oacute;n / eructos / gases",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Abdominal pain (biliary) - A&P", filename = "cases/GB/ap"}],

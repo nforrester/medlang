@@ -9,27 +9,33 @@ in ./technique.dhall {
     [
         {
             english = "I am going to lift your leg...",
-            foreign = "Voy a levantar su pierna..."
+            spanish = Some "Voy a levantar su pierna...",
+            chinese = None Text
         },
         {
             english = "...and place my knee underneath.",
-            foreign = "...y poner mi rodilla debajo"
+            spanish = Some "...y poner mi rodilla debajo",
+            chinese = None Text
         },
         {
             english = "...and pull it towards me.",
-            foreign = "...y tirarla a m&iacute;."
+            spanish = Some "...y tirarla a m&iacute;.",
+            chinese = None Text
         },
         {
             english = "I am going to move your foot/leg in/outward.",
-            foreign = "Voy a mover su pie/pierna hacia adentro/afuera."
+            spanish = Some "Voy a mover su pie/pierna hacia adentro/afuera.",
+            chinese = None Text
         },
         {
             english = "I am going to drop your leg off the table.",
-            foreign = "Voy a caer su pierna sobre el borde de la mesa. "
+            spanish = Some "Voy a caer su pierna sobre el borde de la mesa. ",
+            chinese = None Text
         },
         {
             english = "Let your leg relax onto my lap.",
-            foreign = "Relaje su pierna en mi regazo."
+            spanish = Some "Relaje su pierna en mi regazo.",
+            chinese = None Text
         }
     ]
     #

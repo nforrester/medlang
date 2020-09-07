@@ -7,59 +7,73 @@ translations =
 [
     {
         english = "Period",
-        foreign = "Regla / Menstruaci&oacute;n / Per&iacute;odo"
+        spanish = Some "Regla / Menstruaci&oacute;n / Per&iacute;odo",
+        chinese = None Text
     },
     {
         english = "When was your LMP?",
-        foreign = "Cu&aacute;ndo fue su &uacute;ltima menstruaci&oacute;n?"
+        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima menstruaci&oacute;n?",
+        chinese = None Text
     },
     {
         english = "How often do they come? Every ___ days.",
-        foreign = "Con qu&eacute; frecuencia llegan?  Cada ___ d&iacute;as"
+        spanish = Some "Con qu&eacute; frecuencia llegan?  Cada ___ d&iacute;as",
+        chinese = None Text
     },
     {
         english = "How many days do they last?",
-        foreign = "Cu&aacute;ntos d&iacute;as duran?"
+        spanish = Some "Cu&aacute;ntos d&iacute;as duran?",
+        chinese = None Text
     },
     {
         english = "Are they heavy or light?",
-        foreign = "Son leve o abundante?"
+        spanish = Some "Son leve o abundante?",
+        chinese = None Text
     },
     {
         english = "Are you passing clots?",
-        foreign = "Est&aacute; pasando co&aacute;gulos de sangre?"
+        spanish = Some "Est&aacute; pasando co&aacute;gulos de sangre?",
+        chinese = None Text
     },
     {
         english = "How many pads/tampons do you use?",
-        foreign = "Cu&aacute;ntos compresas o tampones usa?"
+        spanish = Some "Cu&aacute;ntos compresas o tampones usa?",
+        chinese = None Text
     },
     {
         english = "Does it happen during / after sex?",
-        foreign = "Occure durante / despu&eacute;s de relaciones sexuales?"
+        spanish = Some "Occure durante / despu&eacute;s de relaciones sexuales?",
+        chinese = None Text
     },
     {
         english = "When was your last pap smear?",
-        foreign = "Cu&aacute;ndo fue su &uacute;ltima prueba de pap (citologia vaginal)?"
+        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima prueba de pap (citologia vaginal)?",
+        chinese = None Text
     },
     {
         english = "Have you ever been diagnosed with an STD?",
-        foreign = "Ha sido diagnosticado con enfermedad transmitida sexualmente?"
+        spanish = Some "Ha sido diagnosticado con enfermedad transmitida sexualmente?",
+        chinese = None Text
     },
     {
         english = "Are you on birth control?",
-        foreign = "Toma anticontraceptivos?"
+        spanish = Some "Toma anticontraceptivos?",
+        chinese = None Text
     },
     {
         english = "- pills / injections / implant / IUD",
-        foreign = "- pastillas / inyecciones / implante / dispositivo intrauterino"
+        spanish = Some "- pastillas / inyecciones / implante / dispositivo intrauterino",
+        chinese = None Text
     },
     {
         english = "- tubal ligation (tubes tied)",
-        foreign = "- esterilizaci&oacute;n tub&aacute;rica (ligadura de trompas)"
+        spanish = Some "- esterilizaci&oacute;n tub&aacute;rica (ligadura de trompas)",
+        chinese = None Text
     },
     {
         english = "- vasectomy",
-        foreign = "- vasectom&iacute;a"
+        spanish = Some "- vasectom&iacute;a",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/VB/ap"}],

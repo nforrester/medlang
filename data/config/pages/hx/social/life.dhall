@@ -7,59 +7,73 @@ translations =
 [
     {
         english = "What's your job?",
-        foreign = "Qu&eacute; trabajo tiene?"
+        spanish = Some "Qu&eacute; trabajo tiene?",
+        chinese = None Text
     },
     {
         english = "Does your job involve strenuous physical activity?",
-        foreign = "."
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Su problema afecta su trabajo?",
-        foreign = "Is your problem affecting your work?"
+        spanish = Some "Is your problem affecting your work?",
+        chinese = None Text
     },
     {
         english = "Are you exposed to any hazards at work?",
-        foreign = "Est&aacute; expuesto/a a riesgos en su trabajo?"
+        spanish = Some "Est&aacute; expuesto/a a riesgos en su trabajo?",
+        chinese = None Text
     },
     {
         english = "Where do you live?",
-        foreign = "D&oacute;nde vive?"
+        spanish = Some "D&oacute;nde vive?",
+        chinese = None Text
     },
     {
         english = "Whom do you live with?",
-        foreign = "Con qui&eacute;n vive?"
+        spanish = Some "Con qui&eacute;n vive?",
+        chinese = None Text
     },
     {
         english = "Nursing home",
-        foreign = "residencia de ancianos"
+        spanish = Some "residencia de ancianos",
+        chinese = None Text
     },
     {
         english = "SNF",
-        foreign = "centro especializado de enfermer&iacute;a"
+        spanish = Some "centro especializado de enfermer&iacute;a",
+        chinese = None Text
     },
     {
         english = "prison",
-        foreign = "la c&aacute;rcel"
+        spanish = Some "la c&aacute;rcel",
+        chinese = None Text
     },
     {
         english = "Do you have children? Pets? How old are they?",
-        foreign = "Tiene ni&ntilde;nos? animales dom&eacute;sticos? Cu&aacute;ntos a&ntilde;os tienen?"
+        spanish = Some "Tiene ni&ntilde;nos? animales dom&eacute;sticos? Cu&aacute;ntos a&ntilde;os tienen?",
+        chinese = None Text
     },
     {
         english = "Do you feel safe at home?",
-        foreign = "Se siente seguro/a en casa?"
+        spanish = Some "Se siente seguro/a en casa?",
+        chinese = None Text
     },
     {
         english = "Have you ever felt physically or verbally threatened at home?",
-        foreign = "?"
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Are you under much stress?",
-        foreign = "Tiene mucho estr&eacute;s?"
+        spanish = Some "Tiene mucho estr&eacute;s?",
+        chinese = None Text
     },
     {
         english = "Have you ever been/worked in a prison?",
-        foreign = "Alguna vez estuvo/trabaj&oacute; en pris&oacute;n? (?)"
+        spanish = Some "Alguna vez estuvo/trabaj&oacute; en pris&oacute;n? (?)",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

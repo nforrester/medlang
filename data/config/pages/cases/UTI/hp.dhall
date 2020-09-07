@@ -7,39 +7,48 @@ translations =
 [
     {
         english = "Burning",
-        foreign = "el ardor"
+        spanish = Some "el ardor",
+        chinese = None Text
     },
     {
         english = "Cloudy urine / Dark urine /  Bloody urine",
-        foreign = "Orina turbia / Orina oscura / Orina con sangre"
+        spanish = Some "Orina turbia / Orina oscura / Orina con sangre",
+        chinese = None Text
     },
     {
         english = "Urgency / Frequency, but small amount of urine",
-        foreign = "la urgencia / la frecuencia, pero poca cantidad de orina"
+        spanish = Some "la urgencia / la frecuencia, pero poca cantidad de orina",
+        chinese = None Text
     },
     {
         english = "feeling of incomplete bladder emptying",
-        foreign = "sensaci&oacute;n de vaciamiento incompleto de la vejiga"
+        spanish = Some "sensaci&oacute;n de vaciamiento incompleto de la vejiga",
+        chinese = None Text
     },
     {
         english = "Flank pain",
-        foreign = "Dolor de costado / en el flanco"
+        spanish = Some "Dolor de costado / en el flanco",
+        chinese = None Text
     },
     {
         english = "Fever / chills",
-        foreign = "fiebre / escalofr&iacute;os"
+        spanish = Some "fiebre / escalofr&iacute;os",
+        chinese = None Text
     },
     {
         english = "History of...<br>-urinary infections<br>-kidney stones<br>-kidney problems<br>-prostate problems",
-        foreign = "Historia de...<br>-infecciones de orina<br>-c&aacute;lculos renales<br>-problemas renales<br>-problemas de prost&aacute;ta"
+        spanish = Some "Historia de...<br>-infecciones de orina<br>-c&aacute;lculos renales<br>-problemas renales<br>-problemas de prost&aacute;ta",
+        chinese = None Text
     },
     {
         english = "Have you ever been diagnosed with an STD?",
-        foreign = "Ha sido diagnosticado con enfermedad transmitida sexualmente?"
+        spanish = Some "Ha sido diagnosticado con enfermedad transmitida sexualmente?",
+        chinese = None Text
     },
     {
         english = "AZO: these medications relieve symptoms of UTI.<br>They cause urine to turn bright red.",
-        foreign = "Estos medicamentos alevia las s&iacute;ntomas de UTI.<br>Puede darle a la orina color rojo."
+        spanish = Some "Estos medicamentos alevia las s&iacute;ntomas de UTI.<br>Puede darle a la orina color rojo.",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/UTI/ap"}],

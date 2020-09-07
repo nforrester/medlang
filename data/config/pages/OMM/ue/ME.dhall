@@ -7,11 +7,13 @@ translations =
 [
     {
         english = "I'm going to hold your hand.",
-        foreign = "Voy a tomar su mano."
+        spanish = Some "Voy a tomar su mano.",
+        chinese = None Text
     },
     {
         english = "Try to turn your palm up (toward the ceiling) / down (toward the floor)",
-        foreign = "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso)."
+        spanish = Some "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso).",
+        chinese = None Text
     }
 ]
 #

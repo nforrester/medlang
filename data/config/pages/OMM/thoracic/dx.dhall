@@ -9,11 +9,13 @@ in ./technique.dhall {
     [
         {
             english = "Sit up straight and puff out your chest.",
-            foreign = "Si&eacute;ntase derecho y hinche su pecho."
+            spanish = Some "Si&eacute;ntase derecho y hinche su pecho.",
+            chinese = None Text
         },
         {
             english = "Slump forward.",
-            foreign = "Despl&aacute;zese hacia adelante."
+            spanish = Some "Despl&aacute;zese hacia adelante.",
+            chinese = None Text
         }
     ]
     #

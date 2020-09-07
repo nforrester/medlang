@@ -7,59 +7,73 @@ translations =
 [
     {
         english = "Have you ever been diagnosed with any medical conditions?",
-        foreign = "Ha sido diagnosticado con alguna problema m&eacute;dica?"
+        spanish = Some "Ha sido diagnosticado con alguna problema m&eacute;dica?",
+        chinese = None Text
     },
     {
         english = "When did you last see a doctor?",
-        foreign = "Cu&aacute;ndo fue su &uacute;ltima cita con el doctor?"
+        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima cita con el doctor?",
+        chinese = None Text
     },
     {
         english = "Have you ever had an X-ray/CT/MRI taken? For what?",
-        foreign = "Ha tenido una radiografia/tomografia/MRI? Por qu&eacute;?"
+        spanish = Some "Ha tenido una radiografia/tomografia/MRI? Por qu&eacute;?",
+        chinese = None Text
     },
     {
         english = "Have you ever been hospitalized?",
-        foreign = "Ha sido hospitalizado/a?"
+        spanish = Some "Ha sido hospitalizado/a?",
+        chinese = None Text
     },
     {
         english = "Does anyone in your family have medical problems?",
-        foreign = "Alguien en su familia tiene problemas m&eacute;dicas?"
+        spanish = Some "Alguien en su familia tiene problemas m&eacute;dicas?",
+        chinese = None Text
     },
     {
         english = "Are both of your parents currently living?",
-        foreign = "Est&aacute;n vivos sus padres?."
+        spanish = Some "Est&aacute;n vivos sus padres?.",
+        chinese = None Text
     },
     {
         english = "How old was s/he when...?",
-        foreign = "Cu&aacute;ntos a&ntilde;os tiene cuando...?"
+        spanish = Some "Cu&aacute;ntos a&ntilde;os tiene cuando...?",
+        chinese = None Text
     },
     {
         english = "<u> Medical conditions </u>",
-        foreign = "${./link.dhall "hx/medical/conditions" "See full list here"}"
+        spanish = Some "${./link.dhall "hx/medical/conditions" "See full list here"}",
+        chinese = None Text
     },
     {
         english = "- high blood pressure / hypertensi&oacute;n",
-        foreign = "- alta presi&oacute;n / hipertension"
+        spanish = Some "- alta presi&oacute;n / hipertension",
+        chinese = None Text
     },
     {
         english = "- diabetes",
-        foreign = "- diabetes"
+        spanish = Some "- diabetes",
+        chinese = None Text
     },
     {
         english = "- heart failure",
-        foreign = "- insuficiencia card&iacute;aca"
+        spanish = Some "- insuficiencia card&iacute;aca",
+        chinese = None Text
     },
     {
         english = "- heart attack",
-        foreign = "- ataque al coraz&oacute;n"
+        spanish = Some "- ataque al coraz&oacute;n",
+        chinese = None Text
     },
     {
         english = "- stroke / CVA",
-        foreign = "- apoplej&iacute;a / accidente cerebrovascular"
+        spanish = Some "- apoplej&iacute;a / accidente cerebrovascular",
+        chinese = None Text
     },
     {
         english = "- [breast/colon/prostate] cancer",
-        foreign = "- c&aacute;ncer [de mama/colon/prostata]"
+        spanish = Some "- c&aacute;ncer [de mama/colon/prostata]",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

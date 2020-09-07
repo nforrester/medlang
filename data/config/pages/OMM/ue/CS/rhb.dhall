@@ -9,19 +9,23 @@ translations =
 [
     {
         english = "I'm going to put my hands under your back.",
-        foreign = "Voy a poner mis manos debajo de su espalda."
+        spanish = Some "Voy a poner mis manos debajo de su espalda.",
+        chinese = None Text
     },
     {
         english = "I'm going to feel along your shoulders.",
-        foreign = "Voy a palpar sus hombros."
+        spanish = Some "Voy a palpar sus hombros.",
+        chinese = None Text
     },
     {
         english = "Put your arm behind your back.",
-        foreign = "Ponga su brazo detr&aacute;s de su espalda."
+        spanish = Some "Ponga su brazo detr&aacute;s de su espalda.",
+        chinese = None Text
     },
     {
         english = "I'm going to pull on your arm.",
-        foreign = "Voy a tirarle del brazo."
+        spanish = Some "Voy a tirarle del brazo.",
+        chinese = None Text
     }
 ]
 #

@@ -7,19 +7,23 @@ translations =
 [
     {
         english = "When was your last menstrual period?",
-        foreign = "Cu&aacute;ndo fue su &uacute;ltima menstruaci&oacute;n?"
+        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima menstruaci&oacute;n?",
+        chinese = None Text
     },
     {
         english = "Are your periods regular?",
-        foreign = "Los per&iacute;odos son regulares?"
+        spanish = Some "Los per&iacute;odos son regulares?",
+        chinese = None Text
     },
     {
         english = "Have you ever been pregnant?<br>How many times?",
-        foreign = "Ha estado embarazada alguna vez?<br>Cu&aacute;ntas veces?"
+        spanish = Some "Ha estado embarazada alguna vez?<br>Cu&aacute;ntas veces?",
+        chinese = None Text
     },
     {
         english = "Are you currently pregnant? Planning to get pregnant?",
-        foreign = "Est&aacute; embarazado o planeando quedar embarazada?"
+        spanish = Some "Est&aacute; embarazado o planeando quedar embarazada?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -9,11 +9,13 @@ translations =
 [
     {
         english = "I'm going to press on your shoulders.",
-        foreign = "Voy a presionar sus hombros."
+        spanish = Some "Voy a presionar sus hombros.",
+        chinese = None Text
     },
     {
         english = "I'm going to pull on your arm.",
-        foreign = "Voy a tirarle del brazo."
+        spanish = Some "Voy a tirarle del brazo.",
+        chinese = None Text
     }
 ]
 #

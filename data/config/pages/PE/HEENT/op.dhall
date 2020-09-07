@@ -5,31 +5,38 @@
     translations = [
         {
             english = "Open / close your mouth.",
-            foreign = "Abra / Cierre la boca."
+            spanish = Some "Abra / Cierre la boca.",
+            chinese = None Text
         },
         {
             english = "Stick your tongue out. Say ahh..",
-            foreign = "Saque la lengua.  Diga aah."
+            spanish = Some "Saque la lengua.  Diga aah.",
+            chinese = None Text
         },
         {
             english = "I will put this stick (tongue depressor) on your tongue.",
-            foreign = "Voy a poner este palo en su lengua."
+            spanish = Some "Voy a poner este palo en su lengua.",
+            chinese = None Text
         },
         {
             english = "Wiggle your tongue side to side.",
-            foreign = "Mueva la lengua de lado a lado."
+            spanish = Some "Mueva la lengua de lado a lado.",
+            chinese = None Text
         },
         {
             english = "Lift your tongue.",
-            foreign = "Levante la lengua."
+            spanish = Some "Levante la lengua.",
+            chinese = None Text
         },
         {
             english = "Bite down, please.",
-            foreign = "Meurda, por favor."
+            spanish = Some "Meurda, por favor.",
+            chinese = None Text
         },
         {
             english = "I'm checking your teeth.",
-            foreign = "Estoy revisando sus dientes."
+            spanish = Some "Estoy revisando sus dientes.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/HEENT/nose"}],

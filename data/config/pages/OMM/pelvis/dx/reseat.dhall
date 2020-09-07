@@ -6,15 +6,18 @@ in ./technique.dhall {
     translations = [
         {
             english = "Bend your knees.",
-            foreign = "Doble sus rodillas."
+            spanish = Some "Doble sus rodillas.",
+            chinese = None Text
         },
         {
             english = "Lift your hips up.",
-            foreign = "Levante sus caderas."
+            spanish = Some "Levante sus caderas.",
+            chinese = None Text
         },
         {
             english = "Straighten out your legs.",
-            foreign = "Estire sus piernas."
+            spanish = Some "Estire sus piernas.",
+            chinese = None Text
         }
     ]
     ,

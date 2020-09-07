@@ -6,19 +6,23 @@
     translations = [
         {
             english = "This test will help me diagnose your gallbladder.",
-            foreign = "Este examen me ayudar&aacute; en diagnosticar su ves&iacute;cula biliar."
+            spanish = Some "Este examen me ayudar&aacute; en diagnosticar su ves&iacute;cula biliar.",
+            chinese = None Text
         },
         {
             english = "I'm going to push underneath your ribcage.",
-            foreign = "Voy a palpar por debajo del reborde de costal derecho."
+            spanish = Some "Voy a palpar por debajo del reborde de costal derecho.",
+            chinese = None Text
         },
         {
             english = "I'm going to push my hand in more.",
-            foreign = "Voy a avanzar mi mano m&aacute;s."
+            spanish = Some "Voy a avanzar mi mano m&aacute;s.",
+            chinese = None Text
         },
         {
             english = "Inhale deeply...Exhale.",
-            foreign = "Inspire profunda...exhale."
+            spanish = Some "Inspire profunda...exhale.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

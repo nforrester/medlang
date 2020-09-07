@@ -5,39 +5,48 @@ in ./technique.dhall {
     translations = [
         {
             english = "What is your name?",
-            foreign = "Cu&al es su nombre?"
+            spanish = Some "Cu&al es su nombre?",
+            chinese = None Text
         },
         {
             english = "What year is it?",
-            foreign = "En qu&eacute; a&ntilde;o estamos?"
+            spanish = Some "En qu&eacute; a&ntilde;o estamos?",
+            chinese = None Text
         },
         {
             english = "What month?",
-            foreign = "Qu&eacute; mes?"
+            spanish = Some "Qu&eacute; mes?",
+            chinese = None Text
         },
         {
             english = "What day of the week?",
-            foreign = "Qu&eacute; d&iacute;a?"
+            spanish = Some "Qu&eacute; d&iacute;a?",
+            chinese = None Text
         },
         {
             english = "What is the date?",
-            foreign = "Cu&aacute;l es la fecha?"
+            spanish = Some "Cu&aacute;l es la fecha?",
+            chinese = None Text
         },
         {
             english = "Where are we?",
-            foreign = "D&oacute;nde estamos?"
+            spanish = Some "D&oacute;nde estamos?",
+            chinese = None Text
         },
         {
             english = "In which city / country?",
-            foreign = "En qu&eacute; ciudad / pa&iacute;s?"
+            spanish = Some "En qu&eacute; ciudad / pa&iacute;s?",
+            chinese = None Text
         },
         {
             english = "On which floor?",
-            foreign = "En q&uacute;e piso?"
+            spanish = Some "En q&uacute;e piso?",
+            chinese = None Text
         },
         {
             english = "Who is the president?",
-            foreign = "Qui&eacute;n es el presidente?"
+            spanish = Some "Qui&eacute;n es el presidente?",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

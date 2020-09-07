@@ -7,47 +7,58 @@ translations =
 [
     {
         english = "Do you drink alcohol?",
-        foreign = "Bebe alcohol?"
+        spanish = Some "Bebe alcohol?",
+        chinese = None Text
     },
     {
         english = "How much do you drink per day/week/month?",
-        foreign = "Cu&aacute;ntos tragos cada dia/semana/mes?"
+        spanish = Some "Cu&aacute;ntos tragos cada dia/semana/mes?",
+        chinese = None Text
     },
     {
         english = "- 1 glass / can / bottle",
-        foreign = "- Un(a) copa / lata / botella"
+        spanish = Some "- Un(a) copa / lata / botella",
+        chinese = None Text
     },
     {
         english = "What type of alcohol?<br>- wine<br>- beer<br>- whiskey",
-        foreign = "Qu&eacute; tipo de alcohol?<br>- vino<br>- cerveza<br>- whisky"
+        spanish = Some "Qu&eacute; tipo de alcohol?<br>- vino<br>- cerveza<br>- whisky",
+        chinese = None Text
     },
     {
         english = "Have you ever smoked?",
-        foreign = "Ha fumado?"
+        spanish = Some "Ha fumado?",
+        chinese = None Text
     },
     {
         english = "How many cigarettes / packs per day?",
-        foreign = "Cu&aacute;ntos cigarillos / paquetes cada dia?"
+        spanish = Some "Cu&aacute;ntos cigarillos / paquetes cada dia?",
+        chinese = None Text
     },
     {
         english = "Pipe / Cigar / tobacco / Vaping",
-        foreign = "Pipa / Cigarro / Tabaco / Vapeo"
+        spanish = Some "Pipa / Cigarro / Tabaco / Vapeo",
+        chinese = None Text
     },
     {
         english = "Have you ever used drugs?",
-        foreign = "Ha usado drogas?"
+        spanish = Some "Ha usado drogas?",
+        chinese = None Text
     },
     {
         english = "marijuana / meth(amphetamines) / cocaine / heroin",
-        foreign = "marihuana / met(anfetaminas) / coca&iacute;na / hero&iacute;na"
+        spanish = Some "marihuana / met(anfetaminas) / coca&iacute;na / hero&iacute;na",
+        chinese = None Text
     },
     {
         english = "For how many years?",
-        foreign =  "Por cu&aacute;ntos a&ntilde;os?"
+        spanish = Some  "Por cu&aacute;ntos a&ntilde;os?",
+        chinese = None Text
     },
     {
         english = "When did you quit?",
-        foreign = "Cu&aacute;ndo dej&oacute;?"
+        spanish = Some "Cu&aacute;ndo dej&oacute;?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

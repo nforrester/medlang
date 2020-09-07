@@ -7,15 +7,18 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to put my finger on your neck to feel your carotid arteries.",
-            foreign = "Voy a poner mi dedo en su cuello para sentir sus arterias car&oacute;tidas."
+            spanish = Some "Voy a poner mi dedo en su cuello para sentir sus arterias car&oacute;tidas.",
+            chinese = None Text
         },
         {
             english = "Hold your breath while I listen.",
-            foreign = "Aguante la respiraci&oacute;n mientras escucho."
+            spanish = Some "Aguante la respiraci&oacute;n mientras escucho.",
+            chinese = None Text
         },
         {
             english = "You can breathe again.",
-            foreign = "Puede respirar de neuevo."
+            spanish = Some "Puede respirar de neuevo.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

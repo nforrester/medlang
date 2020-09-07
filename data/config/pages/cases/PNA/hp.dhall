@@ -5,31 +5,38 @@ translations =
 [
     {
         english = "fever / chills",
-        foreign = "fiebre / escalofr&iacute;os "
+        spanish = Some "fiebre / escalofr&iacute;os ",
+        chinese = None Text
     },
     {
         english = "chest pain",
-        foreign = "dolor de pecho"
+        spanish = Some "dolor de pecho",
+        chinese = None Text
     },
     {
         english = "difficulty breathing / rapid breathing",
-        foreign = "dificultad para respirar / raspiraci&oacute; r&aacute;pida"
+        spanish = Some "dificultad para respirar / raspiraci&oacute; r&aacute;pida",
+        chinese = None Text
     },
     {
         english = "bluish lips / fingernails",
-        foreign = "labios / dedos azulados"
+        spanish = Some "labios / dedos azulados",
+        chinese = None Text
     },
     {
         english = "red/brown/bloody/yellow/green color mucus",
-        foreign = "esputo con color rojo/sanguinolento/amarillo/verde"
+        spanish = Some "esputo con color rojo/sanguinolento/amarillo/verde",
+        chinese = None Text
     },
     {
         english = "streaks of blood",
-        foreign = "hilos de sangre"
+        spanish = Some "hilos de sangre",
+        chinese = None Text
     },
     {
         english = "confusion",
-        foreign = "confusi&oacute;n"
+        spanish = Some "confusi&oacute;n",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Cough & Fever - A&P", filename = "cases/PNA/ap"}],

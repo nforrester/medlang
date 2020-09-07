@@ -7,31 +7,38 @@ translations =
 [
     {
         english = "Are your vaccinations up to date?",
-        foreign = "Sus vacunas est&aacute;n al d&iacute;a?"
+        spanish = Some "Sus vacunas est&aacute;n al d&iacute;a?",
+        chinese = None Text
     },
     {
         english = "When was your last tetanus shot?",
-        foreign = "Cu&aacute;ndo fue su &uacute;ltima vacuna contra el t&eacute;tanos?"
+        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima vacuna contra el t&eacute;tanos?",
+        chinese = None Text
     },
     {
         english = "Have you travelled outside the U.S.? Where? When?",
-        foreign = "Ha viajado a otro pa&iacute;s fuera de los estados unidos? D&oacute;nde? Cu&aacute;ndo?"
+        spanish = Some "Ha viajado a otro pa&iacute;s fuera de los estados unidos? D&oacute;nde? Cu&aacute;ndo?",
+        chinese = None Text
     },
     {
         english = "Have you been sick?",
-        foreign = "Ha estado enfermo?"
+        spanish = Some "Ha estado enfermo?",
+        chinese = None Text
     },
     {
         english = "Have you been around sick people recently?",
-        foreign = "Est&aacute; cerca de personas que est&eacute;n enfermas?"
+        spanish = Some "Est&aacute; cerca de personas que est&eacute;n enfermas?",
+        chinese = None Text
     },
     {
         english = "chicken pox",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "BCG vaccine",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -7,15 +7,18 @@ in ./technique.dhall {
     translations = [
         {
             english = "Your hemoglobin is low, which indicates possible anemia.",
-            foreign = "Su hemoglobina es baja, lo que significa que posiblemente tiene anemia."
+            spanish = Some "Su hemoglobina es baja, lo que significa que posiblemente tiene anemia.",
+            chinese = None Text
         },
         {
             english = "Your white blood count is high, which indicates possible inflammation or infection",
-            foreign = "Su recuento de gl&oacute;bulos blancos es alto, lo que significa que posiblemente tiene inflamaci&oacute;n o infecci&oacute;n."
+            spanish = Some "Su recuento de gl&oacute;bulos blancos es alto, lo que significa que posiblemente tiene inflamaci&oacute;n o infecci&oacute;n.",
+            chinese = None Text
         },
         {
             english = "Your platelet count is low, which indicates increased risk of bleeding",
-            foreign = "Su recuento de plaquetas es bajo, lo que significa que tiene el riesgo de sangrado."
+            spanish = Some "Su recuento de plaquetas es bajo, lo que significa que tiene el riesgo de sangrado.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/CBC"}],

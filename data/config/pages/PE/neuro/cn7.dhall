@@ -7,23 +7,28 @@ in ./technique.dhall {
     translations = [
         {
             english = "Squeeze your eyes shut.",
-            foreign = "Apriete los ojos."
+            spanish = Some "Apriete los ojos.",
+            chinese = None Text
         },
         {
             english = "Open your eyes.",
-            foreign = "Abra sus ojos."
+            spanish = Some "Abra sus ojos.",
+            chinese = None Text
         },
         {
             english = "Raise your eyebrows.",
-            foreign = "Levante las cejas."
+            spanish = Some "Levante las cejas.",
+            chinese = None Text
         },
         {
             english = "Puff out your cheeks.",
-            foreign = "Hinche sus mejillas."
+            spanish = Some "Hinche sus mejillas.",
+            chinese = None Text
         },
         {
             english = "Smile showing your teeth.",
-            foreign = "Sonr&iacute;a mostrando sus dientes."
+            spanish = Some "Sonr&iacute;a mostrando sus dientes.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn7"}],

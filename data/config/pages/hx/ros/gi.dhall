@@ -7,43 +7,53 @@ translations =
 [
     {
         english = "Stomach pain?",
-        foreign = "Dolor abdominal / de barriga?"
+        spanish = Some "Dolor abdominal / de barriga?",
+        chinese = None Text
     },
     {
         english = "Abdominal swelling?",
-        foreign = "Abdomen hinchado?"
+        spanish = Some "Abdomen hinchado?",
+        chinese = None Text
     },
     {
         english = "Regurgitation / reflux?",
-        foreign = "Regurgitaci&oacute;n / reflujo?"
+        spanish = Some "Regurgitaci&oacute;n / reflujo?",
+        chinese = None Text
     },
     {
         english = "Heartburn? / Burning sensation in your chest?",
-        foreign = "Acidez en el est&oacute;mago? / Ardor en el pecho?"
+        spanish = Some "Acidez en el est&oacute;mago? / Ardor en el pecho?",
+        chinese = None Text
     },
     {
         english = "Nausea?",
-        foreign = "N&aacute;useas?"
+        spanish = Some "N&aacute;useas?",
+        chinese = None Text
     },
     {
         english = "Vomiting<br>...con sangre?",
-        foreign = "V&oacute;mito<br>...blood?"
+        spanish = Some "V&oacute;mito<br>...blood?",
+        chinese = None Text
     },
     {
         english = "Diarrhea?",
-        foreign = "Diarrea?"
+        spanish = Some "Diarrea?",
+        chinese = None Text
     },
     {
         english = "Black / bloody / pale-color stools?",
-        foreign = "Heces negras / con sangre / p&aacute;lidas?"
+        spanish = Some "Heces negras / con sangre / p&aacute;lidas?",
+        chinese = None Text
     },
     {
         english = "Constipation?",
-        foreign = "Constipaci&oacute;n?"
+        spanish = Some "Constipaci&oacute;n?",
+        chinese = None Text
     },
     {
         english = "Are you passing gas?",
-        foreign = "Pasa gases?"
+        spanish = Some "Pasa gases?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

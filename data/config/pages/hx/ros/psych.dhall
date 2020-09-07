@@ -7,47 +7,58 @@ translations =
 [
     {
         english = "Depression?",
-        foreign = "Depresi&oacute;n"
+        spanish = Some "Depresi&oacute;n",
+        chinese = None Text
     },
     {
         english = "Energy loss?",
-        foreign = "Falta de energ&iacute;a?."
+        spanish = Some "Falta de energ&iacute;a?.",
+        chinese = None Text
     },
     {
         english = "Sleeping problems?",
-        foreign = "Problemas al dormir?."
+        spanish = Some "Problemas al dormir?.",
+        chinese = None Text
     },
     {
         english = "Memory loss?",
-        foreign = "P&eacute;rdida de la memoria?."
+        spanish = Some "P&eacute;rdida de la memoria?.",
+        chinese = None Text
     },
     {
         english = "Forgetfulness?",
-        foreign = "Olvidos?"
+        spanish = Some "Olvidos?",
+        chinese = None Text
     },
     {
         english = "Anxiety? Stress?",
-        foreign = "Ansiedad? Estr&eacute;s?"
+        spanish = Some "Ansiedad? Estr&eacute;s?",
+        chinese = None Text
     },
     {
         english = "Irritability?",
-        foreign = "Irritabilidad?"
+        spanish = Some "Irritabilidad?",
+        chinese = None Text
     },
     {
         english = "[auditory/visual] hallucinations?",
-        foreign = "Alucinaciones [visuales / auditivas]?"
+        spanish = Some "Alucinaciones [visuales / auditivas]?",
+        chinese = None Text
     },
     {
         english = "Thoughts of hurting yourself / others?",
-        foreign = "Pensamientos sobre lastimarse a s&iacute; mismo / otros?"
+        spanish = Some "Pensamientos sobre lastimarse a s&iacute; mismo / otros?",
+        chinese = None Text
     },
     {
         english = "Change in mood?",
-        foreign = "Cambio de humor?"
+        spanish = Some "Cambio de humor?",
+        chinese = None Text
     },
     {
         english = "Confusion?",
-        foreign = "Confusi&oacute;n?"
+        spanish = Some "Confusi&oacute;n?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

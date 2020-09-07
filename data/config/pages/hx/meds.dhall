@@ -7,19 +7,23 @@ translations =
 [
     {
         english = "Do you take medications?",
-        foreign = "Toma medicamentos?"
+        spanish = Some "Toma medicamentos?",
+        chinese = None Text
     },
     {
         english = "- For what?",
-        foreign = "- Para qu&eacute;?"
+        spanish = Some "- Para qu&eacute;?",
+        chinese = None Text
     },
     {
         english = "How often? Cu&aacute;ntas pastillas cada d&iacute;a?",
-        foreign = "Con qu&eacute; frecuencia?  How many pills per day?"
+        spanish = Some "Con qu&eacute; frecuencia?  How many pills per day?",
+        chinese = None Text
     },
     {
         english = "What dose?",
-        foreign = "Qu&eacute; dosis?"
+        spanish = Some "Qu&eacute; dosis?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

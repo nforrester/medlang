@@ -7,47 +7,58 @@ translations =
 [
     {
         english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Ha sido hospitalizado por COPD?  Qu&eacute; hacen?",
-        foreign = "Have you been hospitalized for COPD before?  What did they do for you"
+        spanish = Some "Have you been hospitalized for COPD before?  What did they do for you",
+        chinese = None Text
     },
     {
         english = "How much oxygen do you use at home? At rest / when walking",
-        foreign = "Cu&aacute;nto ox&iacute;geno usa en casa?  en reposo / cuando camina?"
+        spanish = Some "Cu&aacute;nto ox&iacute;geno usa en casa?  en reposo / cuando camina?",
+        chinese = None Text
     },
     {
         english = "What were your oxygen saturation levels?",
-        foreign = "Cu&aacute;nto fue su saturaci&oacute;n de ox&iacute;geno?"
+        spanish = Some "Cu&aacute;nto fue su saturaci&oacute;n de ox&iacute;geno?",
+        chinese = None Text
     },
     {
         english = "How many liters per minute?",
-        foreign = "Cu&aacute;ntos litros por minuto?"
+        spanish = Some "Cu&aacute;ntos litros por minuto?",
+        chinese = None Text
     },
     {
         english = "How far can you walk?",
-        foreign = "Cu&aacute;nto puede caminar?"
+        spanish = Some "Cu&aacute;nto puede caminar?",
+        chinese = None Text
     },
     {
         english = "How many steps can you climb before feeling short of breath?",
-        foreign = "Cu&aacute;ntos escalones puede subir antes de sentir falta de respiraci&oacute;n?"
+        spanish = Some "Cu&aacute;ntos escalones puede subir antes de sentir falta de respiraci&oacute;n?",
+        chinese = None Text
     },
     {
         english = "Do you use an inhaler (with spacer)? Nebulizer?",
-        foreign = "Usa un inhalador (con espaciador)? Nebulizador?"
+        spanish = Some "Usa un inhalador (con espaciador)? Nebulizador?",
+        chinese = None Text
     },
     {
         english = "cannula / Mask / BiPAP / CPAP",
-        foreign = "c&aacute;nula / m&aacute;scara / BiPAP / CPAP"
+        spanish = Some "c&aacute;nula / m&aacute;scara / BiPAP / CPAP",
+        chinese = None Text
     },
     {
         english = "Have you had a fever or cold recently?",
-        foreign = "Ten&iacute;a un fiebre o resfriado recentamiente?"
+        spanish = Some "Ten&iacute;a un fiebre o resfriado recentamiente?",
+        chinese = None Text
     },
     {
         english = "Do you cough up phlegm? What color? Is there blood?",
-        foreign = "Tose con flema?  Qu&eacute; color?  Hay sangre?"
+        spanish = Some "Tose con flema?  Qu&eacute; color?  Hay sangre?",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "COPD - A&P", filename = "cases/COPD/ap"}],

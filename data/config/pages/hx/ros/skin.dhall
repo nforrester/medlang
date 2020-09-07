@@ -7,23 +7,28 @@ translations =
 [
     {
         english = "Hair loss?",
-        foreign = "P&eacute;rdida de pelo?"
+        spanish = Some "P&eacute;rdida de pelo?",
+        chinese = None Text
     },
     {
         english = "Rashes?",
-        foreign = "Erupciones en su piel?"
+        spanish = Some "Erupciones en su piel?",
+        chinese = None Text
     },
     {
         english = "New skin lesions?",
-        foreign = "Nuevos lesi&oacute;n en su piel?"
+        spanish = Some "Nuevos lesi&oacute;n en su piel?",
+        chinese = None Text
     },
     {
         english = "- moles / growths / bumps",
-        foreign = "- lunares / crecimientos / "
+        spanish = Some "- lunares / crecimientos / ",
+        chinese = None Text
     },
     {
         english = "Itching?",
-        foreign = "Picaz&oacute;n?"
+        spanish = Some "Picaz&oacute;n?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

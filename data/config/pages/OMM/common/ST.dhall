@@ -3,10 +3,12 @@
 [
     {
         english = "Does this hurt? Is it too much?",
-        foreign = "Le duele &eacute;sto?  Es demasiado?"
+        spanish = Some "Le duele &eacute;sto?  Es demasiado?",
+        chinese = None Text
     },
     {
         english = "Would you like more or less pressure?",
-        foreign = "Qui&eacute;re m&aacute;s o menos presi&oacute;n?"
+        spanish = Some "Qui&eacute;re m&aacute;s o menos presi&oacute;n?",
+        chinese = None Text
     }
 ]

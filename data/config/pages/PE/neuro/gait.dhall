@@ -7,23 +7,28 @@ in ./technique.dhall {
     translations = [
         {
             english = "Walk normally.",
-            foreign = "Camine normalmente."
+            spanish = Some "Camine normalmente.",
+            chinese = None Text
         },
         {
             english = "Walk with one foot in front of the other, heel touching toe.<br>-like you're on a tightrope.",
-            foreign = "Camine con un pie en frente del otro, el tal&oacute;n toca la punta del pie.<br>-como si estuviera en una cuerda floja."
+            spanish = Some "Camine con un pie en frente del otro, el tal&oacute;n toca la punta del pie.<br>-como si estuviera en una cuerda floja.",
+            chinese = None Text
         },
         {
             english = "Walk on your heels.",
-            foreign = "camine en los talones."
+            spanish = Some "camine en los talones.",
+            chinese = None Text
         },
         {
             english = "Walk on your tiptoes.",
-            foreign = "Camine con las puntas de los pies."
+            spanish = Some "Camine con las puntas de los pies.",
+            chinese = None Text
         },
         {
             english = "...away from me.<br>...stop.<br>...come back.",
-            foreign = "...__<br>...pare.<br>...regrese."
+            spanish = Some "...__<br>...pare.<br>...regrese.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/gait"}],

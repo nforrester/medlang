@@ -12,23 +12,28 @@ in ./technique.dhall {
     [
         {
             english = "<u>Range of motion</u>",
-            foreign = ""
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "Tilt your chin...<br>...down to look at your feet. <br>...up to look at the ceiling..",
-            foreign = "Incline su cabeza...<br>...hac&iacute;a abajo para mirar sus pies. <br>...hac&iacute;a arriba para mirar al techo."
+            spanish = Some "Incline su cabeza...<br>...hac&iacute;a abajo para mirar sus pies. <br>...hac&iacute;a arriba para mirar al techo.",
+            chinese = None Text
         },
         {
             english = "Rotate your head toward your [left/right] shoulder.",
-            foreign = "Gire su cabeza hacia su hombro [izquierdo/derecho]."
+            spanish = Some "Gire su cabeza hacia su hombro [izquierdo/derecho].",
+            chinese = None Text
         },
         {
             english = "Bring your left [right] ear toward your left shoulder.",
-            foreign = "Baje su oreja izquierda [derecha] hasta su hombro izquierdo."
+            spanish = Some "Baje su oreja izquierda [derecha] hasta su hombro izquierdo.",
+            chinese = None Text
         },
         {
             english = "I'm going to move your head around. Stay relaxed.",
-            foreign = "Voy a mover su cabeza.  Rel&aacute;jese."
+            spanish = Some "Voy a mover su cabeza.  Rel&aacute;jese.",
+            chinese = None Text
         }
     ]
     #

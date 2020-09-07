@@ -7,23 +7,28 @@ translations =
 [
     {
         english = "Have you ever had surgery?<br>What year?<br>What for?",
-        foreign = "Ha tenido alguna cirug&iacute;a?<br>En qu&eacute; a&ntilde;o?<br>Por qu&eacute;?"
+        spanish = Some "Ha tenido alguna cirug&iacute;a?<br>En qu&eacute; a&ntilde;o?<br>Por qu&eacute;?",
+        chinese = None Text
     },
     {
         english = "Were there any complications?",
-        foreign = "Tuvo complicationes?"
+        spanish = Some "Tuvo complicationes?",
+        chinese = None Text
     },
     {
         english = "Did you have problems with anesthesia?",
-        foreign = "Tuvo problemas con la anestesia?"
+        spanish = Some "Tuvo problemas con la anestesia?",
+        chinese = None Text
     },
     {
         english = "Have you ever been hospitalized?",
-        foreign = "Ha sido hospitalizado/a?"
+        spanish = Some "Ha sido hospitalizado/a?",
+        chinese = None Text
     },
     {
         english = "Have you had any falls, accidents, injuries, or trauma in your life?",
-        foreign = "Ha tenido algunos ca&iacute;das, acidentes, heridas, o traumas en su vida?"
+        spanish = Some "Ha tenido algunos ca&iacute;das, acidentes, heridas, o traumas en su vida?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

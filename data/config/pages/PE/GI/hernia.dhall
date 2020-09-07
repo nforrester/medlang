@@ -6,19 +6,23 @@
     translations = [
         {
             english = "Stand up.",
-            foreign = "Lev&aacutentese."
+            spanish = Some "Lev&aacutentese.",
+            chinese = None Text
         },
         {
             english = "Cough, please.",
-            foreign = "Tose, por favor."
+            spanish = Some "Tose, por favor.",
+            chinese = None Text
         },
         {
             english = "Lie down",
-            foreign = "Acu&eacute;stese."
+            spanish = Some "Acu&eacute;stese.",
+            chinese = None Text
         },
         {
             english = "Try to do a sit-up.",
-            foreign = "Trate de hacer una sentada."
+            spanish = Some "Trate de hacer una sentada.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

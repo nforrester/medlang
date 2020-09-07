@@ -6,15 +6,18 @@
     translations = [
         {
             english = "Tuck this sheet into your waistband.",
-            foreign = "Meta esta s&aacute;bana en su cintura."
+            spanish = Some "Meta esta s&aacute;bana en su cintura.",
+            chinese = None Text
         },
         {
             english = "Lift your shirt up above your belly button.",
-            foreign = "Levante su camisa encima de su ombligo."
+            spanish = Some "Levante su camisa encima de su ombligo.",
+            chinese = None Text
         },
         {
             english = "Lower your pants so that I can see your belly button",
-            foreign = "Baje sus pantalones para que yo pueda ver su ombligo."
+            spanish = Some "Baje sus pantalones para que yo pueda ver su ombligo.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

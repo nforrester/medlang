@@ -7,71 +7,88 @@ translations =
 [
     {
         english = "Numbness or tingling in ___?",
-        foreign = "Entumecimiento o sensaci&oacute;n de hormigueos en ___?"
+        spanish = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
+        chinese = None Text
     },
     {
         english = "Muscle weakness?",
-        foreign = "Debilidad muscular?"
+        spanish = Some "Debilidad muscular?",
+        chinese = None Text
     },
     {
         english = "Decreased movement in __?",
-        foreign = "__?"
+        spanish = Some "__?",
+        chinese = None Text
     },
     {
         english = "Paralysis?",
-        foreign = "Par&aacute;lisis?"
+        spanish = Some "Par&aacute;lisis?",
+        chinese = None Text
     },
     {
         english = "Dizziness?",
-        foreign = "Mareos?"
+        spanish = Some "Mareos?",
+        chinese = None Text
     },
     {
         english = "-Lightheaded?",
-        foreign = "-Fatigas?"
+        spanish = Some "-Fatigas?",
+        chinese = None Text
     },
     {
         english = "Loss of balance?",
-        foreign = "P&eacute;rdida de equilibrio?"
+        spanish = Some "P&eacute;rdida de equilibrio?",
+        chinese = None Text
     },
     {
         english = "-Sensation that the room is spinning (vertigo)?",
-        foreign = "-Sensaci&oacute;n como si el cuarto est&aacute; girando?"
+        spanish = Some "-Sensaci&oacute;n como si el cuarto est&aacute; girando?",
+        chinese = None Text
     },
     {
         english = "Headache?",
-        foreign = "Dolor de cabeza?"
+        spanish = Some "Dolor de cabeza?",
+        chinese = None Text
     },
     {
         english = "Change in behavior?",
-        foreign = "Cambios en el comportamiento?"
+        spanish = Some "Cambios en el comportamiento?",
+        chinese = None Text
     },
     {
         english = "Drowsiness / fatigue?",
-        foreign = "Somnolencia / fatiga?"
+        spanish = Some "Somnolencia / fatiga?",
+        chinese = None Text
     },
     {
         english = "Changes in balance/coordination?",
-        foreign = "Cambio en el equilibrio/coordinacion?"
+        spanish = Some "Cambio en el equilibrio/coordinacion?",
+        chinese = None Text
     },
     {
         english = "Fainting?",
-        foreign = "Desmayo?"
+        spanish = Some "Desmayo?",
+        chinese = None Text
     },
     {
         english = "Loss of consciousness?",
-        foreign = "P&eacute;rdida de conocimiento?"
+        spanish = Some "P&eacute;rdida de conocimiento?",
+        chinese = None Text
     },
     {
         english = "Problems talking?",
-        foreign = "Problemas para hablar?"
+        spanish = Some "Problemas para hablar?",
+        chinese = None Text
     },
     {
         english = "Changes in taste?",
-        foreign = "Cambios en el sentido del gusto?"
+        spanish = Some "Cambios en el sentido del gusto?",
+        chinese = None Text
     },
     {
         english = "Seizure?",
-        foreign = "Convulsi&oacute;n?"
+        spanish = Some "Convulsi&oacute;n?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

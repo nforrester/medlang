@@ -24,6 +24,7 @@ let pages : List s.PageUnion = [
         ./pages/hx/surg/pre.dhall "hx/surg/pre",
         ./pages/hx/surg/post.dhall "hx/surg/post",
         ./pages/hx/medical/allergies.dhall "hx/medical/allergies",
+        ./pages/hx/medical/conditions.dhall "hx/medical/conditions",
         ./pages/hx/medical/medical.dhall "hx/medical/medical",
         ./pages/hx/medical/meds.dhall "hx/medical/meds",
         ./pages/hx/medical/sick.dhall "hx/medical/sick",

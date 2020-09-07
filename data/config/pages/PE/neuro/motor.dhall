@@ -6,55 +6,68 @@ in ./technique.dhall {
     translations = [
         {
             english = "Hold your arms like this.",
-            foreign = "Bazos arriba como esto."
+            spanish = Some "Bazos arriba como esto.",
+            chinese = None Text
         },
         {
             english = "Bend your elbow.",
-            foreign = "Doble el codo."
+            spanish = Some "Doble el codo.",
+            chinese = None Text
         },
         {
             english = "Push me away.",
-            foreign = "Emp&uacute;jeme"
+            spanish = Some "Emp&uacute;jeme",
+            chinese = None Text
         },
         {
             english = "Push against my hand.",
-            foreign = "Empuje contra mi mano"
+            spanish = Some "Empuje contra mi mano",
+            chinese = None Text
         },
         {
             english = "Pull.",
-            foreign = "Jale."
+            spanish = Some "Jale.",
+            chinese = None Text
         },
         {
             english = "Resist my force.",
-            foreign = "Resista mi fuerza."
+            spanish = Some "Resista mi fuerza.",
+            chinese = None Text
         },
         {
             english = "Squeeze my fingers (tightly).",
-            foreign = "Me apriete los dedos (muy fuerte)."
+            spanish = Some "Me apriete los dedos (muy fuerte).",
+            chinese = None Text
         },
         {
             english = "<u>Hip</u>: Lift your leg. Don't let me push down.",
-            foreign = "Levante su pierna.  No me permita empujarla."
+            spanish = Some "Levante su pierna.  No me permita empujarla.",
+            chinese = None Text
         },
         {
             english = "<u>Knee</u>: Kick against my hand.",
-            foreign = "Patee contra mi mano. (?)"
+            spanish = Some "Patee contra mi mano. (?)",
+            chinese = None Text
         },
         {
             english = "Point your toe up (at the ceiling).",
-            foreign = "Apunte sus dedos hacia arriba (al techo)."
+            spanish = Some "Apunte sus dedos hacia arriba (al techo).",
+            chinese = None Text
         },
         {
             english = "Push down, like you're stepping on a gas pedal.",
-            foreign = "Empuje hacia abajo, como si estuviera acelerando un automobil."
+            spanish = Some "Empuje hacia abajo, como si estuviera acelerando un automobil.",
+            chinese = None Text
         },
         {
             english = "<u>Babinski</u>: I'm going to scratch the bottom of your foot.  This may be uncomfortable.",
-            foreign = "Voy a rasguNar la planta de su pie."
+            spanish = Some "Voy a rasguNar la planta de su pie.",
+            chinese = None Text
         },
         {
             english = "<u>Reflexes</u>: I'm going to test your reflexes. Relax.",
-            foreign = "Voy a probar sus reflejos.  Rel&aacute;jese.."
+            spanish = Some "Voy a probar sus reflejos.  Rel&aacute;jese..",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

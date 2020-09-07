@@ -5,43 +5,53 @@ translations =
 [
     {
         english = "<u>WORKUP</u>",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Your CXR shows infiltrates in the lungs, which may indicate a lung infection.",
-        foreign = "Su radiograf&iacute;a de t&oacute;rax muestra infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar."
+        spanish = Some "Su radiograf&iacute;a de t&oacute;rax muestra infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar.",
+        chinese = None Text
     },
     {
         english = "Sputum culture: We will take cultures of your sputum to look for bacteria.",
-        foreign = "El cultivo de esputo: Vamos a tomar cultivos de su esputo para buscar bacterias."
+        spanish = Some "El cultivo de esputo: Vamos a tomar cultivos de su esputo para buscar bacterias.",
+        chinese = None Text
     },
     {
         english = "Your oxygen levels are low.",
-        foreign = "Sus niveles de ox&iacute;geno en la sangre son bajos."
+        spanish = Some "Sus niveles de ox&iacute;geno en la sangre son bajos.",
+        chinese = None Text
     },
     {
         english = "<u>MANAGEMENT</u>",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Antibiotics: we will give IV antibiotics while we wait for culture results.",
-        foreign = "Vamos a administrar antibi&oacute;ticos intravenosos mientras se espera por los resultados del cultivo."
+        spanish = Some "Vamos a administrar antibi&oacute;ticos intravenosos mientras se espera por los resultados del cultivo.",
+        chinese = None Text
     },
     {
         english = "Viral pneumonia will self-resolve.",
-        foreign = "La neumon&iacute;a se resolver&aacute; por s&iacute; sola."
+        spanish = Some "La neumon&iacute;a se resolver&aacute; por s&iacute; sola.",
+        chinese = None Text
     },
     {
         english = "Nasal cannula: A small plastic tube will be inserted into your nose.",
-        foreign = "C&aacute;nula nasal: Se inserta un peque&ntilde;o tubo pl&aacute;stico en los orificios nasales"
+        spanish = Some "C&aacute;nula nasal: Se inserta un peque&ntilde;o tubo pl&aacute;stico en los orificios nasales",
+        chinese = None Text
     },
     {
         english = "Nonrebreather mask",
-        foreign = "m&aacute;scara"
+        spanish = Some "m&aacute;scara",
+        chinese = None Text
     },
     {
         english = "cough medication",
-        foreign = "medicamentos para la tos."
+        spanish = Some "medicamentos para la tos.",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Cough & Fever - H&P", filename = "cases/PNA/hp"}],

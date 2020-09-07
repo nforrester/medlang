@@ -7,39 +7,48 @@ translations =
 [
     {
         english = "SX:",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Weakness / Paralysis",
-        foreign = "Debilidad / Par&aacute;lisis"
+        spanish = Some "Debilidad / Par&aacute;lisis",
+        chinese = None Text
     },
     {
         english = "Numbness or tingling in ___?",
-        foreign = "Entumecimiento o sensaci&oacute;n de hormigueos en ___?"
+        spanish = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
+        chinese = None Text
     },
     {
         english = "Decreased movement in ___?",
-        foreign = "Disminuci&oacute;n en el movimiento en ___?"
+        spanish = Some "Disminuci&oacute;n en el movimiento en ___?",
+        chinese = None Text
     },
     {
         english = "Decreased sensation in ___?",
-        foreign = "Disminuci&oacute;n en la sensibilidad en ___?"
+        spanish = Some "Disminuci&oacute;n en la sensibilidad en ___?",
+        chinese = None Text
     },
     {
         english = "Numbness / Tingling",
-        foreign = "Entumecimiento / Sensaci&oacute;n de hormigueos"
+        spanish = Some "Entumecimiento / Sensaci&oacute;n de hormigueos",
+        chinese = None Text
     },
     {
         english = "difficulty eating / swallowing",
-        foreign = "dificultad comer / tragar"
+        spanish = Some "dificultad comer / tragar",
+        chinese = None Text
     },
     {
         english = "Difficulty speaking / understanding",
-        foreign = "Dificultad hablar / entender"
+        spanish = Some "Dificultad hablar / entender",
+        chinese = None Text
     },
     {
         english = "Difficulty with balance / coordination",
-        foreign = "Dificultad con el equilibrio / la coordinaci&oacute;n"
+        spanish = Some "Dificultad con el equilibrio / la coordinaci&oacute;n",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Stroke - H&P", filename = "cases/stroke/ap"}],

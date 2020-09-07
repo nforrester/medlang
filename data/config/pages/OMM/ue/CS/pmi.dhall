@@ -9,7 +9,8 @@ translations =
 [
     {
         english = "I'm going to pull your arm across your chest.",
-        foreign = "Voy a pasar(?) su brazo sobre su pecho."
+        spanish = Some "Voy a pasar(?) su brazo sobre su pecho.",
+        chinese = None Text
     }
 ]
 #

@@ -7,35 +7,43 @@ translations =
 [
     {
         english = "Pain / burning with urination?",
-        foreign = "Dolor / ardor al orinar?"
+        spanish = Some "Dolor / ardor al orinar?",
+        chinese = None Text
     },
     {
         english = "Blood in urine?",
-        foreign = "Sangre en la orina?"
+        spanish = Some "Sangre en la orina?",
+        chinese = None Text
     },
     {
         english = "Loss of bladder control (urinary incontinence)?",
-        foreign = "Falta de control para orinar (incontinencia urinaria)?"
+        spanish = Some "Falta de control para orinar (incontinencia urinaria)?",
+        chinese = None Text
     },
     {
         english = "Frequently feeling the urge to urinate (urgency)?",
-        foreign = "Ganas de orinar con frecuencia (urgencia)?"
+        spanish = Some "Ganas de orinar con frecuencia (urgencia)?",
+        chinese = None Text
     },
     {
         english = "Sensation of incomplete bladder emptying?",
-        foreign = "sensaci&oacute;n que no puede vaciar la vejiga complentamente?"
+        spanish = Some "sensaci&oacute;n que no puede vaciar la vejiga complentamente?",
+        chinese = None Text
     },
     {
         english = "Change in urine color?",
-        foreign = "Cambio de color de la orina?"
+        spanish = Some "Cambio de color de la orina?",
+        chinese = None Text
     },
     {
         english = "Weak stream?",
-        foreign = "Chorro d&eacute;bil?"
+        spanish = Some "Chorro d&eacute;bil?",
+        chinese = None Text
     },
     {
         english = "Secrectiones abnormales de los genitales?",
-        foreign = "Abnormal genital secretions?"
+        spanish = Some "Abnormal genital secretions?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

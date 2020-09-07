@@ -6,11 +6,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to feel for your thyroid, which is in your neck.",
-            foreign = "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello."
+            spanish = Some "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello.",
+            chinese = None Text
         },
         {
             english = "Please swallow.",
-            foreign = "Trague, por favor"
+            spanish = Some "Trague, por favor",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -7,27 +7,33 @@ translations =
 [
     {
         english = "Unexplained weight loss / gain?",
-        foreign = "P&eacute;rdida / Aumento de peso inexplicable?"
+        spanish = Some "P&eacute;rdida / Aumento de peso inexplicable?",
+        chinese = None Text
     },
     {
         english = "Cold / heat intolerance?",
-        foreign = "Intolerencia al fr&iacute;o / calor?"
+        spanish = Some "Intolerencia al fr&iacute;o / calor?",
+        chinese = None Text
     },
     {
         english = "Loss / gain in appetite?",
-        foreign = "Falta / gana de apetito?"
+        spanish = Some "Falta / gana de apetito?",
+        chinese = None Text
     },
     {
         english = "Mucho sed / hambre?",
-        foreign = "Great thirst / hunger?"
+        spanish = Some "Great thirst / hunger?",
+        chinese = None Text
     },
     {
         english = "Temblores?",
-        foreign = "Trembling?"
+        spanish = Some "Trembling?",
+        chinese = None Text
     },
     {
         english = "Ha orinado m&aacute;s que normal?",
-        foreign = "Have you urinated more than normal?"
+        spanish = Some "Have you urinated more than normal?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

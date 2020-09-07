@@ -7,7 +7,8 @@ translations =
 [
     {
         english = "<u>AAC</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     }
 ]
 #
@@ -16,11 +17,13 @@ translations =
 [
     {
         english = "I'm going to pull your arm across your chest.",
-        foreign = "Voy a ____(?) su brazo sobre su pecho."
+        spanish = Some "Voy a ____(?) su brazo sobre su pecho.",
+        chinese = None Text
     },
     {
         english = "<u>PAC</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     }
 ]
 #
@@ -29,7 +32,8 @@ translations =
 [
     {
         english = "I'm going to pull your arm across your back.",
-        foreign = "Voy a ___(?) su brazo sobre su espalda."
+        spanish = Some "Voy a ___(?) su brazo sobre su espalda.",
+        chinese = None Text
     }
 ]
 #

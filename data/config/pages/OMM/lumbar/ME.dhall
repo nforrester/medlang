@@ -9,15 +9,18 @@ in ./technique.dhall {
     [
         {
             english = "Raise your arm. Put it straight up behind your ear.",
-            foreign = "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja."
+            spanish = Some "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja.",
+            chinese = None Text
         },
         {
             english = "Bring your knees up (toward your chest) / down.",
-            foreign = "Levante / baje sus rodillas."
+            spanish = Some "Levante / baje sus rodillas.",
+            chinese = None Text
         },
         {
             english = "Can you feel my forearm against your hip?",
-            foreign = "Puede sentir mi antebrazo contra su cadera?"
+            spanish = Some "Puede sentir mi antebrazo contra su cadera?",
+            chinese = None Text
         }
     ]
     #

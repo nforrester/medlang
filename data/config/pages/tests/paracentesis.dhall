@@ -7,39 +7,48 @@ in ./technique.dhall {
     translations = [
         {
             english = "You have ascites, which is when fluid accumulates in  your abdomen.",
-            foreign = "Tiene ascitis, lo que es demasiado l&iacute;quido en el abdomen."
+            spanish = Some "Tiene ascitis, lo que es demasiado l&iacute;quido en el abdomen.",
+            chinese = None Text
         },
         {
          english = "We will extract fluid from your abdomen, which will help alleviate your abdominal discomfort.",
-         foreign = "Vamos a extrare l&iacute;quido de su abdomen, lo que ayudar&aacute; aleviar su malestar abdominal."
+         spanish = Some "Vamos a extrare l&iacute;quido de su abdomen, lo que ayudar&aacute; aleviar su malestar abdominal.",
+         chinese = None Text
         },
         {
             english = "I'm injecting the anesthesia. You may feel stinging or burning.",
-            foreign = "Estoy inyectando la anestesia.  Puede sentir la sensaci&oacute;n de picaz&oacute;sn o ardor."
+            spanish = Some "Estoy inyectando la anestesia.  Puede sentir la sensaci&oacute;n de picaz&oacute;sn o ardor.",
+            chinese = None Text
         },
         {
          english = "I'm inserting the needle",
-         foreign = "Estoy insertando la aguja."
+         spanish = Some "Estoy insertando la aguja.",
+         chinese = None Text
         },
         {
          english = "We are draining the fluid.",
-         foreign = "Estamos drenando el l&iacute;quido."
+         spanish = Some "Estamos drenando el l&iacute;quido.",
+         chinese = None Text
         },
         {
             english = "We will send the fluid to the lab. They will analyze it to determine the cause of your ascites.",
-            foreign = "Vamos a enviar el l&iacute;quido al laboratorio. Se van a analizarlo para determinar la causa del ascitis."
+            spanish = Some "Vamos a enviar el l&iacute;quido al laboratorio. Se van a analizarlo para determinar la causa del ascitis.",
+            chinese = None Text
         },
         {
             english = "Can you scoot closer to me?",
-            foreign = "Puede acercarse a m&iacute;"
+            spanish = Some "Puede acercarse a m&iacute;",
+            chinese = None Text
         },
         {
             english = "Can you turn over more?",
-            foreign = "Puede darse la vuelta m&aacute;s?"
+            spanish = Some "Puede darse la vuelta m&aacute;s?",
+            chinese = None Text
         },
         {
             english = "Can you turn toward your left/right?",
-            foreign = "Puede girarse hacia su lado izquierda/derecho?"
+            spanish = Some "Puede girarse hacia su lado izquierda/derecho?",
+            chinese = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/paracentesis"}],

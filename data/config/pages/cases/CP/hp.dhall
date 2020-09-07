@@ -5,43 +5,53 @@ translations =
 [
     {
         english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "heavy pressure / heavy weight ",
-        foreign = "presi&oacute;n fuerte / peso fuerte"
+        spanish = Some "presi&oacute;n fuerte / peso fuerte",
+        chinese = None Text
     },
     {
         english = "crushing / squeezing ",
-        foreign = "constrictivo / opresivo "
+        spanish = Some "constrictivo / opresivo ",
+        chinese = None Text
     },
     {
         english = "substernal ",
-        foreign = "por detr&aacute;s del estern&oacute;n"
+        spanish = Some "por detr&aacute;s del estern&oacute;n",
+        chinese = None Text
     },
     {
         english = "Does the pain travel to your jaw / neck / shoulder / arm?",
-        foreign = "El dolor se irradia a la mand&iacute;bula / el cuello / el hombro / el brazo?"
+        spanish = Some "El dolor se irradia a la mand&iacute;bula / el cuello / el hombro / el brazo?",
+        chinese = None Text
     },
     {
         english = "nausea / sweating / SOB / dizziness / palpitations",
-        foreign = "nausea / sudoraciones / falta de aire / mareado / palpitaciones"
+        spanish = Some "nausea / sudoraciones / falta de aire / mareado / palpitaciones",
+        chinese = None Text
     },
     {
         english = "What were you doing when the pain started?",
-        foreign = "Qu&eacute; estaba haciendo cuando el dolor empez&oacute;?"
+        spanish = Some "Qu&eacute; estaba haciendo cuando el dolor empez&oacute;?",
+        chinese = None Text
     },
     {
         english = "Does the pain occur at rest, or when you're active?",
-        foreign = "El dolor ocurre cuando est&aacute; en reposo, o con actividad?"
+        spanish = Some "El dolor ocurre cuando est&aacute; en reposo, o con actividad?",
+        chinese = None Text
     },
     {
         english = "How many aspirin/nitroglycerin tablets did you take?",
-        foreign = "Cu&aacute;ntas pastillas de aspirina/nitroglicerina tom&oacute;?"
+        spanish = Some "Cu&aacute;ntas pastillas de aspirina/nitroglicerina tom&oacute;?",
+        chinese = None Text
     },
     {
         english = "coronary bypass surgery (CABG)",
-        foreign = "cirug&iacute;a de revascularizaci&oacute;n coronaria"
+        spanish = Some "cirug&iacute;a de revascularizaci&oacute;n coronaria",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Angina - A&P", filename = "cases/CP/ap"}],

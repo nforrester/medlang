@@ -5,19 +5,23 @@
     translations = [
         {
             english = "I'm going to listen to your heart with my stethoscope.",
-            foreign = "Voy a escuchar su coraz&oacute;n con mi estetoscopio."
+            spanish = Some "Voy a escuchar su coraz&oacute;n con mi estetoscopio.",
+            chinese = None Text
         },
         {
             english = "Can I put the stethescope under your gown / shirt?",
-            foreign = "Puede poner mi estetoscopio debajo de su bata / camisa?"
+            spanish = Some "Puede poner mi estetoscopio debajo de su bata / camisa?",
+            chinese = None Text
         },
         {
             english = "Can you lift your breast?",
-            foreign = "Puede levantar la mama?"
+            spanish = Some "Puede levantar la mama?",
+            chinese = None Text
         },
         {
             english = "<u>PMI</u>:Lean forward.  I'm going to place my hand under your left chest/breast.",
-            foreign = "Incl&iacute;nese hacia adelante. Voy a poner mi mano debajo de su pecho."
+            spanish = Some "Incl&iacute;nese hacia adelante. Voy a poner mi mano debajo de su pecho.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

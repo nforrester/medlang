@@ -7,47 +7,58 @@ translations =
 [
     {
         english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Do you sleep with pillows? How many?",
-        foreign = "Duerme con almohadas? Cu&aacute;ntos?"
+        spanish = Some "Duerme con almohadas? Cu&aacute;ntos?",
+        chinese = None Text
     },
     {
         english = "Do you sleep sitting up / in a recliner?",
-        foreign = "Duerme sentado / en una silla reclinable?"
+        spanish = Some "Duerme sentado / en una silla reclinable?",
+        chinese = None Text
     },
     {
         english = "Have you been eating more salt than usual?",
-        foreign = "Ha comido m&aacute;s sodio que normal?"
+        spanish = Some "Ha comido m&aacute;s sodio que normal?",
+        chinese = None Text
     },
     {
         english = "Diuretics / Water pills",
-        foreign = "Diur&eacute;ticos / Pastillas acuosas"
+        spanish = Some "Diur&eacute;ticos / Pastillas acuosas",
+        chinese = None Text
     },
     {
         english = "Is it worse at night / lying flat?",
-        foreign = "Empeora durante el noche / cuando se acuesta?"
+        spanish = Some "Empeora durante el noche / cuando se acuesta?",
+        chinese = None Text
     },
     {
         english = "Do you wake up in the middle of the night short of breath?",
-        foreign = "Se despierta durante la noche con falta de aire?"
+        spanish = Some "Se despierta durante la noche con falta de aire?",
+        chinese = None Text
     },
     {
         english = "at rest",
-        foreign = "en reposo"
+        spanish = Some "en reposo",
+        chinese = None Text
     },
     {
         english = "weight gain",
-        foreign = "aumento de peso"
+        spanish = Some "aumento de peso",
+        chinese = None Text
     },
     {
         english = "ankle / leg swelling",
-        foreign = "hinchaz&oacute;n en los tobillos / piernas"
+        spanish = Some "hinchaz&oacute;n en los tobillos / piernas",
+        chinese = None Text
     },
     {
         english = "reduced urination",
-        foreign = "micci&oacute;n reducida"
+        spanish = Some "micci&oacute;n reducida",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Heart Failure - A&P", filename = "cases/HF/ap"}],

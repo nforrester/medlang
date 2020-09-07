@@ -5,35 +5,43 @@ translations =
 [
     {
         english = "DIAGNOSTICS",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "We will order a CT/MRI to take a look at your brain.",
-        foreign = "Vamos a hacer un CT/MRI para ver su cerebro."
+        spanish = Some "Vamos a hacer un CT/MRI para ver su cerebro.",
+        chinese = None Text
     },
     {
         english = "We will draw blood to check for inflammation.",
-        foreign = "Vamos a obtener sangre para verificar si hay inflamaci&oacute;n."
+        spanish = Some "Vamos a obtener sangre para verificar si hay inflamaci&oacute;n.",
+        chinese = None Text
     },
     {
         english = "LP: We will draw a small amount of fluid from your spine and examine it for infection.",
-        foreign = "Punci&oacute;n lumbar: Vamos a drenar peque&ntilde;a cantidad de l&iacute;quida espinal, y lo examinamos por infecci&oacute;n."
+        spanish = Some "Punci&oacute;n lumbar: Vamos a drenar peque&ntilde;a cantidad de l&iacute;quida espinal, y lo examinamos por infecci&oacute;n.",
+        chinese = None Text
     },
     {
         english = "MANAGEMENT:",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "We will administer IV antibiotics for the infection.",
-        foreign = "Vamos a administrar antibi&oacute;ticos intravenosa para la infecci&oacute;n."
+        spanish = Some "Vamos a administrar antibi&oacute;ticos intravenosa para la infecci&oacute;n.",
+        chinese = None Text
     },
     {
         english = "Avoid things that can trigger the headache, such as bright/flashing light, loud noises, and certain foods.",
-        foreign = "Evite cosas que pueden provocan el dolor, como luces brillantes, ruidos fuertes, o comidas espec&iacute;ficas."
+        spanish = Some "Evite cosas que pueden provocan el dolor, como luces brillantes, ruidos fuertes, o comidas espec&iacute;ficas.",
+        chinese = None Text
     },
     {
         english = "Take these medications as needed for the migraines.",
-        foreign = "Tome estas medicinas como se necesite para los migra&ntilde;as."
+        spanish = Some "Tome estas medicinas como se necesite para los migra&ntilde;as.",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Headache - H&P", filename = "cases/HA/hp"}],

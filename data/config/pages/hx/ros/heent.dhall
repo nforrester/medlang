@@ -7,107 +7,133 @@ translations =
 [
     {
         english = "Secreci&oacute;n de ___?",
-        foreign = "___ discharge?"
+        spanish = Some "___ discharge?",
+        chinese = None Text
     },
     {
         english = "- What color? What consistency? Is there blood? Does it smell bad?",
-        foreign = "- Qu&eacute; color? Qu&eacute; consistencia? Tiene sangre? Heuele mal?"
+        spanish = Some "- Qu&eacute; color? Qu&eacute; consistencia? Tiene sangre? Heuele mal?",
+        chinese = None Text
     },
     {
         english = "Thick / Thin / Watery",
-        foreign = "Espesa / Poco densa / Acuosa"
+        spanish = Some "Espesa / Poco densa / Acuosa",
+        chinese = None Text
     },
     {
         english = "<u>Eye</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Change in vision?",
-        foreign = "Cambios en la vista?"
+        spanish = Some "Cambios en la vista?",
+        chinese = None Text
     },
     {
         english = "Dry eyes / mouth?",
-        foreign = "Resquedad en los ojos / la boca?"
+        spanish = Some "Resquedad en los ojos / la boca?",
+        chinese = None Text
     },
     {
         english = "Blurry / Double vision?",
-        foreign = "Visi&oacute;n borrosa / doble?"
+        spanish = Some "Visi&oacute;n borrosa / doble?",
+        chinese = None Text
     },
     {
         english = "Light sensitivity?",
-        foreign = "Sensibilidad a la luz?"
+        spanish = Some "Sensibilidad a la luz?",
+        chinese = None Text
     },
     {
         english = "Eye redness?",
-        foreign = "Ojos rojos?"
+        spanish = Some "Ojos rojos?",
+        chinese = None Text
     },
     {
         english = "Watery eyes?",
-        foreign = "Ojos llorosos?"
+        spanish = Some "Ojos llorosos?",
+        chinese = None Text
     },
     {
         english = "<u>Ear</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Difficulty hearing?",
-        foreign = "Dificultad para o&iacute;r?"
+        spanish = Some "Dificultad para o&iacute;r?",
+        chinese = None Text
     },
     {
         english = "P&eacute;rdida de la audici&oacute;n?",
-        foreign = "Hearing loss?"
+        spanish = Some "Hearing loss?",
+        chinese = None Text
     },
     {
         english = "Ringing in your ears?",
-        foreign = "Zumbido en sus o&iacute;dos?"
+        spanish = Some "Zumbido en sus o&iacute;dos?",
+        chinese = None Text
     },
     {
         english = "<u>Nose/Sinuses</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Runny nose?",
-        foreign = "Goteo de la nariz?"
+        spanish = Some "Goteo de la nariz?",
+        chinese = None Text
     },
     {
         english = "Nasal congestion?",
-        foreign = "Congesti&oacute;n de la nariz?"
+        spanish = Some "Congesti&oacute;n de la nariz?",
+        chinese = None Text
     },
     {
         english = "Sinus pressure/pain?",
-        foreign = "Presi&oacute;n/dolor en los senos nasales?"
+        spanish = Some "Presi&oacute;n/dolor en los senos nasales?",
+        chinese = None Text
     },
     {
         english = "<u>Throat</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Hoarseness?",
-        foreign = "Ronquera?"
+        spanish = Some "Ronquera?",
+        chinese = None Text
     },
     {
         english = "Loss / change in your voice?",
-        foreign = "P&eacute;rdida / cambio de la voz?"
+        spanish = Some "P&eacute;rdida / cambio de la voz?",
+        chinese = None Text
     },
     {
         english = "Bad breath?",
-        foreign = "Mal aliento?"
+        spanish = Some "Mal aliento?",
+        chinese = None Text
     },
     {
         english = "Difficulty / pain swallowing?",
-        foreign = "Dificultad / dolor al tragar?"
+        spanish = Some "Dificultad / dolor al tragar?",
+        chinese = None Text
     },
     {
         english = "Drooling?",
-        foreign = "Babear?"
+        spanish = Some "Babear?",
+        chinese = None Text
     },
     {
         english = "Feeling of a lump in your throat?",
-        foreign = "Sensaci&oacute;n de un nudo en su garganta?"
+        spanish = Some "Sensaci&oacute;n de un nudo en su garganta?",
+        chinese = None Text
     },
     {
         english = "Toothache?",
-        foreign = "Dolor de muelas?"
+        spanish = Some "Dolor de muelas?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

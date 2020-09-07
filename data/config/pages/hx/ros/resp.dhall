@@ -7,35 +7,43 @@ translations =
 [
     {
         english = "Have you had a cough?",
-        foreign = "Ha tenido tos?"
+        spanish = Some "Ha tenido tos?",
+        chinese = None Text
     },
     {
         english = "Is it dry?",
-        foreign = "Es seca?"
+        spanish = Some "Es seca?",
+        chinese = None Text
     },
     {
         english = "Do you cough up sputum / phlegm?",
-        foreign = "Tose esputo / flema?"
+        spanish = Some "Tose esputo / flema?",
+        chinese = None Text
     },
     {
         english = "- What color?",
-        foreign = "- De qu&eacute; color?"
+        spanish = Some "- De qu&eacute; color?",
+        chinese = None Text
     },
     {
         english = "- Clear / white / frothy / yellow / red / bloody?",
-        foreign = "- Claro / blanco / espumoso / amarillo / rojo / con sangre?"
+        spanish = Some "- Claro / blanco / espumoso / amarillo / rojo / con sangre?",
+        chinese = None Text
     },
     {
         english = "Have you been wheezing?",
-        foreign = "Ha estado jadeando?"
+        spanish = Some "Ha estado jadeando?",
+        chinese = None Text
     },
     {
         english = "Short of breath? / Difficulty breathing?",
-        foreign = "Falta de aire? / Dificultad para respirar?"
+        spanish = Some "Falta de aire? / Dificultad para respirar?",
+        chinese = None Text
     },
     {
         english = "Chest pain when you cough / breathe deeply?",
-        foreign = "Dolor de pecho cuando tose / respira profundamente?"
+        spanish = Some "Dolor de pecho cuando tose / respira profundamente?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

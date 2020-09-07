@@ -8,15 +8,18 @@
     [
         {
             english = "Turn your head away.",
-            foreign = "Gire(?) la cabeza."
+            spanish = Some "Gire(?) la cabeza.",
+            chinese = None Text
         },
         {
             english = "Hold your breath.",
-            foreign = "Aguante la respiraci&oacute;n."
+            spanish = Some "Aguante la respiraci&oacute;n.",
+            chinese = None Text
         },
         {
             english = "I'm going to push on your stomach.",
-            foreign = "Voy a empujar sobre su est&oacute;mago."
+            spanish = Some "Voy a empujar sobre su est&oacute;mago.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

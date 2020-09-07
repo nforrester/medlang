@@ -7,19 +7,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "Shrug your shoulders.",
-            foreign = "Enc&oacute;jase los hombros."
+            spanish = Some "Enc&oacute;jase los hombros.",
+            chinese = None Text
         },
         {
             english = "Don't let me push your shoulders down.",
-            foreign = "No me permita empujar sus hombros."
+            spanish = Some "No me permita empujar sus hombros.",
+            chinese = None Text
         },
         {
             english = "Turn your head to the left [right].",
-            foreign = "Gire su cabeza a la izquierda [derecha]."
+            spanish = Some "Gire su cabeza a la izquierda [derecha].",
+            chinese = None Text
         },
         {
             english = "Push against my hand with your face (try to turn your head).",
-            foreign = "Empuje contra mi mano con su cara."
+            spanish = Some "Empuje contra mi mano con su cara.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn11"}],

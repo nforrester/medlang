@@ -6,47 +6,58 @@ in ./technique.dhall {
     translations = [
         {
             english = "Place your hands on your lap.",
-            foreign = "Ponga sus manos en su regazo."
+            spanish = Some "Ponga sus manos en su regazo.",
+            chinese = None Text
         },
         {
             english = "Roll up your sleeves.",
-            foreign = "Enrollese las mangas."
+            spanish = Some "Enrollese las mangas.",
+            chinese = None Text
         },
         {
             english = "Remove your shoes & socks.",
-            foreign = "Qu&iacute;tese los zapatos y calcinetes."
+            spanish = Some "Qu&iacute;tese los zapatos y calcinetes.",
+            chinese = None Text
         },
         {
             english = "Close your eyes.",
-            foreign = "Cierre los ojos."
+            spanish = Some "Cierre los ojos.",
+            chinese = None Text
         },
         {
             english = "Which hand did I touch?",
-            foreign = "Qu&eacute; mano toc&oacute;?"
+            spanish = Some "Qu&eacute; mano toc&oacute;?",
+            chinese = None Text
         },
         {
             english = "Can you feel this?",
-            foreign = "Puede sentirlo?"
+            spanish = Some "Puede sentirlo?",
+            chinese = None Text
         },
         {
             english = "Does it feel cold?",
-            foreign = "Es fr&iacute;o?"
+            spanish = Some "Es fr&iacute;o?",
+            chinese = None Text
         },
         {
             english = "Does it feel sharp?",
-            foreign = "Es agudo/punzante?"
+            spanish = Some "Es agudo/punzante?",
+            chinese = None Text
         },
         {
             english = "Do they feel about the same?",
-            foreign = "Lo siente casi igual?"
+            spanish = Some "Lo siente casi igual?",
+            chinese = None Text
         },
         {
             english = "Do you feel it more here or there?",
-            foreign = "Siente mas aqu&iacute; o ac&aacute;?"
+            spanish = Some "Siente mas aqu&iacute; o ac&aacute;?",
+            chinese = None Text
         },
         {
             english = "I'm going to move your toe. Is it up or down?",
-            foreign = "Voy a mover su dedo del pie. Est&aacute; para arriba o abajo?"
+            spanish = Some "Voy a mover su dedo del pie. Est&aacute; para arriba o abajo?",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

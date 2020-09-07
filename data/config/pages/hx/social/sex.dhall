@@ -7,27 +7,33 @@ translations =
 [
     {
         english = "Are you sexually active?",
-        foreign = "Est&aacute; activo/a sexualmente?"
+        spanish = Some "Est&aacute; activo/a sexualmente?",
+        chinese = None Text
     },
     {
         english = "- With men, women, or both?",
-        foreign = "- Con hombres, mujeres, o ambos?"
+        spanish = Some "- Con hombres, mujeres, o ambos?",
+        chinese = None Text
     },
     {
         english = "- With one or multiple partners?",
-        foreign ="- Con uno compa&ntilde;ero o m&aacute;?"
+        spanish = Some "- Con uno compa&ntilde;ero o m&aacute;?",
+        chinese = None Text
     },
     {
         english = "Do you use condoms or other forms of birth control?",
-        foreign = "Usa condones o otros contraceptivos?"
+        spanish = Some "Usa condones o otros contraceptivos?",
+        chinese = None Text
     },
     {
         english = "-pills / patches / IUD",
-        foreign = "-pastillas / parchos / dispositivo intrauterino"
+        spanish = Some "-pastillas / parchos / dispositivo intrauterino",
+        chinese = None Text
     },
     {
         english = "Have you had STI's?<br>Were you treated?",
-        foreign = "Ha tenido infecciones sexualmente transmitidas?<br>Fue tratado/a?"
+        spanish = Some "Ha tenido infecciones sexualmente transmitidas?<br>Fue tratado/a?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

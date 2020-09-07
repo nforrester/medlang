@@ -5,63 +5,78 @@ translations =
 [
     {
         english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Does this feel like the worst headache of your life?",
-        foreign = "Siente como el peor dolor de cabeza de su vida?"
+        spanish = Some "Siente como el peor dolor de cabeza de su vida?",
+        chinese = None Text
     },
     {
         english = "Does it get worse with<br>-light?<br>-noise?",
-        foreign = "Empeora con<br>-la luz?<br>-el ruido?"
+        spanish = Some "Empeora con<br>-la luz?<br>-el ruido?",
+        chinese = None Text
     },
     {
         english = "Do you experience visual or sensory symptoms before the headaches start?",
-        foreign = "Tiene s&iacute;ntomas visuales o sensoriales antes del inicio del dolor?"
+        spanish = Some "Tiene s&iacute;ntomas visuales o sensoriales antes del inicio del dolor?",
+        chinese = None Text
     },
     {
         english = "flashing lights / vision changes / tingling",
-        foreign = "destellos de luz / cambios de vista / hormigueo "
+        spanish = Some "destellos de luz / cambios de vista / hormigueo ",
+        chinese = None Text
     },
     {
         english = "SX:",
-        foreign = " "
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "fever",
-        foreign = "fiebre"
+        spanish = Some "fiebre",
+        chinese = None Text
     },
     {
         english = "headache",
-        foreign = "dolor de cabeza"
+        spanish = Some "dolor de cabeza",
+        chinese = None Text
     },
     {
         english = "stiff neck",
-        foreign = "cuello rigido"
+        spanish = Some "cuello rigido",
+        chinese = None Text
     },
     {
         english = "confusion / drowsiness",
-        foreign = "confusi&oacute;n / somnolencia"
+        spanish = Some "confusi&oacute;n / somnolencia",
+        chinese = None Text
     },
     {
         english = "seizures",
-        foreign = "convulsiones"
+        spanish = Some "convulsiones",
+        chinese = None Text
     },
     {
         english = "joint aches",
-        foreign = "dolor en los articulaciones"
+        spanish = Some "dolor en los articulaciones",
+        chinese = None Text
     },
     {
         english = "nausea / vomiting",
-        foreign = "n&aacute;useas / v&oacute;mitos"
+        spanish = Some "n&aacute;useas / v&oacute;mitos",
+        chinese = None Text
     },
     {
         english = "[peds]: fussy / difficulty waking / arched back",
-        foreign = "irritable / dificultad para despertarse / espalda arqueada"
+        spanish = Some "irritable / dificultad para despertarse / espalda arqueada",
+        chinese = None Text
     },
     {
         english = "Have you been in the woods recently?",
-        foreign = "Ha estado en &aacute;reas boscosas recentamiente?"
+        spanish = Some "Ha estado en &aacute;reas boscosas recentamiente?",
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Headache - A&P", filename = "cases/HA/ap"}],

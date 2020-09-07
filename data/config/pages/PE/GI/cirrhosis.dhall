@@ -6,35 +6,43 @@
     translations = [
         {
             english = "<u>Fluid Wave </u>",
-            foreign = ""
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "Please place your hand at midline.",
-            foreign = "Ponga su mano en l&iacute;nea media."
+            spanish = Some "Ponga su mano en l&iacute;nea media.",
+            chinese = None Text
         },
         {
             english = "I will grab your [left/right] flank, and tap on your other flank with my other hand.",
-            foreign = "Voy a sostener su flanco [izquierdo/derecho], y tocar su otro flanco con mi otra mano."
+            spanish = Some "Voy a sostener su flanco [izquierdo/derecho], y tocar su otro flanco con mi otra mano.",
+            chinese = None Text
         },
         {
             english = "<u>Shifting Dullness </u>",
-            foreign = ""
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "I am going to tap across your stomach.",
-            foreign = "Voy a tocar a trav&eacute;s de su est&oacute;mago."
+            spanish = Some "Voy a tocar a trav&eacute;s de su est&oacute;mago.",
+            chinese = None Text
         },
         {
             english = "Lie on your left/right side.",
-            foreign = "Acu&eacute;stese en su lado izquierdo/derecho."
+            spanish = Some "Acu&eacute;stese en su lado izquierdo/derecho.",
+            chinese = None Text
         },
         {
             english = "<u>Asterixis </u>",
-            foreign = ""
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "Hold your hands straight out in front of you, palms facing me / the wall.",
-            foreign = "Mantenga sus manos , con las palmas frente a mI / la pared."
+            spanish = Some "Mantenga sus manos , con las palmas frente a mI / la pared.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

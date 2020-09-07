@@ -6,27 +6,33 @@
     translations = [
         {
             english = "How many fingers am I holding up?",
-            foreign = "Cu&aacute;ntos dedos tengo?"
+            spanish = Some "Cu&aacute;ntos dedos tengo?",
+            chinese = None Text
         },
         {
             english = "Put on your glasses.",
-            foreign = "P&oacute;ngase sus gafas."
+            spanish = Some "P&oacute;ngase sus gafas.",
+            chinese = None Text
         },
         {
             english = "Do you wear contact lens?",
-            foreign = "Tiene lentes de contacto?"
+            spanish = Some "Tiene lentes de contacto?",
+            chinese = None Text
         },
         {
             english = "Look at the letters on the chart.",
-            foreign = "Mira las letras en la cartilla."
+            spanish = Some "Mira las letras en la cartilla.",
+            chinese = None Text
         },
         {
             english = "Cover one eye.",
-            foreign = "Cubra una ojo."
+            spanish = Some "Cubra una ojo.",
+            chinese = None Text
         },
         {
             english = "Read the top line<br>...next line<br>...the lowest line that you are able",
-            foreign = "Lea la l&iacute;nea superior<br>......la l&iacute;nea pr&oacute;xima<br>...la l&iacute;nea m&aacute;s baja que pueda."
+            spanish = Some "Lea la l&iacute;nea superior<br>......la l&iacute;nea pr&oacute;xima<br>...la l&iacute;nea m&aacute;s baja que pueda.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

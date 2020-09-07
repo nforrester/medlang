@@ -5,43 +5,53 @@ translations =
 [
     {
         english = "The ultrasound shows a fibroid / fibroids.",
-        foreign = "El ultrasonido muestra un fibroide(s)."
+        spanish = Some "El ultrasonido muestra un fibroide(s).",
+        chinese = None Text
     },
     {
         english = "endometrial biopsy",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "pap smear",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Birth control can regulate periods and reduce bleeding.",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Ablation",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Myomectomy",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "<u>Education</u>",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "PCOS",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Fibroids",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     },
     {
         english = "Endometriosis",
-        foreign = ""
+        spanish = None Text,
+        chinese = None Text
     }
 ],
 menu_items = [{title = "Vaginal Bleeding - H&P", filename = "cases/VB/hp"}],

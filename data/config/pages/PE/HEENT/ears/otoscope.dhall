@@ -5,23 +5,28 @@
     translations = [
         {
             english = "I'm going to look in your ear canal with this otoscope.",
-            foreign = "otoscopio."
+            spanish = Some "otoscopio.",
+            chinese = None Text
         },
         {
             english = "I'm going to pull lightly on your ear.",
-            foreign = "Voy a tirar de su oreja ligeramente."
+            spanish = Some "Voy a tirar de su oreja ligeramente.",
+            chinese = None Text
         },
         {
             english = "Let me know if it hurts.",
-            foreign = "Me diga si le duele."
+            spanish = Some "Me diga si le duele.",
+            chinese = None Text
         },
         {
             english = "You will feel a puff of air in your ear.",
-            foreign = "Va a sentir una bocanada(?) de aire en su oreja."
+            spanish = Some "Va a sentir una bocanada(?) de aire en su oreja.",
+            chinese = None Text
         },
         {
             english = "Your eardrum is normal / inflamed.",
-            foreign = "Su timpana estA normal / inflamada."
+            spanish = Some "Su timpana estA normal / inflamada.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

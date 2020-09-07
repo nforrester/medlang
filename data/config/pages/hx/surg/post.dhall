@@ -6,55 +6,68 @@ translations =
 [
     {
         english = "Any bleeding or discharge from the wound?",
-        foreign = "Tiene sangrado o descarga de la herida?"
+        spanish = Some "Tiene sangrado o descarga de la herida?",
+        chinese = None Text
     },
     {
         english = " itching",
-        foreign = " picaz&oacute;n"
+        spanish = Some " picaz&oacute;n",
+        chinese = None Text
     },
     {
         english = "Keep the incision dry.",
-        foreign = "Mantenga seco la incisi&oacute;n."
+        spanish = Some "Mantenga seco la incisi&oacute;n.",
+        chinese = None Text
     },
     {
         english = "The <i>steri-strips</i> will fall off on their own.",
-        foreign = "Los <i>cintas est&eacute;riles</i> se caer&aacute;n. "
+        spanish = Some "Los <i>cintas est&eacute;riles</i> se caer&aacute;n. ",
+        chinese = None Text
     },
     {
         english = "Wash with water and soap.  Pat dry.",
-        foreign = "L&aacute;ve con agua y jab&oacute;n. S&eacute;que con golpecitos."
+        spanish = Some "L&aacute;ve con agua y jab&oacute;n. S&eacute;que con golpecitos.",
+        chinese = None Text
     },
     {
         english = "After you shower, replace the dressing with a clean one.",
-        foreign = "Desp&uacute;s de ducha, reemplace la venda por una limpia."
+        spanish = Some "Desp&uacute;s de ducha, reemplace la venda por una limpia.",
+        chinese = None Text
     },
     {
         english = "clear liquid / light food",
-        foreign = "l&iacute;quidos claros / alimentos liviano"
+        spanish = Some "l&iacute;quidos claros / alimentos liviano",
+        chinese = None Text
     },
     {
         english = "Are you taking pain meds?",
-        foreign = "Est&aacute; tomando los medicamentos para dolor?"
+        spanish = Some "Est&aacute; tomando los medicamentos para dolor?",
+        chinese = None Text
     },
     {
         english = "Opioids can cause constipation.",
-        foreign = "Los opi&aacute;ceos puede causar constipaci&oacute;n."
+        spanish = Some "Los opi&aacute;ceos puede causar constipaci&oacute;n.",
+        chinese = None Text
     },
     {
         english = "stool softener / laxative",
-        foreign = "ablandador de heces / laxante "
+        spanish = Some "ablandador de heces / laxante ",
+        chinese = None Text
     },
     {
         english = "You may resume physical activities as tolerated.",
-        foreign = "Puede retomar actividad f&iacute;sica, seg&uacute;n usted la tolere."
+        spanish = Some "Puede retomar actividad f&iacute;sica, seg&uacute;n usted la tolere.",
+        chinese = None Text
     },
     {
         english = "Don't do heavy lifting.",
-        foreign = "No levante objetos pesados."
+        spanish = Some "No levante objetos pesados.",
+        chinese = None Text
     },
     {
         english = "When would you like to return to work?",
-        foreign = "Cu&aacute;ndo desear&iacute;a regresar al trabajo? (?)"
+        spanish = Some "Cu&aacute;ndo desear&iacute;a regresar al trabajo? (?)",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -9,20 +9,24 @@ in ./technique.dhall {
     [
         {
             english = "Scoot toward me.",
-            foreign = "Deslice hacia mi (?)."
+            spanish = Some "Deslice hacia mi (?).",
+            chinese = None Text
         },
         {
             english = "<u>Superior Shear</u>: Pull your foot up away from me.",
-            foreign = "Aleje su pie de m&iacute;."
+            spanish = Some "Aleje su pie de m&iacute;.",
+            chinese = None Text
         },
         {
             english = "<u>Inferior Shear</u>: Push your foot down into my hands/stomach.",
-            foreign = "Empuje su pie hacia mi mano/est&oacute;mago."
+            spanish = Some "Empuje su pie hacia mi mano/est&oacute;mago.",
+            chinese = None Text
         }
         ,
         {
             english = "...using the force of your hip.",
-            foreign = "...usando la fuerza de su cadera."
+            spanish = Some "...usando la fuerza de su cadera.",
+            chinese = None Text
         }
     ]
     #

@@ -7,19 +7,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "Your creatinine & BUN are high, indicating that your kidney may not be functioning well.",
-            foreign = "Su creatina y BUN son altas, lo que indica que sus ri&ntilde;ones no funcionan bien."
+            spanish = Some "Su creatina y BUN son altas, lo que indica que sus ri&ntilde;ones no funcionan bien.",
+            chinese = None Text
         },
         {
             english = "glucose",
-            foreign = "la glucosa."
+            spanish = Some "la glucosa.",
+            chinese = None Text
         },
         {
             english = "potassium",
-            foreign = "el potasio"
+            spanish = Some "el potasio",
+            chinese = None Text
         },
         {
             english = "sodium",
-            foreign = "el sodio"
+            spanish = Some "el sodio",
+            chinese = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/BMP"}],

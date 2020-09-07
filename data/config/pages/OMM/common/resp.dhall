@@ -1,14 +1,17 @@
 [
     {
         english = "Inhale (deeply).",
-        foreign = "Inhale (profundo) "
+        spanish = Some "Inhale (profundo) ",
+        chinese = None Text
     },
     {
         english = "Exhale (deeply).",
-        foreign = "Exhale (profundo)"
+        spanish = Some "Exhale (profundo)",
+        chinese = None Text
     },
     {
         english = "Hold it.",
-        foreign = "Sost&eacute;ngalo"
+        spanish = Some "Sost&eacute;ngalo",
+        chinese = None Text
     }
 ]

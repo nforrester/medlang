@@ -6,19 +6,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to feel for your pubic bone, which is the front of your pelvic bone.",
-            foreign = "Voy a sentir su hueso p&uacute;bico, que es el frente del hueso de cadera(?)."
+            spanish = Some "Voy a sentir su hueso p&uacute;bico, que es el frente del hueso de cadera(?).",
+            chinese = None Text
         },
         {
             english = "It's a sensitive area for some.  Is this ok?",
-            foreign = "Es una area sensible para algunas pacientes.  Est&aacute; bien?"
+            spanish = Some "Es una area sensible para algunas pacientes.  Est&aacute; bien?",
+            chinese = None Text
         },
         {
             english = "I will start at your belly button then move down until I feel the bone.",
-            foreign = "Voy a empezar por su ombligo, luego voy a bajar hasta sentir el hueso."
+            spanish = Some "Voy a empezar por su ombligo, luego voy a bajar hasta sentir el hueso.",
+            chinese = None Text
         },
         {
             english = "Would you like to adjust yourself first?",
-            foreign = "Quiere ajustarse primero?"
+            spanish = Some "Quiere ajustarse primero?",
+            chinese = None Text
         }
     ]
     ,

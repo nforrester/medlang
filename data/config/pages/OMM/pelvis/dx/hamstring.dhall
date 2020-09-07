@@ -6,11 +6,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "I'm going to put my hand on your hip and lift your leg with my other hand.",
-            foreign = "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano."
+            spanish = Some "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano.",
+            chinese = None Text
         },
         {
             english = "Let me know if it hurts.",
-            foreign = "Me diga si le duele."
+            spanish = Some "Me diga si le duele.",
+            chinese = None Text
         }
     ]
     ,

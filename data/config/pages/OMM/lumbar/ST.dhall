@@ -11,11 +11,13 @@ in ./technique.dhall {
     [
         {
             english = "I'm going to lift your hip.",
-            foreign = "Voy a levantar su cadera."
+            spanish = Some "Voy a levantar su cadera.",
+            chinese = None Text
         },
         {
             english = "I'm going to push on your back muscles.",
-            foreign = "Voy a presionar los m&uacutesculos de su espalda."
+            spanish = Some "Voy a presionar los m&uacutesculos de su espalda.",
+            chinese = None Text
         }
     ]
     #

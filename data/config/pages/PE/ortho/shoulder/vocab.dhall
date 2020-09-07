@@ -7,11 +7,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "supraspinatus",
-            foreign = "m&uacute;sculo supraespniso "
+            spanish = Some "m&uacute;sculo supraespniso ",
+            chinese = None Text
         },
         {
             english = "proceso inlamatorio / degenerativo",
-            foreign = "inflammatory / degenerative process"
+            spanish = Some "inflammatory / degenerative process",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -7,19 +7,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "<u>Liftoff</u>.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "<u>Empty Can</u>: Stretch your arms out straight in front of you, thumbs down.",
-            foreign = "Estire los codos, pulgares abajo."
+            spanish = Some "Estire los codos, pulgares abajo.",
+            chinese = None Text
         },
         {
             english = "<u></u>.",
-            foreign = "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo."
+            spanish = Some "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo.",
+            chinese = None Text
         },
         {
             english = "<u>External Rotation</u>.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

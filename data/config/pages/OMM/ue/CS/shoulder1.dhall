@@ -9,11 +9,13 @@ in ./technique.dhall {
     [
         {
             english = "Lift your arm.<br>Bend your elbow.",
-            foreign = "Levante el brazo.<br>Doble el codo."
+            spanish = Some "Levante el brazo.<br>Doble el codo.",
+            chinese = None Text
         },
         {
             english = "Let your arm drop toward the table.",
-            foreign = "Deje caer su brazo hacia la mesa."
+            spanish = Some "Deje caer su brazo hacia la mesa.",
+            chinese = None Text
         }
     ]
     #

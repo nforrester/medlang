@@ -7,59 +7,73 @@ translations =
 [
     {
         english = "What number pregnancy is this?",
-        foreign = "Qu&eacute; n&uacute;mero embarazo es esto?"
+        spanish = Some "Qu&eacute; n&uacute;mero embarazo es esto?",
+        chinese = None Text
     },
     {
         english = "Were there complications in your previous pregnancies?",
-        foreign = "Tuvo complicaciones en sus embarazos anteriores?"
+        spanish = Some "Tuvo complicaciones en sus embarazos anteriores?",
+        chinese = None Text
     },
     {
         english = "Abortion",
-        foreign = "Aborci&oacute;n"
+        spanish = Some "Aborci&oacute;n",
+        chinese = None Text
     },
     {
         english = "Miscarriage",
-        foreign = "P&eacute;rdida de beb&eacute;/ Aborto espont&aacute;neo"
+        spanish = Some "P&eacute;rdida de beb&eacute;/ Aborto espont&aacute;neo",
+        chinese = None Text
     },
     {
         english = "vaginal / c-section",
-        foreign = "vaginal / ces&aacute;rea"
+        spanish = Some "vaginal / ces&aacute;rea",
+        chinese = None Text
     },
     {
         english = "How many weeks along are you?",
-        foreign = "Cu&aacute;ntas semanas de embarazo tiene?"
+        spanish = Some "Cu&aacute;ntas semanas de embarazo tiene?",
+        chinese = None Text
     },
     {
         english = "When is your due date?",
-        foreign = "Cu&aacute;l es su fecha de alivo?"
+        spanish = Some "Cu&aacute;l es su fecha de alivo?",
+        chinese = None Text
     },
     {
         english = "How much weight have you gained so far?",
-        foreign = "Cu&aacute;ntos pesos ha ganado?"
+        spanish = Some "Cu&aacute;ntos pesos ha ganado?",
+        chinese = None Text
     },
     {
         english = "Are you having any symptoms/problems with your current pregnancy?",
-        foreign = "Tiene algunos s&iacutentomas o problemas con el embarazo?"
+        spanish = Some "Tiene algunos s&iacutentomas o problemas con el embarazo?",
+        chinese = None Text
     },
     {
         english = "Nausea / Vomiting / Headache / Swelling / Reflux",
-        foreign = "Nausea / Vomito / Dolor de cabeza / Hinchaz&oacute;n / Reflujo"
+        spanish = Some "Nausea / Vomito / Dolor de cabeza / Hinchaz&oacute;n / Reflujo",
+        chinese = None Text
     },
     {
         english = "This is normal/common in pregnancy.",
-        foreign = "Esto es normal durante el embarazo."
+        spanish = Some "Esto es normal durante el embarazo.",
+        chinese = None Text
     },
     {
         english = "How is your blood sugar?",
-        foreign = "C&oacute;mo es su nivel de az&uacute;car en la sangre?"
+        spanish = Some "C&oacute;mo es su nivel de az&uacute;car en la sangre?",
+        chinese = None Text
     },
     {
         english = "How frequent are your contractions?  How long do they last?",
-        foreign = "Con qu&eacute; frecuencia occuren los contracciones?"
+        spanish = Some "Con qu&eacute; frecuencia occuren los contracciones?",
+        chinese = None Text
     },
     {
         english = "Vaginal discharge or bleeding?",
-        foreign = "Tiene descarga o sangre vaginal?"
+        spanish = Some "Tiene descarga o sangre vaginal?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

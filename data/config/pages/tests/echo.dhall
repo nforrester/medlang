@@ -7,39 +7,48 @@ in ./technique.dhall {
     translations = [
         {
          english = "An echocardiogram (Echo) uses ultrasound to take a live moving picture of the heart",
-         foreign = "La ecocardiograf&iacute;a (Eco) usa ultrasonido para tomar una imagen en directo y movimiento del coraz&oacute;n. "
+         spanish = Some "La ecocardiograf&iacute;a (Eco) usa ultrasonido para tomar una imagen en directo y movimiento del coraz&oacute;n. ",
+         chinese = None Text
         },
         {
             english = "Valve:<br>-Mitral<br>-Aortic<br>-Tricuspid",
-            foreign = "La v&aacute;lvula<br>-mitral<br>a&oacute;rtica<br>-tric&uacute;spide"
+            spanish = Some "La v&aacute;lvula<br>-mitral<br>a&oacute;rtica<br>-tric&uacute;spide",
+            chinese = None Text
         },
         {
             english = "Ventricle",
-            foreign = "El ventr&iacute;culo"
+            spanish = Some "El ventr&iacute;culo",
+            chinese = None Text
         },
         {
             english = "Left / Right Atrium",
-            foreign = "La aur&iacute;cula izquierda / derecha."
+            spanish = Some "La aur&iacute;cula izquierda / derecha.",
+            chinese = None Text
         },
         {
             english = "Aorta",
-            foreign = "La aorta"
+            spanish = Some "La aorta",
+            chinese = None Text
         },
         {
             english = "valve stenosis / narrowing",
-            foreign = "Estenosis / Estrechamiento de la v&aacute;lvula"
+            spanish = Some "Estenosis / Estrechamiento de la v&aacute;lvula",
+            chinese = None Text
         },
         {
             english = "Your echocardiogram shows an ejection fraction of __, ,which is low.",
-            foreign = "Su eco muestra la fracci&oacute;n de eyecci&oacute;n de __; un porcentaje bajo."
+            spanish = Some "Su eco muestra la fracci&oacute;n de eyecci&oacute;n de __; un porcentaje bajo.",
+            chinese = None Text
         },
         {
             english = "The ejection fraction is how much blood the heart pumps per beat.",
-            foreign = "La fracci&oacute;n de eyecci&oacute;n es la cantidad de sangre que el coraz&oacute;n se bombea con cada latido."
+            spanish = Some "La fracci&oacute;n de eyecci&oacute;n es la cantidad de sangre que el coraz&oacute;n se bombea con cada latido.",
+            chinese = None Text
         },
         {
             english = "Your echocardiogram did not show any heart abnormalities.",
-            foreign = "La ecocardiograf&iacute;a no muestra ningunas problemas en el coraz&oacute;n."
+            spanish = Some "La ecocardiograf&iacute;a no muestra ningunas problemas en el coraz&oacute;n.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/echo"}],

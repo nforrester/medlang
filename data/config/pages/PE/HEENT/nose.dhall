@@ -5,15 +5,18 @@
     translations = [
         {
             english = "Tilt your head back.",
-            foreign = "Incl&iacute;nese su cabeza hacia atr&aacute;s."
+            spanish = Some "Incl&iacute;nese su cabeza hacia atr&aacute;s.",
+            chinese = None Text
         },
         {
             english = "I'm going to put this light in your nose.",
-            foreign = "Voy a poner esta luz en su nariz"
+            spanish = Some "Voy a poner esta luz en su nariz",
+            chinese = None Text
         },
         {
             english = "<u>Sinuses</u>: I'm going to tap on your face.  Does this hurt?",
-            foreign = "Voy a tocar su cara.  Le duele esto?"
+            spanish = Some "Voy a tocar su cara.  Le duele esto?",
+            chinese = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/HEENT/nose"}],

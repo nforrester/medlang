@@ -9,15 +9,18 @@ in ./technique.dhall {
    [
    {
        english = "Bend your knee.",
-       foreign = "Doble su rodilla."
+       spanish = Some "Doble su rodilla.",
+       chinese = None Text
    },
    {
        english = "<u>Inflare</u>: Bring your knee inward.",
-       foreign = "Lleve su rodilla hacia afuera(?)."
+       spanish = Some "Lleve su rodilla hacia afuera(?).",
+       chinese = None Text
    },
    {
        english = ""<u>Inflare</u>: Bring your knee outward.",
-       foreign = "Lleve su rodilla hacia adentro(?)."
+       spanish = Some "Lleve su rodilla hacia adentro(?).",
+       chinese = None Text
    }
    ]
    #

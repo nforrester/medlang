@@ -7,11 +7,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "<u>Speed's</u>: Try to bring your entire arm up, against my hand.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "<u>Yergason's</u>: Try to bend your arm up and also turn your palms up toward the ceiling.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

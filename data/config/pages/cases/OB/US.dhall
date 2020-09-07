@@ -7,23 +7,28 @@ translations =
 [
     {
         english = "heartbeat",
-        foreign = "latido del coraz&oacute;n"
+        spanish = Some "latido del coraz&oacute;n",
+        chinese = None Text
     },
     {
         english = "head / face",
-        foreign = "cabeza / cara"
+        spanish = Some "cabeza / cara",
+        chinese = None Text
     },
     {
         english = "belly",
-        foreign = "la panza"
+        spanish = Some "la panza",
+        chinese = None Text
     },
     {
         english = "femur",
-        foreign = "el f&eacute;mur"
+        spanish = Some "el f&eacute;mur",
+        chinese = None Text
     },
     {
         english = "Do you want to know the baby's gender?",
-        foreign = "Desea saber el sexo del beb&eacute;?"
+        spanish = Some "Desea saber el sexo del beb&eacute;?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

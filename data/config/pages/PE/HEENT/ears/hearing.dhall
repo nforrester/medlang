@@ -5,19 +5,23 @@
     translations = [
         {
             english = "Can you hear this?",
-            foreign = "Puede escuchar esto?"
+            spanish = Some "Puede escuchar esto?",
+            chinese = None Text
         },
         {
             english = "I'm going to rub my fingers next to one ear.",
-            foreign = "Voy a frotar mis dedos al lado de una oreja."
+            spanish = Some "Voy a frotar mis dedos al lado de una oreja.",
+            chinese = None Text
         },
         {
             english = "I'm going to whisper into one ear.",
-            foreign = "Voy a susurrar en una oreja."
+            spanish = Some "Voy a susurrar en una oreja.",
+            chinese = None Text
         },
         {
             english = "Raise your hand on the side you hear me.",
-            foreign = "Levante la mano del lado que me eschucha."
+            spanish = Some "Levante la mano del lado que me eschucha.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -9,15 +9,18 @@ in ./technique.dhall {
     [
         {
             english = "<u>Anterior approach</u>: I'm going to stand over you.",
-            foreign = "Voy a parar sobre usted."
+            spanish = Some "Voy a parar sobre usted.",
+            chinese = None Text
         },
         {
             english = "I'm going to put my hands around your collarbone.",
-            foreign = "Voy a poner mis manos alrededor de su clav&iacute;cula."
+            spanish = Some "Voy a poner mis manos alrededor de su clav&iacute;cula.",
+            chinese = None Text
         },
         {
             english ="Is this pressure ok?<br>Is it too tight?",
-            foreign = "Esta presura est&aacute; bien? <br>Es demasiado fuerte?"
+            spanish = Some "Esta presura est&aacute; bien? <br>Es demasiado fuerte?",
+            chinese = None Text
         }
     ]
     #

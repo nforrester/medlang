@@ -1,10 +1,12 @@
 [
     {
         english = "Lift your head up (so I can put my hands underneath).",
-        foreign = "Levante su cabeza (para poner mis manos debajo)."
+        spanish = Some "Levante su cabeza (para poner mis manos debajo).",
+        chinese = None Text
     },
     {
         english ="Let your head relax into my hands.",
-        foreign ="Deje que su cabeza se relaje en mis manos."
+        spanish = Some "Deje que su cabeza se relaje en mis manos.",
+        chinese = None Text
     }
 ]

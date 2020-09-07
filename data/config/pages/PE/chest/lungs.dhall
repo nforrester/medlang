@@ -6,22 +6,27 @@
     translations = [
         {
             english = "Breathe in.  Breathe out (deeply).",
-            foreign = "Inhale. Exhale (profundamente)."
+            spanish = Some "Inhale. Exhale (profundamente).",
+            chinese = None Text
         },
         {   english = "Could you lift your right arm?",
-            foreign = "Puede levantar su brazo derecho?"
+            spanish = Some "Puede levantar su brazo derecho?",
+            chinese = None Text
         },
         {
             english = "I'm going to tap on your back.",
-            foreign = "Voy a tocar su espalda."
+            spanish = Some "Voy a tocar su espalda.",
+            chinese = None Text
         },
         {
             english = "Say eee.",
-            foreign = "Diga eee."
+            spanish = Some "Diga eee.",
+            chinese = None Text
         },
         {
             english = "<u>Excursion</u>: I'm going to put my fingers around your waist, below your ribcage.",
-            foreign = "Voy a poner mis dedos alrededor de su cintura, debajo de su caja tor&aacute;cica."
+            spanish = Some "Voy a poner mis dedos alrededor de su cintura, debajo de su caja tor&aacute;cica.",
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

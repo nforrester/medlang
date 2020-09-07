@@ -7,31 +7,38 @@ translations =
 [
     {
         english = "Muscle pain (at ___)?",
-        foreign = "Dolor muscular (de ____)?"
+        spanish = Some "Dolor muscular (de ____)?",
+        chinese = None Text
     },
     {
         english = "Swelling of your joints/muscles?",
-        foreign = "Se le hinchan las articulaciones/los m&uacute;sculos?"
+        spanish = Some "Se le hinchan las articulaciones/los m&uacute;sculos?",
+        chinese = None Text
     },
     {
         english = "Calambres?",
-        foreign = "Cramps?"
+        spanish = Some "Cramps?",
+        chinese = None Text
     },
     {
         english = "Stiffness?",
-        foreign = "Rigidez?"
+        spanish = Some "Rigidez?",
+        chinese = None Text
     },
     {
         english = "Deformity?",
-        foreign = "Deformidad?"
+        spanish = Some "Deformidad?",
+        chinese = None Text
     },
     {
         english = "- the back",
-        foreign = "- la espalda?"
+        spanish = Some "- la espalda?",
+        chinese = None Text
     },
     {
         english = "- the shoulder?",
-        foreign = "- el hombro?"
+        spanish = Some "- el hombro?",
+        chinese = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

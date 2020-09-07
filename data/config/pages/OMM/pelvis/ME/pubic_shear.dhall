@@ -9,11 +9,13 @@ in ./technique.dhall {
     [
     {
         english = "<u>Superior Shear</u>: Drop your leg over the edge of the table.",
-        foreign = "Deje caer su pierna sobre el borde de la mesa."
+        spanish = Some "Deje caer su pierna sobre el borde de la mesa.",
+        chinese = None Text
     },
     {
         english = "<u>Inferior Shear</u>: Bend your knee up against your chest.",
-        foreign = "Dobla su rodilla contra su pecho."
+        spanish = Some "Dobla su rodilla contra su pecho.",
+        chinese = None Text
     }
     ]
     #

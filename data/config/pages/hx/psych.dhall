@@ -7,83 +7,103 @@ translations =
 [
     {
         english = "How are you feeling?",
-        foreign = "C&oacute;mo est&aacute; hoy?"
+        spanish = Some "C&oacute;mo est&aacute; hoy?",
+        chinese = None Text
     },
     {
         english = "- Sad / Depressed",
-        foreign = "Triste / Deprimado"
+        spanish = Some "Triste / Deprimado",
+        chinese = None Text
     },
     {
         english = "- Worried / Anxious",
-        foreign = "Preocupado(a) / Ansioso(a)"
+        spanish = Some "Preocupado(a) / Ansioso(a)",
+        chinese = None Text
     },
     {
         english = "- Irritated / Angry",
-        foreign = "Irritable / Enojado(a)"
+        spanish = Some "Irritable / Enojado(a)",
+        chinese = None Text
     },
     {
         english = "How long have you felt ___?",
-        foreign = "Por cu&aacute;nto tiempo se siente ___?"
+        spanish = Some "Por cu&aacute;nto tiempo se siente ___?",
+        chinese = None Text
     },
     {
         english = "What do you do when you feel ___?",
-        foreign = "Qu&eacute; hace cuando se siente ___?"
+        spanish = Some "Qu&eacute; hace cuando se siente ___?",
+        chinese = None Text
     },
     {
         english = "How is your sleep?",
-        foreign = "C&oacute;mo duerme?"
+        spanish = Some "C&oacute;mo duerme?",
+        chinese = None Text
     },
     {
         english = "Do you hear voices? <br>What do the voices say?",
-        foreign = "Oye voces? <br>Qu&eacute; dicen los voces?"
+        spanish = Some "Oye voces? <br>Qu&eacute; dicen los voces?",
+        chinese = None Text
     },
     {
         english = "Do you get nightmares?",
-        foreign = "Tiene pesadillas?"
+        spanish = Some "Tiene pesadillas?",
+        chinese = None Text
     },
     {
         english = "How many hours do you sleep?",
-        foreign = "Cu&aacute;ntas horas duerme?"
+        spanish = Some "Cu&aacute;ntas horas duerme?",
+        chinese = None Text
     },
     {
         english = "Do you have trouble concentrating?",
-        foreign = "Tiene problemas de concentraci&oacute;n? "
+        spanish = Some "Tiene problemas de concentraci&oacute;n? ",
+        chinese = None Text
     },
     {
         english = "Do you have trouble remembering things?",
-        foreign = "Tiene problemas de memoria?"
+        spanish = Some "Tiene problemas de memoria?",
+        chinese = None Text
     },
     {
         english = "Do you have thoughts of hurting yourself / others?",
-        foreign = "Tienes pensamientos sobre da&ntilde;arse a s&iacute; mismo / a otros? "
+        spanish = Some "Tienes pensamientos sobre da&ntilde;arse a s&iacute; mismo / a otros? ",
+        chinese = None Text
     },
     {
         english = "Do you have specific plans?",
-        foreign = "Tiene planos especificos?"
+        spanish = Some "Tiene planos especificos?",
+        chinese = None Text
     },
     {
         english = "Overdose",
-        foreign = "Sobredosis"
+        spanish = Some "Sobredosis",
+        chinese = None Text
     },
     {
         english = "Are you close with your family?",
-        foreign = "Est&aacute; cerco/a con su familia?"
+        spanish = Some "Est&aacute; cerco/a con su familia?",
+        chinese = None Text
     },
     {
         english = "What do you do to relax / for fun?",
-        foreign = "Qu&eacute; hace para relajarse / divertirse? "
+        spanish = Some "Qu&eacute; hace para relajarse / divertirse? ",
+        chinese = None Text
     },
     {
         english = "Have you been in a psychiatric hospital before?",
-        foreign = "Ha estado en un hospital psiqui&acute;trico?"
+        spanish = Some "Ha estado en un hospital psiqui&acute;trico?",
+        chinese = None Text
     },
     {
         english = "Do you see a therapist?",
-        foreign = "Habla con una terapista?"
+        spanish = Some "Habla con una terapista?",
+        chinese = None Text
     },
     {
         english = "antidepressant",
-        foreign = "antidepresivo"
+        spanish = Some "antidepresivo",
+        chinese = None Text
     }
 ],
 menu_items = [{title = " ", filename = "hx/menu"}],

@@ -7,11 +7,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "<u>Neer</u>.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         },
         {
             english = "<u>Hawkin</u>.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

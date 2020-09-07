@@ -6,55 +6,68 @@ translations =
 [
     {
         english = "Were you the driver or passenger?",
-        foreign = "Era el conductor o pasajero?"
+        spanish = Some "Era el conductor o pasajero?",
+        chinese = None Text
     },
     {
         english = "frontseat / backseat",
-        foreign = "el asiento delantero / el asiento trasero "
+        spanish = Some "el asiento delantero / el asiento trasero ",
+        chinese = None Text
     },
     {
         english = "What speed were you going at?",
-        foreign = "Estaba conduciendo con qu&eacute; velocidad?"
+        spanish = Some "Estaba conduciendo con qu&eacute; velocidad?",
+        chinese = None Text
     },
     {
         english = "Were you on the highway or residential road?",
-        foreign = "Estaba en la carretera o calle residential?"
+        spanish = Some "Estaba en la carretera o calle residential?",
+        chinese = None Text
     },
     {
         english = "Was your vehicle hit from the front, back, or side?",
-        foreign = "Su veh&iacute;culo fue golpeado por el frente / ppor detras / por el lado?"
+        spanish = Some "Su veh&iacute;culo fue golpeado por el frente / ppor detras / por el lado?",
+        chinese = None Text
     },
     {
         english = "head-on / rear-end / T-bone collision",
-        foreign = "colisi&oacute;n frontal / trasera / lateral"
+        spanish = Some "colisi&oacute;n frontal / trasera / lateral",
+        chinese = None Text
     },
     {
         english = "Did the airbags deploy?",
-        foreign = "Las bolsas de aire/airbags desplegaron?"
+        spanish = Some "Las bolsas de aire/airbags desplegaron?",
+        chinese = None Text
     },
     {
         english = "Did you have your seatbelt on?",
-        foreign = "Ten&iacute;a puesto el cintur&oacute;n de seguridad?"
+        spanish = Some "Ten&iacute;a puesto el cintur&oacute;n de seguridad?",
+        chinese = None Text
     },
     {
         english = "Did you hit your head / chest?",
-        foreign = "Se pega en la cabeza / pecho?"
+        spanish = Some "Se pega en la cabeza / pecho?",
+        chinese = None Text
     },
     {
         english = "Did you lose consciousness?",
-        foreign = "Perdi&oacute; el conocimiento?"
+        spanish = Some "Perdi&oacute; el conocimiento?",
+        chinese = None Text
     },
     {
         english = "steering wheel",
-        foreign = "volante"
+        spanish = Some "volante",
+        chinese = None Text
     },
     {
         english = "dashboard",
-        foreign = "tablero"
+        spanish = Some "tablero",
+        chinese = None Text
     },
     {
         english = "Did the police arrive?",
-        foreign = "Lleg&oacute; la polic&iacute;a"
+        spanish = Some "Lleg&oacute; la polic&iacute;a",
+        chinese = None Text
     }
 ],
 menu_items = [{title = " ", filename = "cases/menu"}],

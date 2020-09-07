@@ -7,19 +7,23 @@ in ./technique.dhall {
     translations = [
         {
          english = "Liver function tests.",
-         foreign = "Las pruebas de la funci&oacute;n hep&aacute;tica."
+         spanish = Some "Las pruebas de la funci&oacute;n hep&aacute;tica.",
+         chinese = None Text
         },
         {
             english = "Albumin.",
-            foreign = "La alb&uacute;mina"
+            spanish = Some "La alb&uacute;mina",
+            chinese = None Text
         },
         {
             english = "Bilirubin",
-            foreign = "La bilirubina"
+            spanish = Some "La bilirubina",
+            chinese = None Text
         },
         {
             english = "Your liver enzymes are high, which may indicate damage to your liver or bile duct.",
-            foreign = "Sus niveeles de enzimas son altos, lo que puede indicar el da&ntilde;o al  h&iacute;gado o conducto biliares."
+            spanish = Some "Sus niveeles de enzimas son altos, lo que puede indicar el da&ntilde;o al  h&iacute;gado o conducto biliares.",
+            chinese = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/LFT"}],

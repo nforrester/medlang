@@ -3,7 +3,7 @@
 ../info.dhall {
     image = None Text,
     paragraphs = [
-        "Hi! Welcome to ${(../site_data.dhall).name}.",
+        "Select a topic:",
         "",
         "${../link.dhall "hx/menu" "History"}",
         "${../link.dhall "PE/menu" "Physical Exams"}",

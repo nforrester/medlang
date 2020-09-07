@@ -7,11 +7,13 @@ in ./technique.dhall {
     translations = [
         {
             english = "<u>Scarf</u>: Hold onto your opposite shoulder.",
-            foreign = "Agarre su otro hombro."
+            spanish = Some "Agarre su otro hombro.",
+            chinese = None Text
         },
         {
             english = "<u>O'Brien's</u>: Stretch your arms out straight in front of you, thumbs down.",
-            foreign = "."
+            spanish = None Text,
+            chinese = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

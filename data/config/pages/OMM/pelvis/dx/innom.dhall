@@ -6,19 +6,23 @@ in ./technique.dhall {
     translations = [
         {
             english = "Can you lift up your shirt so I can see your belly button?",
-            foreign = "Puede levantar su camisa para que yo pueda ver su ombligo?"
+            spanish = Some "Puede levantar su camisa para que yo pueda ver su ombligo?",
+            chinese = None Text
         },
         {
             english = "Can you lift/lower this side of your pants?",
-            foreign = "Puede levantar/bajar este lado de sus pantalones?"
+            spanish = Some "Puede levantar/bajar este lado de sus pantalones?",
+            chinese = None Text
         },
         {
             english = "May I put my hands around your hips?",
-            foreign = "Puedo poner mis manos alrededor de su caderas?"
+            spanish = Some "Puedo poner mis manos alrededor de su caderas?",
+            chinese = None Text
         },
         {
             english = "<u>Spring</u>: I'm going to push down on your hipbones.",
-            foreign = "Voy a presionar sus huesos de cadera."
+            spanish = Some "Voy a presionar sus huesos de cadera.",
+            chinese = None Text
         }
     ]
     ,
