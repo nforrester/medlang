@@ -6,14 +6,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-         en = "Pap smear screens for cervical cancer.",
-         es = Some "La prueba de Pap revisa para el c&aacute;ncer del cuello uterino.",
-         zh = None s.Zh
+             en = "Pap smear screens for cervical cancer.",
+             es = Some "La prueba de Pap revisa para el c&aacute;ncer del cuello uterino.",
+             zh = None s.Zh
         },
         {
-         en = "Pelvic exam.",
-         es = Some "El examen p&eacute;lvico",
-         zh = None s.Zh
+             en = "Pelvic exam.",
+             es = Some "El examen p&eacute;lvico",
+             zh = None s.Zh
         },
         {
             en = "It's recommended for women 21-30 years old to get a pap test every 3 years.",

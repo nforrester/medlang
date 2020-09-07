@@ -57,7 +57,7 @@ translations =
     },
     {
         en = "I will let the doctor / nurse know.",
-        es = Some "Lo informar&eacute; al(a) doctor(a) / enfermero(a). (?)",
+        es = Some "Lo informar&eacute; al(a) doctor(a) / enfermero(a).",
         zh = None s.Zh
     },
     {

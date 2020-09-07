@@ -1,6 +1,6 @@
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Headache - H&P",
+title = "Headache - History",
 image = None Text,
 translations =
 [
@@ -80,8 +80,8 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Headache - A&P", filename = "cases/HA/ap"}],
+menu_items = [{title = "HA - hx", filename = "cases/HA/hp"}, {title = "HA - A&P", filename = "cases/HA/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
-backlink2 = None (./schema.dhall).LinkData,
-backlink3 = None (./schema.dhall).LinkData
+backlink2 = Some { title = "PE HEENT", filename = "PE/HEENT/eyes/pupils" },
+backlink3 = Some { title = "PE Neuro", filename = "PE/neuro/cn" }
 }

@@ -45,7 +45,7 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Headache - H&P", filename = "cases/HA/hp"}],
+menu_items = [{title = "HA - hx", filename = "cases/HA/hp"}, {title = "HA - A&P", filename = "cases/HA/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
 backlink2 = None (./schema.dhall).LinkData,
 backlink3 = None (./schema.dhall).LinkData

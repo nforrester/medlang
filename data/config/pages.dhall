@@ -118,18 +118,18 @@ let pages : List s.PageUnion = [
         ./pages/PE/HEENT/neck/thyroid.dhall "PE/HEENT/neck/thyroid",
         ./pages/PE/HEENT/neck/trachea.dhall "PE/HEENT/neck/trachea",
 
+    ./pages/PE/abd/draping.dhall "PE/abd/draping",
+    ./pages/PE/abd/auscultate.dhall "PE/abd/auscultate",
+    ./pages/PE/abd/cirrhosis.dhall "PE/abd/cirrhosis",
+    ./pages/PE/abd/murphy.dhall "PE/abd/murphy",
+    ./pages/PE/abd/peritonitis.dhall "PE/abd/peritonitis",
+    ./pages/PE/abd/hernia.dhall "PE/abd/hernia",
+
     ./pages/PE/chest/gown.dhall "PE/chest/gown",
     ./pages/PE/chest/JVD.dhall "PE/chest/JVD",
     ./pages/PE/chest/heart.dhall "PE/chest/heart",
     ./pages/PE/chest/lungs.dhall "PE/chest/lungs",
-    ./pages/PE/chest/lungs.dhall "PE/chest/breast",
-
-    ./pages/PE/GI/draping.dhall "PE/GI/draping",
-    ./pages/PE/GI/auscultate.dhall "PE/GI/auscultate",
-    ./pages/PE/GI/cirrhosis.dhall "PE/GI/cirrhosis",
-    ./pages/PE/GI/murphy.dhall "PE/GI/murphy",
-    ./pages/PE/GI/peritonitis.dhall "PE/GI/peritonitis",
-    ./pages/PE/GI/hernia.dhall "PE/GI/hernia",
+    ./pages/PE/chest/breast.dhall "PE/chest/breast",
 
     ./pages/PE/neuro/cn.dhall "PE/neuro/cn",
     ./pages/PE/neuro/mmse.dhall "PE/neuro/mmse",
@@ -147,15 +147,16 @@ let pages : List s.PageUnion = [
         ./pages/PE/ortho/shoulder/impingement.dhall "PE/ortho/shoulder/impingement",
         ./pages/PE/ortho/shoulder/rtc.dhall "PE/ortho/shoulder/rtc",
 
-
     ./pages/tests/menu.dhall "tests/menu",
         ./pages/tests/BMP.dhall "tests/BMP",
         ./pages/tests/CBC.dhall "tests/CBC",
+        ./pages/tests/CXR.dhall "tests/CXR",
         ./pages/tests/echo.dhall "tests/echo",
         ./pages/tests/LFT.dhall "tests/LFT",
+        ./pages/tests/LFT.dhall "tests/LP",
         ./pages/tests/pap.dhall "tests/pap",
         ./pages/tests/paracentesis.dhall "tests/paracentesis",
-
+        ./pages/tests/pap.dhall "tests/urine",
 
     ./pages/cases/menu.dhall "cases/menu",
     ./pages/cases/COPD/hp.dhall "cases/COPD/hp",
@@ -167,7 +168,8 @@ let pages : List s.PageUnion = [
     ./pages/cases/HA/hp.dhall "cases/HA/hp",
     ./pages/cases/HA/ap.dhall "cases/HA/ap",
     ./pages/cases/HF/hp.dhall "cases/HF/hp",
-    ./pages/cases/HF/ap.dhall "cases/HF/ap",
+    ./pages/cases/HF/dx.dhall "cases/HF/dx",
+    ./pages/cases/HF/tx.dhall "cases/HF/tx",
     ./pages/cases/OB/gen.dhall "cases/OB/gen",
     ./pages/cases/OB/23.dhall "cases/OB/23",
     ./pages/cases/OB/US.dhall "cases/OB/US",

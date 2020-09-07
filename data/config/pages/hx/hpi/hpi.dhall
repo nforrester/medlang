@@ -8,17 +8,23 @@ translations =
     {
         en = "How can I help you?",
         es = Some "En qu&eacute; puedo ayudarlo/a?",
-        zh = None s.Zh
+        zh = Some {
+            pin = "wo3 neng2 ru2 he2 wei4 nin2 bang zhu4?",
+            chr = "我 能 如 何 為 您 帮 助?"
+            }
     },
     {
-        en = "Why did you come to the hospital today (instead of any onother day)?",
-        es = Some "Porqu&eacute; vino al hospital hoy (en vez de algun otro dia)?",
+        en = "Why did you come to the hospital today?",
+        es = Some "Porqu&eacute; vino al hospital hoy?",
         zh = None s.Zh
     },
     {
         en = "For how long (have you had this problem)?",
         es = Some "Por cu&aacute;nto tiempo (ha tenido este problema)?",
-        zh = None s.Zh
+        zh = Some {
+            pin = "duo1 chang2 shi2 jian1 (you3 zhe4 ge zhen4 zhuang4)",
+            chr = "多 長 時 間 (有 這 個 症 狀)?"
+        }
     },
     {
         en = "On a scale of 0-10, how much is your pain?",
@@ -43,7 +49,10 @@ translations =
     {
         en = "Where is the pain?",
         es = Some "D&oacute;nde est&aacute; el dolor?",
-        zh = None s.Zh
+        zh = Some {
+            pin = "zai4 na3 li3 tong?",
+            chr = "在 哪 裡 疼?"
+        }
     },
     {
         en = "Does the pain move anywhere else?",

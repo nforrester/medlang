@@ -29,7 +29,7 @@ in ./technique.dhall {
     ../common/ST.dhall
     ,
     menu_items = ./menu_items.dhall,
-    backlink1 = Some {title = "OMM", filename = "OMM/menu"},
+    backlink1 = Some {title = "OMT", filename = "OMM/menu"},
     backlink2 = None s.LinkData,
     backlink3 = None s.LinkData
 }

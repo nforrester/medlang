@@ -70,8 +70,8 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Abdominal pain (biliary) - H&P", filename = "cases/GB/hp"}],
+menu_items = [{title = "Abd pain (biliary) - H&P", filename = "cases/GB/hp"}, {title = "Abd pain (biliar) - A&P", filename = "cases/GB/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
-backlink2 = None (./schema.dhall).LinkData,
+backlink2 = Some { title = "PE Abdominal", filename = "PE/abd/draping" },
 backlink3 = None (./schema.dhall).LinkData
 }

@@ -11,8 +11,8 @@ in ./technique.dhall {
             zh = None s.Zh
         },
         {
-            en = "<u>O'Brien's</u>: Stretch your arms out straight in front of you, thumbs down.",
-            es = None Text,
+            en = "<u>O'Brien's</u>: Extend your arms out straight in front of you, thumbs down.",
+            es = Some "Extienda sus brazos directamente en frente suyo, con pulgares hacia abajo.",
             zh = None s.Zh
         }
     ],

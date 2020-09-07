@@ -11,13 +11,13 @@ in ./technique.dhall {
             zh = None s.Zh
         },
         {
-            en = "<u>Empty Can</u>: Stretch your arms out straight in front of you, thumbs down.",
-            es = Some "Estire los codos, pulgares abajo.",
+            en = "<u>Empty Can</u>: Extend your arms out straight in front of you, thumbs down.",
+            es = Some "Extienda sus brazos directamente en frente suyo, con pulgares hacia abajo.",
             zh = None s.Zh
         },
         {
-            en = "<u></u>.",
-            es = Some "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo.",
+            en = "Maintain your position while I push down on your arm.",
+            es = Some "Mantenga esta posici&oacute;n mientras yo lo empujo hacia el suelo.",
             zh = None s.Zh
         },
         {

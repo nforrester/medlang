@@ -61,8 +61,8 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "COPD - A&P", filename = "cases/COPD/ap"}],
+menu_items = [{title = "COPD - H&P", filename = "cases/COPD/hp"}, {title = "COPD - A&P", filename = "cases/COPD/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
-backlink2 = None (./schema.dhall).LinkData,
+backlink2 = Some { title = "PE Lungs", filename = "PE/chest/lungs" },
 backlink3 = None (./schema.dhall).LinkData
 }

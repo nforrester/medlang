@@ -1,26 +1,26 @@
 [
     {
         title = "Draping",
-        filename = "PE/GI/draping"
+        filename = "PE/abd/draping"
     },
     {
         title = "Auscultate, Percuss, Palpate",
-        filename = "PE/GI/auscultate"
+        filename = "PE/abd/auscultate"
     },
     {
         title = "Murphy Sign",
-        filename = "PE/GI/murphy"
+        filename = "PE/abd/murphy"
     },
     {
         title = "Cirrhosis Signs",
-        filename = "PE/GI/cirrhosis"
+        filename = "PE/abd/cirrhosis"
     },
     {
         title = "Peritonitis Signs",
-        filename = "PE/GI/peritonitis"
+        filename = "PE/abd/peritonitis"
     },
     {
         title = "Hernia",
-        filename = "PE/GI/hernia"
+        filename = "PE/abd/hernia"
     }
 ]

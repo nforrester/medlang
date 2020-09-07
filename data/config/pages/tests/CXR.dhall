@@ -1,0 +1,42 @@
+--CXR
+let s = ./schema.dhall
+in ./technique.dhall {
+    title = "Lumbar Puncture",
+    image = None Text,
+    translations = [
+        {
+         en = "Chest X-ray",
+         es = Some "La radiograf&iacute;a de t&oacute;rax",
+         zh = None s.Zh
+        },
+        {
+            en = "Your CXR shows...",
+            es = Some "Su radiograf&iacute;a muestra...",
+            zh = None s.Zh
+        },
+        {
+            en = "- an enlarged heart",
+            es = Some "- un coraz&oacute;n agrandado",
+            zh = None s.Zh
+        },
+        {
+            en = "- hyperinflated lungs",
+            es = Some "- pulmones muy inflados",
+            zh = None s.Zh
+        },
+        {
+            en = "- lung nodule",
+            es = Some "-  ",
+            zh = None s.Zh
+        },
+        {
+            en = "- fluid/infiltrates in the lungs, which may indicate a lung infection.",
+            es = Some "- l&iacute;quido/infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar.",
+            zh = None s.Zh
+        }
+    ],
+    menu_items = [{title = " ", filename = "tests/CXR"}],
+    backlink1 = Some {title = "Tests", filename = "tests/menu"},
+    backlink2 = None (./schema.dhall).LinkData,
+    backlink3 = None (./schema.dhall).LinkData
+}

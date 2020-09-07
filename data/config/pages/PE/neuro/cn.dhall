@@ -26,7 +26,7 @@ in ./technique.dhall {
         },
         {
             en = "<u>CN VIII</u>: ",
-            es = Some "${./link.dhall "PE/HEENT/ears/hearing" "Hearing"} <br> ${./link.dhall "PE/neuro/cerebellum" "Balance(-)"}",
+            es = Some "${./link.dhall "PE/HEENT/ears/hearing" "Hearing"} <br> ${./link.dhall "PE/neuro/cerebellum" "Balance"}",
             zh = None s.Zh
         },
         {

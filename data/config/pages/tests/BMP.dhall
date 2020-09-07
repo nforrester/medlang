@@ -6,13 +6,13 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            en = "Your creatinine & BUN are high, indicating that your kidney may not be functioning well.",
-            es = Some "Su creatina y BUN son altas, lo que indica que sus ri&ntilde;ones no funcionan bien.",
+            en = "Your creatinine & BUN are high<br>- which indicates that your kidney may not be functioning well.",
+            es = Some "Su creatina y BUN son altas<br>- lo que indica que sus ri&ntilde;ones no funcionan bien.",
             zh = None s.Zh
         },
         {
             en = "glucose",
-            es = Some "la glucosa.",
+            es = Some "la glucosa",
             zh = None s.Zh
         },
         {

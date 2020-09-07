@@ -6,23 +6,23 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-         en = "Liver function tests.",
-         es = Some "Las pruebas de la funci&oacute;n hep&aacute;tica.",
+            en = "Your liver enzymes are high<br>- which may indicate damage to your liver or bile duct.",
+            es = Some "Sus niveeles de enzimas son altos<br>- lo que puede indicar el da&ntilde;o al  h&iacute;gado o conducto biliares.",
+            zh = None s.Zh
+        },
+        {
+         en = "liver function tests",
+         es = Some "las pruebas de la funci&oacute;n hep&aacute;tica",
          zh = None s.Zh
         },
         {
-            en = "Albumin.",
+            en = "albumin.",
             es = Some "La alb&uacute;mina",
             zh = None s.Zh
         },
         {
-            en = "Bilirubin",
+            en = "bilirubin",
             es = Some "La bilirubina",
-            zh = None s.Zh
-        },
-        {
-            en = "Your liver enzymes are high, which may indicate damage to your liver or bile duct.",
-            es = Some "Sus niveeles de enzimas son altos, lo que puede indicar el da&ntilde;o al  h&iacute;gado o conducto biliares.",
             zh = None s.Zh
         }
     ],

@@ -16,8 +16,8 @@ translations =
         zh = None s.Zh
     },
     {
-        en = "Have you travelled outside the U.S.? Where? When?",
-        es = Some "Ha viajado a otro pa&iacute;s fuera de los estados unidos? D&oacute;nde? Cu&aacute;ndo?",
+        en = "Have you travelled outside the U.S.?",
+        es = Some "Ha viajado a otro pa&iacute;s fuera de los estados unidos?",
         zh = None s.Zh
     },
     {
@@ -32,12 +32,12 @@ translations =
     },
     {
         en = "chicken pox",
-        es = None Text,
+        es = Some "la varicela",
         zh = None s.Zh
     },
     {
-        en = "BCG vaccine",
-        es = None Text,
+        en = "BCG (tuberculosis) vaccine",
+        es = Some "la vacuna BCG (contra la tuberculosis)",
         zh = None s.Zh
     }
 ],

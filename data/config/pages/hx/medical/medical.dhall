@@ -11,6 +11,11 @@ translations =
         zh = None s.Zh
     },
     {
+        en = "<u> Medical conditions </u>",
+        es = Some "${./link.dhall "hx/medical/conditions" "See full list here"}",
+        zh = None s.Zh
+    },
+    {
         en = "When did you last see a doctor?",
         es = Some "Cu&aacute;ndo fue su &uacute;ltima cita con el doctor?",
         zh = None s.Zh
@@ -38,41 +43,6 @@ translations =
     {
         en = "How old was s/he when...?",
         es = Some "Cu&aacute;ntos a&ntilde;os tiene cuando...?",
-        zh = None s.Zh
-    },
-    {
-        en = "<u> Medical conditions </u>",
-        es = Some "${./link.dhall "hx/medical/conditions" "See full list here"}",
-        zh = None s.Zh
-    },
-    {
-        en = "- high blood pressure / hypertensi&oacute;n",
-        es = Some "- alta presi&oacute;n / hipertension",
-        zh = None s.Zh
-    },
-    {
-        en = "- diabetes",
-        es = Some "- diabetes",
-        zh = None s.Zh
-    },
-    {
-        en = "- heart failure",
-        es = Some "- insuficiencia card&iacute;aca",
-        zh = None s.Zh
-    },
-    {
-        en = "- heart attack",
-        es = Some "- ataque al coraz&oacute;n",
-        zh = None s.Zh
-    },
-    {
-        en = "- stroke / CVA",
-        es = Some "- apoplej&iacute;a / accidente cerebrovascular",
-        zh = None s.Zh
-    },
-    {
-        en = "- [breast/colon/prostate] cancer",
-        es = Some "- c&aacute;ncer [de mama/colon/prostata]",
         zh = None s.Zh
     }
 ],

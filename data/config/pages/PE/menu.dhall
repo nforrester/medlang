@@ -15,7 +15,7 @@ in ../../conversation.dhall {
         },
         {
             response = "Abdomen",
-            filename = "PE/GI/draping",
+            filename = "PE/abd/draping",
             image_map = None s.ImageMapData
         },
         {
@@ -24,8 +24,8 @@ in ../../conversation.dhall {
             image_map = None s.ImageMapData
         },
         {
-            response = "Orthopedic (empty)",
-            filename = "PE/menu",
+            response = "Orthopedic (incomplete)",
+            filename = "PE/ortho/menu",
             image_map = None s.ImageMapData
         }
     ],

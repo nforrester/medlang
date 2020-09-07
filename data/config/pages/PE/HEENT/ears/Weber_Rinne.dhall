@@ -46,7 +46,7 @@ in ./technique.dhall {
         },
         {
             en = "Can you hear the noise?",
-            es = None Text,
+            es = Some "Puede escuchar esto?",
             zh = None s.Zh
         }
     ],

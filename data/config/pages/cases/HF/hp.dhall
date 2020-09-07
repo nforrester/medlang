@@ -1,7 +1,7 @@
 -- hf
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Heart failure - H&P",
+title = "Heart failure - History",
 image = None Text,
 translations =
 [
@@ -61,7 +61,10 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Heart Failure - A&P", filename = "cases/HF/ap"}],
+menu_items = [
+    {title = "HF - Hx", filename = "cases/HF/hp"},
+    {title = "HF - Workup", filename = "cases/HF/dx"},
+    {title = "HF - Management", filename = "cases/HF/tx"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
 backlink2 = None (./schema.dhall).LinkData,
 backlink3 = None (./schema.dhall).LinkData

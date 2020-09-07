@@ -1,6 +1,6 @@
 [
     {
-        title = "General H&P",
+        title = "General prenatal visit",
         filename = "cases/OB/gen"
     },
     {

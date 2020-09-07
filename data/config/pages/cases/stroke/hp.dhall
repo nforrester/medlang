@@ -1,7 +1,7 @@
 -- OB interview
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Stroke: H&P",
+title = "Stroke: history",
 image = None Text,
 translations =
 [
@@ -51,8 +51,8 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Stroke - H&P", filename = "cases/stroke/ap"}],
-backlink1 = Some { title = "History", filename = "hx/menu" },
-backlink2 = None (./schema.dhall).LinkData,
+menu_items = [{title = "Stroke - hx", filename = "cases/stroke/hp"}, {title = "Stroke - A&P", filename = "cases/stroke/ap"}],
+backlink1 = Some { title = "Cases", filename = "cases/menu" },
+backlink2 = Some { title = "PE Neuro", filename = "PE/neuro/motor" },
 backlink3 = None (./schema.dhall).LinkData
 }

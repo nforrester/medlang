@@ -21,14 +21,14 @@ in ./technique.dhall {
             zh = None s.Zh
         },
         {
-         en = "I'm inserting the needle",
-         es = Some "Estoy insertando la aguja.",
-         zh = None s.Zh
+             en = "I'm inserting the needle",
+             es = Some "Estoy insertando la aguja.",
+             zh = None s.Zh
         },
         {
-         en = "We are draining the fluid.",
-         es = Some "Estamos drenando el l&iacute;quido.",
-         zh = None s.Zh
+             en = "We are draining the fluid.",
+             es = Some "Estamos drenando el l&iacute;quido.",
+             zh = None s.Zh
         },
         {
             en = "We will send the fluid to the lab. They will analyze it to determine the cause of your ascites.",

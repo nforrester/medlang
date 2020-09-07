@@ -1,7 +1,7 @@
 -- hf
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Vaginal Bleeding - H&P",
+title = "Vaginal Bleeding - history",
 image = None Text,
 translations =
 [
@@ -76,8 +76,8 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/VB/ap"}],
+menu_items = [{title = "VB - hx", filename = "cases/VB/hp"}, {title = "VB - A&P", filename = "cases/VB/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
-backlink2 = None (./schema.dhall).LinkData,
+backlink2 = Some { title = "Pelvic exam", filename = "tests/pap" },
 backlink3 = None (./schema.dhall).LinkData
 }

@@ -5,13 +5,13 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            en = "I'm going to look in your ear canal with this otoscope.",
-            es = Some "otoscopio.",
+            en = "I'm going to look in your ear with the otoscope.",
+            es = Some "Voy a ver dentro de su o&iacute; con el otoscopio.",
             zh = None s.Zh
         },
         {
             en = "I'm going to pull lightly on your ear.",
-            es = Some "Voy a tirar de su oreja ligeramente.",
+            es = Some "Voy a tirar de su o&iacute;do ligeramente.",
             zh = None s.Zh
         },
         {
@@ -21,12 +21,12 @@ in ./technique.dhall {
         },
         {
             en = "You will feel a puff of air in your ear.",
-            es = Some "Va a sentir una bocanada(?) de aire en su oreja.",
+            es = Some "Va a sentir un soplo de aire en el o&iacute;do.",
             zh = None s.Zh
         },
         {
             en = "Your eardrum is normal / inflamed.",
-            es = Some "Su timpana estA normal / inflamada.",
+            es = Some "Su timpana est&eacute; normal / inflamada.",
             zh = None s.Zh
         }
     ],

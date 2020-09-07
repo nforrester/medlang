@@ -66,11 +66,6 @@ translations =
         zh = None s.Zh
     },
     {
-        en = "How frequent are your contractions?  How long do they last?",
-        es = Some "Con qu&eacute; frecuencia occuren los contracciones?",
-        zh = None s.Zh
-    },
-    {
         en = "Vaginal discharge or bleeding?",
         es = Some "Tiene descarga o sangre vaginal?",
         zh = None s.Zh

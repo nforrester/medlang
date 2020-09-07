@@ -51,7 +51,7 @@ translations =
         zh = None s.Zh
     }
 ],
-menu_items = [{title = "Vaginal Bleeding - A&P", filename = "cases/UTI/ap"}],
+menu_items = [{title = "UTI - hx", filename = "cases/UTI/hp"}, {title = "UTI - A&P", filename = "cases/UTI/ap"}],
 backlink1 = Some { title = "Cases", filename = "cases/menu" },
 backlink2 = None (./schema.dhall).LinkData,
 backlink3 = None (./schema.dhall).LinkData
