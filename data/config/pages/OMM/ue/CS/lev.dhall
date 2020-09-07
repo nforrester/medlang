@@ -17,7 +17,7 @@ translations =
     }
 ]
 #
-../../common/cs.dhall "arm" "brazo",
+../../common/CS.dhall "arm" "brazo",
 menu_items = ./menu_items.dhall,
 backlink1 = Some { title = "OMM", filename = "OMM/menu" },
 backlink2 = Some { title = "UE", filename = "OMM/ue/menu" },

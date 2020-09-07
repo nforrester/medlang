@@ -25,7 +25,7 @@ translations =
     }
 ]
 #
-../../common/cs.dhall "shoulder" "hombro",
+../../common/CS.dhall "shoulder" "hombro",
 menu_items = ./menu_items.dhall,
 backlink1 = Some { title = "OMM", filename = "OMM/menu" },
 backlink2 = Some { title = "UE", filename = "OMM/ue/menu" },

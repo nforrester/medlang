@@ -12,7 +12,7 @@ in ./technique.dhall {
         }
     ]
     #
-    ../common/cs.dhall "head" "cabeza"
+    ../common/CS.dhall "head" "cabeza"
     ,
     menu_items = ./menu_items.dhall,
     backlink1 = Some {title = "OMM", filename = "OMM/menu" },

@@ -1,7 +1,7 @@
 --OP
 ./technique.dhall {
     title = "Oropharynx",
-    image = Some "PE/op.PNG",
+    image = Some "PE/op.png",
     translations = [
         {
             english = "Open / close your mouth.",

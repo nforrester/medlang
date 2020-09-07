@@ -15,7 +15,7 @@ translations =
     }
 ]
 #
-../common/me.dhall "grip" "agarre (?)",
+../common/ME.dhall "grip" "agarre (?)",
 menu_items = [{title = "", filename = "OMM/ue/ME"}],
 backlink1 = Some { title = "UE", filename = "OMM/ue/menu" },
 backlink2 = Some { title = "OMM", filename = "OMM/menu" },
