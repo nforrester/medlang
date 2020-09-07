@@ -6,34 +6,34 @@ image = None Text,
 translations =
 [
     {
-        english = "Chest pain/pressure",
-        spanish = Some "Dolor de pecho?",
-        chinese = None s.Zh
+        en = "Chest pain/pressure",
+        es = Some "Dolor de pecho?",
+        zh = None s.Zh
     },
     {
-        english = "Short of breath? (dyspnea)",
-        spanish = Some "Dificultad de respirar?",
-        chinese = None s.Zh
+        en = "Short of breath? (dyspnea)",
+        es = Some "Dificultad de respirar?",
+        zh = None s.Zh
     },
     {
-        english = "- when lying flat? (orthopnea)",
-        spanish = Some "- cuando est&aacute;a acostado/a?",
-        chinese = None s.Zh
+        en = "- when lying flat? (orthopnea)",
+        es = Some "- cuando est&aacute;a acostado/a?",
+        zh = None s.Zh
     },
     {
-        english = "Rapid / irregular heartbeats?",
-        spanish = Some "Latidos r&aacute;pidos / irregulares del coraz&oacute;n?",
-        chinese = None s.Zh
+        en = "Rapid / irregular heartbeats?",
+        es = Some "Latidos r&aacute;pidos / irregulares del coraz&oacute;n?",
+        zh = None s.Zh
     },
     {
-        english = "Swollen legs?",
-        spanish = Some "Piernas hinchadas?",
-        chinese = None s.Zh
+        en = "Swollen legs?",
+        es = Some "Piernas hinchadas?",
+        zh = None s.Zh
     },
     {
-        english = "Calf pain / cramping?",
-        spanish = Some "Dolor / Calambres de la pantorrilla?",
-        chinese = None s.Zh
+        en = "Calf pain / cramping?",
+        es = Some "Dolor / Calambres de la pantorrilla?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

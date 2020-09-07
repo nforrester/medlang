@@ -4,49 +4,49 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "What is your name?",
-            spanish = Some "Cu&al es su nombre?",
-            chinese = None s.Zh
+            en = "What is your name?",
+            es = Some "Cu&al es su nombre?",
+            zh = None s.Zh
         },
         {
-            english = "What year is it?",
-            spanish = Some "En qu&eacute; a&ntilde;o estamos?",
-            chinese = None s.Zh
+            en = "What year is it?",
+            es = Some "En qu&eacute; a&ntilde;o estamos?",
+            zh = None s.Zh
         },
         {
-            english = "What month?",
-            spanish = Some "Qu&eacute; mes?",
-            chinese = None s.Zh
+            en = "What month?",
+            es = Some "Qu&eacute; mes?",
+            zh = None s.Zh
         },
         {
-            english = "What day of the week?",
-            spanish = Some "Qu&eacute; d&iacute;a?",
-            chinese = None s.Zh
+            en = "What day of the week?",
+            es = Some "Qu&eacute; d&iacute;a?",
+            zh = None s.Zh
         },
         {
-            english = "What is the date?",
-            spanish = Some "Cu&aacute;l es la fecha?",
-            chinese = None s.Zh
+            en = "What is the date?",
+            es = Some "Cu&aacute;l es la fecha?",
+            zh = None s.Zh
         },
         {
-            english = "Where are we?",
-            spanish = Some "D&oacute;nde estamos?",
-            chinese = None s.Zh
+            en = "Where are we?",
+            es = Some "D&oacute;nde estamos?",
+            zh = None s.Zh
         },
         {
-            english = "In which city / country?",
-            spanish = Some "En qu&eacute; ciudad / pa&iacute;s?",
-            chinese = None s.Zh
+            en = "In which city / country?",
+            es = Some "En qu&eacute; ciudad / pa&iacute;s?",
+            zh = None s.Zh
         },
         {
-            english = "On which floor?",
-            spanish = Some "En q&uacute;e piso?",
-            chinese = None s.Zh
+            en = "On which floor?",
+            es = Some "En q&uacute;e piso?",
+            zh = None s.Zh
         },
         {
-            english = "Who is the president?",
-            spanish = Some "Qui&eacute;n es el presidente?",
-            chinese = None s.Zh
+            en = "Who is the president?",
+            es = Some "Qui&eacute;n es el presidente?",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -6,69 +6,69 @@ image = None Text,
 translations =
 [
     {
-        english = "Were you the driver or passenger?",
-        spanish = Some "Era el conductor o pasajero?",
-        chinese = None s.Zh
+        en = "Were you the driver or passenger?",
+        es = Some "Era el conductor o pasajero?",
+        zh = None s.Zh
     },
     {
-        english = "frontseat / backseat",
-        spanish = Some "el asiento delantero / el asiento trasero ",
-        chinese = None s.Zh
+        en = "frontseat / backseat",
+        es = Some "el asiento delantero / el asiento trasero ",
+        zh = None s.Zh
     },
     {
-        english = "What speed were you going at?",
-        spanish = Some "Estaba conduciendo con qu&eacute; velocidad?",
-        chinese = None s.Zh
+        en = "What speed were you going at?",
+        es = Some "Estaba conduciendo con qu&eacute; velocidad?",
+        zh = None s.Zh
     },
     {
-        english = "Were you on the highway or residential road?",
-        spanish = Some "Estaba en la carretera o calle residential?",
-        chinese = None s.Zh
+        en = "Were you on the highway or residential road?",
+        es = Some "Estaba en la carretera o calle residential?",
+        zh = None s.Zh
     },
     {
-        english = "Was your vehicle hit from the front, back, or side?",
-        spanish = Some "Su veh&iacute;culo fue golpeado por el frente / ppor detras / por el lado?",
-        chinese = None s.Zh
+        en = "Was your vehicle hit from the front, back, or side?",
+        es = Some "Su veh&iacute;culo fue golpeado por el frente / ppor detras / por el lado?",
+        zh = None s.Zh
     },
     {
-        english = "head-on / rear-end / T-bone collision",
-        spanish = Some "colisi&oacute;n frontal / trasera / lateral",
-        chinese = None s.Zh
+        en = "head-on / rear-end / T-bone collision",
+        es = Some "colisi&oacute;n frontal / trasera / lateral",
+        zh = None s.Zh
     },
     {
-        english = "Did the airbags deploy?",
-        spanish = Some "Las bolsas de aire/airbags desplegaron?",
-        chinese = None s.Zh
+        en = "Did the airbags deploy?",
+        es = Some "Las bolsas de aire/airbags desplegaron?",
+        zh = None s.Zh
     },
     {
-        english = "Did you have your seatbelt on?",
-        spanish = Some "Ten&iacute;a puesto el cintur&oacute;n de seguridad?",
-        chinese = None s.Zh
+        en = "Did you have your seatbelt on?",
+        es = Some "Ten&iacute;a puesto el cintur&oacute;n de seguridad?",
+        zh = None s.Zh
     },
     {
-        english = "Did you hit your head / chest?",
-        spanish = Some "Se pega en la cabeza / pecho?",
-        chinese = None s.Zh
+        en = "Did you hit your head / chest?",
+        es = Some "Se pega en la cabeza / pecho?",
+        zh = None s.Zh
     },
     {
-        english = "Did you lose consciousness?",
-        spanish = Some "Perdi&oacute; el conocimiento?",
-        chinese = None s.Zh
+        en = "Did you lose consciousness?",
+        es = Some "Perdi&oacute; el conocimiento?",
+        zh = None s.Zh
     },
     {
-        english = "steering wheel",
-        spanish = Some "volante",
-        chinese = None s.Zh
+        en = "steering wheel",
+        es = Some "volante",
+        zh = None s.Zh
     },
     {
-        english = "dashboard",
-        spanish = Some "tablero",
-        chinese = None s.Zh
+        en = "dashboard",
+        es = Some "tablero",
+        zh = None s.Zh
     },
     {
-        english = "Did the police arrive?",
-        spanish = Some "Lleg&oacute; la polic&iacute;a",
-        chinese = None s.Zh
+        en = "Did the police arrive?",
+        es = Some "Lleg&oacute; la polic&iacute;a",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = " ", filename = "cases/menu"}],

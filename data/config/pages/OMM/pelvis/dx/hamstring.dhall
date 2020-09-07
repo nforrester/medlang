@@ -5,14 +5,14 @@ in ./technique.dhall {
     image = Some "OMM/pelvis_dx_hamstring.png",
     translations = [
         {
-            english = "I'm going to put my hand on your hip and lift your leg with my other hand.",
-            spanish = Some "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano.",
-            chinese = None s.Zh
+            en = "I'm going to put my hand on your hip and lift your leg with my other hand.",
+            es = Some "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano.",
+            zh = None s.Zh
         },
         {
-            english = "Let me know if it hurts.",
-            spanish = Some "Me diga si le duele.",
-            chinese = None s.Zh
+            en = "Let me know if it hurts.",
+            es = Some "Me diga si le duele.",
+            zh = None s.Zh
         }
     ]
     ,

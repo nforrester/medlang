@@ -5,54 +5,54 @@ in ./technique.dhall {
     image = Some "OMM/pelvis_dx_sft.png",
     translations = [
         {
-            english = "<u>Standing Flexion Test</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Standing Flexion Test</u>.",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "Stand facing away from me.",
-            spanish = Some "P&oacute;ngase de pie de espaldas a m&iacute;.",
-            chinese = None s.Zh
+            en = "Stand facing away from me.",
+            es = Some "P&oacute;ngase de pie de espaldas a m&iacute;.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to put my foot between your feet. Place your feet around my foot.",
-            spanish = Some "Voy a poner mi pie entre sus pies. Ponga sus pies alrededor de los m&iacute;os.",
-            chinese = None s.Zh
+            en = "I'm going to put my foot between your feet. Place your feet around my foot.",
+            es = Some "Voy a poner mi pie entre sus pies. Ponga sus pies alrededor de los m&iacute;os.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Seated Flexion Test</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Seated Flexion Test</u>.",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "Sit down on the table.  Rest your feet on this ledge.",
-            spanish = Some "Si&eacute;ntese en la mesa. Ponga sus pies sobre este peldaño",
-            chinese = None s.Zh
+            en = "Sit down on the table.  Rest your feet on this ledge.",
+            es = Some "Si&eacute;ntese en la mesa. Ponga sus pies sobre este peldaño",
+            zh = None s.Zh
         },
         {
-            english = "Place your hands between your knees.",
-            spanish = Some "Ponga sus manos entre de sus rodillas.",
-            chinese = None s.Zh
+            en = "Place your hands between your knees.",
+            es = Some "Ponga sus manos entre de sus rodillas.",
+            zh = None s.Zh
         },
         {
-            english = "///",
-            spanish = Some "///",
-            chinese = None s.Zh
+            en = "///",
+            es = Some "///",
+            zh = None s.Zh
         },
         {
-            english = "Is it ok if I put my hands on your hips?",
-            spanish = Some "Puedo poner mis manos sobre sus caderas?",
-            chinese = None s.Zh
+            en = "Is it ok if I put my hands on your hips?",
+            es = Some "Puedo poner mis manos sobre sus caderas?",
+            zh = None s.Zh
         },
         {
-            english = "Can you bend forward a little bit?",
-            spanish = Some "Puede inclinarse un poco hacia adelante?",
-            chinese = None s.Zh
+            en = "Can you bend forward a little bit?",
+            es = Some "Puede inclinarse un poco hacia adelante?",
+            zh = None s.Zh
         },
         {
-            english = "SLOWLY bend forward (try to touch your toes). Now, come back up.",
-            spanish = Some "Muy lenamente, incl&iacute;nase hacia adelante (trate de tocar sus dedos del pie).  Ahora, vuelva a subir.",
-            chinese = None s.Zh
+            en = "SLOWLY bend forward (try to touch your toes). Now, come back up.",
+            es = Some "Muy lenamente, incl&iacute;nase hacia adelante (trate de tocar sus dedos del pie).  Ahora, vuelva a subir.",
+            zh = None s.Zh
         }
     ]
     ,

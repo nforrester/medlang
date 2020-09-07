@@ -6,74 +6,74 @@ image = None Text,
 translations =
 [
     {
-        english = "What's your job?",
-        spanish = Some "Qu&eacute; trabajo tiene?",
-        chinese = None s.Zh
+        en = "What's your job?",
+        es = Some "Qu&eacute; trabajo tiene?",
+        zh = None s.Zh
     },
     {
-        english = "Does your job involve strenuous physical activity?",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Does your job involve strenuous physical activity?",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Su problema afecta su trabajo?",
-        spanish = Some "Is your problem affecting your work?",
-        chinese = None s.Zh
+        en = "Su problema afecta su trabajo?",
+        es = Some "Is your problem affecting your work?",
+        zh = None s.Zh
     },
     {
-        english = "Are you exposed to any hazards at work?",
-        spanish = Some "Est&aacute; expuesto/a a riesgos en su trabajo?",
-        chinese = None s.Zh
+        en = "Are you exposed to any hazards at work?",
+        es = Some "Est&aacute; expuesto/a a riesgos en su trabajo?",
+        zh = None s.Zh
     },
     {
-        english = "Where do you live?",
-        spanish = Some "D&oacute;nde vive?",
-        chinese = None s.Zh
+        en = "Where do you live?",
+        es = Some "D&oacute;nde vive?",
+        zh = None s.Zh
     },
     {
-        english = "Whom do you live with?",
-        spanish = Some "Con qui&eacute;n vive?",
-        chinese = None s.Zh
+        en = "Whom do you live with?",
+        es = Some "Con qui&eacute;n vive?",
+        zh = None s.Zh
     },
     {
-        english = "Nursing home",
-        spanish = Some "residencia de ancianos",
-        chinese = None s.Zh
+        en = "Nursing home",
+        es = Some "residencia de ancianos",
+        zh = None s.Zh
     },
     {
-        english = "SNF",
-        spanish = Some "centro especializado de enfermer&iacute;a",
-        chinese = None s.Zh
+        en = "SNF",
+        es = Some "centro especializado de enfermer&iacute;a",
+        zh = None s.Zh
     },
     {
-        english = "prison",
-        spanish = Some "la c&aacute;rcel",
-        chinese = None s.Zh
+        en = "prison",
+        es = Some "la c&aacute;rcel",
+        zh = None s.Zh
     },
     {
-        english = "Do you have children? Pets? How old are they?",
-        spanish = Some "Tiene ni&ntilde;nos? animales dom&eacute;sticos? Cu&aacute;ntos a&ntilde;os tienen?",
-        chinese = None s.Zh
+        en = "Do you have children? Pets? How old are they?",
+        es = Some "Tiene ni&ntilde;nos? animales dom&eacute;sticos? Cu&aacute;ntos a&ntilde;os tienen?",
+        zh = None s.Zh
     },
     {
-        english = "Do you feel safe at home?",
-        spanish = Some "Se siente seguro/a en casa?",
-        chinese = None s.Zh
+        en = "Do you feel safe at home?",
+        es = Some "Se siente seguro/a en casa?",
+        zh = None s.Zh
     },
     {
-        english = "Have you ever felt physically or verbally threatened at home?",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Have you ever felt physically or verbally threatened at home?",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Are you under much stress?",
-        spanish = Some "Tiene mucho estr&eacute;s?",
-        chinese = None s.Zh
+        en = "Are you under much stress?",
+        es = Some "Tiene mucho estr&eacute;s?",
+        zh = None s.Zh
     },
     {
-        english = "Have you ever been/worked in a prison?",
-        spanish = Some "Alguna vez estuvo/trabaj&oacute; en pris&oacute;n? (?)",
-        chinese = None s.Zh
+        en = "Have you ever been/worked in a prison?",
+        es = Some "Alguna vez estuvo/trabaj&oacute; en pris&oacute;n? (?)",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -5,54 +5,54 @@ image = None Text,
 translations =
 [
     {
-        english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "heavy pressure / heavy weight ",
-        spanish = Some "presi&oacute;n fuerte / peso fuerte",
-        chinese = None s.Zh
+        en = "heavy pressure / heavy weight ",
+        es = Some "presi&oacute;n fuerte / peso fuerte",
+        zh = None s.Zh
     },
     {
-        english = "crushing / squeezing ",
-        spanish = Some "constrictivo / opresivo ",
-        chinese = None s.Zh
+        en = "crushing / squeezing ",
+        es = Some "constrictivo / opresivo ",
+        zh = None s.Zh
     },
     {
-        english = "substernal ",
-        spanish = Some "por detr&aacute;s del estern&oacute;n",
-        chinese = None s.Zh
+        en = "substernal ",
+        es = Some "por detr&aacute;s del estern&oacute;n",
+        zh = None s.Zh
     },
     {
-        english = "Does the pain travel to your jaw / neck / shoulder / arm?",
-        spanish = Some "El dolor se irradia a la mand&iacute;bula / el cuello / el hombro / el brazo?",
-        chinese = None s.Zh
+        en = "Does the pain travel to your jaw / neck / shoulder / arm?",
+        es = Some "El dolor se irradia a la mand&iacute;bula / el cuello / el hombro / el brazo?",
+        zh = None s.Zh
     },
     {
-        english = "nausea / sweating / SOB / dizziness / palpitations",
-        spanish = Some "nausea / sudoraciones / falta de aire / mareado / palpitaciones",
-        chinese = None s.Zh
+        en = "nausea / sweating / SOB / dizziness / palpitations",
+        es = Some "nausea / sudoraciones / falta de aire / mareado / palpitaciones",
+        zh = None s.Zh
     },
     {
-        english = "What were you doing when the pain started?",
-        spanish = Some "Qu&eacute; estaba haciendo cuando el dolor empez&oacute;?",
-        chinese = None s.Zh
+        en = "What were you doing when the pain started?",
+        es = Some "Qu&eacute; estaba haciendo cuando el dolor empez&oacute;?",
+        zh = None s.Zh
     },
     {
-        english = "Does the pain occur at rest, or when you're active?",
-        spanish = Some "El dolor ocurre cuando est&aacute; en reposo, o con actividad?",
-        chinese = None s.Zh
+        en = "Does the pain occur at rest, or when you're active?",
+        es = Some "El dolor ocurre cuando est&aacute; en reposo, o con actividad?",
+        zh = None s.Zh
     },
     {
-        english = "How many aspirin/nitroglycerin tablets did you take?",
-        spanish = Some "Cu&aacute;ntas pastillas de aspirina/nitroglicerina tom&oacute;?",
-        chinese = None s.Zh
+        en = "How many aspirin/nitroglycerin tablets did you take?",
+        es = Some "Cu&aacute;ntas pastillas de aspirina/nitroglicerina tom&oacute;?",
+        zh = None s.Zh
     },
     {
-        english = "coronary bypass surgery (CABG)",
-        spanish = Some "cirug&iacute;a de revascularizaci&oacute;n coronaria",
-        chinese = None s.Zh
+        en = "coronary bypass surgery (CABG)",
+        es = Some "cirug&iacute;a de revascularizaci&oacute;n coronaria",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Angina - A&P", filename = "cases/CP/ap"}],

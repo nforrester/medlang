@@ -6,29 +6,29 @@ image = None Text,
 translations =
 [
     {
-        english = "Hair loss?",
-        spanish = Some "P&eacute;rdida de pelo?",
-        chinese = None s.Zh
+        en = "Hair loss?",
+        es = Some "P&eacute;rdida de pelo?",
+        zh = None s.Zh
     },
     {
-        english = "Rashes?",
-        spanish = Some "Erupciones en su piel?",
-        chinese = None s.Zh
+        en = "Rashes?",
+        es = Some "Erupciones en su piel?",
+        zh = None s.Zh
     },
     {
-        english = "New skin lesions?",
-        spanish = Some "Nuevos lesi&oacute;n en su piel?",
-        chinese = None s.Zh
+        en = "New skin lesions?",
+        es = Some "Nuevos lesi&oacute;n en su piel?",
+        zh = None s.Zh
     },
     {
-        english = "- moles / growths / bumps",
-        spanish = Some "- lunares / crecimientos / ",
-        chinese = None s.Zh
+        en = "- moles / growths / bumps",
+        es = Some "- lunares / crecimientos / ",
+        zh = None s.Zh
     },
     {
-        english = "Itching?",
-        spanish = Some "Picaz&oacute;n?",
-        chinese = None s.Zh
+        en = "Itching?",
+        es = Some "Picaz&oacute;n?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -6,24 +6,24 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Cover your left / right eye.",
-            spanish = Some "Cubra su ojo izquierdo / derecho.",
-            chinese = None s.Zh
+            en = "Cover your left / right eye.",
+            es = Some "Cubra su ojo izquierdo / derecho.",
+            zh = None s.Zh
         },
         {
-            english = "Look at my nose.",
-            spanish = Some "Mire mi nariz",
-            chinese = None s.Zh
+            en = "Look at my nose.",
+            es = Some "Mire mi nariz",
+            zh = None s.Zh
         },
         {
-            english = "Tell me when you first see my hand.",
-            spanish = Some "Digame cuando primero vea mi mano.",
-            chinese = None s.Zh
+            en = "Tell me when you first see my hand.",
+            es = Some "Digame cuando primero vea mi mano.",
+            zh = None s.Zh
         },
         {
-            english = "Can you see both hands?",
-            spanish = Some "Puede ver ambos manos?",
-            chinese = None s.Zh
+            en = "Can you see both hands?",
+            es = Some "Puede ver ambos manos?",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

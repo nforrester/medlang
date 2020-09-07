@@ -8,24 +8,24 @@ in ./technique.dhall {
    #
    [
        {
-           english = "Bend your knees up / down.",
-           spanish = Some "Doble sus rodillas hacia arriba / abajo.",
-           chinese = None s.Zh
+           en = "Bend your knees up / down.",
+           es = Some "Doble sus rodillas hacia arriba / abajo.",
+           zh = None s.Zh
        },
         {
-           english = "Lift your leg(s) / top leg.  I will sit under.",
-           spanish = Some "Levante sus piernas / pierna superior.  Me voy a sentar debajo.",
-           chinese = None s.Zh
+           en = "Lift your leg(s) / top leg.  I will sit under.",
+           es = Some "Levante sus piernas / pierna superior.  Me voy a sentar debajo.",
+           zh = None s.Zh
        },
        {
-           english = "Turn your face toward the ceiling / into the table.",
-           spanish = Some "Gire su cara hacia el techo / hacia la mesa.",
-           chinese = None s.Zh
+           en = "Turn your face toward the ceiling / into the table.",
+           es = Some "Gire su cara hacia el techo / hacia la mesa.",
+           zh = None s.Zh
        },
        {
-           english = "Hold onto the table edge.",
-           spanish = Some "Sostenga(?) el borde de la mesa.",
-           chinese = None s.Zh
+           en = "Hold onto the table edge.",
+           es = Some "Sostenga(?) el borde de la mesa.",
+           zh = None s.Zh
        }
    ]
    #

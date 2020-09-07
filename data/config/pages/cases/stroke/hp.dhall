@@ -6,49 +6,49 @@ image = None Text,
 translations =
 [
     {
-        english = "SX:",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "SX:",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Weakness / Paralysis",
-        spanish = Some "Debilidad / Par&aacute;lisis",
-        chinese = None s.Zh
+        en = "Weakness / Paralysis",
+        es = Some "Debilidad / Par&aacute;lisis",
+        zh = None s.Zh
     },
     {
-        english = "Numbness or tingling in ___?",
-        spanish = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
-        chinese = None s.Zh
+        en = "Numbness or tingling in ___?",
+        es = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
+        zh = None s.Zh
     },
     {
-        english = "Decreased movement in ___?",
-        spanish = Some "Disminuci&oacute;n en el movimiento en ___?",
-        chinese = None s.Zh
+        en = "Decreased movement in ___?",
+        es = Some "Disminuci&oacute;n en el movimiento en ___?",
+        zh = None s.Zh
     },
     {
-        english = "Decreased sensation in ___?",
-        spanish = Some "Disminuci&oacute;n en la sensibilidad en ___?",
-        chinese = None s.Zh
+        en = "Decreased sensation in ___?",
+        es = Some "Disminuci&oacute;n en la sensibilidad en ___?",
+        zh = None s.Zh
     },
     {
-        english = "Numbness / Tingling",
-        spanish = Some "Entumecimiento / Sensaci&oacute;n de hormigueos",
-        chinese = None s.Zh
+        en = "Numbness / Tingling",
+        es = Some "Entumecimiento / Sensaci&oacute;n de hormigueos",
+        zh = None s.Zh
     },
     {
-        english = "difficulty eating / swallowing",
-        spanish = Some "dificultad comer / tragar",
-        chinese = None s.Zh
+        en = "difficulty eating / swallowing",
+        es = Some "dificultad comer / tragar",
+        zh = None s.Zh
     },
     {
-        english = "Difficulty speaking / understanding",
-        spanish = Some "Dificultad hablar / entender",
-        chinese = None s.Zh
+        en = "Difficulty speaking / understanding",
+        es = Some "Dificultad hablar / entender",
+        zh = None s.Zh
     },
     {
-        english = "Difficulty with balance / coordination",
-        spanish = Some "Dificultad con el equilibrio / la coordinaci&oacute;n",
-        chinese = None s.Zh
+        en = "Difficulty with balance / coordination",
+        es = Some "Dificultad con el equilibrio / la coordinaci&oacute;n",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Stroke - H&P", filename = "cases/stroke/ap"}],

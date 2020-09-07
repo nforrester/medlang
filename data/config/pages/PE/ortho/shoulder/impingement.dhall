@@ -6,14 +6,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>Neer</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Neer</u>.",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "<u>Hawkin</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Hawkin</u>.",
+            es = None Text,
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

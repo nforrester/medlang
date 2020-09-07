@@ -5,49 +5,49 @@ image = None Text,
 translations =
 [
     {
-        english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Does the pain get worse with food?",
-        spanish = Some "(El dolor) empeora con comida?",
-        chinese = None s.Zh
+        en = "Does the pain get worse with food?",
+        es = Some "(El dolor) empeora con comida?",
+        zh = None s.Zh
     },
     {
-        english = "-fatty food",
-        spanish = Some "-comida grasura",
-        chinese = None s.Zh
+        en = "-fatty food",
+        es = Some "-comida grasura",
+        zh = None s.Zh
     },
     {
-        english = "-spicy food",
-        spanish = Some "-comida picante",
-        chinese = None s.Zh
+        en = "-spicy food",
+        es = Some "-comida picante",
+        zh = None s.Zh
     },
     {
-        english = "El dolor abdominal aparece y desaparece?",
-        spanish = Some "Does the abdominal pain appear and disappear?",
-        chinese = None s.Zh
+        en = "El dolor abdominal aparece y desaparece?",
+        es = Some "Does the abdominal pain appear and disappear?",
+        zh = None s.Zh
     },
     {
-        english = "fever / chills",
-        spanish = Some "fiebre / escalofr&iacute;os",
-        chinese = None s.Zh
+        en = "fever / chills",
+        es = Some "fiebre / escalofr&iacute;os",
+        zh = None s.Zh
     },
     {
-        english = "Ictericia: piel / ojos amarillos",
-        spanish = Some "Icterus: yellow skin / eyes",
-        chinese = None s.Zh
+        en = "Ictericia: piel / ojos amarillos",
+        es = Some "Icterus: yellow skin / eyes",
+        zh = None s.Zh
     },
     {
-        english = "nausea / vomiting",
-        spanish = Some "n&aacute;useas / v&oacute;mitos",
-        chinese = None s.Zh
+        en = "nausea / vomiting",
+        es = Some "n&aacute;useas / v&oacute;mitos",
+        zh = None s.Zh
     },
     {
-        english = "indigestion / burping / gas",
-        spanish = Some "indigesti&oacute;n / eructos / gases",
-        chinese = None s.Zh
+        en = "indigestion / burping / gas",
+        es = Some "indigesti&oacute;n / eructos / gases",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Abdominal pain (biliary) - A&P", filename = "cases/GB/ap"}],

@@ -145,7 +145,11 @@ def process_config(config, target_language):
     config['site']['target_language'] = target_language
 
     # Set site name based on target language
-    config['site']['name'] = 'MEDICAL %s TRANSLATIONS' % target_language.upper()
+    pretty_target_language = {
+        'es': 'SPANISH',
+        'zh': 'MANDARIN',
+    }[target_language]
+    config['site']['name'] = 'MEDICAL %s TRANSLATIONS' % pretty_target_language
 
     # Select target language on each page
     for page in config['pages']:
@@ -239,12 +243,12 @@ def main():
     # Make a new output directory populated with the files from data/plain
     shutil.copytree('data/plain', output_dir)
 
-    foreign_languages = ['spanish', 'chinese']
+    foreign_languages = ['es', 'zh']
     for target_language in foreign_languages:
         # Load the configuration. Don't print a stack trace if it fails
         # because the Dhall compiler makes nicer error messages.
         try:
-            config = load_config(strict_languages = ['english'])
+            config = load_config(strict_languages = ['en'])
         except subprocess.CalledProcessError:
             return False
 

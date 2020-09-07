@@ -6,79 +6,79 @@ image = None Text,
 translations =
 [
     {
-        english = "How are you feeling today?  <br>Better, worse, or the same as yesterday?",
-        spanish = Some "C&oacute;mo se siente hoy? <br>Mejor, peor, o igual que ayer?",
-        chinese = None s.Zh
+        en = "How are you feeling today?  <br>Better, worse, or the same as yesterday?",
+        es = Some "C&oacute;mo se siente hoy? <br>Mejor, peor, o igual que ayer?",
+        zh = None s.Zh
     },
     {
-        english = "Any pain?",
-        spanish = Some "Tiene dolor?",
-        chinese = None s.Zh
+        en = "Any pain?",
+        es = Some "Tiene dolor?",
+        zh = None s.Zh
     },
     {
-        english = "Problems urinating [peeing]?",
-        spanish = Some "Problemas para orinar [hacer pipi]?",
-        chinese = None s.Zh
+        en = "Problems urinating [peeing]?",
+        es = Some "Problemas para orinar [hacer pipi]?",
+        zh = None s.Zh
     },
     {
-        english = "Problems stooling [pooping]? ",
-        spanish = Some "Problemas para defecar [hacer popo]?",
-        chinese = None s.Zh
+        en = "Problems stooling [pooping]? ",
+        es = Some "Problemas para defecar [hacer popo]?",
+        zh = None s.Zh
     },
     {
-        english = "When was your last bowel movement?",
-        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima evacuaci&oacute;n?",
-        chinese = None s.Zh
+        en = "When was your last bowel movement?",
+        es = Some "Cu&aacute;ndo fue su &uacute;ltima evacuaci&oacute;n?",
+        zh = None s.Zh
     },
     {
-        english = "Can you pass gas?",
-        spanish = Some "Puede pasar gases?",
-        chinese = None s.Zh
+        en = "Can you pass gas?",
+        es = Some "Puede pasar gases?",
+        zh = None s.Zh
     },
     {
-        english = "Do you have an appetite? Did you eat today / yesterday?",
-        spanish = Some "Tiene apetito? Comi&oacute; hoy / ayer?",
-        chinese = None s.Zh
+        en = "Do you have an appetite? Did you eat today / yesterday?",
+        es = Some "Tiene apetito? Comi&oacute; hoy / ayer?",
+        zh = None s.Zh
     },
     {
-        english = "How did you sleep?",
-        spanish = Some "C&oacute;mo durmi&oacute;?",
-        chinese = None s.Zh
+        en = "How did you sleep?",
+        es = Some "C&oacute;mo durmi&oacute;?",
+        zh = None s.Zh
     },
     {
-        english = "Did ____ come by?  What did s/he say?",
-        spanish = Some "Vino ____?  Qu&eacute; dijo?",
-        chinese = None s.Zh
+        en = "Did ____ come by?  What did s/he say?",
+        es = Some "Vino ____?  Qu&eacute; dijo?",
+        zh = None s.Zh
     },
     {
-        english = "Are you able to sit up / stand / walk around? ",
-        spanish = Some "Puede sentarse / poner de pie / caminar? ",
-        chinese = None s.Zh
+        en = "Are you able to sit up / stand / walk around? ",
+        es = Some "Puede sentarse / poner de pie / caminar? ",
+        zh = None s.Zh
     },
     {
-        english = "I will let the doctor / nurse know.",
-        spanish = Some "Lo informar&eacute; al(a) doctor(a) / enfermero(a). (?)",
-        chinese = None s.Zh
+        en = "I will let the doctor / nurse know.",
+        es = Some "Lo informar&eacute; al(a) doctor(a) / enfermero(a). (?)",
+        zh = None s.Zh
     },
     {
-        english = "Has the medication been helping?",
-        spanish = Some "La medicaci&oacute;n lo(a) ayuda?",
-        chinese = None s.Zh
+        en = "Has the medication been helping?",
+        es = Some "La medicaci&oacute;n lo(a) ayuda?",
+        zh = None s.Zh
     },
     {
-        english = "Physical therapist",
-        spanish = Some "Fisioterapeuta",
-        chinese = None s.Zh
+        en = "Physical therapist",
+        es = Some "Fisioterapeuta",
+        zh = None s.Zh
     },
     {
-        english = "Breathing treatment",
-        spanish = Some "Tratamiento respiratorio",
-        chinese = None s.Zh
+        en = "Breathing treatment",
+        es = Some "Tratamiento respiratorio",
+        zh = None s.Zh
     },
     {
-        english = "Catheter",
-        spanish = Some "Cat&eacute;ter",
-        chinese = None s.Zh
+        en = "Catheter",
+        es = Some "Cat&eacute;ter",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = " ", filename = "hx/menu"}],

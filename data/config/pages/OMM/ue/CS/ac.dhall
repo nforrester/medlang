@@ -6,9 +6,9 @@ image = None Text,
 translations =
 [
     {
-        english = "<u>AAC</u>",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "<u>AAC</u>",
+        es = None Text,
+        zh = None s.Zh
     }
 ]
 #
@@ -16,14 +16,14 @@ translations =
 #
 [
     {
-        english = "I'm going to pull your arm across your chest.",
-        spanish = Some "Voy a ____(?) su brazo sobre su pecho.",
-        chinese = None s.Zh
+        en = "I'm going to pull your arm across your chest.",
+        es = Some "Voy a ____(?) su brazo sobre su pecho.",
+        zh = None s.Zh
     },
     {
-        english = "<u>PAC</u>",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "<u>PAC</u>",
+        es = None Text,
+        zh = None s.Zh
     }
 ]
 #
@@ -31,9 +31,9 @@ translations =
 #
 [
     {
-        english = "I'm going to pull your arm across your back.",
-        spanish = Some "Voy a ___(?) su brazo sobre su espalda.",
-        chinese = None s.Zh
+        en = "I'm going to pull your arm across your back.",
+        es = Some "Voy a ___(?) su brazo sobre su espalda.",
+        zh = None s.Zh
     }
 ]
 #

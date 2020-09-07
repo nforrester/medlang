@@ -6,44 +6,44 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>Fluid Wave </u>",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Fluid Wave </u>",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "Please place your hand at midline.",
-            spanish = Some "Ponga su mano en l&iacute;nea media.",
-            chinese = None s.Zh
+            en = "Please place your hand at midline.",
+            es = Some "Ponga su mano en l&iacute;nea media.",
+            zh = None s.Zh
         },
         {
-            english = "I will grab your [left/right] flank, and tap on your other flank with my other hand.",
-            spanish = Some "Voy a sostener su flanco [izquierdo/derecho], y tocar su otro flanco con mi otra mano.",
-            chinese = None s.Zh
+            en = "I will grab your [left/right] flank, and tap on your other flank with my other hand.",
+            es = Some "Voy a sostener su flanco [izquierdo/derecho], y tocar su otro flanco con mi otra mano.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Shifting Dullness </u>",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Shifting Dullness </u>",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "I am going to tap across your stomach.",
-            spanish = Some "Voy a tocar a trav&eacute;s de su est&oacute;mago.",
-            chinese = None s.Zh
+            en = "I am going to tap across your stomach.",
+            es = Some "Voy a tocar a trav&eacute;s de su est&oacute;mago.",
+            zh = None s.Zh
         },
         {
-            english = "Lie on your left/right side.",
-            spanish = Some "Acu&eacute;stese en su lado izquierdo/derecho.",
-            chinese = None s.Zh
+            en = "Lie on your left/right side.",
+            es = Some "Acu&eacute;stese en su lado izquierdo/derecho.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Asterixis </u>",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Asterixis </u>",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "Hold your hands straight out in front of you, palms facing me / the wall.",
-            spanish = Some "Mantenga sus manos , con las palmas frente a mI / la pared.",
-            chinese = None s.Zh
+            en = "Hold your hands straight out in front of you, palms facing me / the wall.",
+            es = Some "Mantenga sus manos , con las palmas frente a mI / la pared.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

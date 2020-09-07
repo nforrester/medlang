@@ -5,54 +5,54 @@ image = None Text,
 translations =
 [
     {
-        english = "We will do an EKG to check your heart rhythm.",
-        spanish = Some "Vamos a hacer un EKG para verificar el ritmo.",
-        chinese = None s.Zh
+        en = "We will do an EKG to check your heart rhythm.",
+        es = Some "Vamos a hacer un EKG para verificar el ritmo.",
+        zh = None s.Zh
     },
     {
-        english = "We will draw blood to check for heart enzymes, which can indicate stress/damage to your heart muscle.",
-        spanish = Some "Vamos a extraer sangre para evaluar las enzimas cardiacas, que pueden indicar card&iacute;acas da&ntilde;o al m&uacute;sculo cardiaco.",
-        chinese = None s.Zh
+        en = "We will draw blood to check for heart enzymes, which can indicate stress/damage to your heart muscle.",
+        es = Some "Vamos a extraer sangre para evaluar las enzimas cardiacas, que pueden indicar card&iacute;acas da&ntilde;o al m&uacute;sculo cardiaco.",
+        zh = None s.Zh
     },
     {
-        english = "Your EKG and bloodwork show that you have a heart attack.",
-        spanish = Some "Su EKG y sangre muestran que tiene un ataque de coraz&oacute;n.",
-        chinese = None s.Zh
+        en = "Your EKG and bloodwork show that you have a heart attack.",
+        es = Some "Su EKG y sangre muestran que tiene un ataque de coraz&oacute;n.",
+        zh = None s.Zh
     },
     {
-        english = "You have blockage to your coronary arteries that supply your heart muscles with oxygen.",
-        spanish = Some "Tiene bloqueos en sus arterias coronarias que suministran sus m&uacute;sculos card&iacute;acos con ox&iacute;geno.  ",
-        chinese = None s.Zh
+        en = "You have blockage to your coronary arteries that supply your heart muscles with oxygen.",
+        es = Some "Tiene bloqueos en sus arterias coronarias que suministran sus m&uacute;sculos card&iacute;acos con ox&iacute;geno.  ",
+        zh = None s.Zh
     },
     {
-        english = "A cardiac stress test will test your heart function while you exercise.",
-        spanish = Some "La prueba de esfuerzo card&iacute;aco va a probar su funci&oacute;n card&iacute;aca mientras hace ejercicio.",
-        chinese = None s.Zh
+        en = "A cardiac stress test will test your heart function while you exercise.",
+        es = Some "La prueba de esfuerzo card&iacute;aco va a probar su funci&oacute;n card&iacute;aca mientras hace ejercicio.",
+        zh = None s.Zh
     },
     {
-        english = "Heparin prevents further clots from forming.",
-        spanish = Some "Heparin previene la formaci&oacute;n de co&aacute;gulos.",
-        chinese = None s.Zh
+        en = "Heparin prevents further clots from forming.",
+        es = Some "Heparin previene la formaci&oacute;n de co&aacute;gulos.",
+        zh = None s.Zh
     },
     {
-        english = "Metoprolol/atenolol/propranolol (beta blockers) reduce strain on the heart.",
-        spanish = Some "Metoprolol/atenolol/propranolol (beta-bloqueadores) reducen el esfuerzo sobre el coraz&oacute;n.",
-        chinese = None s.Zh
+        en = "Metoprolol/atenolol/propranolol (beta blockers) reduce strain on the heart.",
+        es = Some "Metoprolol/atenolol/propranolol (beta-bloqueadores) reducen el esfuerzo sobre el coraz&oacute;n.",
+        zh = None s.Zh
     },
     {
-        english = "Aspirin reduces inflammation of your blood vessels and the risk of heart attack.",
-        spanish = Some "La aspirina reducen inflamaci&oacute;n de los vasos sangu&iacute;neos y el riesgo de ataque cardiaco.",
-        chinese = None s.Zh
+        en = "Aspirin reduces inflammation of your blood vessels and the risk of heart attack.",
+        es = Some "La aspirina reducen inflamaci&oacute;n de los vasos sangu&iacute;neos y el riesgo de ataque cardiaco.",
+        zh = None s.Zh
     },
     {
-        english = "Statins reduce cholesterol in your blood.",
-        spanish = Some "Las estatinas reducen colesterol en su sangre.",
-        chinese = None s.Zh
+        en = "Statins reduce cholesterol in your blood.",
+        es = Some "Las estatinas reducen colesterol en su sangre.",
+        zh = None s.Zh
     },
     {
-        english = "These medications reduce risk of MI, strokes, and heart disease.",
-        spanish = Some "Estos medicamentos reducen el riesgo de ataque cardiaco, apoplejía, y enfermedad cardiaca.",
-        chinese = None s.Zh
+        en = "These medications reduce risk of MI, strokes, and heart disease.",
+        es = Some "Estos medicamentos reducen el riesgo de ataque cardiaco, apoplejía, y enfermedad cardiaca.",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Angina - H&P", filename = "cases/HA/hp"}],

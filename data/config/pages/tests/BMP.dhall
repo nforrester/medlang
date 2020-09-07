@@ -6,24 +6,24 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Your creatinine & BUN are high, indicating that your kidney may not be functioning well.",
-            spanish = Some "Su creatina y BUN son altas, lo que indica que sus ri&ntilde;ones no funcionan bien.",
-            chinese = None s.Zh
+            en = "Your creatinine & BUN are high, indicating that your kidney may not be functioning well.",
+            es = Some "Su creatina y BUN son altas, lo que indica que sus ri&ntilde;ones no funcionan bien.",
+            zh = None s.Zh
         },
         {
-            english = "glucose",
-            spanish = Some "la glucosa.",
-            chinese = None s.Zh
+            en = "glucose",
+            es = Some "la glucosa.",
+            zh = None s.Zh
         },
         {
-            english = "potassium",
-            spanish = Some "el potasio",
-            chinese = None s.Zh
+            en = "potassium",
+            es = Some "el potasio",
+            zh = None s.Zh
         },
         {
-            english = "sodium",
-            spanish = Some "el sodio",
-            chinese = None s.Zh
+            en = "sodium",
+            es = Some "el sodio",
+            zh = None s.Zh
         }
     ],
     menu_items = [{title = " ", filename = "tests/BMP"}],

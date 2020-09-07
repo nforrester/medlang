@@ -8,14 +8,14 @@ translations =
 #
 [
     {
-        english = "I'm going to press on your shoulders.",
-        spanish = Some "Voy a presionar sus hombros.",
-        chinese = None s.Zh
+        en = "I'm going to press on your shoulders.",
+        es = Some "Voy a presionar sus hombros.",
+        zh = None s.Zh
     },
     {
-        english = "I'm going to pull on your arm.",
-        spanish = Some "Voy a tirarle del brazo.",
-        chinese = None s.Zh
+        en = "I'm going to pull on your arm.",
+        es = Some "Voy a tirarle del brazo.",
+        zh = None s.Zh
     }
 ]
 #

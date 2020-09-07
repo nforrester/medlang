@@ -8,19 +8,19 @@ in ./technique.dhall {
     #
     [
         {
-            english = "Turn your head away.",
-            spanish = Some "Gire(?) la cabeza.",
-            chinese = None s.Zh
+            en = "Turn your head away.",
+            es = Some "Gire(?) la cabeza.",
+            zh = None s.Zh
         },
         {
-            english = "Hold your breath.",
-            spanish = Some "Aguante la respiraci&oacute;n.",
-            chinese = None s.Zh
+            en = "Hold your breath.",
+            es = Some "Aguante la respiraci&oacute;n.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to push on your stomach.",
-            spanish = Some "Voy a empujar sobre su est&oacute;mago.",
-            chinese = None s.Zh
+            en = "I'm going to push on your stomach.",
+            es = Some "Voy a empujar sobre su est&oacute;mago.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

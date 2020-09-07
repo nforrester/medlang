@@ -6,9 +6,9 @@ image = None Text,
 translations =
 [
     {
-        english = "High cholesterol.",
-        spanish = Some "Colestero alto.",
-        chinese = None s.Zh
+        en = "High cholesterol.",
+        es = Some "Colestero alto.",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

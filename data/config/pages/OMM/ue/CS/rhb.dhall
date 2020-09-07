@@ -8,24 +8,24 @@ translations =
 #
 [
     {
-        english = "I'm going to put my hands under your back.",
-        spanish = Some "Voy a poner mis manos debajo de su espalda.",
-        chinese = None s.Zh
+        en = "I'm going to put my hands under your back.",
+        es = Some "Voy a poner mis manos debajo de su espalda.",
+        zh = None s.Zh
     },
     {
-        english = "I'm going to feel along your shoulders.",
-        spanish = Some "Voy a palpar sus hombros.",
-        chinese = None s.Zh
+        en = "I'm going to feel along your shoulders.",
+        es = Some "Voy a palpar sus hombros.",
+        zh = None s.Zh
     },
     {
-        english = "Put your arm behind your back.",
-        spanish = Some "Ponga su brazo detr&aacute;s de su espalda.",
-        chinese = None s.Zh
+        en = "Put your arm behind your back.",
+        es = Some "Ponga su brazo detr&aacute;s de su espalda.",
+        zh = None s.Zh
     },
     {
-        english = "I'm going to pull on your arm.",
-        spanish = Some "Voy a tirarle del brazo.",
-        chinese = None s.Zh
+        en = "I'm going to pull on your arm.",
+        es = Some "Voy a tirarle del brazo.",
+        zh = None s.Zh
     }
 ]
 #

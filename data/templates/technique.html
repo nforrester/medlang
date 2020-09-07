@@ -29,7 +29,7 @@
     <table>
         {% for translation in page.translations %}
         <tr>
-            <td>{{translation.english | safe}}</td>
+            <td>{{translation.en | safe}}</td>
             <td><b>{{translation.foreign | safe}}</b></td>
         </tr>
         {% endfor %}

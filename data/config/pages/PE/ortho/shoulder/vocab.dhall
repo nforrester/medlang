@@ -6,14 +6,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "supraspinatus",
-            spanish = Some "m&uacute;sculo supraespniso ",
-            chinese = None s.Zh
+            en = "supraspinatus",
+            es = Some "m&uacute;sculo supraespniso ",
+            zh = None s.Zh
         },
         {
-            english = "proceso inlamatorio / degenerativo",
-            spanish = Some "inflammatory / degenerative process",
-            chinese = None s.Zh
+            en = "proceso inlamatorio / degenerativo",
+            es = Some "inflammatory / degenerative process",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

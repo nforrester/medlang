@@ -8,9 +8,9 @@ in ./technique.dhall {
         #
         [
             {
-                english = "I'm going to feel down your spine.",
-                spanish = Some "Voy a sentir su columna vertebral(?).",
-                chinese = None s.Zh
+                en = "I'm going to feel down your spine.",
+                es = Some "Voy a sentir su columna vertebral(?).",
+                zh = None s.Zh
             }
         ]
         #

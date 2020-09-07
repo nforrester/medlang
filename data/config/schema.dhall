@@ -72,13 +72,13 @@ let ConversationDataFull : Type = PageDataDerived //\\ ConversationData
 -- Data for a technique page (like an info page, but with a list of responses at the bottom).
 let TechniqueData : Type = PageDataBare //\\ {
     image : Optional Text,                -- An image to put on the page (optional).
-    title: Text,                            -- Name of technique
-    translations : List {                   -- English phrase with foreign translation
-        english : Text,                     -- English phrase
-        spanish : Optional Text,            -- Spanish phrase
-        chinese : Optional Zh               -- Mandarin phrase
+    title: Text,                          -- Name of technique
+    translations : List {                 -- English phrase with foreign translation
+        en : Text,                        -- English phrase
+        es : Optional Text,               -- Spanish phrase
+        zh : Optional Zh                  -- Mandarin phrase
     },
-    menu_items : List LinkData              -- Menu of techniques
+    menu_items : List LinkData            -- Menu of techniques
 }
 let TechniqueDataFull : Type = PageDataDerived //\\ TechniqueData
 

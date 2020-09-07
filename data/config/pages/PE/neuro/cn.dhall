@@ -5,39 +5,39 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>CN II</u>: ",
-            spanish = Some "${./link.dhall "PE/HEENT/eyes/vision" "Visual Acuity"} <br> ${./link.dhall "PE/HEENT/eyes/field" "Visual Field"}",
-            chinese = None s.Zh
+            en = "<u>CN II</u>: ",
+            es = Some "${./link.dhall "PE/HEENT/eyes/vision" "Visual Acuity"} <br> ${./link.dhall "PE/HEENT/eyes/field" "Visual Field"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN III, IV, VI</u>: ",
-            spanish = Some "${./link.dhall "PE/HEENT/eyes/pupils" "Accommodation & Extraocular Movements"}",
-            chinese = None s.Zh
+            en = "<u>CN III, IV, VI</u>: ",
+            es = Some "${./link.dhall "PE/HEENT/eyes/pupils" "Accommodation & Extraocular Movements"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN V</u>: ",
-            spanish = Some "${./link.dhall "PE/neuro/sensation" "Facial Sensations"}",
-            chinese = None s.Zh
+            en = "<u>CN V</u>: ",
+            es = Some "${./link.dhall "PE/neuro/sensation" "Facial Sensations"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN VII</u>: ",
-            spanish = Some "${./link.dhall "PE/neuro/cn7" "Facial Muscles"}",
-            chinese = None s.Zh
+            en = "<u>CN VII</u>: ",
+            es = Some "${./link.dhall "PE/neuro/cn7" "Facial Muscles"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN VIII</u>: ",
-            spanish = Some "${./link.dhall "PE/HEENT/ears/hearing" "Hearing"} <br> ${./link.dhall "PE/neuro/cerebellum" "Balance(-)"}",
-            chinese = None s.Zh
+            en = "<u>CN VIII</u>: ",
+            es = Some "${./link.dhall "PE/HEENT/ears/hearing" "Hearing"} <br> ${./link.dhall "PE/neuro/cerebellum" "Balance(-)"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN IX,X, XII</u>: ",
-            spanish = Some "${./link.dhall "PE/HEENT/op" "Uvula Deviation <br> Tongue Movements"}",
-            chinese = None s.Zh
+            en = "<u>CN IX,X, XII</u>: ",
+            es = Some "${./link.dhall "PE/HEENT/op" "Uvula Deviation <br> Tongue Movements"}",
+            zh = None s.Zh
         },
         {
-            english = "<u>CN XI</u>: ",
-            spanish = Some "${./link.dhall "PE/neuro/cn11" "Trapezius & SCM"}",
-            chinese = None s.Zh
+            en = "<u>CN XI</u>: ",
+            es = Some "${./link.dhall "PE/neuro/cn11" "Trapezius & SCM"}",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

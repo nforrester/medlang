@@ -1,13 +1,13 @@
 let s = ./schema.dhall
 in [
     {
-        english = "Lift your head up (so I can put my hands underneath).",
-        spanish = Some "Levante su cabeza (para poner mis manos debajo).",
-        chinese = None s.Zh
+        en = "Lift your head up (so I can put my hands underneath).",
+        es = Some "Levante su cabeza (para poner mis manos debajo).",
+        zh = None s.Zh
     },
     {
-        english ="Let your head relax into my hands.",
-        spanish = Some "Deje que su cabeza se relaje en mis manos.",
-        chinese = None s.Zh
+        en ="Let your head relax into my hands.",
+        es = Some "Deje que su cabeza se relaje en mis manos.",
+        zh = None s.Zh
     }
 ]

@@ -8,19 +8,19 @@ in ./technique.dhall {
     #
     [
         {
-            english = "<u>Anterior approach</u>: I'm going to stand over you.",
-            spanish = Some "Voy a parar sobre usted.",
-            chinese = None s.Zh
+            en = "<u>Anterior approach</u>: I'm going to stand over you.",
+            es = Some "Voy a parar sobre usted.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to put my hands around your collarbone.",
-            spanish = Some "Voy a poner mis manos alrededor de su clav&iacute;cula.",
-            chinese = None s.Zh
+            en = "I'm going to put my hands around your collarbone.",
+            es = Some "Voy a poner mis manos alrededor de su clav&iacute;cula.",
+            zh = None s.Zh
         },
         {
-            english ="Is this pressure ok?<br>Is it too tight?",
-            spanish = Some "Esta presura est&aacute; bien? <br>Es demasiado fuerte?",
-            chinese = None s.Zh
+            en ="Is this pressure ok?<br>Is it too tight?",
+            es = Some "Esta presura est&aacute; bien? <br>Es demasiado fuerte?",
+            zh = None s.Zh
         }
     ]
     #

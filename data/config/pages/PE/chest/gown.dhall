@@ -5,19 +5,19 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Could you untie your gown and lower it down to your belly button?",
-            spanish = Some "Puede desatar su bata y bajarlo hasta su ombligo?",
-            chinese = None s.Zh
+            en = "Could you untie your gown and lower it down to your belly button?",
+            es = Some "Puede desatar su bata y bajarlo hasta su ombligo?",
+            zh = None s.Zh
         },
         {
-            english = "You can tie your gown back up.",
-            spanish = Some "Puede atar su bata.",
-            chinese = None s.Zh
+            en = "You can tie your gown back up.",
+            es = Some "Puede atar su bata.",
+            zh = None s.Zh
         },
         {
-            english = "Would you like help untying / tying your gown?",
-            spanish = Some "Quiere mi ayuda para atar / desatar su bata?",
-            chinese = None s.Zh
+            en = "Would you like help untying / tying your gown?",
+            es = Some "Quiere mi ayuda para atar / desatar su bata?",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

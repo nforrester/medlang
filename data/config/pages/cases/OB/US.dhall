@@ -6,29 +6,29 @@ image = None Text,
 translations =
 [
     {
-        english = "heartbeat",
-        spanish = Some "latido del coraz&oacute;n",
-        chinese = None s.Zh
+        en = "heartbeat",
+        es = Some "latido del coraz&oacute;n",
+        zh = None s.Zh
     },
     {
-        english = "head / face",
-        spanish = Some "cabeza / cara",
-        chinese = None s.Zh
+        en = "head / face",
+        es = Some "cabeza / cara",
+        zh = None s.Zh
     },
     {
-        english = "belly",
-        spanish = Some "la panza",
-        chinese = None s.Zh
+        en = "belly",
+        es = Some "la panza",
+        zh = None s.Zh
     },
     {
-        english = "femur",
-        spanish = Some "el f&eacute;mur",
-        chinese = None s.Zh
+        en = "femur",
+        es = Some "el f&eacute;mur",
+        zh = None s.Zh
     },
     {
-        english = "Do you want to know the baby's gender?",
-        spanish = Some "Desea saber el sexo del beb&eacute;?",
-        chinese = None s.Zh
+        en = "Do you want to know the baby's gender?",
+        es = Some "Desea saber el sexo del beb&eacute;?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

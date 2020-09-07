@@ -10,29 +10,29 @@ in ./technique.dhall {
    #
    [
        {
-           english = "Widen your knees a little.",
-           spanish = None Text,
-           chinese = None s.Zh
+           en = "Widen your knees a little.",
+           es = None Text,
+           zh = None s.Zh
        },
        {
-           english = "Bend your knee.",
-           spanish = Some "Doble su rodilla.",
-           chinese = None s.Zh
+           en = "Bend your knee.",
+           es = Some "Doble su rodilla.",
+           zh = None s.Zh
        },
        {
-           english = "Bring your ankle outward / inward.",
-           spanish = Some "Traiga sus tobillo hacia afuera / adentro (?).",
-           chinese = None s.Zh
+           en = "Bring your ankle outward / inward.",
+           es = Some "Traiga sus tobillo hacia afuera / adentro (?).",
+           zh = None s.Zh
        },
        {
-           english = "Cross your ankles.",
-           spanish = Some "Cruce sus tobillos.",
-           chinese = None s.Zh
+           en = "Cross your ankles.",
+           es = Some "Cruce sus tobillos.",
+           zh = None s.Zh
        },
        {
-           english = "I am going to put my palm on the back of your hip.",
-           spanish = Some "Voy a poner mi palma sobre la parte posterior de su cadera (?).",
-           chinese = None s.Zh
+           en = "I am going to put my palm on the back of your hip.",
+           es = Some "Voy a poner mi palma sobre la parte posterior de su cadera (?).",
+           zh = None s.Zh
        }
    ]
    #

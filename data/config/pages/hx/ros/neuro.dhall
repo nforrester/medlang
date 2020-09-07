@@ -6,89 +6,89 @@ image = None Text,
 translations =
 [
     {
-        english = "Numbness or tingling in ___?",
-        spanish = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
-        chinese = None s.Zh
+        en = "Numbness or tingling in ___?",
+        es = Some "Entumecimiento o sensaci&oacute;n de hormigueos en ___?",
+        zh = None s.Zh
     },
     {
-        english = "Muscle weakness?",
-        spanish = Some "Debilidad muscular?",
-        chinese = None s.Zh
+        en = "Muscle weakness?",
+        es = Some "Debilidad muscular?",
+        zh = None s.Zh
     },
     {
-        english = "Decreased movement in __?",
-        spanish = Some "__?",
-        chinese = None s.Zh
+        en = "Decreased movement in __?",
+        es = Some "__?",
+        zh = None s.Zh
     },
     {
-        english = "Paralysis?",
-        spanish = Some "Par&aacute;lisis?",
-        chinese = None s.Zh
+        en = "Paralysis?",
+        es = Some "Par&aacute;lisis?",
+        zh = None s.Zh
     },
     {
-        english = "Dizziness?",
-        spanish = Some "Mareos?",
-        chinese = None s.Zh
+        en = "Dizziness?",
+        es = Some "Mareos?",
+        zh = None s.Zh
     },
     {
-        english = "-Lightheaded?",
-        spanish = Some "-Fatigas?",
-        chinese = None s.Zh
+        en = "-Lightheaded?",
+        es = Some "-Fatigas?",
+        zh = None s.Zh
     },
     {
-        english = "Loss of balance?",
-        spanish = Some "P&eacute;rdida de equilibrio?",
-        chinese = None s.Zh
+        en = "Loss of balance?",
+        es = Some "P&eacute;rdida de equilibrio?",
+        zh = None s.Zh
     },
     {
-        english = "-Sensation that the room is spinning (vertigo)?",
-        spanish = Some "-Sensaci&oacute;n como si el cuarto est&aacute; girando?",
-        chinese = None s.Zh
+        en = "-Sensation that the room is spinning (vertigo)?",
+        es = Some "-Sensaci&oacute;n como si el cuarto est&aacute; girando?",
+        zh = None s.Zh
     },
     {
-        english = "Headache?",
-        spanish = Some "Dolor de cabeza?",
-        chinese = None s.Zh
+        en = "Headache?",
+        es = Some "Dolor de cabeza?",
+        zh = None s.Zh
     },
     {
-        english = "Change in behavior?",
-        spanish = Some "Cambios en el comportamiento?",
-        chinese = None s.Zh
+        en = "Change in behavior?",
+        es = Some "Cambios en el comportamiento?",
+        zh = None s.Zh
     },
     {
-        english = "Drowsiness / fatigue?",
-        spanish = Some "Somnolencia / fatiga?",
-        chinese = None s.Zh
+        en = "Drowsiness / fatigue?",
+        es = Some "Somnolencia / fatiga?",
+        zh = None s.Zh
     },
     {
-        english = "Changes in balance/coordination?",
-        spanish = Some "Cambio en el equilibrio/coordinacion?",
-        chinese = None s.Zh
+        en = "Changes in balance/coordination?",
+        es = Some "Cambio en el equilibrio/coordinacion?",
+        zh = None s.Zh
     },
     {
-        english = "Fainting?",
-        spanish = Some "Desmayo?",
-        chinese = None s.Zh
+        en = "Fainting?",
+        es = Some "Desmayo?",
+        zh = None s.Zh
     },
     {
-        english = "Loss of consciousness?",
-        spanish = Some "P&eacute;rdida de conocimiento?",
-        chinese = None s.Zh
+        en = "Loss of consciousness?",
+        es = Some "P&eacute;rdida de conocimiento?",
+        zh = None s.Zh
     },
     {
-        english = "Problems talking?",
-        spanish = Some "Problemas para hablar?",
-        chinese = None s.Zh
+        en = "Problems talking?",
+        es = Some "Problemas para hablar?",
+        zh = None s.Zh
     },
     {
-        english = "Changes in taste?",
-        spanish = Some "Cambios en el sentido del gusto?",
-        chinese = None s.Zh
+        en = "Changes in taste?",
+        es = Some "Cambios en el sentido del gusto?",
+        zh = None s.Zh
     },
     {
-        english = "Seizure?",
-        spanish = Some "Convulsi&oacute;n?",
-        chinese = None s.Zh
+        en = "Seizure?",
+        es = Some "Convulsi&oacute;n?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

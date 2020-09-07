@@ -6,9 +6,9 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to feel your lymph nodes.  Does this hurt?",
-            spanish = Some "Voy a sentir sus ganglios linf&aacute;ticos.  Le duele esto?",
-            chinese = None s.Zh
+            en = "I'm going to feel your lymph nodes.  Does this hurt?",
+            es = Some "Voy a sentir sus ganglios linf&aacute;ticos.  Le duele esto?",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

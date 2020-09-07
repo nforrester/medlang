@@ -6,74 +6,74 @@ image = None Text,
 translations =
 [
     {
-        english = "Have you ever been diagnosed with any medical conditions?",
-        spanish = Some "Ha sido diagnosticado con alguna problema m&eacute;dica?",
-        chinese = None s.Zh
+        en = "Have you ever been diagnosed with any medical conditions?",
+        es = Some "Ha sido diagnosticado con alguna problema m&eacute;dica?",
+        zh = None s.Zh
     },
     {
-        english = "When did you last see a doctor?",
-        spanish = Some "Cu&aacute;ndo fue su &uacute;ltima cita con el doctor?",
-        chinese = None s.Zh
+        en = "When did you last see a doctor?",
+        es = Some "Cu&aacute;ndo fue su &uacute;ltima cita con el doctor?",
+        zh = None s.Zh
     },
     {
-        english = "Have you ever had an X-ray/CT/MRI taken? For what?",
-        spanish = Some "Ha tenido una radiografia/tomografia/MRI? Por qu&eacute;?",
-        chinese = None s.Zh
+        en = "Have you ever had an X-ray/CT/MRI taken? For what?",
+        es = Some "Ha tenido una radiografia/tomografia/MRI? Por qu&eacute;?",
+        zh = None s.Zh
     },
     {
-        english = "Have you ever been hospitalized?",
-        spanish = Some "Ha sido hospitalizado/a?",
-        chinese = None s.Zh
+        en = "Have you ever been hospitalized?",
+        es = Some "Ha sido hospitalizado/a?",
+        zh = None s.Zh
     },
     {
-        english = "Does anyone in your family have medical problems?",
-        spanish = Some "Alguien en su familia tiene problemas m&eacute;dicas?",
-        chinese = None s.Zh
+        en = "Does anyone in your family have medical problems?",
+        es = Some "Alguien en su familia tiene problemas m&eacute;dicas?",
+        zh = None s.Zh
     },
     {
-        english = "Are both of your parents currently living?",
-        spanish = Some "Est&aacute;n vivos sus padres?.",
-        chinese = None s.Zh
+        en = "Are both of your parents currently living?",
+        es = Some "Est&aacute;n vivos sus padres?.",
+        zh = None s.Zh
     },
     {
-        english = "How old was s/he when...?",
-        spanish = Some "Cu&aacute;ntos a&ntilde;os tiene cuando...?",
-        chinese = None s.Zh
+        en = "How old was s/he when...?",
+        es = Some "Cu&aacute;ntos a&ntilde;os tiene cuando...?",
+        zh = None s.Zh
     },
     {
-        english = "<u> Medical conditions </u>",
-        spanish = Some "${./link.dhall "hx/medical/conditions" "See full list here"}",
-        chinese = None s.Zh
+        en = "<u> Medical conditions </u>",
+        es = Some "${./link.dhall "hx/medical/conditions" "See full list here"}",
+        zh = None s.Zh
     },
     {
-        english = "- high blood pressure / hypertensi&oacute;n",
-        spanish = Some "- alta presi&oacute;n / hipertension",
-        chinese = None s.Zh
+        en = "- high blood pressure / hypertensi&oacute;n",
+        es = Some "- alta presi&oacute;n / hipertension",
+        zh = None s.Zh
     },
     {
-        english = "- diabetes",
-        spanish = Some "- diabetes",
-        chinese = None s.Zh
+        en = "- diabetes",
+        es = Some "- diabetes",
+        zh = None s.Zh
     },
     {
-        english = "- heart failure",
-        spanish = Some "- insuficiencia card&iacute;aca",
-        chinese = None s.Zh
+        en = "- heart failure",
+        es = Some "- insuficiencia card&iacute;aca",
+        zh = None s.Zh
     },
     {
-        english = "- heart attack",
-        spanish = Some "- ataque al coraz&oacute;n",
-        chinese = None s.Zh
+        en = "- heart attack",
+        es = Some "- ataque al coraz&oacute;n",
+        zh = None s.Zh
     },
     {
-        english = "- stroke / CVA",
-        spanish = Some "- apoplej&iacute;a / accidente cerebrovascular",
-        chinese = None s.Zh
+        en = "- stroke / CVA",
+        es = Some "- apoplej&iacute;a / accidente cerebrovascular",
+        zh = None s.Zh
     },
     {
-        english = "- [breast/colon/prostate] cancer",
-        spanish = Some "- c&aacute;ncer [de mama/colon/prostata]",
-        chinese = None s.Zh
+        en = "- [breast/colon/prostate] cancer",
+        es = Some "- c&aacute;ncer [de mama/colon/prostata]",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

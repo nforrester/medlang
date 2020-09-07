@@ -6,59 +6,59 @@ image = None Text,
 translations =
 [
     {
-        english = "Depression?",
-        spanish = Some "Depresi&oacute;n",
-        chinese = None s.Zh
+        en = "Depression?",
+        es = Some "Depresi&oacute;n",
+        zh = None s.Zh
     },
     {
-        english = "Energy loss?",
-        spanish = Some "Falta de energ&iacute;a?.",
-        chinese = None s.Zh
+        en = "Energy loss?",
+        es = Some "Falta de energ&iacute;a?.",
+        zh = None s.Zh
     },
     {
-        english = "Sleeping problems?",
-        spanish = Some "Problemas al dormir?.",
-        chinese = None s.Zh
+        en = "Sleeping problems?",
+        es = Some "Problemas al dormir?.",
+        zh = None s.Zh
     },
     {
-        english = "Memory loss?",
-        spanish = Some "P&eacute;rdida de la memoria?.",
-        chinese = None s.Zh
+        en = "Memory loss?",
+        es = Some "P&eacute;rdida de la memoria?.",
+        zh = None s.Zh
     },
     {
-        english = "Forgetfulness?",
-        spanish = Some "Olvidos?",
-        chinese = None s.Zh
+        en = "Forgetfulness?",
+        es = Some "Olvidos?",
+        zh = None s.Zh
     },
     {
-        english = "Anxiety? Stress?",
-        spanish = Some "Ansiedad? Estr&eacute;s?",
-        chinese = None s.Zh
+        en = "Anxiety? Stress?",
+        es = Some "Ansiedad? Estr&eacute;s?",
+        zh = None s.Zh
     },
     {
-        english = "Irritability?",
-        spanish = Some "Irritabilidad?",
-        chinese = None s.Zh
+        en = "Irritability?",
+        es = Some "Irritabilidad?",
+        zh = None s.Zh
     },
     {
-        english = "[auditory/visual] hallucinations?",
-        spanish = Some "Alucinaciones [visuales / auditivas]?",
-        chinese = None s.Zh
+        en = "[auditory/visual] hallucinations?",
+        es = Some "Alucinaciones [visuales / auditivas]?",
+        zh = None s.Zh
     },
     {
-        english = "Thoughts of hurting yourself / others?",
-        spanish = Some "Pensamientos sobre lastimarse a s&iacute; mismo / otros?",
-        chinese = None s.Zh
+        en = "Thoughts of hurting yourself / others?",
+        es = Some "Pensamientos sobre lastimarse a s&iacute; mismo / otros?",
+        zh = None s.Zh
     },
     {
-        english = "Change in mood?",
-        spanish = Some "Cambio de humor?",
-        chinese = None s.Zh
+        en = "Change in mood?",
+        es = Some "Cambio de humor?",
+        zh = None s.Zh
     },
     {
-        english = "Confusion?",
-        spanish = Some "Confusi&oacute;n?",
-        chinese = None s.Zh
+        en = "Confusion?",
+        es = Some "Confusi&oacute;n?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

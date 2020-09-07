@@ -5,54 +5,54 @@ image = None Text,
 translations =
 [
     {
-        english = "The ultrasound shows a fibroid / fibroids.",
-        spanish = Some "El ultrasonido muestra un fibroide(s).",
-        chinese = None s.Zh
+        en = "The ultrasound shows a fibroid / fibroids.",
+        es = Some "El ultrasonido muestra un fibroide(s).",
+        zh = None s.Zh
     },
     {
-        english = "endometrial biopsy",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "endometrial biopsy",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "pap smear",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "pap smear",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Birth control can regulate periods and reduce bleeding.",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Birth control can regulate periods and reduce bleeding.",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Ablation",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Ablation",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Myomectomy",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Myomectomy",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "<u>Education</u>",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "<u>Education</u>",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "PCOS",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "PCOS",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Fibroids",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Fibroids",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Endometriosis",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "Endometriosis",
+        es = None Text,
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Vaginal Bleeding - H&P", filename = "cases/VB/hp"}],

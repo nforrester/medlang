@@ -7,19 +7,19 @@ in ./technique.dhall {
     #
     [
     {
-        english = "Put your arm behind your back.",
-        spanish = Some "Ponga su brazo detr&aacute;s de su espalda.",
-        chinese = None s.Zh
+        en = "Put your arm behind your back.",
+        es = Some "Ponga su brazo detr&aacute;s de su espalda.",
+        zh = None s.Zh
     },
     {
-        english = "Rest your arm across my forearm.",
-        spanish = Some "Descanse su brazo sobre mi antebrazo.",
-        chinese = None s.Zh
+        en = "Rest your arm across my forearm.",
+        es = Some "Descanse su brazo sobre mi antebrazo.",
+        zh = None s.Zh
     },
     {
-        english = "I'm going to grab tight hold of your shoulderblade (scapula), and move it around.",
-        spanish = Some "Voy a agarrar su om&oacute;plato (esc&aacute;pula), y moverlo.",
-        chinese = None s.Zh
+        en = "I'm going to grab tight hold of your shoulderblade (scapula), and move it around.",
+        es = Some "Voy a agarrar su om&oacute;plato (esc&aacute;pula), y moverlo.",
+        zh = None s.Zh
     }
     ],
     menu_items = [{title = "", filename = "OMM/ue/ME"}],

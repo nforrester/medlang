@@ -6,29 +6,29 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Squeeze your eyes shut.",
-            spanish = Some "Apriete los ojos.",
-            chinese = None s.Zh
+            en = "Squeeze your eyes shut.",
+            es = Some "Apriete los ojos.",
+            zh = None s.Zh
         },
         {
-            english = "Open your eyes.",
-            spanish = Some "Abra sus ojos.",
-            chinese = None s.Zh
+            en = "Open your eyes.",
+            es = Some "Abra sus ojos.",
+            zh = None s.Zh
         },
         {
-            english = "Raise your eyebrows.",
-            spanish = Some "Levante las cejas.",
-            chinese = None s.Zh
+            en = "Raise your eyebrows.",
+            es = Some "Levante las cejas.",
+            zh = None s.Zh
         },
         {
-            english = "Puff out your cheeks.",
-            spanish = Some "Hinche sus mejillas.",
-            chinese = None s.Zh
+            en = "Puff out your cheeks.",
+            es = Some "Hinche sus mejillas.",
+            zh = None s.Zh
         },
         {
-            english = "Smile showing your teeth.",
-            spanish = Some "Sonr&iacute;a mostrando sus dientes.",
-            chinese = None s.Zh
+            en = "Smile showing your teeth.",
+            es = Some "Sonr&iacute;a mostrando sus dientes.",
+            zh = None s.Zh
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn7"}],

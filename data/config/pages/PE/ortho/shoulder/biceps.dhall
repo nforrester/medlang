@@ -6,14 +6,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>Speed's</u>: Try to bring your entire arm up, against my hand.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Speed's</u>: Try to bring your entire arm up, against my hand.",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "<u>Yergason's</u>: Try to bend your arm up and also turn your palms up toward the ceiling.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Yergason's</u>: Try to bend your arm up and also turn your palms up toward the ceiling.",
+            es = None Text,
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

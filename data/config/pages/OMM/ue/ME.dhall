@@ -6,14 +6,14 @@ image = None Text,
 translations =
 [
     {
-        english = "I'm going to hold your hand.",
-        spanish = Some "Voy a tomar su mano.",
-        chinese = None s.Zh
+        en = "I'm going to hold your hand.",
+        es = Some "Voy a tomar su mano.",
+        zh = None s.Zh
     },
     {
-        english = "Try to turn your palm up (toward the ceiling) / down (toward the floor)",
-        spanish = Some "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso).",
-        chinese = None s.Zh
+        en = "Try to turn your palm up (toward the ceiling) / down (toward the floor)",
+        es = Some "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso).",
+        zh = None s.Zh
     }
 ]
 #

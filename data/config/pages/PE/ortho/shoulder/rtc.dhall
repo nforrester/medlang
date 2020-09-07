@@ -6,24 +6,24 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>Liftoff</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Liftoff</u>.",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "<u>Empty Can</u>: Stretch your arms out straight in front of you, thumbs down.",
-            spanish = Some "Estire los codos, pulgares abajo.",
-            chinese = None s.Zh
+            en = "<u>Empty Can</u>: Stretch your arms out straight in front of you, thumbs down.",
+            es = Some "Estire los codos, pulgares abajo.",
+            zh = None s.Zh
         },
         {
-            english = "<u></u>.",
-            spanish = Some "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo.",
-            chinese = None s.Zh
+            en = "<u></u>.",
+            es = Some "Mantenga esta posici&oacute;n mientras yo empujo hacia el suelo.",
+            zh = None s.Zh
         },
         {
-            english = "<u>External Rotation</u>.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>External Rotation</u>.",
+            es = None Text,
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

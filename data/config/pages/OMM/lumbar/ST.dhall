@@ -10,14 +10,14 @@ in ./technique.dhall {
     #
     [
         {
-            english = "I'm going to lift your hip.",
-            spanish = Some "Voy a levantar su cadera.",
-            chinese = None s.Zh
+            en = "I'm going to lift your hip.",
+            es = Some "Voy a levantar su cadera.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to push on your back muscles.",
-            spanish = Some "Voy a presionar los m&uacutesculos de su espalda.",
-            chinese = None s.Zh
+            en = "I'm going to push on your back muscles.",
+            es = Some "Voy a presionar los m&uacutesculos de su espalda.",
+            zh = None s.Zh
         }
     ]
     #

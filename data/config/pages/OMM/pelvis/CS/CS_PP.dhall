@@ -8,34 +8,34 @@ in ./technique.dhall {
     #
     [
         {
-            english = "I am going to lift your leg...",
-            spanish = Some "Voy a levantar su pierna...",
-            chinese = None s.Zh
+            en = "I am going to lift your leg...",
+            es = Some "Voy a levantar su pierna...",
+            zh = None s.Zh
         },
         {
-            english = "...and place my knee underneath.",
-            spanish = Some "...y poner mi rodilla debajo",
-            chinese = None s.Zh
+            en = "...and place my knee underneath.",
+            es = Some "...y poner mi rodilla debajo",
+            zh = None s.Zh
         },
         {
-            english = "...and pull it towards me.",
-            spanish = Some "...y tirarla a m&iacute;.",
-            chinese = None s.Zh
+            en = "...and pull it towards me.",
+            es = Some "...y tirarla a m&iacute;.",
+            zh = None s.Zh
         },
         {
-            english = "I am going to move your foot/leg in/outward.",
-            spanish = Some "Voy a mover su pie/pierna hacia adentro/afuera.",
-            chinese = None s.Zh
+            en = "I am going to move your foot/leg in/outward.",
+            es = Some "Voy a mover su pie/pierna hacia adentro/afuera.",
+            zh = None s.Zh
         },
         {
-            english = "I am going to drop your leg off the table.",
-            spanish = Some "Voy a caer su pierna sobre el borde de la mesa. ",
-            chinese = None s.Zh
+            en = "I am going to drop your leg off the table.",
+            es = Some "Voy a caer su pierna sobre el borde de la mesa. ",
+            zh = None s.Zh
         },
         {
-            english = "Let your leg relax onto my lap.",
-            spanish = Some "Relaje su pierna en mi regazo.",
-            chinese = None s.Zh
+            en = "Let your leg relax onto my lap.",
+            es = Some "Relaje su pierna en mi regazo.",
+            zh = None s.Zh
         }
     ]
     #

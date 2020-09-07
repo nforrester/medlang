@@ -5,29 +5,29 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to use light / moderate/ firm pressure to your breast.",
-            spanish = Some "Voy a hacer presi&oacute;n leve / moderada / firme al seno.",
-            chinese = None s.Zh
+            en = "I'm going to use light / moderate/ firm pressure to your breast.",
+            es = Some "Voy a hacer presi&oacute;n leve / moderada / firme al seno.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to feel for your axillary lymph nodes, in your armpit.",
-            spanish = Some "Voy a palpar los n&oacute;dulos linf&aacute;ticos en la axila.",
-            chinese = None s.Zh
+            en = "I'm going to feel for your axillary lymph nodes, in your armpit.",
+            es = Some "Voy a palpar los n&oacute;dulos linf&aacute;ticos en la axila.",
+            zh = None s.Zh
         },
         {
-            english = "Raise your arms up above your head.",
-            spanish = Some "Levante los brazos sobre la cabeza",
-            chinese = None s.Zh
+            en = "Raise your arms up above your head.",
+            es = Some "Levante los brazos sobre la cabeza",
+            zh = None s.Zh
         },
         {
-            english = "Place your hands on your hips. Press your hands on your hips and tighten your chest muscles.",
-            spanish = Some "Coloque los manos sobre las caderas. Presione los manos sobre las caderas y flexione los m&uacute;sculos del pecho.",
-            chinese = None s.Zh
+            en = "Place your hands on your hips. Press your hands on your hips and tighten your chest muscles.",
+            es = Some "Coloque los manos sobre las caderas. Presione los manos sobre las caderas y flexione los m&uacute;sculos del pecho.",
+            zh = None s.Zh
         },
         {
-            english = "Bend forward (slightly).",
-            spanish = Some "Incl&iacute;nese hacia delante (un poco).",
-            chinese = None s.Zh
+            en = "Bend forward (slightly).",
+            es = Some "Incl&iacute;nese hacia delante (un poco).",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

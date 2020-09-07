@@ -6,14 +6,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "<u>Scarf</u>: Hold onto your opposite shoulder.",
-            spanish = Some "Agarre su otro hombro.",
-            chinese = None s.Zh
+            en = "<u>Scarf</u>: Hold onto your opposite shoulder.",
+            es = Some "Agarre su otro hombro.",
+            zh = None s.Zh
         },
         {
-            english = "<u>O'Brien's</u>: Stretch your arms out straight in front of you, thumbs down.",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>O'Brien's</u>: Stretch your arms out straight in front of you, thumbs down.",
+            es = None Text,
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -6,39 +6,39 @@ image = None Text,
 translations =
 [
     {
-        english = "Muscle pain (at ___)?",
-        spanish = Some "Dolor muscular (de ____)?",
-        chinese = None s.Zh
+        en = "Muscle pain (at ___)?",
+        es = Some "Dolor muscular (de ____)?",
+        zh = None s.Zh
     },
     {
-        english = "Swelling of your joints/muscles?",
-        spanish = Some "Se le hinchan las articulaciones/los m&uacute;sculos?",
-        chinese = None s.Zh
+        en = "Swelling of your joints/muscles?",
+        es = Some "Se le hinchan las articulaciones/los m&uacute;sculos?",
+        zh = None s.Zh
     },
     {
-        english = "Calambres?",
-        spanish = Some "Cramps?",
-        chinese = None s.Zh
+        en = "Calambres?",
+        es = Some "Cramps?",
+        zh = None s.Zh
     },
     {
-        english = "Stiffness?",
-        spanish = Some "Rigidez?",
-        chinese = None s.Zh
+        en = "Stiffness?",
+        es = Some "Rigidez?",
+        zh = None s.Zh
     },
     {
-        english = "Deformity?",
-        spanish = Some "Deformidad?",
-        chinese = None s.Zh
+        en = "Deformity?",
+        es = Some "Deformidad?",
+        zh = None s.Zh
     },
     {
-        english = "- the back",
-        spanish = Some "- la espalda?",
-        chinese = None s.Zh
+        en = "- the back",
+        es = Some "- la espalda?",
+        zh = None s.Zh
     },
     {
-        english = "- the shoulder?",
-        spanish = Some "- el hombro?",
-        chinese = None s.Zh
+        en = "- the shoulder?",
+        es = Some "- el hombro?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

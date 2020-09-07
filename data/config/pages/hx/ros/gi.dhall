@@ -6,54 +6,54 @@ image = None Text,
 translations =
 [
     {
-        english = "Stomach pain?",
-        spanish = Some "Dolor abdominal / de barriga?",
-        chinese = None s.Zh
+        en = "Stomach pain?",
+        es = Some "Dolor abdominal / de barriga?",
+        zh = None s.Zh
     },
     {
-        english = "Abdominal swelling?",
-        spanish = Some "Abdomen hinchado?",
-        chinese = None s.Zh
+        en = "Abdominal swelling?",
+        es = Some "Abdomen hinchado?",
+        zh = None s.Zh
     },
     {
-        english = "Regurgitation / reflux?",
-        spanish = Some "Regurgitaci&oacute;n / reflujo?",
-        chinese = None s.Zh
+        en = "Regurgitation / reflux?",
+        es = Some "Regurgitaci&oacute;n / reflujo?",
+        zh = None s.Zh
     },
     {
-        english = "Heartburn? / Burning sensation in your chest?",
-        spanish = Some "Acidez en el est&oacute;mago? / Ardor en el pecho?",
-        chinese = None s.Zh
+        en = "Heartburn? / Burning sensation in your chest?",
+        es = Some "Acidez en el est&oacute;mago? / Ardor en el pecho?",
+        zh = None s.Zh
     },
     {
-        english = "Nausea?",
-        spanish = Some "N&aacute;useas?",
-        chinese = None s.Zh
+        en = "Nausea?",
+        es = Some "N&aacute;useas?",
+        zh = None s.Zh
     },
     {
-        english = "Vomiting<br>...con sangre?",
-        spanish = Some "V&oacute;mito<br>...blood?",
-        chinese = None s.Zh
+        en = "Vomiting<br>...con sangre?",
+        es = Some "V&oacute;mito<br>...blood?",
+        zh = None s.Zh
     },
     {
-        english = "Diarrhea?",
-        spanish = Some "Diarrea?",
-        chinese = None s.Zh
+        en = "Diarrhea?",
+        es = Some "Diarrea?",
+        zh = None s.Zh
     },
     {
-        english = "Black / bloody / pale-color stools?",
-        spanish = Some "Heces negras / con sangre / p&aacute;lidas?",
-        chinese = None s.Zh
+        en = "Black / bloody / pale-color stools?",
+        es = Some "Heces negras / con sangre / p&aacute;lidas?",
+        zh = None s.Zh
     },
     {
-        english = "Constipation?",
-        spanish = Some "Constipaci&oacute;n?",
-        chinese = None s.Zh
+        en = "Constipation?",
+        es = Some "Constipaci&oacute;n?",
+        zh = None s.Zh
     },
     {
-        english = "Are you passing gas?",
-        spanish = Some "Pasa gases?",
-        chinese = None s.Zh
+        en = "Are you passing gas?",
+        es = Some "Pasa gases?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

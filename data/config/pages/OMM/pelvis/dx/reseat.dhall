@@ -5,19 +5,19 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Bend your knees.",
-            spanish = Some "Doble sus rodillas.",
-            chinese = None s.Zh
+            en = "Bend your knees.",
+            es = Some "Doble sus rodillas.",
+            zh = None s.Zh
         },
         {
-            english = "Lift your hips up.",
-            spanish = Some "Levante sus caderas.",
-            chinese = None s.Zh
+            en = "Lift your hips up.",
+            es = Some "Levante sus caderas.",
+            zh = None s.Zh
         },
         {
-            english = "Straighten out your legs.",
-            spanish = Some "Estire sus piernas.",
-            chinese = None s.Zh
+            en = "Straighten out your legs.",
+            es = Some "Estire sus piernas.",
+            zh = None s.Zh
         }
     ]
     ,

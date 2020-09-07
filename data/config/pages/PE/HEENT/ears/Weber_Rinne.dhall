@@ -5,49 +5,49 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Tuning fork.",
-            spanish = Some "Diapas&oacute;n.",
-            chinese = None s.Zh
+            en = "Tuning fork.",
+            es = Some "Diapas&oacute;n.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Weber Test</u>",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Weber Test</u>",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "I'm going to place it on your forehead.",
-            spanish = Some "Voy a ponerlo en su frene.",
-            chinese = None s.Zh
+            en = "I'm going to place it on your forehead.",
+            es = Some "Voy a ponerlo en su frene.",
+            zh = None s.Zh
         },
         {
-            english = "Which side does it sound louder on?",
-            spanish = Some "Escucha mejor en qu&eacute; lado?",
-            chinese = None s.Zh
+            en = "Which side does it sound louder on?",
+            es = Some "Escucha mejor en qu&eacute; lado?",
+            zh = None s.Zh
         },
         {
-            english = "<u>Rinne Test</u>",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "<u>Rinne Test</u>",
+            es = None Text,
+            zh = None s.Zh
         },
         {
-            english = "I'm going to place it on your mastoid bone, behind your ear.",
-            spanish = Some "Voy a colocarlo sobre el hueso detr&aacute; de la oreja.",
-            chinese = None s.Zh
+            en = "I'm going to place it on your mastoid bone, behind your ear.",
+            es = Some "Voy a colocarlo sobre el hueso detr&aacute; de la oreja.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to move it to beside your ear.",
-            spanish = Some "Voy a moverlo, al lado de la oreja.",
-            chinese = None s.Zh
+            en = "I'm going to move it to beside your ear.",
+            es = Some "Voy a moverlo, al lado de la oreja.",
+            zh = None s.Zh
         },
         {
-            english = "Tell me when the noise stops.",
-            spanish = Some "D&iacute;game cuando el sonido se detiene.",
-            chinese = None s.Zh
+            en = "Tell me when the noise stops.",
+            es = Some "D&iacute;game cuando el sonido se detiene.",
+            zh = None s.Zh
         },
         {
-            english = "Can you hear the noise?",
-            spanish = None Text,
-            chinese = None s.Zh
+            en = "Can you hear the noise?",
+            es = None Text,
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

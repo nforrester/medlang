@@ -6,44 +6,44 @@ image = None Text,
 translations =
 [
     {
-        english = "Pain / burning with urination?",
-        spanish = Some "Dolor / ardor al orinar?",
-        chinese = None s.Zh
+        en = "Pain / burning with urination?",
+        es = Some "Dolor / ardor al orinar?",
+        zh = None s.Zh
     },
     {
-        english = "Blood in urine?",
-        spanish = Some "Sangre en la orina?",
-        chinese = None s.Zh
+        en = "Blood in urine?",
+        es = Some "Sangre en la orina?",
+        zh = None s.Zh
     },
     {
-        english = "Loss of bladder control (urinary incontinence)?",
-        spanish = Some "Falta de control para orinar (incontinencia urinaria)?",
-        chinese = None s.Zh
+        en = "Loss of bladder control (urinary incontinence)?",
+        es = Some "Falta de control para orinar (incontinencia urinaria)?",
+        zh = None s.Zh
     },
     {
-        english = "Frequently feeling the urge to urinate (urgency)?",
-        spanish = Some "Ganas de orinar con frecuencia (urgencia)?",
-        chinese = None s.Zh
+        en = "Frequently feeling the urge to urinate (urgency)?",
+        es = Some "Ganas de orinar con frecuencia (urgencia)?",
+        zh = None s.Zh
     },
     {
-        english = "Sensation of incomplete bladder emptying?",
-        spanish = Some "sensaci&oacute;n que no puede vaciar la vejiga complentamente?",
-        chinese = None s.Zh
+        en = "Sensation of incomplete bladder emptying?",
+        es = Some "sensaci&oacute;n que no puede vaciar la vejiga complentamente?",
+        zh = None s.Zh
     },
     {
-        english = "Change in urine color?",
-        spanish = Some "Cambio de color de la orina?",
-        chinese = None s.Zh
+        en = "Change in urine color?",
+        es = Some "Cambio de color de la orina?",
+        zh = None s.Zh
     },
     {
-        english = "Weak stream?",
-        spanish = Some "Chorro d&eacute;bil?",
-        chinese = None s.Zh
+        en = "Weak stream?",
+        es = Some "Chorro d&eacute;bil?",
+        zh = None s.Zh
     },
     {
-        english = "Secrectiones abnormales de los genitales?",
-        spanish = Some "Abnormal genital secretions?",
-        chinese = None s.Zh
+        en = "Secrectiones abnormales de los genitales?",
+        es = Some "Abnormal genital secretions?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

@@ -6,19 +6,19 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Tuck this sheet into your waistband.",
-            spanish = Some "Meta esta s&aacute;bana en su cintura.",
-            chinese = None s.Zh
+            en = "Tuck this sheet into your waistband.",
+            es = Some "Meta esta s&aacute;bana en su cintura.",
+            zh = None s.Zh
         },
         {
-            english = "Lift your shirt up above your belly button.",
-            spanish = Some "Levante su camisa encima de su ombligo.",
-            chinese = None s.Zh
+            en = "Lift your shirt up above your belly button.",
+            es = Some "Levante su camisa encima de su ombligo.",
+            zh = None s.Zh
         },
         {
-            english = "Lower your pants so that I can see your belly button",
-            spanish = Some "Baje sus pantalones para que yo pueda ver su ombligo.",
-            chinese = None s.Zh
+            en = "Lower your pants so that I can see your belly button",
+            es = Some "Baje sus pantalones para que yo pueda ver su ombligo.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

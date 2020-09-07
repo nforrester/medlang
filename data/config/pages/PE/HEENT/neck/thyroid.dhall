@@ -5,14 +5,14 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to feel for your thyroid, which is in your neck.",
-            spanish = Some "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello.",
-            chinese = None s.Zh
+            en = "I'm going to feel for your thyroid, which is in your neck.",
+            es = Some "Voy a sentir su gl&aacute;ndula tiroides, que est&aacute; en el cuello.",
+            zh = None s.Zh
         },
         {
-            english = "Please swallow.",
-            spanish = Some "Trague, por favor",
-            chinese = None s.Zh
+            en = "Please swallow.",
+            es = Some "Trague, por favor",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

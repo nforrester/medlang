@@ -8,14 +8,14 @@ in ./technique.dhall {
     #
     [
         {
-            english = "Sit up straight and puff out your chest.",
-            spanish = Some "Si&eacute;ntase derecho y hinche su pecho.",
-            chinese = None s.Zh
+            en = "Sit up straight and puff out your chest.",
+            es = Some "Si&eacute;ntase derecho y hinche su pecho.",
+            zh = None s.Zh
         },
         {
-            english = "Slump forward.",
-            spanish = Some "Despl&aacute;zese hacia adelante.",
-            chinese = None s.Zh
+            en = "Slump forward.",
+            es = Some "Despl&aacute;zese hacia adelante.",
+            zh = None s.Zh
         }
     ]
     #

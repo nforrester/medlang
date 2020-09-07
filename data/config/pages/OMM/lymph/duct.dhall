@@ -8,19 +8,19 @@ in ./technique.dhall {
     #
     [
         {
-            english = "Rest your arm on my lap.",
-            spanish = Some "Ponga su brazo en mi regazo.",
-            chinese = None s.Zh
+            en = "Rest your arm on my lap.",
+            es = Some "Ponga su brazo en mi regazo.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to put my finger into the space above your clavicle.<br>This may feel uncomfortable.",
-            spanish = Some "Voy a poner mi dedo en el espacio arriba de su clav&iacute;cula.<br>Puede sentirse inc&oacute;modo.",
-            chinese = None s.Zh
+            en = "I'm going to put my finger into the space above your clavicle.<br>This may feel uncomfortable.",
+            es = Some "Voy a poner mi dedo en el espacio arriba de su clav&iacute;cula.<br>Puede sentirse inc&oacute;modo.",
+            zh = None s.Zh
         },
         {
-            english ="I will sink my fingers deeper.",
-            spanish = Some "Voy a hundir mis dedos m&aacute;s profundo.",
-            chinese = None s.Zh
+            en ="I will sink my fingers deeper.",
+            es = Some "Voy a hundir mis dedos m&aacute;s profundo.",
+            zh = None s.Zh
         }
     ]
     #

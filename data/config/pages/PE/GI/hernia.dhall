@@ -6,24 +6,24 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Stand up.",
-            spanish = Some "Lev&aacutentese.",
-            chinese = None s.Zh
+            en = "Stand up.",
+            es = Some "Lev&aacutentese.",
+            zh = None s.Zh
         },
         {
-            english = "Cough, please.",
-            spanish = Some "Tose, por favor.",
-            chinese = None s.Zh
+            en = "Cough, please.",
+            es = Some "Tose, por favor.",
+            zh = None s.Zh
         },
         {
-            english = "Lie down",
-            spanish = Some "Acu&eacute;stese.",
-            chinese = None s.Zh
+            en = "Lie down",
+            es = Some "Acu&eacute;stese.",
+            zh = None s.Zh
         },
         {
-            english = "Try to do a sit-up.",
-            spanish = Some "Trate de hacer una sentada.",
-            chinese = None s.Zh
+            en = "Try to do a sit-up.",
+            es = Some "Trate de hacer una sentada.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

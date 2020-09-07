@@ -6,74 +6,74 @@ image = None Text,
 translations =
 [
     {
-        english = "What number pregnancy is this?",
-        spanish = Some "Qu&eacute; n&uacute;mero embarazo es esto?",
-        chinese = None s.Zh
+        en = "What number pregnancy is this?",
+        es = Some "Qu&eacute; n&uacute;mero embarazo es esto?",
+        zh = None s.Zh
     },
     {
-        english = "Were there complications in your previous pregnancies?",
-        spanish = Some "Tuvo complicaciones en sus embarazos anteriores?",
-        chinese = None s.Zh
+        en = "Were there complications in your previous pregnancies?",
+        es = Some "Tuvo complicaciones en sus embarazos anteriores?",
+        zh = None s.Zh
     },
     {
-        english = "Abortion",
-        spanish = Some "Aborci&oacute;n",
-        chinese = None s.Zh
+        en = "Abortion",
+        es = Some "Aborci&oacute;n",
+        zh = None s.Zh
     },
     {
-        english = "Miscarriage",
-        spanish = Some "P&eacute;rdida de beb&eacute;/ Aborto espont&aacute;neo",
-        chinese = None s.Zh
+        en = "Miscarriage",
+        es = Some "P&eacute;rdida de beb&eacute;/ Aborto espont&aacute;neo",
+        zh = None s.Zh
     },
     {
-        english = "vaginal / c-section",
-        spanish = Some "vaginal / ces&aacute;rea",
-        chinese = None s.Zh
+        en = "vaginal / c-section",
+        es = Some "vaginal / ces&aacute;rea",
+        zh = None s.Zh
     },
     {
-        english = "How many weeks along are you?",
-        spanish = Some "Cu&aacute;ntas semanas de embarazo tiene?",
-        chinese = None s.Zh
+        en = "How many weeks along are you?",
+        es = Some "Cu&aacute;ntas semanas de embarazo tiene?",
+        zh = None s.Zh
     },
     {
-        english = "When is your due date?",
-        spanish = Some "Cu&aacute;l es su fecha de alivo?",
-        chinese = None s.Zh
+        en = "When is your due date?",
+        es = Some "Cu&aacute;l es su fecha de alivo?",
+        zh = None s.Zh
     },
     {
-        english = "How much weight have you gained so far?",
-        spanish = Some "Cu&aacute;ntos pesos ha ganado?",
-        chinese = None s.Zh
+        en = "How much weight have you gained so far?",
+        es = Some "Cu&aacute;ntos pesos ha ganado?",
+        zh = None s.Zh
     },
     {
-        english = "Are you having any symptoms/problems with your current pregnancy?",
-        spanish = Some "Tiene algunos s&iacutentomas o problemas con el embarazo?",
-        chinese = None s.Zh
+        en = "Are you having any symptoms/problems with your current pregnancy?",
+        es = Some "Tiene algunos s&iacutentomas o problemas con el embarazo?",
+        zh = None s.Zh
     },
     {
-        english = "Nausea / Vomiting / Headache / Swelling / Reflux",
-        spanish = Some "Nausea / Vomito / Dolor de cabeza / Hinchaz&oacute;n / Reflujo",
-        chinese = None s.Zh
+        en = "Nausea / Vomiting / Headache / Swelling / Reflux",
+        es = Some "Nausea / Vomito / Dolor de cabeza / Hinchaz&oacute;n / Reflujo",
+        zh = None s.Zh
     },
     {
-        english = "This is normal/common in pregnancy.",
-        spanish = Some "Esto es normal durante el embarazo.",
-        chinese = None s.Zh
+        en = "This is normal/common in pregnancy.",
+        es = Some "Esto es normal durante el embarazo.",
+        zh = None s.Zh
     },
     {
-        english = "How is your blood sugar?",
-        spanish = Some "C&oacute;mo es su nivel de az&uacute;car en la sangre?",
-        chinese = None s.Zh
+        en = "How is your blood sugar?",
+        es = Some "C&oacute;mo es su nivel de az&uacute;car en la sangre?",
+        zh = None s.Zh
     },
     {
-        english = "How frequent are your contractions?  How long do they last?",
-        spanish = Some "Con qu&eacute; frecuencia occuren los contracciones?",
-        chinese = None s.Zh
+        en = "How frequent are your contractions?  How long do they last?",
+        es = Some "Con qu&eacute; frecuencia occuren los contracciones?",
+        zh = None s.Zh
     },
     {
-        english = "Vaginal discharge or bleeding?",
-        spanish = Some "Tiene descarga o sangre vaginal?",
-        chinese = None s.Zh
+        en = "Vaginal discharge or bleeding?",
+        es = Some "Tiene descarga o sangre vaginal?",
+        zh = None s.Zh
     }
 ],
 menu_items = ./menu_items.dhall,

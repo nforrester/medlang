@@ -5,29 +5,29 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to look in your ear canal with this otoscope.",
-            spanish = Some "otoscopio.",
-            chinese = None s.Zh
+            en = "I'm going to look in your ear canal with this otoscope.",
+            es = Some "otoscopio.",
+            zh = None s.Zh
         },
         {
-            english = "I'm going to pull lightly on your ear.",
-            spanish = Some "Voy a tirar de su oreja ligeramente.",
-            chinese = None s.Zh
+            en = "I'm going to pull lightly on your ear.",
+            es = Some "Voy a tirar de su oreja ligeramente.",
+            zh = None s.Zh
         },
         {
-            english = "Let me know if it hurts.",
-            spanish = Some "Me diga si le duele.",
-            chinese = None s.Zh
+            en = "Let me know if it hurts.",
+            es = Some "Me diga si le duele.",
+            zh = None s.Zh
         },
         {
-            english = "You will feel a puff of air in your ear.",
-            spanish = Some "Va a sentir una bocanada(?) de aire en su oreja.",
-            chinese = None s.Zh
+            en = "You will feel a puff of air in your ear.",
+            es = Some "Va a sentir una bocanada(?) de aire en su oreja.",
+            zh = None s.Zh
         },
         {
-            english = "Your eardrum is normal / inflamed.",
-            spanish = Some "Su timpana estA normal / inflamada.",
-            chinese = None s.Zh
+            en = "Your eardrum is normal / inflamed.",
+            es = Some "Su timpana estA normal / inflamada.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

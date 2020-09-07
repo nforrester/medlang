@@ -8,14 +8,14 @@ in ./technique.dhall {
     #
     [
         {
-            english = "I'm going to lift your head and put my knee underneath.",
-            spanish = Some "Voy a levantar su cabeza y poner mi rodilla debajo.",
-            chinese = None s.Zh
+            en = "I'm going to lift your head and put my knee underneath.",
+            es = Some "Voy a levantar su cabeza y poner mi rodilla debajo.",
+            zh = None s.Zh
         },
         {
-            english = "Let your head relax on my lap.",
-            spanish = Some "Relaje su cabeza en mi regazo.",
-            chinese = None s.Zh
+            en = "Let your head relax on my lap.",
+            es = Some "Relaje su cabeza en mi regazo.",
+            zh = None s.Zh
         }
     ]
     #

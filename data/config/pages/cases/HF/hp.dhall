@@ -6,59 +6,59 @@ image = None Text,
 translations =
 [
     {
-        english = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
-        spanish = None Text,
-        chinese = None s.Zh
+        en = "${../link.dhall "hx/hpi/hpi" "General HPI questions"}",
+        es = None Text,
+        zh = None s.Zh
     },
     {
-        english = "Do you sleep with pillows? How many?",
-        spanish = Some "Duerme con almohadas? Cu&aacute;ntos?",
-        chinese = None s.Zh
+        en = "Do you sleep with pillows? How many?",
+        es = Some "Duerme con almohadas? Cu&aacute;ntos?",
+        zh = None s.Zh
     },
     {
-        english = "Do you sleep sitting up / in a recliner?",
-        spanish = Some "Duerme sentado / en una silla reclinable?",
-        chinese = None s.Zh
+        en = "Do you sleep sitting up / in a recliner?",
+        es = Some "Duerme sentado / en una silla reclinable?",
+        zh = None s.Zh
     },
     {
-        english = "Have you been eating more salt than usual?",
-        spanish = Some "Ha comido m&aacute;s sodio que normal?",
-        chinese = None s.Zh
+        en = "Have you been eating more salt than usual?",
+        es = Some "Ha comido m&aacute;s sodio que normal?",
+        zh = None s.Zh
     },
     {
-        english = "Diuretics / Water pills",
-        spanish = Some "Diur&eacute;ticos / Pastillas acuosas",
-        chinese = None s.Zh
+        en = "Diuretics / Water pills",
+        es = Some "Diur&eacute;ticos / Pastillas acuosas",
+        zh = None s.Zh
     },
     {
-        english = "Is it worse at night / lying flat?",
-        spanish = Some "Empeora durante el noche / cuando se acuesta?",
-        chinese = None s.Zh
+        en = "Is it worse at night / lying flat?",
+        es = Some "Empeora durante el noche / cuando se acuesta?",
+        zh = None s.Zh
     },
     {
-        english = "Do you wake up in the middle of the night short of breath?",
-        spanish = Some "Se despierta durante la noche con falta de aire?",
-        chinese = None s.Zh
+        en = "Do you wake up in the middle of the night short of breath?",
+        es = Some "Se despierta durante la noche con falta de aire?",
+        zh = None s.Zh
     },
     {
-        english = "at rest",
-        spanish = Some "en reposo",
-        chinese = None s.Zh
+        en = "at rest",
+        es = Some "en reposo",
+        zh = None s.Zh
     },
     {
-        english = "weight gain",
-        spanish = Some "aumento de peso",
-        chinese = None s.Zh
+        en = "weight gain",
+        es = Some "aumento de peso",
+        zh = None s.Zh
     },
     {
-        english = "ankle / leg swelling",
-        spanish = Some "hinchaz&oacute;n en los tobillos / piernas",
-        chinese = None s.Zh
+        en = "ankle / leg swelling",
+        es = Some "hinchaz&oacute;n en los tobillos / piernas",
+        zh = None s.Zh
     },
     {
-        english = "reduced urination",
-        spanish = Some "micci&oacute;n reducida",
-        chinese = None s.Zh
+        en = "reduced urination",
+        es = Some "micci&oacute;n reducida",
+        zh = None s.Zh
     }
 ],
 menu_items = [{title = "Heart Failure - A&P", filename = "cases/HF/ap"}],

@@ -8,19 +8,19 @@ in ./technique.dhall {
     #
     [
         {
-            english = "Raise your arm. Put it straight up behind your ear.",
-            spanish = Some "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja.",
-            chinese = None s.Zh
+            en = "Raise your arm. Put it straight up behind your ear.",
+            es = Some "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja.",
+            zh = None s.Zh
         },
         {
-            english = "Bring your knees up (toward your chest) / down.",
-            spanish = Some "Levante / baje sus rodillas.",
-            chinese = None s.Zh
+            en = "Bring your knees up (toward your chest) / down.",
+            es = Some "Levante / baje sus rodillas.",
+            zh = None s.Zh
         },
         {
-            english = "Can you feel my forearm against your hip?",
-            spanish = Some "Puede sentir mi antebrazo contra su cadera?",
-            chinese = None s.Zh
+            en = "Can you feel my forearm against your hip?",
+            es = Some "Puede sentir mi antebrazo contra su cadera?",
+            zh = None s.Zh
         }
     ]
     #

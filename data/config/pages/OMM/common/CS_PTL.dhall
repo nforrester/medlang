@@ -3,9 +3,9 @@
 let s = ./schema.dhall
 in [
     {
-        english = "I'm going to lift your shoulder / hip, and put my knee underneath.",
-        spanish = Some "Voy a levantar su hombro / cadera, y poner mi rodilla debajo.",
-        chinese = None s.Zh
+        en = "I'm going to lift your shoulder / hip, and put my knee underneath.",
+        es = Some "Voy a levantar su hombro / cadera, y poner mi rodilla debajo.",
+        zh = None s.Zh
     }
 ]
 #

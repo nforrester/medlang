@@ -6,24 +6,24 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Please cough. Does it hurt?",
-            spanish = Some "Tose, por avor.  Le duele?",
-            chinese = None s.Zh
+            en = "Please cough. Does it hurt?",
+            es = Some "Tose, por avor.  Le duele?",
+            zh = None s.Zh
         },
         {
-            english = "<u>Rebound</u>: I'm going to push down deeply on your stomach, then let go quickly. I apologize that it may be uncomfortable.<br>Tell me whether it hurts more when I push down, or let go.",
-            spanish = Some "Voy a presionar profundamente su estómago, luego lo voy a dejar ir rápidamente. Lo siento que puede ser incómodo. <br> D&iacute;game si duele m&aacute;s cuando presiono o cuando lo dejo ir.",
-            chinese = None s.Zh
+            en = "<u>Rebound</u>: I'm going to push down deeply on your stomach, then let go quickly. I apologize that it may be uncomfortable.<br>Tell me whether it hurts more when I push down, or let go.",
+            es = Some "Voy a presionar profundamente su estómago, luego lo voy a dejar ir rápidamente. Lo siento que puede ser incómodo. <br> D&iacute;game si duele m&aacute;s cuando presiono o cuando lo dejo ir.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Rovsing</u>: I'm going to push on your left lower quadrant.  Does it hurt? Where?",
-            spanish = Some "Voy a empujar su cuadrante inferior izquierda. Le duele? Donde?",
-            chinese = None s.Zh
+            en = "<u>Rovsing</u>: I'm going to push on your left lower quadrant.  Does it hurt? Where?",
+            es = Some "Voy a empujar su cuadrante inferior izquierda. Le duele? Donde?",
+            zh = None s.Zh
         },
         {
-            english = "<u>Psoas</u>: Lift your thigh against my hand.",
-            spanish = Some "Empuje su muslo contra mi mano.",
-            chinese = None s.Zh
+            en = "<u>Psoas</u>: Lift your thigh against my hand.",
+            es = Some "Empuje su muslo contra mi mano.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

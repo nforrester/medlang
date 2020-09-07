@@ -6,9 +6,9 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "I'm going to feel your windpipe to make sure it's in the midline.",
-            spanish = Some "Voy a sentir tu tr&aacute;quea para asegurarme de que est&eacute; en l&iacute;nea media.",
-            chinese = None s.Zh
+            en = "I'm going to feel your windpipe to make sure it's in the midline.",
+            es = Some "Voy a sentir tu tr&aacute;quea para asegurarme de que est&eacute; en l&iacute;nea media.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,

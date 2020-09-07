@@ -6,28 +6,28 @@ in ./technique.dhall {
     image = None Text,
     translations = [
         {
-            english = "Breathe in.  Breathe out (deeply).",
-            spanish = Some "Inhale. Exhale (profundamente).",
-            chinese = None s.Zh
+            en = "Breathe in.  Breathe out (deeply).",
+            es = Some "Inhale. Exhale (profundamente).",
+            zh = None s.Zh
         },
-        {   english = "Could you lift your right arm?",
-            spanish = Some "Puede levantar su brazo derecho?",
-            chinese = None s.Zh
-        },
-        {
-            english = "I'm going to tap on your back.",
-            spanish = Some "Voy a tocar su espalda.",
-            chinese = None s.Zh
+        {   en = "Could you lift your right arm?",
+            es = Some "Puede levantar su brazo derecho?",
+            zh = None s.Zh
         },
         {
-            english = "Say eee.",
-            spanish = Some "Diga eee.",
-            chinese = None s.Zh
+            en = "I'm going to tap on your back.",
+            es = Some "Voy a tocar su espalda.",
+            zh = None s.Zh
         },
         {
-            english = "<u>Excursion</u>: I'm going to put my fingers around your waist, below your ribcage.",
-            spanish = Some "Voy a poner mis dedos alrededor de su cintura, debajo de su caja tor&aacute;cica.",
-            chinese = None s.Zh
+            en = "Say eee.",
+            es = Some "Diga eee.",
+            zh = None s.Zh
+        },
+        {
+            en = "<u>Excursion</u>: I'm going to put my fingers around your waist, below your ribcage.",
+            es = Some "Voy a poner mis dedos alrededor de su cintura, debajo de su caja tor&aacute;cica.",
+            zh = None s.Zh
         }
     ],
     menu_items = ./menu_items.dhall,
