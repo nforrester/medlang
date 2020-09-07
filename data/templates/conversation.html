@@ -1,7 +1,7 @@
 {% extends "data/templates/base.html" %}
 
 {% block head %}
-<link rel="stylesheet" href="{{site.root}}/{{page.filename}}.css?v={{cache_bust}}">
+<link rel="stylesheet" href="{{site.root}}/{{site.target_language}}/{{page.filename}}.css?v={{cache_bust}}">
 {% endblock %}
 
 {% block content %}
