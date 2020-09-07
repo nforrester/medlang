@@ -15,7 +15,6 @@ let SiteMetaData : Type = {
 
 -- Record type for data about the website as a whole.
 let SiteData : Type = {
-    name : Text,        -- The human-readable name of the website
     root : Text,        -- Where the website is rooted relative to the domain name (empty string if not in a subdirectory).
     orphans : List Filename -- These pages are expected to be orphans. The .html suffix is omitted.
 }
@@ -72,7 +71,8 @@ let TechniqueData : Type = PageDataBare //\\ {
     title: Text,                            -- Name of technique
     translations : List {                   -- English phrase with foreign translation
         english : Text,                     -- English phrase
-        foreign : Text                      -- foreign phrase
+        spanish : Optional Text,            -- Spanish phrase
+        chinese : Optional Text             -- Chinese phrase
     },
     menu_items : List LinkData              -- Menu of techniques
 }

@@ -3,7 +3,6 @@
 let s = ./schema.dhall
 
 let site_data : s.SiteData = {
-    name = "MEDICAL SPANISH TRANSLATIONS",
     root = "",
     orphans = [
         -- The bridge start page is an orphan because it isn't part of the real site,

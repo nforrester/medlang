@@ -21,7 +21,7 @@ def load_dhall(path):
         input=os.path.join('.', path).encode()))
 
 
-def load_config():
+def load_config(strict_languages):
     """Load the config file and check it for mistakes."""
     config_dir = 'data/config'
     work_dir = 'work/config'
@@ -86,7 +86,16 @@ def load_config():
         if 'paragraphs' in page:
             for paragraph in page['paragraphs']:
                 for match in href_re.finditer(paragraph):
-                    check_link(page['filename'], match.group(1))
+                    check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
+
+    # Check links embedded in technique pages' translations.
+    for page in config['pages']:
+        if 'translations' in page:
+            for translation in page['translations']:
+                for lang, text in translation.items():
+                    if text is not None:
+                        for match in href_re.finditer(text):
+                            check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
 
     # Check that each page is or is not an orphan, as expected.
     for page, link_count in page_link_counts.items():
@@ -106,11 +115,59 @@ def load_config():
                     raise Exception('%s links to non-existent image %s' %
                                     (page['filename'], page['image']))
 
+    # Check that each strict language exists on every technique page
+    for page in config['pages']:
+        if 'translations' in page:
+            for translation in page['translations']:
+                for lang in strict_languages:
+                    if lang not in translation.keys():
+                        raise Exception('No such language: ' + lang)
+
+    # Check for unset translations on technique pages and either assert they exist,
+    # or change Nones to the empty string.
+    for page in config['pages']:
+        if 'translations' in page:
+            for translation in page['translations']:
+                for lang in translation.keys():
+                    if translation[lang] is None:
+                        if lang in strict_languages:
+                            raise Exception('%s is supposed to be completed, but %s has:\n%s' %
+                                            (lang, page['filename'], repr(translation)))
+                        else:
+                            translation[lang] = ''
+
     return config
 
 
-def process_config(config):
+def process_config(config, target_language):
     """Insert derived fields into the config structure."""
+    # Expose target language in config structure
+    config['site']['target_language'] = target_language
+
+    # Set site name based on target language
+    config['site']['name'] = 'MEDICAL %s TRANSLATIONS' % target_language.upper()
+
+    # Select target language on each page
+    for page in config['pages']:
+        if 'translations' in page:
+            for translation in page['translations']:
+                translation['foreign'] = translation[target_language]
+
+    # Set language of links embedded in paragraphs.
+    for page in config['pages']:
+        if 'paragraphs' in page:
+            page['paragraphs'] = [p.replace('(&TARGETLANGUAGEFORLINK&)', target_language) for p in page['paragraphs']]
+
+    # Set language of links embedded in translations.
+    def translation_link_helper(translation_in):
+        translation_out = dict()
+        for lang, text in translation_in.items():
+            translation_out[lang] = text.replace('(&TARGETLANGUAGEFORLINK&)', target_language)
+        return translation_out
+    for page in config['pages']:
+        if 'translations' in page:
+            page['translations'] = [translation_link_helper(t) for t in page['translations']]
+
     # Add *_percent versions of the image_map fields, so that the CSS for the
     # image map can be written in percentage terms. The config specifies pixels
     # because that's easier to compute for the image author.
@@ -182,20 +239,29 @@ def main():
     # Make a new output directory populated with the files from data/plain
     shutil.copytree('data/plain', output_dir)
 
-    # Load the configuration. Don't print a stack trace if it fails
-    # because the Dhall compiler makes nicer error messages.
-    try:
-        config = load_config()
-    except subprocess.CalledProcessError:
-        return False
+    foreign_languages = ['spanish', 'chinese']
+    for target_language in foreign_languages:
+        # Load the configuration. Don't print a stack trace if it fails
+        # because the Dhall compiler makes nicer error messages.
+        try:
+            config = load_config(strict_languages = ['english'])
+        except subprocess.CalledProcessError:
+            return False
 
-    process_config(config)
+        process_config(config, target_language)
 
-    # Render the pages.
-    env = environment()
-    cache_bust = cache_buster()
-    for page in config['pages']:
-        process_page(env, config, output_dir, cache_bust, page)
+        # Render the pages.
+        env = environment()
+        cache_bust = cache_buster()
+        language_output_dir = os.path.join(output_dir, target_language)
+        for page in config['pages']:
+            process_page(env, config, language_output_dir, cache_bust, page)
+            page_path = os.path.join(language_output_dir, page['filename'] + '.html')
+            assert(os.path.exists(page_path))
+            with open(page_path) as page_file:
+                for page_line in page_file:
+                    if '(&TARGETLANGUAGEFORLINK&)' in page_line:
+                        raise Exception('Unfixed link in ' + page_path)
 
     return True
 

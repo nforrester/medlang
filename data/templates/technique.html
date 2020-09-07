@@ -13,7 +13,7 @@
 <div id = "technique_menu">
     <ul>
         {% for menu_item in page.menu_items %}
-        <li><a href="{{site.root}}/{{menu_item.filename}}.html">{{menu_item.title}}</a></li>
+        <li><a href="{{site.root}}/{{site.target_language}}/{{menu_item.filename}}.html">{{menu_item.title}}</a></li>
         {% endfor %}
     </ul>
 </div>

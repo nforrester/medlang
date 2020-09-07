@@ -20,7 +20,7 @@
 {% endfor %}
 <ul>
 {% for response in page.responses %}
-    <li><a href="{{site.root}}/{{response.filename}}.html">{{response.response | safe}}</a></li>
+    <li><a href="{{site.root}}/{{site.target_language}}/{{response.filename}}.html">{{response.response | safe}}</a></li>
 {% endfor %}
 </ul>
 {% endblock %}
