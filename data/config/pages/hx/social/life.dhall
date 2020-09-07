@@ -46,8 +46,12 @@ translations =
         foreign = "Tiene ni&ntilde;nos? animales dom&eacute;sticos? Cu&aacute;ntos a&ntilde;os tienen?"
     },
     {
-        english = "Do you feel safe?",
-        foreign = "Se siente seguro/a?"
+        english = "Do you feel safe at home?",
+        foreign = "Se siente seguro/a en casa?"
+    },
+    {
+        english = "Have you ever felt physically or verbally threatened at home?",
+        foreign = "?"
     },
     {
         english = "Are you under much stress?",

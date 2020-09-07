@@ -1,7 +1,7 @@
 -- OB interview
 let s = ./schema.dhall
 in ./technique.dhall {
-title = "Prenatal Visits",
+title = "Prenatal Visits: general H&P",
 image = None Text,
 translations =
 [
@@ -60,30 +60,10 @@ translations =
     {
         english = "Vaginal discharge or bleeding?",
         foreign = "Tiene descarga o sangre vaginal?"
-    },
-    {
-        english = "You will drink a glucose solution, and 1 hour later we will check your blood sugar.",
-        foreign = "Va a beber una soluci&oacute;n de glucosa, y una hora despu&eacute;s vamos a revisar sus niveles the az&uacute;car en la sangre."
-    },
-    {
-        english = "We will lightly swab the vagina and rectum.",
-        foreign = "Vamos a frotar ligeramente la vagina y el recto con un hisopo."
-    },
-    {
-        english = "heartbeat",
-        foreign = "latido del coraz&oacute;n"
-    },
-    {
-        english = "head / face / belly / femur",
-        foreign = "cabeza / cara / panza / f&eacute;mur"
-    },
-    {
-        english = "Do you want to know the baby's gender?",
-        foreign = "Desea saber el sexo del beb&eacute;?"
     }
 ],
-menu_items = [{title = "Prenatal Visits", filename = "cases/OB/hp"}],
-backlink1 = Some { title = "History", filename = "hx/menu" },
+menu_items = ./menu_items.dhall,
+backlink1 = Some { title = "Cases", filename = "cases/menu" },
 backlink2 = None (./schema.dhall).LinkData,
 backlink3 = None (./schema.dhall).LinkData
 }

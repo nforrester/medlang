@@ -24,6 +24,14 @@ translations =
     {
         english = "Have you been around sick people recently?",
         foreign = "Est&aacute; cerca de personas que est&eacute;n enfermas?"
+    },
+    {
+        english = "chicken pox",
+        foreign = " "
+    },
+    {
+        english = "BCG vaccine",
+        foreign = " "
     }
 ],
 menu_items = ./menu_items.dhall,

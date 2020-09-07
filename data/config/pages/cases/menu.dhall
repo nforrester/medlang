@@ -1,6 +1,7 @@
 ../info.dhall {
     image = None Text,
     paragraphs = [
+        "COMMON CASES:",
         "${../link.dhall "cases/HA/hp" "Headache"}",
         "${../link.dhall "cases/MVA" "MVA"}",
         "${../link.dhall "cases/stroke/hp" "Stroke"}",
@@ -11,7 +12,7 @@
         "${../link.dhall "cases/GB/hp" "Abdominal Pain (biliary)"}",
         "${../link.dhall "cases/UTI/hp" "UTI"}",
         "${../link.dhall "cases/VB/hp" "Vaginal Bleeding"}",
-        "${../link.dhall "cases/OB/hp" "OB Visit"}",
+        "${../link.dhall "cases/OB/gen" "OB Visit"}",
         "Joint Pain"
         ],
     backlink1 = None (./schema.dhall).LinkData,

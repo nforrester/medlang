@@ -4,8 +4,8 @@
     image = None Text,
     translations = [
         {
-            english = "I'm going to use light / moderate/ firm pressure to your breast tissue.",
-            foreign = "Voy a hacer presi&oacute;n leve / moderada / firme a su tejido del seno."
+            english = "I'm going to use light / moderate/ firm pressure to your breast.",
+            foreign = "Voy a hacer presi&oacute;n leve / moderada / firme al seno."
         },
         {
             english = "I'm going to feel for your axillary lymph nodes, in your armpit.",

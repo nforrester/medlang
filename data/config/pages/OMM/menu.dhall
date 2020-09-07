@@ -1,7 +1,7 @@
 let s = ./schema.dhall
 in ../../conversation.dhall {
     image = None Text,
-    paragraphs = ["By body region:"],
+    paragraphs = ["Osteopathic Treatments<br>By body region:"],
     responses = [
         {
             response = "Cervical",
