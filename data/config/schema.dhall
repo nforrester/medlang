@@ -8,11 +8,6 @@ let LinkData : Type = {     -- data that describes the link
     filename : Filename     -- link to the file
 }
 
-let Zh : Type = {  -- Represents the same text in both Mandarin pinyin and Chinese characters
-    pin : Text,    -- Pinyin
-    chr : Text     -- Characters
-}
-
 let SiteMetaData : Type = {
     files_to_replicate : List Filename -- Files to copy into every directory of the config tree.
 }
@@ -76,7 +71,7 @@ let TechniqueData : Type = PageDataBare //\\ {
     translations : List {                 -- English phrase with foreign translation
         en : Text,                        -- English phrase
         es : Optional Text,               -- Spanish phrase
-        zh : Optional Zh                  -- Mandarin phrase
+        zh : Optional Text                -- Mandarin phrase
     },
     menu_items : List LinkData            -- Menu of techniques
 }
@@ -93,7 +88,6 @@ let ConfigData : Type = {
 
 in {
     Filename         = Filename,
-    Zh               = Zh,
     LinkData         = LinkData,
     SiteMetaData     = SiteMetaData,
     SiteData         = SiteData,
