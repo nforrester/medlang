@@ -8,37 +8,37 @@ translations =
     {
         en = "Muscle pain (at ___)?",
         es = Some "Dolor muscular (de ____)?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Swelling of your joints/muscles?",
         es = Some "Se le hinchan las articulaciones/los m&uacute;sculos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Calambres?",
         es = Some "Cramps?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Stiffness?",
         es = Some "Rigidez?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Deformity?",
         es = Some "Deformidad?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- the back",
         es = Some "- la espalda?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- the shoulder?",
         es = Some "- el hombro?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

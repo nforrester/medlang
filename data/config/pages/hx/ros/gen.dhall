@@ -8,37 +8,37 @@ translations =
     {
         en = "Unexplained weight loss / gain?",
         es = Some "P&eacute;rdida / Aumento de peso inexplicable?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- How many pounds?",
         es = Some "- Cu&aacute;ntos pesos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Fatigue?",
         es = Some "F&aacute;tiga?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Loss / gain in appetite?",
         es = Some "Falta / gana de apetito?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Fever?",
         es = Some "Fiebre?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Chills?",
         es = Some "Escalofrios?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Night sweats?",
         es = Some "Sudoraciones nocturnas?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

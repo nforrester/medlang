@@ -8,12 +8,12 @@ translations =
     {
         en = "I'm going to hold your hand.",
         es = Some "Voy a tomar su mano.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Try to turn your palm up (toward the ceiling) / down (toward the floor)",
         es = Some "Trate de poner las manos hacia arriba (hacia el techo) / abajo (hacia el piso).",
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #

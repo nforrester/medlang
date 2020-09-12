@@ -10,12 +10,12 @@ in ./technique.dhall {
         {
             en = "I'm going to lift your leg and place it on my shoulder.",
             es = Some "Voy a levantar su pierna y ponerla sobre mi hombro.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Push your leg down, against my shoulder.",
             es = Some "Empuje su pierna hacia abajo, contra me hombro.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

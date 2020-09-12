@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "Your creatinine & BUN are high<br>- which indicates that your kidney may not be functioning well.",
             es = Some "Su creatina y BUN son altas<br>- lo que indica que sus ri&ntilde;ones no funcionan bien.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "glucose",
             es = Some "la glucosa",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "potassium",
             es = Some "el potasio",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "sodium",
             es = Some "el sodio",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/BMP"}],

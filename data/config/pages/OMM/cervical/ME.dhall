@@ -7,17 +7,17 @@ in ./technique.dhall {
         {
             en = "Do you feel my fingers tapping on your head/temple?",
             es = Some "Puede sentir mis dedos tocando su cabeza/si&eacute;n?",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>OA</u>: Look at my finger.  Now return your gaze to the center.",
             es = Some "Mire mi dedo. Ahora, vuelva su mirada al centro. ",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>C2-7</u>: Try to turn your head against my hand. Now relax.",
             es = Some "Trate de girar su cabeza contra mi mano. Ahora, rel&aacute;jese.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

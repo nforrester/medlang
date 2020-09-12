@@ -3,16 +3,16 @@ in [
     {
         en = "Inhale (deeply).",
         es = Some "Inhale (profundo) ",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Exhale (deeply).",
         es = Some "Exhale (profundo)",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Hold it.",
         es = Some "Sost&eacute;ngalo",
-        zh = None s.Zh
+        zh = None Text
     }
 ]

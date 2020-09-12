@@ -10,17 +10,17 @@ translations =
     {
         en = "Let your arm drop off the table.",
         es = Some "Deje caer su brazo sobre el borde de la mesa.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "I'm going to press into your armpit area, this may tickle.",
         es = Some "Voy a presionar en su axila.  Esto puede hacer cosquillas.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "I'm going to press on your (inner) arm.",
         es = Some "Voy a presionar en su brazo (interno).",
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #

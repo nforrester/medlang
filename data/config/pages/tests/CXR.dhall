@@ -7,32 +7,32 @@ in ./technique.dhall {
         {
          en = "Chest X-ray",
          es = Some "La radiograf&iacute;a de t&oacute;rax",
-         zh = None s.Zh
+         zh = None Text
         },
         {
             en = "Your CXR shows...",
             es = Some "Su radiograf&iacute;a muestra...",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "- an enlarged heart",
             es = Some "- un coraz&oacute;n agrandado",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "- hyperinflated lungs",
             es = Some "- pulmones muy inflados",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "- lung nodule",
             es = Some "-  ",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "- fluid/infiltrates in the lungs, which may indicate a lung infection.",
             es = Some "- l&iacute;quido/infiltrados dentro los pulmones, lo que puede ser una infecci&oacute;n pulmonar.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = [{title = " ", filename = "tests/CXR"}],

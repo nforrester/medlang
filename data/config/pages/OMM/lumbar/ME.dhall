@@ -10,17 +10,17 @@ in ./technique.dhall {
         {
             en = "Raise your arm. Put it straight up behind your ear.",
             es = Some "Levante su brazo.  Hacia arriba(?), detr&aacute;s de su oreja.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Bring your knees up (toward your chest) / down.",
             es = Some "Levante / baje sus rodillas.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Can you feel my forearm against your hip?",
             es = Some "Puede sentir mi antebrazo contra su cadera?",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

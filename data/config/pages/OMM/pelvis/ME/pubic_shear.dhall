@@ -10,12 +10,12 @@ in ./technique.dhall {
     {
         en = "<u>Superior Shear</u>: Drop your leg over the edge of the table.",
         es = Some "Deje caer su pierna sobre el borde de la mesa.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "<u>Inferior Shear</u>: Bend your knee up against your chest.",
         es = Some "Dobla su rodilla contra su pecho.",
-        zh = None s.Zh
+        zh = None Text
     }
     ]
     #

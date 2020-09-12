@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "Cover your left / right eye.",
             es = Some "Cubra su ojo izquierdo / derecho.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Look at my nose.",
             es = Some "Mire mi nariz",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Tell me when you first see my hand.",
             es = Some "Digame cuando primero vea mi mano.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Can you see both hands?",
             es = Some "Puede ver ambos manos?",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

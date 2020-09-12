@@ -10,12 +10,12 @@ in ./technique.dhall {
         {
             en = "Sit up straight and puff out your chest.",
             es = Some "Si&eacute;ntase derecho y hinche su pecho.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Slump forward.",
             es = Some "Despl&aacute;zese hacia adelante.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

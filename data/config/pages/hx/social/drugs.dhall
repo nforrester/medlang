@@ -8,22 +8,22 @@ translations =
     {
         en = "Do you drink alcohol?",
         es = Some "Bebe alcohol?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "How much do you drink per day/week/month?",
         es = Some "Cu&aacute;ntos tragos cada dia/semana/mes?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- 1 glass / can / bottle",
         es = Some "- Un(a) copa / lata / botella",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "What type of alcohol?<br>- wine<br>- beer<br>- whiskey",
         es = Some "Qu&eacute; tipo de alcohol?<br>- vino<br>- cerveza<br>- whisky",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Have you ever smoked?",
@@ -44,27 +44,27 @@ translations =
     {
         en = "Pipe / Cigar / tobacco / Vaping",
         es = Some "Pipa / Cigarro / Tabaco / Vapeo",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Have you ever used drugs?",
         es = Some "Ha usado drogas?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "marijuana / meth(amphetamines) / cocaine / heroin",
         es = Some "marihuana / met(anfetaminas) / coca&iacute;na / hero&iacute;na",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "For how many years?",
         es = Some  "Por cu&aacute;ntos a&ntilde;os?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "When did you quit?",
         es = Some "Cu&aacute;ndo dej&oacute;?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

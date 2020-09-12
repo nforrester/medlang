@@ -8,7 +8,7 @@ translations =
     {
         en = "<u>AAC</u>",
         es = None Text,
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #
@@ -18,12 +18,12 @@ translations =
     {
         en = "I'm going to pull your arm across your chest.",
         es = Some "Voy a ____(?) su brazo sobre su pecho.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "<u>PAC</u>",
         es = None Text,
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #
@@ -33,7 +33,7 @@ translations =
     {
         en = "I'm going to pull your arm across your back.",
         es = Some "Voy a ___(?) su brazo sobre su espalda.",
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #

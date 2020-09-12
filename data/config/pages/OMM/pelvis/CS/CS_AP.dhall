@@ -12,17 +12,17 @@ in ./technique.dhall {
         {
             en = "I am going to lift your leg...",
             es = Some "Voy a levantar su pierna...",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "...and pull it towards me.",
             es = Some "...y tirarla a m&iacute;.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I am going to move your foot/leg in/outward.",
             es = Some "Voy a mover su pie/pierna.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

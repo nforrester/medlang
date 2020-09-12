@@ -12,12 +12,12 @@ in ./technique.dhall {
         {
             en = "I'm going to lift your hip.",
             es = Some "Voy a levantar su cadera.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to push on your back muscles.",
             es = Some "Voy a presionar los m&uacutesculos de su espalda.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

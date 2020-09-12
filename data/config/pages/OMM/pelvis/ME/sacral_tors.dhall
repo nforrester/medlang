@@ -10,22 +10,22 @@ in ./technique.dhall {
        {
            en = "Bend your knees up / down.",
            es = Some "Doble sus rodillas hacia arriba / abajo.",
-           zh = None s.Zh
+           zh = None Text
        },
         {
            en = "Lift your leg(s) / top leg.  I will sit under.",
            es = Some "Levante sus piernas / pierna superior.  Me voy a sentar debajo.",
-           zh = None s.Zh
+           zh = None Text
        },
        {
            en = "Turn your face toward the ceiling / into the table.",
            es = Some "Gire su cara hacia el techo / hacia la mesa.",
-           zh = None s.Zh
+           zh = None Text
        },
        {
            en = "Hold onto the table edge.",
            es = Some "Sostenga(?) el borde de la mesa.",
-           zh = None s.Zh
+           zh = None Text
        }
    ]
    #

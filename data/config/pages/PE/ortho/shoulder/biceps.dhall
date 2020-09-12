@@ -8,12 +8,12 @@ in ./technique.dhall {
         {
             en = "<u>Speed</u>: Try to bring your entire arm up, against my hand.",
             es = None Text,
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Yergason</u>: Try to bend your arm up and also turn your palms up toward the ceiling.",
             es = None Text,
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

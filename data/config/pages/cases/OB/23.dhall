@@ -8,17 +8,17 @@ translations =
     {
         en = "You will drink a glucose solution, and 1 hour later we will check your blood sugar.",
         es = Some "Va a beber una soluci&oacute;n de glucosa, y una hora despu&eacute;s vamos a revisar sus niveles the az&uacute;car en la sangre.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "We will lightly swab the vagina and rectum.",
         es = Some "Vamos a frotar ligeramente la vagina y el recto con un hisopo.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "How frequent are your contractions?  How long do they last?",
         es = Some "Con qu&eacute; frecuencia occuren los contracciones?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

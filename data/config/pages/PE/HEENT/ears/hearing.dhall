@@ -7,22 +7,22 @@ in ./technique.dhall {
         {
             en = "Can you hear this?",
             es = Some "Puede escuchar esto?",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to rub my fingers next to one ear.",
             es = Some "Voy a frotar mis dedos al lado de una oreja.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to whisper into one ear.",
             es = Some "Voy a susurrar en una oreja.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Raise your hand on the side you hear me.",
             es = Some "Levante la mano del lado que me eschucha.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

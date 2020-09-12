@@ -10,17 +10,17 @@ in ./technique.dhall {
         {
             en = "<u>Anterior approach</u>: I'm going to stand over you.",
             es = Some "Voy a parar sobre usted.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to put my hands around your collarbone.",
             es = Some "Voy a poner mis manos alrededor de su clav&iacute;cula.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en ="Is this pressure ok?<br>Is it too tight?",
             es = Some "Esta presura est&aacute; bien? <br>Es demasiado fuerte?",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

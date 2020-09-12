@@ -7,12 +7,12 @@ in ./technique.dhall {
         {
             en = "I'm going to put my hand on your hip and lift your leg with my other hand.",
             es = Some "Voy a poner mi mano sobre su cadera y levantar su pierna con mi otro mano.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Let me know if it hurts.",
             es = Some "Me diga si le duele.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     ,

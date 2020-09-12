@@ -8,27 +8,27 @@ translations =
     {
         en = "heartbeat",
         es = Some "latido del coraz&oacute;n",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "head / face",
         es = Some "cabeza / cara",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "belly",
         es = Some "la panza",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "femur",
         es = Some "el f&eacute;mur",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Do you want to know the baby's gender?",
         es = Some "Desea saber el sexo del beb&eacute;?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

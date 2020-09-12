@@ -7,17 +7,17 @@ in ./technique.dhall {
         {
             en = "Bend your knees.",
             es = Some "Doble sus rodillas.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Lift your hips up.",
             es = Some "Levante sus caderas.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Straighten out your legs.",
             es = Some "Estire sus piernas.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     ,

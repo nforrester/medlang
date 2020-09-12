@@ -10,23 +10,23 @@ in ./technique.dhall {
         {
             en = "Scoot toward me.",
             es = Some "Deslice hacia mi (?).",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Superior Shear</u>: Pull your foot up away from me.",
             es = Some "Aleje su pie de m&iacute;.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Inferior Shear</u>: Push your foot down into my hands/stomach.",
             es = Some "Empuje su pie hacia mi mano/est&oacute;mago.",
-            zh = None s.Zh
+            zh = None Text
         }
         ,
         {
             en = "...using the force of your hip.",
             es = Some "...usando la fuerza de su cadera.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

@@ -8,27 +8,27 @@ translations =
     {
         en = "Hair loss?",
         es = Some "P&eacute;rdida de pelo?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Rashes?",
         es = Some "Erupciones en su piel?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "New skin lesions?",
         es = Some "Nuevos lesi&oacute;n en su piel?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- moles / growths / bumps",
         es = Some "- lunares / crecimientos / ",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Itching?",
         es = Some "Picaz&oacute;n?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

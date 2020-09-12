@@ -10,17 +10,17 @@ in ./technique.dhall {
    {
        en = "Bend your knee.",
        es = Some "Doble su rodilla.",
-       zh = None s.Zh
+       zh = None Text
    },
    {
        en = "<u>Inflare</u>: Bring your knee inward.",
        es = Some "Lleve su rodilla hacia afuera(?).",
-       zh = None s.Zh
+       zh = None Text
    },
    {
        en = ""<u>Inflare</u>: Bring your knee outward.",
        es = Some "Lleve su rodilla hacia adentro(?).",
-       zh = None s.Zh
+       zh = None Text
    }
    ]
    #

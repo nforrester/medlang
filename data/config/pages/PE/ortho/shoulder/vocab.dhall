@@ -8,12 +8,12 @@ in ./technique.dhall {
         {
             en = "supraspinatus",
             es = Some "m&uacute;sculo supraespniso ",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "proceso inlamatorio / degenerativo",
             es = Some "inflammatory / degenerative process",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

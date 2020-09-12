@@ -10,12 +10,12 @@ in ./technique.dhall {
         {
             en = "I'm going to lift your head and put my knee underneath.",
             es = Some "Voy a levantar su cabeza y poner mi rodilla debajo.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Let your head relax on my lap.",
             es = Some "Relaje su cabeza en mi regazo.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

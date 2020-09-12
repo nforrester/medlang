@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "I'm going to listen to your stomach / aorta / renal arteries.",
             es = Some "Voy a escuchar su est&oacute;mago / aorta / arterios renales.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to tap on your stomach.",
             es = Some "Voy a tocar su est&oacute;mago.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to push on your stomach, lightly / with more pressure.",
             es = Some "Voy a empujar su est&oacute;mago, ligeramente / con m&aacute;s presi&oacute;n.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Let me know if it hurts.",
             es = Some "Me diga si le duele.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

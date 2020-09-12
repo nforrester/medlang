@@ -8,27 +8,27 @@ translations =
     {
         en = "Do you take medications?",
         es = Some "Toma medicamentos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "OTC meds",
         es = Some "medicamentos sin receta",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- For what?",
         es = Some "- Para qu&eacute;?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "How often?",
         es = Some "Con qu&eacute; frecuencia?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "What dose?",
         es = Some "Qu&eacute; dosis?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

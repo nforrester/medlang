@@ -8,22 +8,22 @@ translations =
     {
         en = "Do you take medications?",
         es = Some "Toma medicamentos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- For what?",
         es = Some "- Para qu&eacute;?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "How often? Cu&aacute;ntas pastillas cada d&iacute;a?",
         es = Some "Con qu&eacute; frecuencia?  How many pills per day?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "What dose?",
         es = Some "Qu&eacute; dosis?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

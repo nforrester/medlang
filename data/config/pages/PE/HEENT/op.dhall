@@ -7,37 +7,37 @@ in ./technique.dhall {
         {
             en = "Open / close your mouth.",
             es = Some "Abra / Cierre la boca.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Stick your tongue out. Say ahh..",
             es = Some "Saque la lengua.  Diga aah.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I will put this stick (tongue depressor) on your tongue.",
             es = Some "Voy a poner este palo en su lengua.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Wiggle your tongue side to side.",
             es = Some "Mueva la lengua de lado a lado.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Lift your tongue.",
             es = Some "Levante la lengua.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Bite down, please.",
             es = Some "Meurda, por favor.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm checking your teeth.",
             es = Some "Estoy revisando sus dientes.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/HEENT/nose"}],

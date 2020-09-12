@@ -8,12 +8,12 @@ in ./technique.dhall {
         {
             en = "<u>Neer</u>.",
             es = None Text,
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Hawkin</u>.",
             es = None Text,
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

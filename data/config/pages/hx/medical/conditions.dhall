@@ -8,37 +8,37 @@ translations =
     {
         en = "- high blood pressure / hypertensi&oacute;n",
         es = Some "- alta presi&oacute;n / hipertension",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- diabetes",
         es = Some "- diabetes",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- heart failure",
         es = Some "- insuficiencia card&iacute;aca",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- heart attack",
         es = Some "- ataque al coraz&oacute;n",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- stroke / CVA",
         es = Some "- apoplej&iacute;a / accidente cerebrovascular",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- [breast/colon/prostate] cancer",
         es = Some "- c&aacute;ncer [de mama/colon/prostata]",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "- high cholesterol.",
         es = Some "- colestero alto.",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

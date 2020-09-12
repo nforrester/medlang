@@ -8,32 +8,32 @@ translations =
     {
         en = "Unexplained weight loss / gain?",
         es = Some "P&eacute;rdida / Aumento de peso inexplicable?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Cold / heat intolerance?",
         es = Some "Intolerencia al fr&iacute;o / calor?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Loss / gain in appetite?",
         es = Some "Falta / gana de apetito?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Mucho sed / hambre?",
         es = Some "Great thirst / hunger?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Temblores?",
         es = Some "Trembling?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Ha orinado m&aacute;s que normal?",
         es = Some "Have you urinated more than normal?",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

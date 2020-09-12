@@ -7,7 +7,7 @@ in ./technique.dhall {
         {
             en = "<u>Seated Thoracic Stretch</u>: Sit at the edge of the table, with your legs on either side of the table, and facing the head of the table.",
             es = Some "Si&eacute;ntese al borde de la mesa, con piernas a cada lado de la mesa, mirando la cabeza de la mesa.",
-            zh = None s.Zh
+            zh = None Text
         }
         ]
         #
@@ -17,7 +17,7 @@ in ./technique.dhall {
         {
             en = "I'm going to push on your back.",
             es = Some "Voy a presionar su espalda.",
-            zh = None s.Zh
+            zh = None Text
         }
         ]
     #

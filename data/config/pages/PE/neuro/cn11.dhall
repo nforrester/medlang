@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "Shrug your shoulders.",
             es = Some "Enc&oacute;jase los hombros.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Don't let me push your shoulders down.",
             es = Some "No me permita empujar sus hombros.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Turn your head to the left [right].",
             es = Some "Gire su cabeza a la izquierda [derecha].",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Push against my hand with your face (try to turn your head).",
             es = Some "Empuje contra mi mano con su cara.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/cn11"}],

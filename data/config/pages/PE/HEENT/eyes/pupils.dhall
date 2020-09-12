@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "<u>Light</u>: I'm going to look in your eyes with my light.",
             es = Some "Voy a mirar en su ojos con mi linterna.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Accommodation</u>: Look straight ahead at the wall.  Now look at my finger.",
             es = Some "Mire hac&iacute;a adelante a la pared.  Ahora mire a mi dedo.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Extraocular mvts</u>: Without moving your head or neck, follow my finger",
             es = Some "Sin mover su cabeza o cuello, siga mi dedo.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Lid lag</u>: I'm going to touch your eyelid.  Look up.",
             es = Some "Voy a tocar su p&aacute;rpado.  Mire hacia abajo.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

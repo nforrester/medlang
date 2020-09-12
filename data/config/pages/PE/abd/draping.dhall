@@ -8,17 +8,17 @@ in ./technique.dhall {
         {
             en = "Tuck this sheet into your waistband.",
             es = Some "Meta esta s&aacute;bana en su cintura.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Lift your shirt up above your belly button.",
             es = Some "Levante su camisa encima de su ombligo.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Lower your pants so that I can see your belly button",
             es = Some "Baje sus pantalones para que yo pueda ver su ombligo.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "This test will help me diagnose your gallbladder.",
             es = Some "Este examen me ayudar&aacute; en diagnosticar su ves&iacute;cula biliar.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to push underneath your ribcage.",
             es = Some "Voy a palpar por debajo del reborde de costal derecho.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to push my hand in more.",
             es = Some "Voy a avanzar mi mano m&aacute;s.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Inhale deeply...Exhale.",
             es = Some "Inspire profunda...exhale.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

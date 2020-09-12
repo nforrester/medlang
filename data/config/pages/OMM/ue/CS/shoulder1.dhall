@@ -10,12 +10,12 @@ in ./technique.dhall {
         {
             en = "Lift your arm.<br>Bend your elbow.",
             es = Some "Levante el brazo.<br>Doble el codo.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Let your arm drop toward the table.",
             es = Some "Deje caer su brazo hacia la mesa.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     #

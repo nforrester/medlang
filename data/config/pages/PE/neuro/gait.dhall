@@ -8,27 +8,27 @@ in ./technique.dhall {
         {
             en = "Walk normally.",
             es = Some "Camine normalmente.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Walk with one foot in front of the other, heel touching toe.<br>-like you're on a tightrope.",
             es = Some "Camine con un pie en frente del otro, el tal&oacute;n toca la punta del pie.<br>-como si estuviera en una cuerda floja.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Walk on your heels.",
             es = Some "camine en los talones.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Walk on your tiptoes.",
             es = Some "Camine con las puntas de los pies.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "...away from me.<br>...stop.<br>...come back.",
             es = Some "...__<br>...pare.<br>...regrese.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = [{title = "", filename = "PE/neuro/gait"}],

@@ -8,7 +8,7 @@ in ./technique.dhall {
         {
             en = "I'm going to feel your lymph nodes.  Does this hurt?",
             es = Some "Voy a sentir sus ganglios linf&aacute;ticos.  Le duele esto?",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

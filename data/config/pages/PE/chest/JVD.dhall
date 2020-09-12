@@ -10,17 +10,17 @@ in ./technique.dhall {
         {
             en = "Turn your head away.",
             es = Some "Gire(?) la cabeza.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Hold your breath.",
             es = Some "Aguante la respiraci&oacute;n.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to push on your stomach.",
             es = Some "Voy a empujar sobre su est&oacute;mago.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

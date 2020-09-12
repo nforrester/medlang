@@ -10,12 +10,12 @@ translations =
     {
         en = "I'm going to press on your shoulders.",
         es = Some "Voy a presionar sus hombros.",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "I'm going to pull on your arm.",
         es = Some "Voy a tirarle del brazo.",
-        zh = None s.Zh
+        zh = None Text
     }
 ]
 #

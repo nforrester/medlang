@@ -7,22 +7,22 @@ in ./technique.dhall {
         {
             en = "Can you lift up your shirt so I can see your belly button?",
             es = Some "Puede levantar su camisa para que yo pueda ver su ombligo?",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Can you lift/lower this side of your pants?",
             es = Some "Puede levantar/bajar este lado de sus pantalones?",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "May I put my hands around your hips?",
             es = Some "Puedo poner mis manos alrededor de su caderas?",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "<u>Spring</u>: I'm going to push down on your hipbones.",
             es = Some "Voy a presionar sus huesos de cadera.",
-            zh = None s.Zh
+            zh = None Text
         }
     ]
     ,

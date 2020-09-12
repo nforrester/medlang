@@ -8,22 +8,22 @@ in ./technique.dhall {
         {
             en = "Stand up.",
             es = Some "Lev&aacutentese.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Cough, please.",
             es = Some "Tose, por favor.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Lie down",
             es = Some "Acu&eacute;stese.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Try to do a sit-up.",
             es = Some "Trate de hacer una sentada.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,

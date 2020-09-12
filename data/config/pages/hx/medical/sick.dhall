@@ -8,37 +8,37 @@ translations =
     {
         en = "Are your vaccinations up to date?",
         es = Some "Sus vacunas est&aacute;n al d&iacute;a?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "When was your last tetanus shot?",
         es = Some "Cu&aacute;ndo fue su &uacute;ltima vacuna contra el t&eacute;tanos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Have you travelled outside the U.S.?",
         es = Some "Ha viajado a otro pa&iacute;s fuera de los estados unidos?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Have you been sick?",
         es = Some "Ha estado enfermo?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "Have you been around sick people recently?",
         es = Some "Est&aacute; cerca de personas que est&eacute;n enfermas?",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "chicken pox",
         es = Some "la varicela",
-        zh = None s.Zh
+        zh = None Text
     },
     {
         en = "BCG (tuberculosis) vaccine",
         es = Some "la vacuna BCG (contra la tuberculosis)",
-        zh = None s.Zh
+        zh = None Text
     }
 ],
 menu_items = ./menu_items.dhall,

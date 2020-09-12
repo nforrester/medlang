@@ -7,27 +7,27 @@ in ./technique.dhall {
         {
             en = "I'm going to look in your ear with the otoscope.",
             es = Some "Voy a ver dentro de su o&iacute; con el otoscopio.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "I'm going to pull lightly on your ear.",
             es = Some "Voy a tirar de su o&iacute;do ligeramente.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Let me know if it hurts.",
             es = Some "Me diga si le duele.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "You will feel a puff of air in your ear.",
             es = Some "Va a sentir un soplo de aire en el o&iacute;do.",
-            zh = None s.Zh
+            zh = None Text
         },
         {
             en = "Your eardrum is normal / inflamed.",
             es = Some "Su timpana est&eacute; normal / inflamada.",
-            zh = None s.Zh
+            zh = None Text
         }
     ],
     menu_items = ./menu_items.dhall,
