@@ -29,23 +29,8 @@
     <table>
         {% for translation in page.translations %}
         <tr>
-            {% if site.target_language != 'zh' %}
             <td>{{translation.en | safe}}</td>
             <td><b>{{translation.foreign | safe}}</b></td>
-            {% elif translation.foreign is not none %}
-            <td rowspan="2">{{translation.en | safe}}</td>
-            {% for word in translation.foreign.pin %}
-            <td><b>{{word | safe}}</b></td>
-            {% endfor %}
-        </tr>
-        <tr>
-            {% for word in translation.foreign.chr %}
-            <td><b>{{word | safe}}</b></td>
-            {% endfor %}
-            {% else %}
-            <td>{{translation.en | safe}}</td>
-            <td></td>
-            {% endif %}
         </tr>
         {% endfor %}
     </table>

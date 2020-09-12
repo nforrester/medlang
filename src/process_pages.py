@@ -94,14 +94,8 @@ def load_config(strict_languages):
             for translation in page['translations']:
                 for lang, text in translation.items():
                     if text is not None:
-                        if lang != 'zh' and (not (lang == 'foreign' and target_language == 'zh')):
-                            for match in href_re.finditer(text):
-                                check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
-                        else:
-                            for match in href_re.finditer(text['pin']):
-                                check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
-                            for match in href_re.finditer(text['chr']):
-                                check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
+                        for match in href_re.finditer(text):
+                            check_link(page['filename'], match.group(1).replace('(&TARGETLANGUAGEFORLINK&)/', ''))
 
     # Check that each page is or is not an orphan, as expected.
     for page, link_count in page_link_counts.items():
@@ -130,7 +124,7 @@ def load_config(strict_languages):
                         raise Exception('No such language: ' + lang)
 
     # Check for unset translations on technique pages and either assert they exist,
-    # or change Nones to the empty string if lang != 'zh'.
+    # or change Nones to the empty string.
     for page in config['pages']:
         if 'translations' in page:
             for translation in page['translations']:
@@ -139,7 +133,7 @@ def load_config(strict_languages):
                         if lang in strict_languages:
                             raise Exception('%s is supposed to be completed, but %s has:\n%s' %
                                             (lang, page['filename'], repr(translation)))
-                        elif lang != 'zh':
+                        else:
                             translation[lang] = ''
 
     return config
@@ -172,36 +166,11 @@ def process_config(config, target_language):
     def translation_link_helper(translation_in):
         translation_out = dict()
         for lang, text in translation_in.items():
-            if lang != 'zh' and (not (lang == 'foreign' and target_language == 'zh')):
-                translation_out[lang] = text.replace('(&TARGETLANGUAGEFORLINK&)', target_language)
-            elif text is not None:
-                translation_out[lang] = dict()
-                translation_out[lang]['pin'] = text['pin'].replace('(&TARGETLANGUAGEFORLINK&)', target_language)
-                translation_out[lang]['chr'] = text['chr'].replace('(&TARGETLANGUAGEFORLINK&)', target_language)
-            else:
-                translation_out[lang] = text
+            translation_out[lang] = text.replace('(&TARGETLANGUAGEFORLINK&)', target_language)
         return translation_out
     for page in config['pages']:
         if 'translations' in page:
             page['translations'] = [translation_link_helper(t) for t in page['translations']]
-
-    # Break pinyin and characters into lists
-    def zh_listify_helper(translation_in):
-        translation_out = dict()
-        for lang, text in translation_in.items():
-            if lang != 'zh' and (not (lang == 'foreign' and target_language == 'zh')):
-                translation_out[lang] = text
-            elif text is not None:
-                translation_out[lang] = dict()
-                translation_out[lang]['pin'] = text['pin'].split()
-                translation_out[lang]['chr'] = text['chr'].split()
-                assert len(translation_out[lang]['pin']) == len(translation_out[lang]['chr'])
-            else:
-                translation_out[lang] = text
-        return translation_out
-    for page in config['pages']:
-        if 'translations' in page:
-            page['translations'] = [zh_listify_helper(t) for t in page['translations']]
 
     # Add *_percent versions of the image_map fields, so that the CSS for the
     # image map can be written in percentage terms. The config specifies pixels
