@@ -28,18 +28,12 @@ translations =
     {
         en = "Have you ever smoked?",
         es = Some "Ha fumado?",
-        zh = Some {
-            pin = "nin2 chou1 yan1 ma1?  ",
-            chr = "您 抽 烟 吗?"
-            }
+        zh = Some "您 抽 烟 吗?<br>nin2 chou1 yan1 ma1?"
     },
     {
         en = "How many cigarettes / packs per day?",
         es = Some "Cu&aacute;ntos cigarillos / paquetes cada dia?",
-        zh = Some {
-            pin = "x zhi1/he2",
-            chr = "一天抽多少 _/盒"
-        }
+        zh = Some "一天抽多少 _/盒<br>x zhi1/he2"
     },
     {
         en = "Pipe / Cigar / tobacco / Vaping",
