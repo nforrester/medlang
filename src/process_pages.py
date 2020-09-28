@@ -11,14 +11,24 @@ import string
 import subprocess
 import sys
 
+def unicode_to_html_entities(json):
+    """Daddy, make the scary unicode go away!"""
+    if isinstance(json, str):
+        return json.encode('ascii', 'xmlcharrefreplace').decode('ascii')
+    if isinstance(json, list):
+        return [unicode_to_html_entities(j) for j in json]
+    if isinstance(json, dict):
+        return {k: unicode_to_html_entities(j) for k, j in json.items()}
+    return json
+
 
 def load_dhall(path):
     """Compile and load a .dhall file."""
     dhall_to_json = 'work/3rdparty/bin/dhall-to-json'
     assert os.path.isfile(dhall_to_json)
-    return json.loads(subprocess.check_output(
+    return unicode_to_html_entities(json.loads(subprocess.check_output(
         [dhall_to_json],
-        input=os.path.join('.', path).encode()))
+        input=os.path.join('.', path).encode())))
 
 
 def load_config(strict_languages):
